@@ -1,0 +1,1714 @@
+---
+name: Towny
+language: polish
+author: ElgarL
+website: 'http://townyadvanced.github.io/'
+description: >
+  Language file for all game messages for this Locale.
+#A note on editing this file.
+#----------------------------
+#Do not alter this file if it is in the reference folder.
+#Before you edit this file, read about how Towny handles
+#language files:
+#https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works#multi-language.
+#A note on text formatting (how Towny status_title_pvpinserts words.)
+#----------------------------------------------------
+#You MUST retain spacing in the texts.
+#If a text begins or ends with a space, it must remain that
+#way.
+#%s = data to be supplied by the plugin.
+#If you find that a line has multiple %s variables which would
+#be in a different order in your language, you can change them
+#to %1$s, %2$s, %4$s, %3$s to change their order. ie: %4$s
+#will always use the 4th variable, no matter where it is
+#placed on the line.
+#A note on text colouring and formatting.
+#----------------------------------------
+#Black = &0, Navy = &1, Green = &2, Blue = &3, Red = &4
+#Purple = &5, Gold = &6, LightGray = &7, Gray = &8
+#DarkPurple = &9, LightGreen = &a, LightBlue = &b
+#Rose = &c, LightPurple = &d, Yellow = &e, White = &f
+#This language file also supports using MiniMessage for colours
+#and formatting. Learn about MiniMessage formatting here:
+#https://docs.adventure.kyori.net/minimessage/format.html
+default_towny_prefix: '&6[Towny] &b'
+default_town_prefix: '&6[%s] &b'
+default_nation_prefix: '&6[%s] &6'
+unclaimed_plot_name: 'Bez w��a��ciciela'
+unclaimed_zone_name: 'Dzikie tereny'
+############################################################
+#+------------------------------------------------------+ #
+#|help messages                                         | #
+#+------------------------------------------------------+ #
+############################################################
+help_0: 'Og��lna Pomoc Towny'
+help_1: '&bWypr��buj te komendy, aby lepiej pozna�� Towny.'
+help_2: 'Chat Miasta'
+help_3: 'Chat Nacji'
+town_help_1: 'Informacje o twoim mie��cie'
+town_help_2: '[burmistrz]'
+town_help_3: 'Informacje o wybranym mie��cie'
+town_help_4: 'Informacje o mie��cie, na kt��rego terenie stoisz'
+town_help_5: 'Teleportacja do twojego miasta.'
+town_help_6: 'Nowe miasto na czele z tob��.'
+town_help_7: 'Nowe miasto z wybranym przyw��dc��.'
+town_help_8: 'Lista komend przyw��dcy.'
+town_help_9: 'Nadszed�� ten dzie��!'
+town_help_10: 'Lista rezydent��w online w twoim mie��cie'
+mayor_help_3: 'Teren le����cy poza murami miasta'
+mayor_help_4: 'Pozyskaj dooko��a w promieniu X'
+mayor_help_5: 'Przejmuje wszystko w maksymalnym promieniu'
+mayor_help_6: 'Porzu�� blok miejski'
+mayor_help_7: 'Pr��ba porzucenia chunk��w dooko��a ciebie.'
+mayor_help_8: 'Porzucanie wszelkich przej��tych chunk��w'
+nation_help_1: 'Informacje o twojej nacji'
+nation_help_2: '[nacja]'
+nation_help_3: 'Informacje o danej nacji'
+nation_help_4: 'Lista wszystkich nacji'
+nation_help_5: 'Aby opu��ci�� nacj��, do kt��rej nale��ysz'
+nation_help_6: 'Utworzenie nowej nacji'
+nation_help_7: 'Lista polece�� lidera nacji'
+nation_help_8: 'Utworzenie nowej nacji'
+nation_help_9: 'Lista obywateli online nacji'
+king_help_1: 'Pomoc Przyw��dcy Nacji'
+king_help_2: 'Wyznacz swoich sojusznik��w.'
+king_help_3: 'Wyznacz swoich wrog��w.'
+res_1: 'Informacje o tobie'
+res_2: '[rezydent]'
+res_3: 'Status wskazanego gracza'
+res_4: 'Lista wszystkich aktywnych graczy'
+res_5: 'po pomoc'
+res_6: 'Online'
+res_7: 'Dok��adna nazwa'
+mode_1: 'Poka�� map�� co ka��dy chunk'
+mode_2: 'Przejmowanie terenu, do kt��rego p��jdziesz'
+mode_3: 'Pr��ba porzucenia terenu podczas chodzenia'
+mode_4: 'Domy��lne pisanie na kanale miasta'
+mode_5: 'Domy��lne pisanie na kanale nacji'
+mode_6: 'Mo��e postawi�� %s we wrogim terytorium, aby oznaczy�� strefy wojenne.'
+plot_perms: 'U��yj %s zamiast %s do ustawiania uprawnie�� dzia��ki.'
+plot_perms_1: 'Dziaki rezydenckie nie bior�� pod uwag�� generalnych, miejskich uprawnie�� dla obcych.'
+res_list: 'Rezydenci'
+res_sing: 'Rezydent'
+mayor_sing: 'Burmistrz'
+admin_sing: 'Administrator'
+town_sing: 'Miasto'
+nation_sing: 'Nacja'
+nation_plu: 'Nacje'
+king_sing: 'Lider'
+town_plu: 'Miasta'
+world_plu: '��wiaty'
+world_sing: '��wiat'
+world_help_1: 'Informcje o ��wiecie'
+world_help_2: '[��wiat]'
+world_help_3: 'Informacje o danym ��wiecie'
+world_help_4: 'Lista wszystkich ��wiat��w'
+world_help_5: 'Regeneruj ten chunk'
+townyadmin_help_1: 'Porzu�� ten blok miejski.'
+townyadmin_help_2: 'Porzucenie chunk��w w okolicy.'
+admin_panel_2: 'prze��adowanie Towny'
+admin_panel_3: 'Wykonaj kod nowego dnia'
+msg_block_claim: 'Przejmuje miejsk�� dzia��k�� na kt��rej aktualnie stoisz.'
+msg_plot_nfs: 'Anuluj sprzeda�� dzia��ki'
+msg_nfs_abr: '&e''fs'' i ''nfs'' s�� skr��tami dla ''forsale'' i ''notforsale''.'
+msg_plot_fs: 'Wystaw t�� dzia��k�� na sprzeda��.'
+############################################################
+#+------------------------------------------------------+ #
+#|   Messages                                           | #
+#+------------------------------------------------------+ #
+############################################################
+msg_buy: '&bKupiono %d szt. %s za kwot�� %s.'
+msg_buy_resident_plot: '&b%s kupi�� dzia��k�� od mieszka��ca %s za kwot�� %s!'
+msg_couldnt_pay_taxes: '&b%s nie m��g�� zap��aci�� podatk��w i zosta�� wyrzucony z %s.'
+msg_couldnt_pay_plot_taxes: '&b%s nie m��g�� zap��aci�� podatk��w i zosta�� eksmitowany ze swojej dzia��ki.'
+msg_payed_town_tax: '&bzap��acono podatki miejskie w wysoko��ci '
+msg_payed_plot_cost: '&bZap��acono %s za %s dzia��ek w %s'
+msg_payed_resident_tax: '&bZap��acono podatek rezydencki w wysoko��ci '
+msg_bankrupt_town: ' nie by��o sta�� na dalsze bycie miastem.'
+msg_bankrupt_nation: ' nie sta�� na op��acenie podatk��w, aby przetrwa��.'
+msg_nation_not_peaceful: '&bNacja nie mog��a pozwoli�� sobie na pozostanie pokojow��.'
+msg_nation_cant_peaceful: '&bNacja nie mog��a sobie pozwoli�� na bycie pokojow��.'
+msg_peaceful_disabled: '&bPok��j pomi��dzy nacjami jest niemo��liwy globalnie.'
+msg_you_paid: '&bZap��aci��e�� %s, aby zmieni�� status neutralno��ci.'
+msg_nation_set_peace: '&bPomy��lnie zmieniono stosunek nacji.'
+msg_nation_allow_peaceful: '&bUprawnienia nacji do pozostania pokojowymi s�� teraz: %s'
+msg_mobremoval_world: '&bBlokowanie spawnu mob��w: %s'
+msg_mobremoval_town: '&bBlokowanie spawnu mob��w w mie��cie: %s'
+msg_nation_peaceful: '&bTwoja nacja jest teraz'
+msg_tax_exempt: '&bRz��dz��cy w mie��cie s�� zwolnieni z podatk��w.'
+msg_del_nation: '&bNacja %s zosta��a rozwi��zana!'
+msg_del_resident: '&b%s zosta�� wyczyszczony z pami��ci Towny!'
+msg_join_nation: '&bMiasto %s do����czy��o do nacji!'
+msg_join_town: '&b%s do����czy�� do miasta!'
+msg_friend_add: '&b%s doda�� ci�� do znajomych.'
+msg_friend_remove: '&b%s usun���� ci�� z listy przyjaci����.'
+msg_left_town: '&b%s opu��ci�� miasto.'
+msg_you_left: '&bOpu��ci��e�� miasto %s.'
+msg_not_mayor: '&bNie jeste�� burmistrzem tego miasta.'
+msg_not_king: '&bNie jeste�� liderem nacji.'
+msg_not_mayor_ass: '&bNie jeste�� asystentem przyw��dcy.'
+msg_not_king_ass: '&bNie jeste�� liderem nacji, ani asystentem.'
+msg_own_nation_disallow: '&bNie mo��esz tego zrobi�� we w��asnej nacji.'
+msg_no_perms_claim: '&bNie masz uprawnie�� pozwalaj��cych na powi��kszanie miasta.'
+msg_outpost_disable: '&bPlac��wki s�� niedost��pne.'
+msg_kicked_by: '&bZosta��e�� wyrzucony ze swojego miasta przez %s.'
+msg_kicked: '&b%s wyrzuci�� mieszka��ca %s z miasta.'
+msg_nation_kicked_by: '&bTwoje miasto zosta��o wyrzucone z nacji przez %s.'
+msg_town_left_nation: '&bTwoje miasto opu��ci��o nacj�� %s.'
+msg_nation_town_left: '&bMiasto %s opu��ci��o twoj�� nacj��.'
+msg_nation_kicked: '&b%s wyrzuci�� miasto %s z nacji.'
+msg_raised_ass: '&b%s awansowa�� %s na asystenta %s.'
+msg_lowered_to_res_by: '&bZosta��e�� zdegradowany do zwyk��ego rezydenta przez %s.'
+msg_lowered_to_res: '&b%s zdegradowa�� %s do rangi rezydenta.'
+msg_invalid_name: '&bNie rozpoznano tej nazwy.'
+msg_invited_join_town: '&b%s zaprosi�� do swojego miasta cz��owieka o imieniu %s.'
+msg_invited_join_nation: '&b%s zaprosi�� %s do wst��pienia donacji.'
+msg_deny_invite: '&b%s odrzuci�� zaproszenie.'
+msg_invited: '&bZosta��e�� zaproszony do %s.'
+msg_town_online: 'Online w Mie��cie'
+msg_nation_online: 'Online w Nacji'
+msg_allied_nations: '&bNacja %s sprzymierzy��a si�� z %s.'
+msg_enemy_nations: '&bNacja %s sta��a si�� wrogiem wobec nacji %s.'
+msg_enemy_to_neutral: '&bWr��g %s zmieni�� status neutralno��ci na %s.'
+msg_added_ally: '&bNacja %s zawar��a sojusz z twoj�� nacj��.'
+msg_removed_ally: '&bNacja %s zerwa��a sojusz z twoj�� nacj��.'
+msg_added_enemy: '&bNacja %s uzna��a twoj�� nacj�� za wroga!'
+msg_removed_enemy: '&bNacja %s sta��a si�� neutralna w stosunku do twojej nacji.'
+msg_unable_ally_enemy: '&cNie mo��na zawrze�� sojuszu z wrog�� nacj�� %s.'
+msg_deny_ally: '&b%s odrzuci�� twoj�� propozycj�� sojuszu!'
+msg_accept_ally: '&bNacja zaakceptowa��a twoj�� propozycj�� sojuszu!'
+msg_ally_req_sent: '&bPropozycja sojuszu zosta��a wys��ana do nacji %s.'
+msg_ally_request: '&bNacja %s wys��a��a propozycj�� utworzenia sojuszu.'
+msg_unable_ally_offline: "&cWys��anie propozycji sojuszu jest niemo��liwe - kr��l nacji jest nieaktywny."
+msg_unable_ally_npc: "&cWys��anie pro��by o sojusz jest niemo��liwe - burmistrz nacji jest NPC."
+msg_claimed: '&2Pomy��lnie pozyskano blok miejski'
+msg_unclaimed: '&2Pomy��lnie porzucono blok miejski'
+msg_not_claimable: '&cW tym ��wiecie nie mo��na zajmowa�� chunk��w.'
+msg_abandoned_area: '&bPorzucono teren %s'
+msg_admin_unclaim_area: '&cObszar niemo��liwy do przej��cia %s'
+msg_abandoned_area_1: '&bTwoje miasto opu��ci��o ten obszar'
+msg_no_money_purchase_plot: '&cNie sta�� ci�� na zakup tej dzia��ki.'
+msg_town_no_money_purchase_plot: '&cMiasto nie ma wystarczaj��cej ilo��ci pieni��dzy, aby zakupi�� ten teren.'
+msg_no_funds_new_town: '&c%s nie sta�� na za��o��enie miasta.'
+msg_no_funds_claim: '&cMiasto nie mo��e pozwoli�� sobie na zakup chunk��w w ilo��ci: %s, kosztuj��cych  %s. Zasil konto bankowe miasta pieni��dzmi.'
+msg_no_funds_to_buy: '&cMiasto nie mo��e sobie pozwoli�� na zakup %s %s kosztujacego %s. Przelej wiecej pieni��dzy do banku.'
+msg_annexed_area: '&2Zaanektowano obszar %s'
+msg_max_plot_own: '&cNie mo��esz mie�� wi��cej ni�� %s dzia��ek.'
+msg_max_outposts_own: '&cNie mo��esz posiada�� wi��cej ni�� %s plac��wek.'
+msg_no_funds_new_nation: '&cMiasta nie sta�� na utworzenie nacji.'
+msg_already_claimed: '&cTen obszar zosta�� przej��ty przez: %s'
+msg_already_claimed_1: '&cObszar (%s) ju�� do kogo�� nale��y'
+msg_already_claimed_2: '&cTen obszar zosta�� ju�� przej��ty.'
+msg_too_close: '&cTen chunk znajduje si�� za blisko innego miasta.'
+msg_too_far: '&cTen obszar jest za daleko innych miast.'
+msg_not_claimed: '&bTen obszar (%s) nie zosta�� przej��ty.'
+msg_not_claimed_1: '&bTen obszar nie zosta�� przej��ty.'
+msg_not_own_area: '&cNie posiadasz tego terenu.'
+msg_not_own_place: '&bTen obszar jest niczyji.'
+msg_area_not_own: '&cTen obszar nie nale��y do ciebie.'
+msg_area_not_recog: '&cTen obszar nie jest uznawany przez Towny.'
+msg_specify_name: '&bWpisz poprawn�� nazw�� miasta'
+msg_specify_nation_name: '&bWpisz nazw�� nacji'
+msg_peasant_right: '&bCh��op nie ma prawa do wymuszenia tronu.'
+msg_cost_spawn: '&bZosta��e�� obci����ony kwot�� %s za teleportacj�� na spawn miasta.'
+msg_cost_spawn_refund: '&bTwoja op��ata zosta��a zwr��cona za u��ywanie spawnu miasta.'
+msg_town_spawn_warmup: '&bCzekaj na teleportacj��...'
+msg_town_rename_disabled: '&bZmiana nazwy jest wy����czona.'
+msg_town_set_name: '&b%s zmieni�� nazw�� swojego miasta na %s.'
+msg_nation_set_name: '&b%s zmieni�� nazw�� swojej nacji na %s.'
+msg_changed_pvp: '&cPVP w %s zosta��o %s.'
+msg_changed_public: '&cPubliczny status miasta jest teraz w����czony: %s.'
+msg_changed_expl: '&cEksplozje w %s zosta��y %s.'
+msg_changed_fire: '&cOgie�� w %s jest teraz w����czony: %s.'
+msg_changed_mobs: '&cSpawnowanie si�� potwor��w w %s zosta��o %s.'
+msg_the_plot_group: 'Grupa Dzia��ek'
+msg_changed_taxpercent: '&cPodatki procentowe zosta��y %s.'
+msg_changed_open: '&cDo����czanie bez zaprosze�� zosta��o %s.'
+msg_toggle_open_on_warning: 'Ostrze��enie: Uprawnienia miasta powinny by�� wy����czone, je��li miasto jest otwarte. U��yj komendy "/town set perm off", a nast��pnie "/town set perm reset".'
+msg_changed_world_setting: '&c%s dla %s jest: %s'
+msg_world_pvp: '&cTen ��wiat ma permanentnie w����czone PvP.'
+msg_world_mobs: '&cTen ��wiat ma w����czone moby.'
+msg_world_expl: '&cTen ��wiat ma permanentnie w����czone eksplozje.'
+msg_world_fire: '&cTen ��wiat ma w����czony ogie��.'
+msg_town_mobs: '&cTen ��wiat ma w����czone moby.'
+msg_plot_pvp: '&cPVP nie mo��e by�� zmienione na arenie.'
+msg_plot_regen_wrong_size: '&cRegeneracj�� mo��na wykona�� tylko, gdy szeroko��ci dzia��ki wynosz�� 16 blok��w.'
+msg_reloaded: '&2Ustawienia Twony zosta��y prze��adowane.'
+msg_undo_complete: '&2Powr��t zako��czony.'
+msg_give_total: '&bPrzyzna��e�� %s bonusu. (Suma: %s)'
+mag_backup_success: '&2Zapis zako��czony.'
+msg_xx_withdrew_xx: '&b%s wyp��aci�� kwot�� %s z konta "%s".'
+msg_xx_deposited_xx: '&b%s zdeponowa�� kwot�� %s do banku "%s".'
+msg_insuf_funds: '&cNie masz tylu pieniedzy.'
+msg_err_withdraw_disabled: 'Wyp��acanie pieni��dzy z banku jest wy����czone!'
+msg_err_deposit_capped: 'Nie mo��na zdeponowa�� pieni��dzy. Ten bank ma limit wynosz��cy %s.'
+msg_set_town_home: '&bPomy��lnie zmieniono koordynaty Bloku Macierzystego na %s'
+msg_set_town_spawn: '&bPomyslnie zmieniono spawn miasta.'
+msg_set_outpost_spawn: '&bPomy��lnie zmieniono punkt spawnu plac��wki.'
+msg_set_title: '&b%s otrzyma�� tytu�� ''%s&b''.'
+msg_set_surname: '&b%s otrzyma�� tytu�� ''%s&b''.'
+msg_clear_title_surname: '&bTytu�� %s gracza ''%s'' zosta�� zdj��ty.'
+msg_clear_plot_material: '&bZ dzia��ki zosta��y usuni��te nast��puj��ce typy blok��w: %s.'
+msg_set_perms: '&bPomy��lnie zmieniono uprawnienia na:'
+msg_set_claim: '&bPomy��lnie zmieniono przejmowanie terenu %s na %s'
+msg_set_perms_reset: '&bPomy��lnie zresetowano ustawienie dla wszystkich dzia��ek %s.'
+msg_usedefault: '&b��wiat %s u��ywa teraz domy��lnych ustawie�� Bezludzia.'
+msg_set_wild_perms: '&bZmieniono uprawnienia do dziczy w ��wiecie %s na %s'
+msg_set_wild_ignore: '&bPomy��lnie zmieniono na %s ignorowanie chunk��w na %s'
+msg_set_wild_name: '&bPomy��lnie zmieniono nazw�� Bezludzia w %s na %s'
+msg_set_wild_regen: '&bZ powodzeniem zmieniono %s''s regeneracje na bezdro��ach na ''%s'''
+msg_set_use_towny_on: '&bTen ��wiat u��ywa teraz Towny.'
+msg_set_use_towny_off: '&cNa tym ��wiecie s�� zablokowane wszystkie mo��liwo��ci Towny.'
+msg_error_must_be_int: '&bWarto���� musi by�� liczb�� ca��kowit��.'
+msg_error_input_must_be_int: '&c%s musi by�� liczb�� ca��kowit��'
+msg_error_must_be_num: '&bWarto���� musi by�� liczb��.'
+msg_error_input_must_be_num: '&c%s wpisana warto���� mysi by�� liczb��'
+msg_must_specify_amnt: '&bMusisz poda�� warto����. Np. %s 54'
+msg_town_set_tax: '&b%s ustanowi�� podatek codzienny dla mieszka��c��w na %s'
+msg_town_set_plottax: '&b%s ustanowi�� podatek dzienny na %s'
+msg_town_set_plotprice: '&b%s ustanowi�� cen�� dzia��ki na %s'
+msg_town_set_alttax: '&b%s ustanowi�� podatek dzienny dzia��ki %s na %s'
+msg_town_set_altprice: '&b%s ustawi�� cen�� dzia��ki %s na %s'
+msg_town_set_nation_tax: '&bMiasto %s ustawi��o podatek nacji na kwot�� %s'
+msg_set_nation_tag: '&b%s ustawi�� tag nacji na [%s]'
+msg_set_town_tag: '&b%s ustawi�� tag miasta na [%s]'
+msg_reset_nation_tag: '&b%s wyczy��ci�� tag nacji.'
+msg_reset_town_tag: '&b%s wyczy��ci�� tag miasta.'
+msg_mayor_abandon: '&bChcesz porzuci�� swoich poddanych? Wybierz nowego przyw��dc�� wpisuj��c komend�� "/town set mayor".'
+msg_new_day_tax: '&bNasta�� nowy dzie��! Podatki zosta��y zebrane'
+msg_new_day: '&bNasta�� nowy dzie��!'
+msg_new_king: '&b%s jest od teraz liderem nacji %s!'
+msg_err_new_king_notmayor: '&cNowy lider nacji nie jest burmistrzem.'
+msg_err_king_not_in_nation: '&cNowy lider nacji nie nale��y do tego narodu.'
+msg_err_fight_like_king: '&cPok��j nie wchodzi w gr��! Walcz w imi�� ojczyzny!'
+msg_no_access_nation_bank: '&cNie masz dost��pu do banku nacji.'
+msg_err_no_money: '&cNie ma wystarczaj��co pieni��dzy w banku.'
+msg_new_mayor: '&b%s jest teraz burmistrzem!'
+msg_new_nation: '&b%s utworzy�� nacj�� o nazwie "%s"!'
+msg_new_town: '&b%s utworzy�� miasto o nazwie "%s"'
+msg_plot_for_sale: '&b%s wystawi�� dzia��k�� (%s) na sprzeda��!'
+msg_plot_for_sale_amount: '&b%s wystawi�� dzia��k�� (%s) na sprzeda�� za %s!'
+msg_plot_set_type: '&btyp dzia��ki zosta�� zmieniony na %s'
+msg_cache_block_error: '&cNie jeste�� zarejestrowany w Towny. Spr��buj wyj���� i wej����.'
+msg_cache_block_error_wild: '&cNie masz uprawnienia do czynno��ci "%s" na dzikich terenach.'
+msg_cache_block_error_plot: '&cJako w��a��ciciel dzia��ki nie masz uprawnienia "%s" na tym terenie.'
+msg_cache_block_error_town_resident: '&cMieszka��cy nie maj�� tutaj uprawnienia "%s".'
+msg_cache_block_error_town_allies: '&cSojusznicy nie maj�� tutaj uprawnienia "%s".'
+msg_cache_block_error_town_outsider: '&cObcy nie posiadaj�� uprawnie�� do "%s".'
+msg_err_cant_afford_tp_town: '&cNie sta�� ci�� na teleportacj�� do %s.'
+msg_err_not_public: '&cTo miasto nie jest publiczne.'
+msg_err_not_open: '&cMiasto %s nie ma otwartych drzwi dla ka��dego, zg��o�� si�� do burmistrza lub asystenta.'
+msg_err_town_spawn_forbidden: '&cPodr���� na spawn miasta jest niemo��liwa.'
+msg_err_town_spawn_nation_forbidden: '&cTeleport na spawn miast z twojej nacji jest zabroniony.'
+msg_err_town_spawn_ally_forbidden: '&cTeleport na spawn sojusznik��w nacji jest zabroniony.'
+msg_err_public_spawn_forbidden: '&cPubliczny spawn w innych miastach jest zabroniony.'
+msg_err_public_spawn_enemy: '&cPubliczny spawn jest zabroniony na terenie wrog��w.'
+msg_err_town_spawn_disallowed_from: '&cSpawn miasta %s jest zablokowany.'
+msg_err_outpost_spawn: '&cNie ma ustawionego punktu spawnu dla tej plac��wki.'
+msg_err_cant_afford_tp: '&bNie sta�� ci�� na teleportacj�� na spawn miasta.'
+msg_err_plot_nfs: '&cTa dzia��ka nie jest na sprzeda��.'
+msg_err_not_part_town: '&cZaznaczony teren nie jest czesci�� twojego miasta.'
+msg_err_not_attached_edge: '&cZaznaczony obszar nie le��y w pobli��u miasta.'
+msg_err_empty_area_selection: '&cNie mo��esz wykona�� tej akcji na tym terenie.'
+msg_err_not_enough_blocks: '&cTwoje miasto nie posiada niewykorzystanych chunk��w, pozwalaj��cych na przej��cie tego terenu.'
+msg_err_cant_afford_blocks: '&cMiasto nie mo��e sobie pozwoli�� na zaj��cie terenu %s kosztuj��cego %s'
+msg_err_not_in_town_claim: '&cMusisz nale��e�� do miasta, aby ubiega�� si�� o dzia��k��.'
+msg_err_must_belong_town: '&cMusisz nale��e�� do miasta.'
+msg_err_dont_belong_town: '&cNie nale��ysz do miasta.'
+msg_err_dont_belong_nation: '&bNie nale��ysz do nacji.'
+msg_err_not_same_nation: '&b%s nie nale��y do twojej nacji.'
+msg_err_rect_auto: '&cTylko miasta i mieszka��cy moga korzystac z automatyzacji.'
+msg_err_invalid_radius: '&cNieprawid��owy promie��. U��yj liczby ca��kowitej albo ''auto''.'
+msg_err_not_configured: '&cTen ��wiat nie zosta�� skonfigurowany w Towny.'
+msg_err_updating_item_perms: '&cB����d podczas aktualizacji pami��ci podr��cznej uprawnienia "item use".'
+msg_err_updating_switch_perms: '&cB����d podczas aktualizacji pami��ci podr��cznej uprawnienia "switch".'
+msg_err_updating_destroy_perms: '&cB����d podczas aktualizacji pami��ci podr��cznej uprawnienia "destroy".'
+msg_err_updating_build_perms: '&cB����d podczas aktualizacji pami��ci podr��cznej uprawnienia "build".'
+msg_err_admin_only: '&cTylko administrator mo��e u��y�� tej komendy.'
+msg_err_admin_only_delete: '&cTylko administrator mo��e usun���� dane mieszka��ca.'
+msg_err_admin_only_delete_town: '&cTylko administrator mo��e usun��c miasto.'
+msg_err_admin_only_delete_nation: '&cTylko administrator mo��e usun���� nacj��.'
+msg_err_online_or_npc: '&c%s jest online albo jest NPC.'
+msg_err_not_registered: '&cNie jeste�� zarejestrowany.'
+msg_err_not_registered_1: 'Nie rozpoznano "&c%s". Popraw komend��'
+msg_err_invalid_name: '&c"%s" jest niepoprawn�� nazw��.'
+msg_err_already_res: '&c%s nale��y ju�� do miasta.'
+msg_err_already_in_town: '&c%s jest ju�� cze��ci�� %s.'
+msg_err_already_nation: '&cTo miasto ju�� nale��y do nacji.'
+msg_err_invalid_property: '&cNiepoprawna w��a��ciwo���� ''%s''.'
+msg_err_not_supported: '&cJeszcze nie obslugiwane.'
+msg_err_invalid_input: '&cNieprawidlowe wejscie. Uzyj %s'
+msg_err_negative: '&cWarto���� nie mo��e by�� ujemna.'
+msg_err_input_too_long: '&cZbyt d��ugie!'
+msg_err_invalid_choice: '&cNieprawid��owy wyb��r'
+msg_err_invalid_sub: '&cNieprawid��owe rozwini��cie komendy.'
+msg_err_command_disable: '&cKomenda jest niedost��pna - brak wymaganych uprawnie��.'
+msg_err_universe_limit: '&cWszech��wiat jest zbyt przeci����ony ilo��ci�� miast!'
+msg_err_too_many_npc: '&cZbyt wiele zarejestrowanych NPC.'
+msg_err_negative_money: '&cNie mo��esz mie�� ujemnego stanu konta.'
+msg_err_not_percentage: '&cWarto���� procentowa musi by�� mniejsza od 100.'
+msg_err_no_economy: '&cEkonomia nie zosta��a w����czona.'
+msg_err_not_block_type: '&cNiew��a��ciwy typ dzia��ki!'
+msg_not_allowed_join: '&c%s nie jest uprawniony do do����czenia si�� do miasta.'
+msg_offline_no_join: '&c%s jest offline, ale u��ywa uprawnie�� wi��c nie mo��e do����czy�� do miasta.'
+msg_err_cannot_perform_action: '&cNie mo��na wykonac tej czynno��ci w %s.'
+msg_npc_flag: '&bFlaga NPC jest teraz %s dla %s.'
+msg_warning_delete: '&4*** UWAGA, %s JUTRO ZBANKRUTUJE PRZEZ BRAK FUNDUSZY W BANKU ***'
+#these messages are only used if town/nation creation is set to admins only
+msg_admin_only_create_nation: '&cTylko administratorzy mog�� tworzy�� nacje.'
+msg_admin_only_create_town: '&cTylko administratorzy mog�� tworzy�� miasta.'
+#Required residents to be part of a nation
+msg_err_not_enough_residents_new_nation: '&cTwoje miasto nie ma wystarczaj��cej liczby mieszka��c��w, aby utworzy�� nacj��.'
+msg_err_not_enough_residents_join_nation: '&bMiasto %s nie ma wystarczaj��cej liczby mieszka��c��w, aby do����czy�� do nacji.'
+msg_not_enough_residents_no_longer_capital: '&bStara stolica nacji mia��a zbyt ma��o mieszka��c��w. Now�� stolic�� staje si�� %s.'
+msg_town_not_enough_residents_left_nation: '&bMiasto %s ma zbyt ma��o mieszka��c��w, aby nale��e�� do swojej nacji, wi��c zosta��o z niej wyrzucone.'
+msg_nation_disbanded_town_not_enough_residents: '&bMiasto %s ma zbyt ma���� liczb�� mieszka��c��w, co zmusza nacj�� do zostania rozwi��zan��.'
+msg_not_enough_residents_refunded: '&bZwr��cono ci kwot�� $%s za rozwi��zanie nacji z powodu zbyt ma��ej ilo��ci mieszka��c��w.'
+msg_not_enough_residents_capital: '&bMiasto %s nie ma wystarczaj��cej liczby mieszka��c��w, aby by�� stolic�� nacji.'
+list_page: '&bStrona %s z %s'
+list_err_not_enough_pages: '&cTylko %s stron jest dost��pnych'
+#Added in 0.30
+#Added in 0.31
+msg_err_tax_minimum_not_met: 'Nie mo��esz ustawic podatku ni��szego ni�� %s.'
+msg_unknown_rank_available_ranks: 'Nierozpoznana ranga "%s". Dopuszczalne rangi to %s.'
+msg_no_permission_to_give_rank: 'Nie masz uprawnien do przyznania te rangi'
+msg_you_have_been_given_rank: 'Przyznano ci rang�� %s %s.'
+msg_you_have_given_rank: 'Przyzna��e�� rang�� %s %s dla rezydenta %s.'
+msg_resident_not_your_town: 'Rezydent nie jest cz��onkiem twojego miasta!'
+msg_resident_already_has_rank: '%s ma ju�� rang�� %s.'
+msg_you_have_had_rank_taken: 'Zostales zdegradowany z %s w %s.'
+msg_you_have_taken_rank_from: 'Usun����e�� rang�� %s w %s mieszka��cowi o imieniu %s.'
+msg_resident_doesnt_have_rank: '%s nie posiada rangi %s.'
+msg_town_has_no_jails: 'Miasto nie ma wi��zienia.'
+msg_no_permission_to_jail_your_residents: 'Nie masz uprawnie�� do wi��zienia swoich mieszka��c��w.'
+msg_resident_not_part_of_any_town: 'Ta osoba nie nale��y do ��adnego miasta.'
+msg_player_not_jailed_in_your_town: 'Ta osoba nie jest wi��ziona w twoim mie��cie.'
+msg_cannot_spawn_while_jailed: 'Nie mo��esz si�� teleportowa��, kiedy jeste�� uwi��ziony.'
+msg_cannot_abandon_town_while_jailed: 'Opuszczenie miasta jest niemo��liwe, kiedy jeste�� w wi��zieniu.'
+msg_player_escaped_jail_by_leaving_town: '%s uciek�� z wi��zienia opuszczajac miasto.'
+msg_set_jail_spawn: 'Pomy��lnie ustawiono spawn wi��zienia.'
+msg_killed_attempting_to_escape_jail: '&4%s zosta�� zabity probujac uciec z wi��zienia.'
+msg_err_jailed_players_no_teleport: '&4Wi����niowie nie mog�� by�� teleportowani!'
+msg_player_escaped_jail_into_wilderness: '&4%s uciek�� z wi��zienia na %s'
+msg_err_invalid_string_board_not_set: 'Niepoprawny ci��g znak��w. Nie ustawiono og��oszenia.'
+msg_plot_name_removed: 'Nazwa dzia��ki zosta��a usuni��ta.'
+msg_plot_name_set_to: 'Ustawiono nazw�� dzia��ki na: [%s].'
+msg_plot_price_too_expensive: 'Cena dzia��ki jest zbyt du��a.'
+msg_you_robbed_player: 'Okrad��e�� %s z %s.'
+msg_player_robbed_you: '%s okrad�� ci�� z %s.'
+msg_you_lost_money: 'Straci��e�� %s umierajac.'
+msg_player_couldnt_pay_player_town_bank_paying_instead: 'Pieni��dze, kt��re posiada�� %s nie by��y wystarczaj��ce. %s. Reszt�� w wysoko��ci %s pobrano z banku.'
+msg_err_could_not_take_deathfunds: 'Nie mo��na pobra�� op��at�� za smier��.'
+msg_you_lost_money_dying: 'Straci��e�� %s.'
+msg_your_town_lost_money_dying: 'Twoje miasto straci��o %s.'
+msg_your_nation_lost_money_dying: 'Twoja nacja straci��a %s.'
+msg_err_couldnt_take_deathfunds: 'Nie mo��na pobra�� op��at�� za smier��.'
+msg_err_couldnt_take_town_deathfunds: 'Nie mo��na pobra�� op��at�� za smier�� z banku miasta.'
+msg_err_couldnt_take_nation_deathfunds: 'Nie mo��na by��o wzi��c pieni��dzy za ��mier�� z banku nacji.'
+msg_you_gained_money_for_killing: 'Zyska��e�� %s za zabicie %s.'
+msg_err_ender_pearls_disabled: '&4Per��y s�� wy����czone!'
+msg_err_no_sleep_in_enemy_inn: '&4Nie mo��esz spa�� w karczmie wroga!'
+msg_err_cant_use_bed: '&4Nie jeste�� w��a��cicielem tej ziemi, ani nie jest to karczma.'
+msg_town_plots_revenue_disclaimer: '&aPokazany przych��d jest szacowany. To, czy w��a��ciciel dzia��ki mo��e zap��aci��, jest g����wnym czynnikiem.'
+msg_town_set_perm_syntax_error: 'Nieprawid��owa kombinacja s����w dla tej komendy. Sp��jrz na ''/town set perm ? '' Aby pozna�� prawid��ow�� sk��adni��.'
+msg_plot_set_perm_syntax_error: 'Nieprawid��owa kombinacja s����w dla tej komendy. Sp��jrz na "/plot set perm ?" Aby pozna�� prawid��ow�� sk��adni��.'
+#Added in 0.32
+msg_err_townadmintownrank_wrong_town: 'Ten rezydent nie nale��y do tego miasta.'
+msg_err_resident_already_an_outlaw: 'Ten gracz zosta�� ju�� wygnany z twojego miasta.'
+msg_err_not_outlaw_in_your_town: 'Nie mo��esz uzna�� tego mieszka��ca jako wygnanca.'
+msg_you_have_been_declared_outlaw: 'Zosta��e�� uznany za wygna��ca w %s. Nie daj si�� pojma��.'
+msg_you_have_declared_an_outlaw: '%s zosta�� wygnany z %s.'
+msg_you_have_been_undeclared_outlaw: 'Ju�� nie jeste�� wygna��cem w %s.'
+msg_you_have_undeclared_an_outlaw: '%s nie jest ju�� wygna��cem w %s.'
+msg_err_player_not_an_outlaw: 'Ten gracz nie by�� uznany jako wygnaniec.'
+msg_err_outlaw_in_open_town: 'Nie mo��esz do����czy�� do otwartego miasta, kt��re ci�� wygna��o.'
+msg_you_are_an_outlaw_in_this_town: '&4B��d�� ostro��ny - miasto %s wygna��o ci��, smier�� tutaj mo��e oznacza�� wi��zienie.'
+msg_err_town_not_close_enough_to_nation: 'Chunk centralny miasta %s nie jest wystarczaj��co blisko terenu centralnego nacji.'
+msg_nation_town_moved_their_homeblock_too_far: 'Chunk centralny miasta %s zosta�� przesuni��ty zbyt daleko stolicy nacji, wi��c zosta��o usuni��tye z twojej nacji.'
+#Added in 0.33
+msg_err_invalid_radius_number: '&cNieprawid��owa warto���� promienia. U��yj %s lub mniejszej.'
+#Added in 0.34
+msg_err_max_residents_per_town_reached: '&cMaksymalna liczba rezydent��w (%s) zosta��a osi��gni��ta.'
+#Added in 0.35
+msg_err_resident_doesnt_meet_invite_cooldown: '&cGracz %s nie by�� akywny od d��u��szego czasu. Nie mo��esz go zaprosi��.'
+msg_cant_toggle_pvp_outsider_in_town: 'Na terenie twojego miasta jest obcy, nie mo��esz zmieni�� swojego statusu pvp!'
+msg_err_unclaim_not_outpost: 'Ten teren nie jest plac��wk��!'
+outpost_plu: 'Plac��wki'
+#Added in 0.36
+msg_err_not_enough_residents: 'Niewystarczaj��ca ilo���� rezydent��w.'
+#Added in 0.37
+msg_err_friendly_fire_disable: 'Ogie�� bratob��jczy jest wy����czony!'
+#Added in 0.38
+msg_claim_error: '&cInny plugin wstrzyma�� roszczenie (%s)/(%s) chunk��w miejskich, nie uda��o si�� doko��czy�� tej operacji.'
+#Added in 0.39
+msg_err_town_spawn_forbidden_war: '&cSpawn miasta jest w����czony tylko podczas wojny.'
+msg_err_town_spawn_forbidden_peace: '&cSpawn miasta jest wy����czony podczas wojny.'
+msg_err_town_spawn_nation_forbidden_war: '&cSpawn innych miast z twojej nacji jest w����czony tylko podczas wojny.'
+msg_err_town_spawn_nation_forbidden_peace: '&cSpawn innych miast z twojej nacji jest wy����czony podczas wojny'
+msg_err_town_spawn_ally_forbidden_war: '&cSpawn miast zprzymierzonych z twoj�� nacj�� jest w��aczony tylko podczas wojny.'
+msg_err_town_spawn_ally_forbidden_false: '&cSpawn miast zprzymierzonych z twoj�� nacj�� jest wy����czony podczas wojny.'
+msg_err_public_spawn_forbidden_war: '&cSpawny innych miast s�� wy����czone tylko podczas wojny.'
+msg_err_public_spawn_forbidden_peace: '&cSpawny innych miast s�� wy����czone podczas wojny.'
+#Added in 0.40
+mayor_help_9: 'Pr��ba porzucenia plac��wki'
+#Added in 0.41 (Invite-Update)
+invite_plu: 'Zaproszenia'
+invite_sent_by: 'Zaproszenie od'
+invite_help_1: 'Akceptuj zaproszenie o dolaczenie do miasta'
+invite_help_2: 'Zrezygnuj z dolaczenia do miasta'
+invite_help_4: 'Odrzu�� wszystkie zaproszenia do do����czenia do miasta'
+invite_help_3: 'Lista wszystkich twoich zaproszen'
+town_invite_help_1: 'Zaprasza osob�� o danym nicku do twojego miasta'
+town_invite_help_2: 'Anuluj wys��ane zaproszenie'
+town_invite_help_3: 'Lista wys��anych do ciebie zaprosze��'
+town_invite_help_4: 'Lista wszystkich zaprosze��, kt��re otrzyma��e��'
+town_invite_help_5: 'Zaakceptuj pro��b�� do����czenia do miasta'
+town_invite_help_6: 'Odrzu�� pro��b�� do����czenia do miasta'
+nation_invite_help_1: 'Zapros miasto do swojej nacji'
+nation_invite_help_2: 'Anulowano zaproszenie, ktore wyslales do miasta'
+nation_invite_help_3: 'Lista wszystkich zaproszen wyslanych do miasta od nacji'
+nation_ally_help_1: 'Wysy��a propoyzcj�� sojuszu z twoj�� nacj�� do wybranej innej.'
+nation_ally_help_2: 'Spr��buj usun���� sojusz twojej nacji'
+nation_ally_help_3: 'Lista wszystkich propozycji sojuszu, jakie wys��a��e��'
+nation_ally_help_4: 'Lista wszystkich propozycji sojuszu, kt��re otrzyma��e��'
+nation_ally_help_5: 'Akceptuj propozycj�� sojuszu z nacj��'
+nation_ally_help_6: 'Odrzu�� pro��b�� zawarcia sojuszu z nacj��'
+nation_ally_help_7: 'Odwo��aj zaproszenie wys��ane do gracza'
+msg_player_denied_all_invites: "Wszystkie otrzymane zaproszenia zosta��y odrzucone."
+msg_err_player_no_invites: '&cNie masz zadnych zaproszen!'
+msg_err_player_has_multiple_invites: '&cMasz wiele zaprosze��, sprecyzuj!'
+msg_err_player_has_too_many_invites: '%s ma zbyt du��o zaprosze��. Popro�� o odrzucenie paru.'
+msg_err_player_already_invited: '&bJu�� zaprosi��e�� %s do do����czenie do miasta!'
+msg_err_town_no_invites: '&bMiasto nie ma ��adnych zaprosze��!'
+msg_err_town_specify_invite: '&cProsz�� sprecyzowa�� pro��b��!'
+msg_err_town_has_too_many_invites: '&bMiasto %s ma zbyt du��o zaprosze��. Popro�� o odrzucenie paru.'
+msg_err_town_sent_too_many_invites: '&bMiasto wys��a��o zbyt du��o zaprosze��. Anuluj niepotrzebne, aby wys��a�� nast��pn��.'
+msg_err_town_already_invited: '&bJu�� zaprosi��e�� %s do do����czenia do twojej nacji!'
+msg_err_nation_specify_invite: '&cProsz�� sprecyzowac zadanie!'
+msg_err_nation_no_requests: '&bNacja nie ma ��adnych propozycji sojuszu!'
+msg_err_nation_sent_too_many_invites: '&bNacja ma zbyt du��o wyslanych zaproszen, odrzuc pare przed wyslaniem nastepnej!'
+msg_err_nation_sent_too_many_requests: '&bNacja ma zbyt du��o wyslanych zaprosze��, anuluj pare przed wys��aniem nast��pnej!'
+msg_err_nation_has_too_many_requests: '&bNacja %s ma zbyt du��o zaprosze��. Popro�� j�� o odrzucenie paru.'
+player_received_invites: '&bOtrzyma��e�� %a/%m zaprosze��.'
+town_revoke_invite: '&bMiasto %s, odrzuci��o twoj�� pro��b�� o do����czenie.'
+town_revoke_invite_successful: '&bZ powodzeniem uniewazniles zaproszenie dolaczenia do miasta.'
+town_received_invites: '&bMiasto otrzymalo %a/%m zaproszen.'
+town_sent_invites: '&bMiasto wyslalo %a/%m zaproszen.'
+nation_revoke_invite: '&bNacja %s odrzuci��a Twoje zaproszenie, aby do nich do����czy��.'
+nation_revoke_invite_successful: '&bZ powodzeniem anulowa��e�� zaproszenie do swojej nacji.'
+nation_revoke_ally: '&bNacja %s anulowa��a swoj�� propozycj�� sojuszu.'
+nation_revoke_ally_successful: '&bJu�� anulowa��e�� propozycj�� sojuszu.'
+nation_received_requests: '&bNacja otrzymala %a/%m propozycj�� sojuszu.'
+nation_sent_invites: '&bNacja wys��a��a %a/%m zaproszenia.'
+nation_sent_ally_requests: '&bNacja wyslala %a/%m propozycj�� sojuszu.'
+no_confirmations_open: '&cNie masz nic do zatwierdzenia!'
+successful_cancel: '&cAkcja anulowana!'
+successful_deny: '&bZaproszenie zosta��o odrzucone pomy��lnie.'
+successful_deny_request: '&bProsba o sojusz zosta��a odrzucona pomy��lnie.'
+msg_ally_removed_successfully: '&bSojusz zosta�� rozwi��zany pomy��lnie.'
+town_deleted_by_admin: '&bMiasto %s zosta��o usuni��te przez administracj��'
+nation_deleted_by_admin: '&bNacja %s zosta��a usuni��ta'
+are_you_sure_you_want_to_continue: 'Na pewno chcesz kontynuowa��?'
+you_have_been_invited_to_join: 'Jeste�� zaproszony do do����czenia '
+you_have_been_requested_to_ally: 'Ju�� wys��a��e�� propozycj�� sojuszu '
+this_message_will_expire: 'Wyga��nie samo za 20 sekund.'
+player_sing: 'Gracz'
+nation_zone_this_area_under_protection_of: 'Ta cz������ nacji %s jest pod ochron�� %s'
+#Added in 0.42
+you_have_been_invited_to_join2: 'Dosta��e�� zaproszenie do����czenia do %s'
+you_have_been_requested_to_ally2: 'Dosta��e�� propozycj�� sojuszu z %s'
+#Added in 0.43
+town_help_11: 'Utw��rz nowe misto.'
+changed_plot_town: '&bZ powodzeniem zmieni��e�� dzia��k�� w mie��cie na %s!'
+not_standing_in_plot: 'Nie stoisz w srodku waznego terenu!'
+msg_err_homeblock_has_not_been_set: 'Blok centralny nie jest ustawiony. U��yj najpierw komendy /town set homeblock.'
+msg_err_spawn_not_within_homeblock: 'Spawn nie jest na bloku centralnym, u��yj najpierw "/town set homeblock".'
+#Added in 0.44
+#TownyChat language strings
+tc_err_invalid_command: 'B����dna komenda!'
+tc_settings_reloaded: '[TownyChat] ustawienia prze��adowane!'
+tc_err_unrecognized_command_format: 'Error: nierozpoznany format komend!'
+tc_channel_list_status: '(Status)'
+tc_channel_list_in: 'Aktualnie'
+tc_channel_list_out: 'Poza'
+tc_err_you_dont_have_perm_mute_list: 'Nie masz uprawnie��, aby zobaczy�� list�� wyciszonych'
+tc_err_you_dont_have_unmute_perm: 'Nie masz uprawnien do odciszania'
+tc_err_no_channel_called_channel: 'Nie ma chatu &f%s'
+tc_err_no_muted_players_in_channel_players: 'Nie ma wyciszonych graczy na &f%s'
+tc_players_muted_in_channel: '[TownyChat] &f%n &2gracze wyciszeni na &f%s&2: &f%s'
+tc_err_no_online_players_with_name: 'Nie ma gracza &f%s online'
+tc_err_you_dont_have_mute_perms: 'Nie masz uprawnien do wyciszania'
+tc_err_you_cant_mute_admin: 'Nie mo��esz wyciszy�� administratora miasta.'
+tc_err_you_cant_mute_chat_mod: 'Nie mo��esz wyciszy�� moderatora.'
+tc_player_already_muted_in_channel: '&a[TownyChat] Gracz jest ju�� wyciszony na &f%s'
+tc_player_is_now_muted_in_channel: '[TownyChat] &f%s &2jest teraz wyciszony na &f%s'
+tc_player_is_not_muted_in_channel: '[TownyChat] Gracz nie jest wyciszony na &f%s'
+tc_player_is_now_unmuted_in_channel: '[TownyChat] &f%s &2jest teraz odciszony na &f%s'
+tc_err_you_are_currently_muted_in_channel: 'Jeste�� wyciszony na &f%s&c!'
+tc_err_you_cannot_leave_channel: 'Nie mo��esz opu��ci�� &f%s'
+tc_you_already_left_channel: '[TownyChat] Opu��ci��e�� ju�� &f%s'
+tc_you_left_channel: '[TownyChat] Opu��ci��e�� &f%s'
+tc_you_are_now_talking_in_channel: '[TownyChat] Rozmawiasz teraz na kanale &f%s'
+tc_err_you_cannot_join_channel: 'Nie mo��esz do����czy�� do &f%s'
+tc_you_are_already_in_channel: '[TownyChat] Rozmawiasz ju�� na czacie &f"%s"'
+tc_you_joined_channel: '[TownyChat] Do����czy��e�� do &f%s'
+tc_err_you_are_already_talking_in_default_channel_help: 'Rozmawiasz na domyslnym chacie.'
+tc_err_unable_to_talk_essentials_mute: 'Jeste�� wyciszony!'
+tc_err_unable_to_talk_you_are_spamming: 'Nie musisz powtarzac caly czas tego samego!'
+msg_admin_set_plot_help_1: 'kiedy znajdujesz si�� w mie��cie.'
+msg_admin_set_plot_help_2: 'Kiedy znajdujesz si�� na bezludziu.'
+msg_err_not_enough_outposts_free_to_claim: 'Niewystarczaj��ca ilo���� dost��pnych plac��wek do przej��cia %s/%s'
+msg_err_over_outposts_limit: 'Nie mo��esz teleportowa�� si�� do swojej plac��wki. Przekroczy��e�� limit: %s/%s'
+#Status Screen elements (/res, /town, /nation, /tw, /plot perm)
+#These are translated because we may (or may not) be handling longer words in a smart way.
+#If you are a translator feel free to skip over this section, as it may or may not appear very nice
+#in game. It would be best to see what the changes look like in game before you PR it to github.
+outlaws: 'Wygna��cy:' #Used on /t outlawlist
+online: '&a(Online)'
+registered_last_online: '&2Zarejestrowany: &a%s &8| &2Ostatno widziany: &a%s' #Used in mayor hover text in /town status screen.
+status_perm: 'Uprawnienia:' #Used on /plot perm, /res
+status_on: '&4TAK'
+status_off: '&aNIE'
+status_on_good: '&aTAK'
+status_off_bad: '&4NIE'
+status_forced: '&cWymuszony'
+status_adjustable: '&aRegulowane'
+status_pvp: 'PvP:'
+explosions: 'Wybuchy:'
+firespread: 'Rozprzestrzenianie si�� ognia:'
+mobspawns: 'Spawn Mob��w:'
+owner_of_x_plots: 'W��a��ciciel %s dzia��ek.'
+status_bank: 'Bank:'
+status_town: 'Miasto:'
+status_no_town: 'Brak'
+status_town_ranks: 'Rangi Miasta:'
+status_nation_ranks: '&2Rangi w nacji: &a:'
+jailed_in_town: ' w mie��cie: %s'
+status_friends: 'Znajomi'
+rank_list_title: '%s: Lista Rang'
+rank_list_mayor: 'Burmistrz:'
+status_title_capital: '&b(Stolica)'
+status_title_pvp: ' &4(PVP)'
+status_title_open: ' &b(Otwarte)'
+status_town_board: 'Tablica:'
+status_founded: 'Za��o��ono:'
+status_founded_by: 'Za��o��ona przez:'
+status_town_size: 'Rozmiar miasta:'
+status_town_size_bought: 'Kupiono:'
+status_town_size_bonus: 'Premia:'
+status_town_size_nationbonus: 'BonusNacji:'
+status_town_outposts: 'Plac��wki:'
+status_bank_town2: 'Dzienne utrzymanie:'
+status_bank_town3: 'Podatek:'
+status_town_nation: 'Nacja:'
+status_town_reslist_overlength: 'i wiecej...'
+status_nation_king: 'Lider:'
+status_nation_tax: 'PodatekNacji:'
+status_nation_conquered_tax: 'ConqueredTax:'
+status_nation_towns: 'Miasta'
+status_nation_allies: 'Sojusznicy'
+status_nation_enemies: 'Wrogowie'
+status_nation_enemied_by: 'Narody, kt��re uwa��aj�� tw��j nar��d za wroga'
+status_world_claimable: '&aPozyskiwalny'
+status_world_noclaims: '&cNiepozyskiwalnaZiemia'
+status_world_forcepvp: 'WymuszonePVP:'
+status_world_fire: 'Ogie��:'
+status_world_forcefire: 'Wymuszony Ogie��:'
+status_world_forceexplosion: 'Wymuszanie Eksplozji:'
+status_world_worldmobs: 'Potwory Na ��wiecie:'
+status_world_forcetownmobs: 'Wymuszanie Potwor��w w Miastach:'
+status_world_unclaimrevert: 'CofaniePoPorzuceniu:'
+status_world_explrevert: 'Naprawianie eksplozji:'
+status_world_ignoredblocks: 'Ignorowane Bloki:'
+status_res_taxexempt: 'Rz��dz��cy s�� zwolnieni z p��acenia podatk��w.'
+status_res_tax: 'Podatek Miejski:'
+status_res_plottax: 'Suma Podatk��w Od Dzia��ki:'
+status_res_totaltax: 'Suma Podatk��w do zap��aty:'
+#Added in 0.45
+msg_err_unable_to_use_bank_outside_nation_capital: 'Nie mo��esz operowa�� ��rodkami nacji, kiedy nie jeste�� w stolicy.'
+msg_err_unable_to_use_bank_outside_your_town: 'Nie mo��esz operowa�� ��rodkami miasta, kiedy w nim nie jeste��.'
+msg_time_until_a_new_day: 'Czas do nowego dnia: '
+msg_hours: ' godz'
+msg_minutes: ' minut'
+msg_seconds: ' sekund'
+msg_err_invalid_string_nationboard_not_set: 'Niepoprawna forma, lub znaki.'
+msg_plot_evict: 'Teren eksmitowany z powodzeniem.'
+msg_no_one_to_evict: 'Nikt nie zosta�� eksmitowany z tego terenu.'
+#Added in 0.46
+nation_help_10: 'Teleportuj si�� do nacji.'
+msg_nation_spawn_warmup: '&bCzekaj na teleportacj��.'
+msg_set_nation_spawn: '&bZ powodzeniem zmieniono spawn nacji.'
+msg_err_cant_afford_tp_nation: '&cNie sta�� ci�� na teleportacj�� do %s.'
+msg_err_nationspawn_has_not_been_set: '&cSpawn nacji nie ustawiony.'
+msg_err_spawn_not_within_nationtowns: '&cSpawn nacji musi by�� w miescie, kt��re wcgodzi w jej sk��ad.'
+msg_err_spawn_not_within_capital: '&cSpawn nacji musi by�� w stolicy'
+msg_err_nation_spawn_war: 'Spawny nacji s�� niedost��pne podczas wojny.'
+msg_err_nation_not_public: '&cNacja nie jest publiczna.'
+msg_nation_toggle_public: '&aZ sukcesem zmieniono status nacji na publiczny.'
+status_yes: '&aTak'
+status_no: '&cNie'
+msg_err_unable_to_use_bank_outside_bank_plot: 'Nie mo��esz u��y�� tej komendy w tym miejscu. Id�� do banku, lub na swoj�� dzia��k��.'
+msg_err_nation_spawn_forbidden: '&cSpawn nacji jest wy����czony.'
+msg_err_nation_spawn_forbidden_war: '&cTeleportacja na spawn nacji jest dozwolona tylko podczas wojny.'
+msg_err_nation_spawn_forbidden_peace: '&cSpawn nacji jest wy����czony podczas wojny.'
+msg_err_nation_spawn_ally_forbidden: '&cSpawn nacji sojuszniczej jest wy����czony.'
+msg_err_nation_spawn_nation_forbidden_war: '&cSpawn nacji sojuszniczej jest w����czony tylko podczas wojny.'
+msg_err_nation_spawn_nation_forbidden_peace: '&cTeleportacja do punktu spawnu nacji sojuszniczej jest niemo��liwa podczas wojny.'
+msg_err_public_nation_spawn_forbidden: '&cPubliczny spawn innych nacji jest wy����czony.'
+msg_err_public_nation_spawn_forbidden_war: '&cPubliczny spawn innych nacji jest dost��pny tylko podczas wojny.'
+msg_err_public_nation_spawn_forbidden_peace: '&cPubliczny spawn innych nacji jest wy����czony podczas wojny.'
+msg_spawn_cost_set_to: '&b%s ustawil cene za uzywanie /%s spawn do %s'
+msg_err_cannot_set_spawn_cost_more_than: '&cNie mo��esz ustawi�� spawna - kosztuje wi��cej ni�� %s'
+msg_err_ally_isnt_public: '&cTw��j sojusznik, %s, nie ma spawna ustawionego na publiczny. Teleportacja anulowana.'
+msg_nation_changed_public: '&cStatus nacji jest teraz %s.'
+#Added in 0.47:
+status_plot_type: 'Typ Dzia��ki:'
+msg_no_self_jailing: 'Nie mo��esz uwi��zi�� samego siebie.'
+online2: ' &a(Online)'
+build: 'Budowanie'
+destroy: 'Niszczenie'
+switch: 'Prze����czanie'
+item_use: 'U��ywanie_Przedmiot��w'
+owner_status: 'W��a��ciciel'
+towny_map_header: 'Mapa miasta '
+towny_map_unclaimed: 'Nieprzej��te'
+towny_map_claimed: 'Posiadane'
+towny_map_forsale: 'Sprzeda��'
+towny_map_yourtown: 'Tw��j Town'
+towny_map_yourplot: 'Tw��j claim'
+towny_map_ally: 'Sojusz'
+towny_map_enemy: 'Wr��g'
+enabled: 'w����czone'
+disabled: 'wy��aczone'
+forced: 'Wymuszone'
+adjustable: 'Regulowane'
+#Added in 0.48:
+msg_no_funds_new_town2: '&cZ aktualnym stanem konta, %s nie jest(e��) w stanie dokona�� op��aty za za��o��enie nowego miasta. Kosztuje to %s.'
+msg_no_funds_new_nation2: '&cMiasto nie sta�� na za��o��enie nowej nacji. Kosztuje to %s.'
+msg_no_funds_claim2: '&cMiasto nie mo��e sobie pozwoli�� na zakup chunk��w w ilo��ci: %s, kosztuj��cych %s. Zasil konto bankowe miasta kwot�� %s za pomoc�� /t deposit %s'
+msg_err_cant_afford_blocks2: '&cMiasto nie mo��e pozwoli�� sobie na zakup chunk��w w ilo��ci: %s, kosztuj��cych %s. Zasil konto bankowe miasta kwot�� %s za pomoc�� /t deposit %s'
+msg_err_not_enough_variables: '&cBrak wystarczaj��cej ilo��ci zmniennych: '
+nation_rechecked_by_admin: '&bOdleg��o��ci pomi��dzy miastami cz��onkowskimi nacji %s zosta��y ponownie sprawdzone.'
+msg_err_nation_over_town_limit: '&cTwoja nacja osi��gn����a maksymaln�� ilo���� miast w nacji: %s.'
+#Added in 0.49
+msg_process_claim: 'Pozyskiwanie Bloku Miejskiego...'
+msg_process_unclaim: 'Porzucenie terenu...'
+msg_total_townblocks: 'Wszystkich Blok��w Miejskich: '
+#Added in 0.50
+friend_list: 'Lista Znajomych'
+#The following formatting lists apply to friends lists on the /res screen; townranks lists on the /town screen;
+#nationranks lists on the /nation screen; and probably more lists of residents.
+res_format_list_1: '&2' #First colour applied to Resident lists, ex: on /res, the friend list's Friends section.
+res_format_list_2: '&a' #Second colour applied to Resident lists, ex: on /res, the friend list's [1] section.
+res_format_list_3: '&f' #Third colour applied to Resident lists, ex: on /res, the friend list's list of friends' names section.
+townboard_message_colour_1: '&6'
+townboard_message_colour_2: '&e'
+nationboard_message_colour_1: '&6'
+nationboard_message_colour_2: '&e'
+not_registered: 'Nie zarejestrowano.'
+msg_error_missing_comparator: '&bMusisz okre��li��, wed��ug czego chcesz posortowa��.'
+msg_error_invalid_comparator: '&bNieprawidlowy komparator.'
+msg_error_multiple_comparators: '&bZa duzo komparator��w. Okresl tylko jeden.'
+msg_error_comparator_failed: '&bKomparator nie powi��d�� si��. Wyprobuj inny.'
+number_of_residents: '(Liczba rezydent��w)'
+number_of_towns: '(Liczba miast)'
+town_name: 'Nazwa Miasta'
+nation_name: 'Nazwa nacji'
+refund_message: '&aZwr��cono %s za zrzeczenie si�� blok��w miejskich w ilo��ci %s.'
+msg_bankrupt_town_multiple: '&bNast��puj��ce miasta nie mog��y sobie pozwoli�� na utrzymanie i zosta��y rozwi��zane: '
+msg_bankrupt_nation_multiple: '&bNast��puj��ce nacje nie mog��y sobie pozwoli�� na utrzymanie i zosta��y rozwi��zane: '
+msg_couldnt_pay_tax: '&b%s nie p��aci�� podatk��w i zosta�� wyrzucony z %s.'
+msg_couldnt_pay_nation_tax_multiple: '&bNast��pujace miasta nie by��y w stanie op��aci�� podatku od nacji i j�� opu��ci��y: '
+msg_couldnt_pay_town_tax_multiple: '&bNast��pujacy mieszka��cy nie mogli sobie pozwoli�� na podatek miejski i zostali wyrzuceni poza miasto: '
+msg_couldnt_pay_plot_taxes_multiple: '&bNast��puj��cych mieszka��c��w nie nie by��o sta�� na podatek od nieruchomo��ci od niektorych lub od wszystkich swoich dzia��ek: '
+msg_bankrupt_town2: '&bNast��puj��ce miasta nie by��y w stanie zap��aci�� podatk��w, aby przetrwa��: %s.'
+msg_bankrupt_nation2: '&bNacji %s nie sta�� na zap��acenie podatk��w.'
+status_embassy_town: 'Ambasady w'
+#Added in 0.51:
+msg_error_invalid_comparator_nation: '&bNieprawid��owy komparator. Spr��buj %s.'
+msg_error_invalid_comparator_town: '&bNieprawid��owy komparator. Spr��buj %s.'
+msg_err_merging_for_kings_only: '&bScalenie mo��e zosta�� przeprowadzone jedynie przez Lidera Nacji.'
+msg_err_king_of_that_nation_is_not_online: '&bLider Nacji %s, %s nie jest online. Scalenie nie powiod��o si��.'
+nation1_has_merged_with_nation2: '&6Nacja %s wyrazi��a zgod�� na scalenie si�� ze zwierzchnicz�� nacj�� %s.'
+msg_would_you_merge_your_nation_into_other_nation: '&6Czy zgadzasz si�� z����czy�� swoj�� nacj�� %s z %s? Spowoduje to przeniesienie pieni��dzy oraz miast z nacji do nacji %s.'
+no_open_towns: 'Brak otwartych miast.'
+#Added in 0.52:
+msg_error_nation_has_no_allies: 'Nacja nie ma sojusznik��w.'
+msg_error_nation_has_no_enemies: 'Nacja nie ma wrog��w.'
+msg_error_ta_plot_claim: 'Zabraklo nicku gracza. Uzyj pelnej komendy /ta plot claim <nick>'
+msg_error_no_player_with_that_name: 'Nie znaleziono gracza o nicku %s'
+msg_admin_has_given_you_a_plot: 'Administrator przydzieli�� Ci dzia��k��: %s'
+msg_town_forcemobs_setting_set_to: 'The town %s has had their mobs setting forced to %s'
+msg_town_forcepvp_setting_set_to: 'Miasto %s ma ustawione na %s'
+msg_town_forcedisabledpvp_setting_set_to: 'Miasto %s wymusi��o ustawienie admindisabledpvp do %s'
+msg_nation_changed_open: '&cNacja %s zmienila status na otwarty.'
+msg_err_already_in_a_nation: 'Twoje miasto nale��y ju�� do nacji.'
+msg_err_nation_not_open: '&cNacja %s nie otwiera swoich drzwi ka��demu. Popro�� lidera nacji, lub jego asystenta, aby do����czy��.'
+msg_err_nation_homeblock_in_another_world: '&cBlok centralny twojego miasta nie znajduje si�� w tym samym ��wiecie, co blok centralny stolicy nacji.'
+status_bank_town_penalty_upkeep: 'Utrzymanie nadmiarowych chunk��w:'
+#Added in 0.53:
+msg_error_cannot_town_spawn_youre_an_outlaw_in_town: 'Nie mo��esz teleportowa�� si�� do miasta %s, jeste�� stamt��d wygnany.'
+#Added in 0.55:
+msg_you_cannot_use_that_command_while_jailed: '&4Nie mo��esz u��y�� tej komendy, kiedy jeste�� uwi��ziony.'
+#Added in 0.56:
+msg_cache_block_error_town_nation: '&cCzlonkowie nacji nie s�� uprawnieni do %s.'
+#Added in 0.57:
+msg_err_already_res2: '&c%s ju�� nale��y do miasta.'
+msg_err_cannot_afford_plot_set_type_cost: '&cNie mo��esz sobie pozwoli�� na ustawienie typu terenu %s [Koszt to %s]'
+msg_plot_set_cost: '&bZosta��e�� obci����ony kwot�� %s za ustawienie typu terenu: %s'
+msg_err_townspawn_has_not_been_set: '&cSpawn miasta nie jest ustawiony.'
+msg_err_player_too_far_from_town_spawn: '&c%s znajduje si�� zbyt daleko od spawnu miasta, aby otrzyma�� zaproszenie. Maksymalna odleglo����: %s blok��w.'
+#Added in 0.58:
+msg_resident_bail_amount: 'Wysoko���� Kaucji Rezydenckiej: '
+msg_mayor_bail_amount: 'Koszty kaucji dla przyw��dcy: '
+msg_king_bail_amount: 'Kaucja za Lidera Nacji: '
+msg_has_paid_bail: '%s zap��aci�� kaucje i jest wolny.'
+msg_err_unable_to_pay_bail: 'Nie sta�� ci�� na kaucj��.'
+msg_err_bail_not_enabled: 'Wi��zienie nie jest ustawione.'
+msg_you_have_been_freed_from_jail: 'Zosta��e�� zwolniony z wi��zienia.'
+msg_player_has_been_freed_from_jail_number: '%s zosta�� zwolniony z wi��zienia numer %s.'
+msg_player_has_been_sent_to_jail_number: '%s zosta�� wyslany do wi��zienia numer %s.'
+msg_player_is_not_online: '%s nie jest online.'
+msg_mysql_dump_success: 'Zrzut do bazy danych MySQL zosta�� uko��czony.'
+msg_err_mysql_not_being_used: 'Twoja konfiguracja nie jest ustawiona, aby zapisywa�� i ��adowa�� mysql.'
+msg_save_success: 'Dane zapisane.'
+msg_load_success: 'Dane wczytane.'
+msg_err_cannot_afford_to_set_outpost: 'Twoje miasto nie ma wystarczajacych ��rodk��w, aby ustawi�� ten chunk na wart��.'
+msg_too_close2: 'Te miejsce jest zbyt blisko miasta %s.'
+homeblock: 'blok centralny'
+townblock: 'blok miejski'
+outpost: 'plac��wka'
+msg_err_not_same_town: '&b%s nie nale��y do zadnego miasta.'
+#Added in 0.59:
+msg_modes_set: 'Kana�� rozm��w: '
+msg_err_this_plot_doesnt_have_any_associated_metadata: 'Ta dzia��ka nie ma ��adnych powi��zanych metadanych.'
+msg_err_the_metadata_for_key_is_not_registered: 'Nie znaleziono danych dla ''%s''!'
+msg_key_x_was_successfully_updated_to_x: 'Klucz %s zosta�� pomy��lnie zaktualizowany do "%s".'
+msg_err_key_x_is_not_part_of_this_plot: 'Klucz %s nie jest cz����ci�� tej dzia��ki, je��li jest to mo��liwe prosz�� doda�� go.'
+msg_err_key_x_already_exists: 'Klucz %s ju�� istnieje!'
+msg_custom_data_was_successfully_added_to_townblock: 'Niestandardowe dane zosta��y pomy��lnie dodane do chunka miasta!'
+msg_data_successfully_deleted: 'Usuni��to z powodzeniem!'
+msg_err_key_cannot_be_deleted: 'Klucz nie mo��e by�� usuni��ty, poniewa�� nie istnieje!'
+msg_err_this_town_doesnt_have_any_associated_metadata: 'To miasto nie ma ��adnych powi��zanych metadanych.'
+msg_err_key_x_is_not_part_of_this_town: 'Klucz %s nie jest cz����ci�� tego miasta, je��li jest to mo��liwe prosz�� doda�� go.'
+msg_custom_data_was_successfully_added_to_town: 'Niestandardowe dane zosta��y pomy��lnie dodane do miasta!'
+msg_error_too_many_pages: 'Za du��o stron.'
+msg_err_location_is_not_within_a_town: 'Lokalizacja nie znajduje si�� w mie��cie.'
+msg_err_location_is_not_within_a_jail_plot: 'Lokalizacja nie znajduje si�� w wi��zieniu.'
+msg_err_town_has_no_jail_spawns_set: 'Spawn wi��zienia nie istnieje.'
+msg_err_town_has_no_outpost_spawns_set: 'Miasto nie ma ustawionego spawnu warty.'
+msg_err_location_is_not_within_an_outpost_plot: 'Lokalizacja nie znajduje si�� na terenie warty.'
+msg_err_town_has_not_set_a_spawn_location: 'Miasto nie ustawi��o lokalizacji spawna.'
+msg_err_town_has_no_claim_over_this_town_block: 'Twoje miasto nie pozyska��o tego chunka.'
+msg_err_town_doesnt_belong_to_any_nation: 'Miasto nie nale��y do ��adnej nacji.'
+msg_err_mayor_doesnt_belong_to_town: 'Burmistrz nie nale��y do miasta.'
+msg_err_tag_too_long: 'Tag jest za d��ugi.'
+msg_err_nation_has_not_set_a_spawn_location: 'Nacja nie ustawila lokacji spawna.'
+msg_err_resident_doesnt_belong_to_any_town: 'Rezydent nie nale��y do ��adnego miasta'
+msg_err_could_not_set_default_modes_for: 'Nie mo��na ustawic domy��lnych tryb��w dla '
+#Added in 0.60
+msg_set_war_allowed_on: 'Wojna mo��e odby�� si�� na tym ��wiecie.'
+msg_set_war_allowed_off: 'Wojna nie mo��e odby�� si�� na tym ��wiecie'
+#Added in 0.61
+#Added in 0.62
+msg_err_cannot_toggle_pvp_x_seconds_remaining: 'Nie mo��esz przestawi�� PVP. Poczekaj %s sekund..'
+msg_err_cannot_spawn_x_seconds_remaining: 'Nie mo��esz u��y�� teleportacji do miasta przez kolejne %s sekund.'
+#Added in 0.63
+msg_plot_set_to_nfs: 'Dzia��ka nie jest ju�� na sprzeda��.'
+msg_err_x_spawn_disallowed_from_x: '&c%s spawn nie jest dozwolony z %s.'
+msg_the_wilderness: 'Bezludzie'
+msg_enemy_areas: 'Strefy wrog��w'
+msg_neutral_towns: 'Neutralne miasta'
+#Added in 0.64
+msg_err_no_nation_with_that_name: 'Nie znaleziono nacji %s.'
+msg_err_cannot_unclaim_homeblock: 'Nie mo��esz porzuci�� powierzchni, gdzie znajduje si�� blok centralny. U��yj "/town set homeblock", aby zmieni�� jego po��o��enie.'
+#Added in 0.65
+msg_err_rename_cancelled: 'Zmiana nazwy zosta��a przerwana przez inny plugin. Skontaktuj si�� z administratorem.'
+#Added in 0.66
+#Added in 0.67
+msg_conquered: '[Podbite]'
+#Added in 0.68
+msg_plot_group_claim_confirmation: 'Ten teren jest cz����ci�� grupy %s. Potwierdzaj��c przej��cie terenu kupujesz wszystkie do niej nale����ce.'
+msg_plot_group_unclaim_confirmation: 'Ten teren jest cz����ci�� grupy %s. Potwierdzaj��c przej��cie terenu porzucasz wszystkie do niej nale����ce'
+msg_plot_group_toggle_confirmation: 'Ten teren jest cz����ci�� grupy %s. Potwierdzajac, zmieniasz stan wszystkich do niej nale����cych.'
+msg_plot_group_set_perm_confirmation: 'Ten teren jest cz����ci�� grupy %s. Potwierdzajac, ustawiasz stan wszystkich do niej nale����cych.'
+msg_plot_evict_group: 'Uda��o ci si�� eksmitowa�� gracza z tej grupu terenu "%s".'
+msg_err_plot_belongs_to_group_plot_fs: 'Dzia��ka: %s nale��y do grupy, u��yj "/plot group [nazwa grupy] fs [amount]"'
+msg_err_plot_belongs_to_group_set: 'Dzia��ka nale��y do grupy, u��yj "/plot group set"'
+msg_plot_group_set_for_sale: 'Grupa %s zosta��a wystawiona na sprzeda��!'
+msg_err_plot_already_belongs_to_a_group: 'Ten teren nale��y ju�� do grupy: %s. Usu�� chunk z grupy zanim dodasz go do innej.'
+msg_err_you_must_specify_a_group_name: 'Musisz okre��li�� nazw�� grupy dla tych teren��w.'
+msg_plot_was_put_into_group_x: 'Teren &9(%s,%s) &2zosta�� z����czony z grup�� %s'
+msg_err_plot_not_associated_with_a_group: 'Ten teren nie jest powi��zany z ��adn�� grup��.'
+msg_plot_was_removed_from_group_x: 'Teren &9(%s,%s) &2zosta�� usuni��ty z grupy %s.'
+msg_plot_renamed_from_x_to_y: 'Nazwa dzia��ki zmieni��a si�� z %s na %s.'
+msg_err_plot_group_specify_price: 'Okre��l cen����za dzia��k��, np.: /plot group fs [kwota]'
+msg_player_put_group_up_for_sale: '%s wystawi�� grup�� "%s" na sprzeda�� za kwot�� %s.'
+msg_err_could_not_set_group_type: 'Nie mo��na ustawic typu grupy - '
+msg_set_group_type_to_x: 'Zmieniono typ terenu na %s'
+msg_player_successfully_bought_group_x: '%s pomy��lnie kupi�� zgrupowany teren "%s"'
+status_plot_group_name_and_size: 'Dzia��ka jest cz����ci�� grupy: %s. W jej sk��ad wchodzi %s chunk��w.'
+msg_player_made_group_not_for_sale: '%s stworzy�� grup�� terenu "%s" [nie na sprzedaz].'
+#Added in 0.69
+msg_err_cannot_set_group_to_jail: 'Grupy dzia��ek nie mog�� by�� wi��zieniem.'
+#Added in 0.70
+msg_err_plot_group_name_required: 'Musisz poda�� nazw�� grupy. Prawdid��owa komenda: /plot group add {nazwa}'
+msg_confirmation_spigot_click_accept: 'Kliknij %s lub napisz %s'
+msg_confirmation_spigot_click_cancel: 'Kliknij %s lub napisz %s'
+msg_you_cannot_kick_yourself: 'Nie mo��esz wyrzuci�� siebie. To by��oby g��upie.'
+msg_you_cannot_kick_this_resident: 'Nie mo��esz wyrzuci�� %s, poniewa�� jest on przyw��dc��, lub asystentem.'
+#Added in 0.71
+msg_err_plot_belongs_to_group_plot_fs2: 'Teren: %s nale��y do grupy, u��yj /plot group fs [cena]'
+msg_err_plot_belongs_to_group_plot_nfs: 'Teren: %s nale��y do grupy, u��yj "/plot group nfs"'
+#Added in 0.72
+msg_err_admin_controlled_pvp_prevents_you_from_changing_pvp: 'Serwer nie zezwala na prze����czanie pvp, przez ustawienie "%s".'
+#Added in 0.73
+msg_err_you_aren't currently jailed: 'Nie jeste�� wi��ziony.'
+#Added in 0.74
+msg_err_you_are_not_allowed_to_create_the_other_side_of_this_portal: 'W tej lokalizacji nie mo��na stworzy�� portalu po drugiej stronie.'
+#Added in 0.75
+msg_already_ally: 'Twoja nacja jest ju�� sprzymierzona z %s.'
+#Added in 0.76
+msg_you: 'ci��'
+#Added in 0.77
+msg_click_spawn: '&aKliknij, aby odrodzi�� si�� w: &e%s.'
+msg_spawn_cost: '&aKoszt odrodzenia = &e%s.'
+#Added in 0.78
+msg_reload_error: 'Wyst��pi�� b����d podczas prze��adowywania Towny.'
+msg_reloaded_config: '&2Config zosta�� prze��adowany pomy��lnie'
+msg_reloaded_perms: '&2Permisje zosta��y prze��adowane pomy��lnie.'
+msg_reloaded_db: '&2Baza danych zosta��a prze��adowana pomy��lnie'
+msg_reloaded_lang: '&2T��umaczenie zosta��o prze��adowane pomy��lnie'
+msg_reset_config: '&2Zresetowano config'
+msg_err_teleport_cancelled: 'Ruszy��e�� si��. Teleportacja anulowana.'
+#Added in 0.79
+msg_cache_block_error_plot_friends: 'przyjaciele'
+msg_cache_block_error_plot_allies: 'sojusznicy'
+msg_cache_block_error_plot_outsiders: 'obcy'
+msg_cache_block_error_plot_town_members: 'cz��onkowie miasta'
+msg_err_invalid_nation_map_color: '&cNieprawidlowy kolor mapy. Dozwolone kolory to %s.'
+msg_nation_map_color_changed: '&bKolor mapy nacji zosta�� zmieniony na %s.'
+msg_err_unable_to_add_more_residents_without_nation: 'Miasto nie mo��e zaprosi�� wi��cej ni�� %s rezydent��w bez do����czenia lub utworzenia nacji.'
+msg_the_following_towns_were_deleted_for_having_0_claims: 'Nast��puj��ce miasta zosta��y usuni��te, z powodu nieposiadania ziem: %s'
+msg_spawn_warn: 'Spawn kosztuje %s. Kontynuowa��? [INFO] Dodaj fraz�� "-ignore", aby pomin���� takie potwierdznia w przysz��o��ci.'
+msg_confirm_purchase: 'Koszt tej akcji wynosi %s. Kontynuowa��?'
+msg_warn_the_following_towns_will_be_removed_from_your_nation: 'Nast��puj��ce miasta zostan�� usuni��te z twojej nacji, poniewa�� nie b��d�� wystarczaj��co blisko nowej stolicy: %s. Czy chcesz kontynuowa��?'
+msg_ta_deposit_all_success: 'Pomy��lnie wp��acono kwot�� %s do bank��w wszystkich nacji i miast.'
+bonus_townblocks: 'bonusowe bloki miejskie'
+#Added in 0.80
+nomad_sing: 'Przejezdny'
+msg_new_town_advice: 'Gratulujemy utworzenia miasta! Twoja osada b��dzie musia��a p��aci����codzienny podatek, wynosz��c aktualnie %s. Zdeponuj ��rodki do banku miejskiego, u��ywaj��c komendy "/t deposit <kwota>", inaczej twoje miasto przestanie istnie��. Dok��adny cennik znajdziesz pod komend�� "/towny prices". Nast��pna op��ata zostanie pobrana ju�� za %s.'
+#Added in 0.81
+msg_err_teleport_cancelled_damage: 'Odniesienie obra��e�� anulowa��o teleportacj��.'
+#Added in 0.82
+invitation_prefix: "&8[&7Zaproszenie&8] &9"
+confirmation_prefix: "&8[&7Potwierdzenie&8] &9"
+this_message_will_expire2: '&9Wyga��nie automatycznie za %s sekund'
+msg_hover_next_page: 'Nastepna strona'
+msg_hover_previous_page: 'Poprzednia strona'
+#Added in 0.83
+msg_max_tax_amount_only_for_percent: "Maksymalny podatek mo��na ustawi�� tylko dla miast, w kt��rych obowi��zuj�� podatki procentowe."
+msg_town_set_tax_max_percent_amount: "%s ustawi�� maksymalna warto���� podatku na %s."
+#Added in 0.84
+msg_err_plot_belongs_to_group_toggle: 'Dzia��ka nale��y do grupy, u��yj "/plot group toggle"'
+#Added in 0.85
+msg_set_perms_reset_single: '&bZresetowano uprawnienia tej dzia��ki.'
+#Added in 0.86
+status_bank_bankrupt: '(BANKRUCTWO)'
+msg_warning_bankrupt: '&4*** UWAGA, %s JUTRO ZBANKRUTUJE PRZEZ BRAKU FUNDUSZY W BANKU ***'
+msg_town_bankrupt_by_upkeep: '&bMiasto %s nie by��o sta�� na zap��acenie podatk��w i zbankrutowa��o.'
+msg_town_bankrupt_by_upkeep_multiple: '&bNastepuj��cych miast nie by��o sta�� na zap��acenie swoich podatk��w i zbankrutowa��y: '
+msg_town_bankrupt_by_nation_tax: '&bMiasto %s nie by��o sta�� na zap��acenie Podatku %s i zbankrutowa��o.'
+msg_town_bankrupt_by_nation_tax_multiple: '&bNast��puj��cych miast nie bylo sta�� na zaplacenie podatku nacji i zbankrutowa��y: '
+msg_town_debts_cleared: 'Miasto %s sp��aci��o ca��y sw��j d��ug i uwolni��o si�� od bankructwa!'
+msg_err_bankrupt_town_cannot_claim: 'Nie mo��esz pozyskiwa�� Blok��w Miejskich dla bankrutuj��cego miasta.'
+msg_err_bankrupt_town_cannot_build: 'Nie mo��esz budowa�� w bankrutuajcym mie��cie.'
+msg_err_bankrupt_town_cannot_toggle_open: 'Nie mo��esz otwiera�� bankrutuj��cego miasta.'
+msg_err_bankrupt_town_cannot_invite: 'Nie mo��esz zaprasza�� graczy do bankrutuj��cego miasta.'
+msg_payed_nation_tax: '&bTwoje miasto zap��aci��o podatek nacji w wysoko��ci %s.'
+msg_your_town_couldnt_pay_the_nation_tax_of: '&bTwoje miasto nie by��o sta�� na podatek nacji w wysoko��ci %s i zosta��o z niej wyrzucone.'
+msg_your_town_payed_upkeep: '&bTwoje miasto zap��aci��o dzienny podatek w wysoko��ci  %s.'
+msg_your_nation_payed_upkeep: '&bTwoja nacja zap��aci��a dzienny podatek w wysoko��ci %s.'
+msg_your_town_couldnt_pay_upkeep: '&bTwoje miasto nie sta�� na zap��acanie podatku w wysoko��ci %s, wi��c zostanie rozwi��zane.'
+msg_your_nation_couldnt_pay_upkeep: '&bTwoj�� nacj�� nie sta�� na zap��acanie podatku w wysoko��ci %s, wi��c zostanie rozwi��zane.'
+#Added in 0.87
+msg_town_reached_debtcap_and_is_disbanded: '&b%s nie p��aci��o podatk��w i osi��gn����o limit zad��u��enia. Miasto zostaje rozwi��zane.'
+msg_town_reached_debtcap_and_is_disbanded_multiple: '&bNast��puj��cych miast nie by��o sta�� na op��acenie podatk��w i osi��gn����y limit zad��u��enia. Rozwi��zane zostaj��: '
+msg_unable_to_deposit_x: 'Nie mo��esz umie��ci�� %s w banku miasta.'
+msg_unable_to_withdraw_x: 'Nie mo��esz wzi���� %s z banku miasta.'
+status_debtcap: 'Limit Zad��u��enia:'
+status_world_explrevert_entity: 'Cofanie Wybuch��w Mob��w:'
+status_world_explrevert_block: 'Cofanie Wybuch��w Blok��w:'
+#Added in 0.88
+msg_nation_already_peaceful: '&cNacja ju�� jest pokojowa.'
+msg_nation_already_not_peaceful: '&cNacja ju�� nie jest pokojowa.'
+#Added in 0.89
+status_world_friendlyfire: 'Ogie��Bratob��jczy:'
+status_world_wildernessmobs: 'Potwory w Dziczy:'
+msg_outlaw_kick_cooldown: '&cMiasto %s uznaje ci�� za wyga��ca. Masz %s na opuszczenie tego terytorium. W preciwnym razie zostaniesz przeteleportowany do swojego punktu odrodzenia.'
+msg_outlaw_kicked: '&4Nie jeste�� mile widziany w %s... Przeteleportowano ci�� .'
+msg_outlaw_town_notify: '&cWygnaniec o imieniu %s wkroczy�� na teren twojego miasta.'
+msg_your_town_payed_upkeep_with_debt: '&cTwoje miasto zap��aci��o podatek w wysoko��ci %s, sp��acaj��c r��wnocze��nie sw��j d��ug.'
+msg_payed_nation_tax_with_debt: '&cTwoja nacja zap��aci��a podatek w wysoko��ci %s, sp��acaj��c r��wnocze��nie sw��j d��ug.'
+#Added in 0.90
+status_plot_clear_deletion: 'UsuwanieBlok��wPrzyPorzucaniuDzia��ki:'
+msg_err_plot_clear_disabled_in_this_world: 'Komenda /plot clear jest wy����czona w tym ��wiecie.'
+#Added in 0.91
+msg_universe_attribution: 'Autorzy: '
+msg_universe_contributors: ' I wsp����tw��rcy tacy jak ty. '
+msg_universe_heart: '<3'
+townblock_plu: 'Chunki'
+#Added in 0.92
+#Town Ruins
+admin_panel_4: 'Wykonaj kod nowej godziny'
+msg_newhour_success: 'komenda "new hour" zosta��a wykonana pomy��lnie'
+town_help_12: 'Odzyskaj swoje miasto ze stanu zrujnowania.'
+msg_warning_town_ruined_if_deleted: "OSTRZE��ENIE!!!: Je��li usuniesz miasto, wejdzie ono w stan ruiny na %d godzin. Po up��ywie tego czasu nast��pi pe��ne usuni��cie. W fazie ruiny wszystkie czynno��ci s�� dozwolone, wi��c twoje miasto mo��e by�� rabowane."
+msg_warning_town_ruined_if_deleted2: "Miasto mo��e zosta�� przej��te przez ka��dego jego mieszka��ca poprzez u��ycie \"/t reclaim\" za %d godzin."
+msg_err_cannot_reclaim_town_unless_ruined: '&cNie mo��esz odzyska�� miasta, poniewa�� nie jest w stanie ruiny.'
+msg_err_cannot_reclaim_town_yet: '&cNie mo��esz odzyska�� miasta przez kolejne %d godzin.'
+msg_town_reclaimed: '&b%s odzyska�� miasto %s.'
+msg_err_cannot_use_command_because_town_ruined: "&cNie mo��esz u��y�� tej komendy, poniewa�� Twoje miasto jest zrujnowane. Aby wznowi�� normalne u��ycie polece��, odzyskaj miasto u��ywaj��c ''/city reclaim'' lub zostaw miasto u��ywaj��c ''/city leave''."
+msg_warning_your_town_is_ruined_for_x_more_hours: '&cTwoje miasto b��dzie w ruinie przez kolejne %d godzin. U��yj "/town reclaim", aby uratowa�� miasto i sta�� si�� przyw��dc��.'
+msg_time_remaining_before_full_removal: 'Pozosta��y czas przed ca��kowitym usuni��ciem: %d godzin.'
+msg_time_until_reclaim_available: 'Ponowne przechwycenie tego terenu b��dzie mo��liwe za %d godzin.'
+msg_reclaim_available: 'Odzysk jest mo��liwy.'
+#Added in 0.93
+msg_changed_peaceful: '&cNeutralno���� miasta jest teraz %s.'
+msg_err_town_unclaim_canceled: '&cPorzucenie anulowane. Nie mo��esz w tej chwili zwr��ci�� tego Bloku Miejskiego.'
+#Added in 0.94
+msg_comptype_residents: 'Liczba rezydent��w'
+msg_comptype_townblocks: 'Liczba Zaj��tych Blok��w Miejskich'
+msg_comptype_balance: 'Saldo bankowe'
+msg_comptype_online: 'Graczy Online'
+msg_comptype_towns: 'Liczba miast'
+msg_comptype_name: 'Kolejno���� alfabetyczna'
+msg_comptype_open: 'Status dost��pno��ci'
+msg_status_npc: '&c%s is not an real player, and is limited to Towny only.'
+npc_created: 'Utworzono:'
+msg_no_funds_claim_plot: '&cNie mo��esz sobie pozwoli�� na zakup dzia��ki kosztuj��cej %s.'
+msg_no_funds_claim_plot_group: '&cNie mo��esz sobie pozwoli�� na pozyskanie dzia��ek w ilo��ci %s, kosztuj��cych %s.'
+status_town_title_peaceful: '&b(Peacful)'
+#Added in 0.95
+status_public: '&b(Publiczne)'
+msg_days: ' dni'
+msg_comptype_public: 'Status publiczny'
+towny_prices_title: 'Ceny'
+towny_prices_town_nation: '&e[Utworzenie] &2Miasto: &a%s &8| &2Nacja: &a%s'
+towny_prices_reclaim: '&e[Odzyskanie] &2Miasto: &a%s'
+towny_prices_upkeep: '&e[Utrzymanie] &2Miasto: &a%s &8| &2Nacja: &a%s'
+towny_prices_overclaimed_upkeep: '&e[Przewy��szaj��ce Koszty Utrzymania] &2Miasto: &a%s'
+towny_prices_claiming_townblock: '&e[Pozyskanie] &2Blok Miejski: &a%s'
+towny_prices_claiming_townblock_increase: ' &8| &2Wzrost co ka��dy blok: &a+%s'
+towny_prices_claiming_outposts: '&e[Pozyskanie] &2Plac��wki: &a%s'
+towny_prices_upkeep_based_on: '&7Utrzymanie miasta zale��ne jest od czynnika &a%s'
+towny_prices_upkeep_num_plots: 'liczba dzia��ek.'
+towny_prices_upkeep_town_level: 'poziom miasta (ilo���� rezydent��w)'
+towny_prices_overclaimed_based_on: '&8Gdy rozmiar miasta przekracza limit, przy liczeniu koszt��w utrzymania bierze si�� pod uwag�� nast��puj��ce czynniki: &a%s %s'
+towny_prices_overclaimed_num_plots: 'liczba dzia��ek ponad bud��etem *'
+towny_prices_overclaimed_flat_cost: 'koszty zrycza��towane'
+towny_prices_townname: '&cMiasto: &b%s'
+towny_prices_price_plot: '&c    [Ceny] &2Dzia��ka: &a%s &8| &2Plac��wka: &a%s'
+towny_prices_price_shop: '&c            &2Sklep: &a%s &8| &2Ambasada: &a%s'
+towny_prices_taxes_plot: '&c    [Podatki]    &2Rezydent: &a%s &8| &2Dzia��ka: &a%s'
+towny_prices_taxes_shop: '&c            &2Sklep: &a%s &8| &2Ambasada: &a%s'
+towny_prices_town_neutral_tax: '&c            &2Pokojowo����: &a%s'
+towny_prices_plots: '&c    [Typy Dzia��ek]'
+towny_prices_type_single: '            &2%s: &a%s'
+towny_prices_type_double: '            &2%s: &a%s &8| &2%s: &a%s'
+towny_prices_nationname: '&cNacja: &6%s'
+towny_prices_nation_tax: '&c    [Podatki] &2Miasto: &a%s &8| &2Pok��j: &a%s'
+#Added in 0.96
+msg_town_destroyed_by_nation_tax: '&bPodbite miasto %s nie by��o w stanie zap��aci�� podatk��w i upad��o.'
+msg_town_destroyed_by_nation_tax_multiple: '&bNast��puj��cych podbitych miast nie by��o sta�� na podatek na rzecz nacji i zbankrutowa��y: '
+msg_your_town_was_exempt_from_the_nation_tax: '&bTwoje miasto zosta��o zwolnione z podatku dla nacji.'
+#Added in 0.97
+status_perm_line_format: '&a%s=&7' #The Build = ---- Destroy = ---- seen in the status screen.
+msg_comptype_ruined: 'Status zrujnowania'
+msg_comptype_bankrupt: 'Status upad��o��ci'
+msg_ruined: '&c(Zrujnowane)'
+msg_bankrupt: '&c(Upad��o����)'
+#Added in 0.98
+msg_del_town2: '&bMiasto %s zosta��o usuni��te!'
+msg_ruin_town: '&bMiasto pod r��k�� %s wpad��o w ruin��!'
+gui_title_select_plot_type: 'WybierzTypDzia��ki'
+gui_title_no_restrictions: 'Brak ogranicze�� dla tego typu dzia��ki.'
+gui_title_towny_allowedblocks: '%s: ListaDozwolonychBlok��w'
+gui_title_towny_wildsblocks: 'Lista Blok��w Dziczy w Towny'
+gui_title_towny_itemuse: 'Przyk��ady "ItemUse"'
+gui_title_towny_switch: 'Przyk��ady Prze����czania'
+gui_title_towny_plotclear: 'Bloki usuwane razem z dzia��k��'
+#Added in 0.99 - FlatFile L10N
+#NOTICE
+#While these strings can be translated, we caution you to keep them in English.
+flatfile_dbg_cannot_set_capital_try_next: 'Nation %s could not set capital to %s, selecting a new capital...'
+flatfile_dbg_deleting_duplicate: 'Deleting: %s which is a duplicate of %s'
+flatfile_dbg_folders_found: 'Folders found %s'
+flatfile_dbg_group_file_missing_town_delete: 'Group file missing Town, deleting %s'
+flatfile_dbg_loading_group_list: 'Loading Group list...'
+flatfile_dbg_loading_nation: 'Loading Nation: %s'
+flatfile_dbg_loading_nation_list: 'Loading Nation list...'
+flatfile_dbg_loading_resident: 'Loading Resident: %s'
+flatfile_dbg_loading_resident_list: 'Loading Resident list...'
+flatfile_dbg_loading_server_world_list: 'Loading Server World List...'
+flatfile_dbg_loading_town: 'Loading Town: %s'
+flatfile_dbg_loading_town_list: 'Loading Town list...'
+flatfile_dbg_loading_townblock_list: 'Loading TownBlock list...'
+flatfile_dbg_loading_world: 'Loading World: %s'
+flatfile_dbg_loading_world_list: 'Loading World List...'
+flatfile_dbg_mismatched_townblock_size: '%s townblocks were found with a town_block_size that does not match your config, they were not loaded into memory.'
+flatfile_dbg_missing_file_delete_group_entry: 'Missing file: %s deleting entry in group.txt'
+flatfile_dbg_missing_file_delete_groups_entry: 'Missing file: %s deleting entry in groups.txt'
+flatfile_dbg_removing_nation_not_found: 'Removing %s because they are not found in the nations.txt'
+flatfile_dbg_removing_resident_not_found: 'Removing %s because they are not found in the residents.txt'
+flatfile_dbg_removing_town_not_found: 'Removing %s because they are not found in the towns.txt.'
+flatfile_dbg_town_fetch_outlaw: 'Town Fetching Outlaw: %s'
+flatfile_dbg_undefined_capital_select_new: 'Nation %s did not have a capital defined, selecting a new capital...'
+flatfile_dbg_world_loaded_townblocks: 'World: %s loaded %s TownBlocks.'
+flatfile_err_cannot_create_defaults: 'Could not create flatfile default files and folders.'
+flatfile_err_could_not_add_to_town: 'Could not add to town!'
+flatfile_err_exception_reading_file: 'Loading Error: Exception while reading file %s'
+flatfile_err_exception_reading_group_file_at_line: 'Loading Error: Exception while reading Group file %s at line: %s'
+flatfile_err_exception_reading_townblock_file_at_line: 'Loading Error: Exception while reading TownBlock file %s at line: %s.'
+flatfile_err_exception_reading_world_file_at_line: 'Loading Error: Exception while reading world file %s at line: %s, in towny/data/worlds/%s.txt'
+flatfile_err_file_error_reading_world_file_at_line: 'Loading Error: File error while reading %s at line: %s, in towny/data/worlds/%s.txt'
+flatfile_err_homeblock_load_invalid_location: '[Warning] %s - HomeBlock tried to load invalid Location.'
+flatfile_err_homeblock_load_invalid_townblock: '[Warning] %s - HomeBlock tried to load invalid TownBlock.'
+flatfile_err_homeblock_load_invalid_world: '[Warning] %s - HomeBlock tried to load invalid World.'
+flatfile_err_invalid_townblock_resident: 'Invalid resident for TownBlock %s. Skipped setting resident for TownBlock...'
+flatfile_err_loading_group_list_at_line: 'Error loading Group List at %s, in towny/data/groups.txt'
+flatfile_err_loading_world_list_at_line: 'Error loading World list at %s, in towny/data/worlds.txt'
+flatfile_err_nation_could_not_load_capital_disband: 'The nation %s could not load a capital city and is being disbanded.'
+flatfile_err_reading_nation_file_at_line: 'Loading Error: Exception while reading nation file %s at line %s, in towny/data/nations/%s.txt'
+flatfile_err_reading_outlaw_of_town_duplicate: 'Loading Error: Exception while reading an outlaw of town file %s.txt. The outlaw %s is duplicated! Skipping adding duplicate...'
+flatfile_err_reading_outlaw_of_town_not_exist: 'Loading Error: Exception while reading an outlaw of town file %s.txt. The outlaw %s does not exist! Removing from list...'
+flatfile_err_reading_resident_at_line: 'Loading Error: Exception while reading resident file %s at line: %s, in towny/data/residents/%s.txt'
+flatfile_err_reading_town_file_at_line: 'Loading Error: Exception while reading town file %s at line: %s, in towny/data/towns/%s.txt'
+flatfile_err_resident_tried_load_invalid_town: 'Loading Error: %s tried to load the town %s which is invalid. Removing town from the resident.'
+flatfile_err_town_homeblock_not_exist: '[Warning] %s does not have a HomeBlock.'
+flatfile_err_townblock_file_contains_unregistered_town_delete: 'TownBlock file contains unregistered Town: %s, deleting %s'
+flatfile_err_townblock_file_missing_town_delete: 'TownBlock file missing Town, deleting %s'
+flatfile_err_townblock_file_unknown_err: 'TownBlock file contains unknown error, deleting %s.'
+msg_ta_removed_all_titles_and_surnames_removed: 'Wszyscy mieszka��cy zostali pozbawieni swoich tytu����w i nazwisk.'
+msg_err_homeblock_already_set_here: 'Tw��j blok centralny ju�� si�� tutaj znajduje.'
+#Added in 0.100
+msg_town_merge_err_mayor_only: '&bScalenia mo��e dokona�� tylko przyw��dca.'
+msg_town_merge_err_not_close: '&cMiasto pod w��adaniem %s jest zbyt oddalone. Ich Blok Centralny musi si�� znajdowa�� w obr��bie %d chunk��w od centrum twojego miasta.'
+msg_town_merge_request_sent: '&bPropozycja scalenia zosta��a wys��ana przyw��dcy miasta %s.'
+msg_town_merge_request_received: '&bPrzyw��dca %s, %s poprosi�� o scalenie si�� z twoim miastem. Wraz z dokonaniem zjednoczenia, pieni��dze, rezydenci, oraz wszystkie przej��te tereny zostan�� przydzielone do %s.'
+msg_town_merge_request_denied: '&c����danie scalenia miast zosta��o odrzucone.'
+msg_town_merge_other_offline: '&cPrzyw��dca miasta %s, %s, jest obecnie offline. Scalenie nie mo��e si�� odby��.'
+msg_town_merge_err_too_many_residents: '&cScalenie nieudane: Ilo���� rezydent��w przekracza��aby limit (%d)'
+msg_town_merge_err_too_many_townblocks: '&cScalenie nieudane: Nowy rozmiar miasta przekracza limit (%d)'
+msg_town_merge_err_too_many_outposts: '&cScalenie nieudane: Ilo���� plac��wek przekracza��aby limit (%d)'
+msg_town_merge_err_not_enough_money: '&cScalenie nieudane: Brak wystarczaj��cej ilo��ci pieni��dzy. (%s/%s)'
+msg_town_merge_err_too_many_purchased_townblocks: '&cScalenie nieudane: Zbyt wiele zakupionych blok��w miejskich (%d)'
+msg_town_merge_warning: '&cUwaga: Je��li pro��ba zostanie rozpatrzona pomy��lnie, scalenie si�� z %s b��dzie kosztowa�� %s.'
+msg_town_merge_debt_warning: '&cOstrze��enie: Miasto %s jest zad��u��one, b��dziesz zatem musia�� sp��aci�� jego d��ug, je��li si�� zgodzisz na scalenie.'
+msg_town_merge_cost_breakdown: '&bCost breakdown: Base cost: %s, Townblock cost: %s, Bankruptcy cost: %s, BonusBlock cost: %s'
+msg_town_merge_failed: '&cScalanie nie powiod��o si��.'
+msg_town_merge_cancelled: '&cScalenie anulowane.'
+msg_town_merge_success: '&bMiasto pod w��adaniem %s, nale����ce do %s, z pomy��lnie scali��o si�� z miastem %s.'
+#Reasons for withdrawing/depositing for the bankhistory book.
+msg_town_merge_cost_withdraw: 'Koszty Scalenia Miast'
+msg_town_merge_transaction_reason: 'Scalenie Miasta'
+towny_prices_town_merge: '&e[Scalenie] Koszt Bazowy: &a%s &8| &2Na Dzia��k��: &a%s'
+#Added in 0.101
+msg_err_nation_not_allied_with: '&cTwoja nacja nie jest sojusznikiem nacji %s.'
+msg_err_nation_not_enemies_with: '&cTwoja nacja nie jest wrogiem nacji %s.'
+msg_err_nation_already_enemies_with: '&cTwoja nacja jest ju�� wrogiem dla %s.'
+msg_err_ally_already_requested: '&cJu�� wys��a��e�� propozycj�� sojuszu do %s.'
+msg_err_nation_not_allied_with_2: '&c%s nie jest sojusznikiem nacji %s.'
+msg_err_nation_not_enemies_with_2: '&cNacja %s nie jest wrogiem wobec %s.'
+msg_err_nation_already_allied_with_2: '&cNacja %s ju�� jest sojusznikiem dla %s.'
+msg_err_nation_already_enemies_with_2: '&c%s jest ju�� wrogiem nacji %s.'
+msg_ta_allies_enemies_updated: '&bSojusznicy/Wrogowie nacji %s zostali zaktualizowani.'
+#Added in 0.102
+towny_map_detailed_information: '&2Kliknij, aby zobaczy�� szczeg����owe informacje o dzia��ce.'
+msg_err_nation_capital_too_many_residents: '&cBie����ca stolica ma zbyt wielu mieszka��c��w, aby mog��a by�� zast��piona na %s.'
+msg_deleting_nation_will_result_in_losing_residents: '&cUwaga: Rozwi��zanie nacji b��dzie si�� wi��za��o z obni��eniem maksymalnej liczby mieszka��c��w w twoim mie��cie do %d, przez co %d mieszka��c��w b��dzie musia��o je opu��ci��.'
+#Added in 0.103
+msg_command_blocked_inside_towns: '&cNie mo��esz u��ywa�� tej komendy wewn��trz miast.'
+msg_command_limited: 'Mo��esz u��y�� tej komendy tylko na terenie swojej dzia��ki.'
+#Added in 0.104
+#Don't add a space to the end please
+msg_plot_perm_claimed_at: 'Przej��te:'
+#Added in 0.105
+msg_wilderness_use_x_in_all_worlds: 'Dzikie tereny posiadaj�� status %s we wszystkich ��wiatach.'
+msg_regenerations_use_x_in_all_worlds: 'Regeneracja na wszystkich ��wiatach jest teraz %s.'
+#Added in 0.106
+msg_command_outsider_blocked: 'Nie mo��sz wykona�� tej komendy, poniewa�� nie mieszkasz w %s.'
+#Added in 0.107
+msg_jailed_for_x_hours: ' na %s godzin.'
+msg_err_this_jail_has_no_cells: 'W tym wi��zieniu nie ma cel.'
+msg_err_no_cell_found_at_this_location: 'Nie znaleziono wi��zienia w tym miejscu.'
+msg_jail_cell_set: 'Cela wi��zienna zosta��a dodana.'
+msg_jail_cell_removed: 'Usuni��to cel�� wi��zienn��.'
+msg_err_resident_is_already_jailed: '%s jest ju�� wi��ziony'
+msg_err_the_town_does_not_have_that_many_jails: 'Miasto nie ma a�� tylu wi��zie��.'
+msg_err_that_jail_plot_does_not_have_that_many_cells: 'Ta dzia��ka wi��zienna nie ma a�� tylu cel.'
+msg_primary_jail_set_for_town: 'Podstawowe wi��zienie twojego miasta zosta��o ustawione.'
+msg_x_has_been_freed_from_x: '%s zosta�� wypuszczony z wi��zienia %s'
+msg_you_have_been_jailed: 'Zosta��e�� uwi��ziony.'
+msg_run_to_the_wilderness_or_wait_for_a_jailbreak: 'Ucieknij na bezludzie, lub poczekaj na koniec odsiadki.'
+msg_err_player_is_not_jailed: 'Ten gracz nie jest wi��ziony.'
+msg_you_have_paid_bail: 'Wp��aci��e�� kaucj��.'
+msg_you_have_been_freed_via_jailbreak: 'Zwolniono z aresztu, od teraz jeste�� wolny!'
+msg_you_have_served_your_sentence_and_are_free: 'Odby��e�� swoj�� kar�� wi��zienia i jeste�� teraz wolny!'
+msg_x_has_served_their_sentence_and_is_free: '%s odby�� kar�� wi��zienia i jest ju�� wolny.'
+msg_you've_been_jailed_for_x_hours: 'Zosta��e�� uwi��ziony na %s godzin.'
+msg_you_are_being_sent_to_jail: 'Zosta��e�� zes��any do wi��zienia.'
+msg_err_you_cannot_remove_the_last_cell: 'Nie mo��esz usun���� ostatniej celi w tym wi��zieniu, dop��ki nie zostanie dodana inna kom��rka'
+msg_do_not_log_out_while_waiting_to_be_teleported: 'Nie opuszczaj gry przed teleportem do wi��zienia, poniewa�� sko��czy si�� to ��mierci��.'
+jail_plu: 'Wi��zienia'
+jail_sing: 'Wi��zienie'
+msg_resident_has_not_played_long_enough_to_be_jailed: '%s nie gra�� wystarczaj��co d��ugo, aby m��c by�� wi��zionym, poczekaj %s'
+#Added in 0.108
+msg_town_not_peaceful: '&bMiasto nie mog��o zap��aci�� za utrzymanie stanu pokojowego.'
+msg_town_already_peaceful: '&Town is already peaceful.'
+msg_town_already_not_peaceful: '&Town is already not peaceful.'
+msg_town_cant_peaceful: '&bMiasto nie mog��o sobie pozwoli�� na bycie miastem pokojowym.'
+msg_town_paid_for_neutral_status: '&bTwoje miasto zap��aci��o %s, aby zachowa�� sw��j pokojowy status.'
+msg_nation_paid_for_neutral_status: '&bTwoja nacja wyda��a %s na utrzymanie statusu pokojowego.'
+your_town_has_been_invited_to_join_nation: 'Twoje miasto zosta��o zaproszone do do����czenia do nacji: %s'
+#Added in 0.109
+msg_err_no_one_to_purge: '&bNie ma nieaktywnych cz��onk��w do wyrzucenia.'
+msg_purging_will_remove_the_following_residents: '&bPotwierd��, ��e chcesz wyrzuci�� nast��puj��cych rezydent��w: %s'
+msg_purge_complete_x_removed: '&bOczyszczenie zako��czone, wyrzucono %s mieszka��c��w.'
+msg_err_days_must_be_greater_than_0: 'Liczba dni musi by�� wi��ksza ni�� zero.'
+msg_err_outlawed_players_no_teleport: '&4Jeste�� wygna��cem tego miasta, nie mo��esz si�� teleportowa��!'
+msg_err_you_cannot_use_command_while_in_outlaw_town: '&4Nie mo��esz u��y�� tej komendy podczas pobytu w mie��cie, z kt��rego zosta��e�� wygnany.'
+#Added in 0.110
+msg_safe_mode: "[Error] Zablokowano w trybie awaryjnym!"
+msg_safe_mode_base: '[Error] Towny jest zablokowany w trybie Safe Mode z powodu b����du! '
+msg_safe_mode_player: 'Zg��o�� administratorowi, aby sprawdzi�� konsol�� serwera.'
+msg_safe_mode_admin: 'Sprawd�� konsol�� serwera, aby uzyska�� wi��cej informacji.'
+msg_err_you_can_only_claim_outposts_in_your_homeblocks_world: 'Mo��esz przej���� tylko plac��wki w ��wiecie, w kt��rym znajduje si�� tw��j chunk centralny.'
+msg_err_not_close_enough_to_your_town_nearest_plot: 'W tym miejscu nie mo��na postawi�� plac��wki. Jeste�� oddalony o %s chunk��w od najbli��ej posiadanych teren��w. Maksymalny dystans oddalenia to %s chunk��w.'
+msg_err_you_have_moved_your_homeblock_too_recently_wait_x: 'Przesun����e�� sw��j blok centralny niedawno! Musisz poczeka�� %s.'
+msg_err_you_cannot_move_your_homeblock_this_far_limit_is_x_you_are_x: 'Nie mo��esz przesun���� bloku centralnego na tak�� odleg��o����, limit wynosi %s chunk��w. Cofnij si�� o %s bloki/blok��w.'
+msg_err_usingtowny_disabled: 'Ten ��wiat ma wy����czone wszelkie interakcje w miastach. U��yj najpierw "/townyworld toggle usingtowny".'
+#Added in 0.111
+msg_plot_group_already_exists_did_you_want_to_transfer: 'Ten Blok jest ju�� cz����ci�� grupy dzia��ek %s. Czy na pewno chcesz przenie���� go do grupy %s?'
+msg_townblock_transferred_from_x_to_x_group: 'Blok nale����cy do grupy %s zosta�� przeniesiony do grupy dzia��ek %s.'
+msg_plotgroup_deleted: 'Grupa dzia��ek %s zosta��a usuni��ta.'
+msg_plotgroup_empty_deleted: 'Grupa %s nie zawiera��a ��adnych Blok��w Miejskich i zosta��a usuni��ta.'
+plotgroup_plu: 'Grupy Dzia��ek'
+msg_err_this_town_has_no_plot_groups: 'To miasto nie ma zgrupowanych dzia��ek.'
+msg_err_this_plot_is_already_part_of_the_plot_group_x: 'Ta dzia��ka jest ju�� cz����ci�� grupy %s'
+map_hover_plot_group: 'Grupa dzia��ek: '
+map_hover_plot_group_size: ' Rozmiar: '
+map_hover_plots: '%s dzia��ek'
+#Added in 0.112
+msg_checking_for_updates: 'Sprawdzanie aktualizacji...'
+msg_no_new_updates: 'Nie znaleziono nowych aktualizacji.'
+msg_new_update_available: '&bDost��pna jest aktualizacja: %s | Bie����ca wersja: %s'
+msg_download_here: 'Pobierz j�� tutaj: %s'
+msg_click_to_download: '&bKliknij tutaj, aby j�� pobra��.'
+msg_latest_version: '&2Wersja Towny: &a%s &2| Ostatnia wersja: &a%s'
+msg_up_to_date: '&aJeste�� na bie����co.'
+msg_click_purchase: 'Kliknij, aby kupi��'
+msg_you_must_join_this_town_to_claim_this_plot: 'Musisz przedtem do����czy�� do miasta %s w celu zakupienia tej dzia��ki. Czy chcesz do����czy�� do miasta, aby m��c dokona�� przej��cia?'
+#Added in 0.113
+status_trustedlist: 'Zaufana'
+msg_click_to_edit: '&6Kliknij, aby edytowa��.'
+permission_gui_header: 'GUI Uprawnie�� Towny'
+msg_last_edited: '&7&oOstatnia zmiana %s dokonana przez %s.'
+msg_trusted_added: '&bDodano %s do grona zaufanych w regionie %s.' #Last %s is either town or townblock
+msg_already_trusted: '&b%s nale��y ju�� do grona zaufanych w regionie %s.'
+msg_trusted_added_2: '&b%s doda�� ci�� do grona zaufanych w regionie %s: %s.' #Last %s is the town name or worldcoord.
+msg_not_trusted: '&b%s nie nale��y do grona zaufanych w regionie %s.'
+msg_trusted_removed: '&bUsuni��to %s z zaufanych w tym %s.'
+msg_trusted_removed_2: '&b%s usun���� ci�� z grona zaufanych regionu %s: %s.'
+msg_overrides_removed: '&bUsuni��to domy��lne nadpisywanie uprawnie�� dla %s.'
+msg_overrides_added: '&bUstawiono domy��lne nadpisywanie uprawnie�� dla %s.'
+msg_no_overrides_set: '&bUprawnienia %s nie s�� nietypowe dla tego "%s".'
+msg_overrides_already_set: '&b%s ju�� posiada nietypowe uprawnienia dla tego regionu "%s".'
+msg_cache_block_err: '&cNie masz tutaj zezwolenia na %s.'
+msg_err_plot_belongs_to_group: '&cDzia��ka nale��y do grupy, u��yj %s.'
+plotgroup_sing: 'Grupa dzia��ek'
+msg_err_ally_limit_reached: 'Twoja nacja osi��gn����a limit sojusznik��w, nie mo��esz zaakceptowa�� propozycji.'
+#Added in 0.114
+msg_err_group_not_found: 'Grupa %s nie zosta��a znaleziona.'
+msg_err_expected_command_format: 'Niepoprawna sk��adnia, oczekiwano: %s'
+msg_err_group_already_has_node: 'Grupa %s ju�� ma przypisane uprawnienie %s.'
+msg_err_group_doesnt_have_node: 'Grupa %s nie ma w��z��a %s.'
+msg_successfully_added_node_to_group: 'Pomy��lnie dodano %s do %s.'
+msg_successfully_removed_node_from_group: 'Pomy��lnie usuni��to %s z %s.'
+msg_err_there_is_already_a_town_or_nationrank_called_x: 'Istnieje ju�� %s o nazwie %s.'
+msg_err_there_is_no_town_or_nationrank_called_x: 'Brak %s o nazwie %s.'
+msg_successfully_add_rank_to_the_town_or_nation_rank: 'Pomy��lnie dodano %s do %s.'
+msg_successfully_removed_rank_from_the_town_or_nation_rank: 'Pomy��lnie usuni��to %s z %s.'
+msg_err_group_has_no_nodes: 'Grupa %s nie ma przypisanych uprawnie��.'
+msg_title_group_permissions: 'Uprawnienia %s'
+help_ta_perms_listgroups: 'Lista grup.'
+help_ta_perms_group: 'Poka�� w��z��y uprawnie�� w grupie'
+help_ta_perms_groupaddpermnode: 'Dodaj w��ze�� do grupy.'
+help_ta_perms_groupremovepermnode: 'Usu�� w��ze�� z grupy.'
+help_ta_perms_townrankadd: 'Dodaje rang�� miejsk�� do pliku konfiguracyjnego townyperms.'
+help_ta_perms_townrankremove: 'Usuwa rang�� miejsk�� z pliku konfiguracyjnego townyperms.'
+help_ta_perms_nationrankadd: 'Dodaje rang�� nacyjn�� do pliku konfiguracyjnego townyperms.'
+help_ta_perms_nationrankremove: 'Usuwa rang�� nacyjn�� z pliku konfiguracyjnego townyperms.'
+msg_err_that_resident_doesnt_belong_to_that_nation: 'Ten rezydent nie nale��y do tej nacji.'
+#Added in 0.115
+msg_comptype_founded: 'Founded Date''.'
+msg_err_must_be_greater_than_or_equal_to: 'Warto���� musi by�� wi��ksza, lub r��wna %s'
+err_invalid_yaml: 'B����d ��adowania: Nie uda��o si�� za��adowa�� pliku %s (sprawd�� czy jest poprawny w yaml parser).'
+#Added in 0.116
+msg_town_map_color_changed: '&bKolor mapy miasta zosta�� zmieniony na %s.'
+#Added in 0.117
+msg_err_this_townblock_doesnt_match_the_groups_type: 'Ten blok miejski nie mo��e zosta�� dodany do grupy, poniewa�� nie jest typu %s'
+#Added in 0.118
+status_title_nopvp: '&a(Brak PVP)'
+#Added in 0.119
+msg_err_resident_cannot_be_jailed_because_they_are_outlawed_there: 'Nie mo��esz wi��zi�� swojego rezydenta, poniewa�� jest on w miejscu, w kt��rym jest wyj��ty spod prawa.'
+msg_err_resident_cannot_be_jailed_because_they_are_enemied_there: 'Nie mo��esz wi��zi�� swojego mieszka��ca, poniewa�� znajduje si�� w miejscu, w kt��rym jest uwa��any za wroga.'
+#Added in 0.120
+msg_resident_prompt: 'Wprowad�� nazw�� gracza na czacie lub wpisz "q", aby wyj����. Automatyczne wyga��ni��cie za 30 sekund.'
+msg_prompt_cancel: 'Anulowano lub przekroczono limitu czasu.'
+#Added in 0.121
+status_title_primary_colour: '&6' #Used to colour the majority of the title bar.
+status_title_secondary_colour: '&e' #Used to colour the words in the title bar.
+status_format_list_1: '&2' #First colour applied to status screen lists, ex: on /res, the friend list's Friends section.
+status_format_list_2: '&a' #Second colour applied to status screen lists, ex: on /res, the friend list's [1] section.
+status_format_list_3: '&f' #Third colour applied to status screen lists, ex: on /res, the friend list's list of friends' names section.
+status_format_key_value_key: '&2' #Colour applied to a status screen element which is just a line of text, or the key in a key/value element.
+status_format_key_value_value: '&a' #Colour applied to the value in a status screen element which has two parts, ex: Registered: SomeDate. (SomeDate is the value.)
+status_format_bracket_element: '&b' #Colour applied to a status element within a bracket, ex: [Bonus: #].
+status_format_hover_key: '&a' #Colour applied to a status screen element which is a hover-able key, ex: [Rank List]
+status_format_hover_bracket_colour: '&7' #Colour applied to the brackets of a hover-able status screen element.
+status_format_key_important: '&c' #Colour applied to an important status screen value, ex: (BANKRUPT), Ruined town reclaim lines, taxes/upkeep costs.
+status_splitter: ' &7| ' #Used in status screens where a splitter is used between values.
+status_home_element: ' &7[Home: %s]'
+status_registered: 'Zarejestrowano:'
+status_lastonline: 'Ostatnia aktywno����:'
+status_fractions: '%s/%s'
+status_rank_list: 'Lista rang'
+status_hover_click_for_more: 'Kliknij tutaj, aby zobaczy�� wi��cej informacji.'
+status_jailed: 'Uwi��ziony:'
+status_bad_yes: '&cTAK'
+status_good_no: '&aNIE'
+status_resident_tax_title: 'Podatek od %s'
+help_menu_command: '<blue>'
+help_menu_subcommand: '<aqua>'
+help_menu_explanation: '<gray>'
+help_menu_requirement: '<red>'
+#Added in 0.122
+msg_warn_the_following_towns_will_be_removed_from_the_merged_nation: 'Z uwagi na zbyt dalekie po��o��enie od stolicy nacji, nast��puj��ce miasta zostan�� usuni��te, je��li scalanie zostanie zako��czone: %s.'
+#Added in 0.123
+msg_err_invalid_townyworld: "'%s' nie jest prawid��ow�� nazw�� ��wiata."
+msg_err_enter_world_name_first: 'Najpierw prosz�� wprowadzi�� nazw�� ��wiata.'
+msg_wilderness_use_set_to: '&bDzicz zosta��a ustawiona na %s w %s.'
+#Added in 0.124
+msg_err_invalid_response: 'Nieprawid��owa odpowied��! Wprowad�� "q", aby wyj���� lub wr���� do poprzedniego pytania.'
+msg_setup_full_guide_link: '&bKliknij tutaj po link do poradnika instalacji od A do Z.'
+msg_setup_wildernessuse: 'Czy chcesz w����czy�� Dzicz? Pozwoli to graczom niszczy��/budowa�� na nieprzej��tych terenach.'
+msg_setup_revertunclaim: 'Cay chcia��by��, aby porzucane tereny ulega��y erozji do stanu naturalnego? Zmiany dokonane przez by��ych posiadaczy ziem zostan�� cofni��te.'
+msg_setup_town_block_ratio: 'Jaki przelicznik ilo��ci dzia��ek w miastach chcesz ustawi��? Warto��ci�� domy��ln�� jest 8 chunk��w na 1 mieszka��ca. Zwi��kszenie tej liczby pozwoli miastom zaj���� wi��cej teren��w za ka��dego mieszka��ca. Ustawienie tego parametru na 0 sprawi, ��e zostan�� u��yte warto��ci ze zmiennej town_levels.'
+msg_setup_town_cost: 'Ile ma kosztowa�� utworzenie nowego miasta? Warto��ci�� domy��ln�� jest 250.'
+msg_setup_nation_cost: 'Ile kosztuje utworzenie nowego kraju? Warto��ci�� domy��ln�� jest 1000.'
+msg_setup_townblock_cost: 'Ile powinno kosztowa�� zaj��cie nowego terenu? Warto��ci�� domy��ln�� jest 25. Blok terenu jest rozmiaru chunka - 16x16 kratek (przy ustawieniach domy��lnych)'
+msg_setup_success: 'Pomy��lnie zaktualizowano warto��ci z pliku konfiguracyjnego.'
+#Added in 0.125
+#Player has recently died and respawned and is invulnerable.
+msg_err_player_cannot_be_harmed: '%s teleportowa�� si�� ostatnio do punktu spawnu i nie mo��e zosta�� zaatakowany.'
+#Player was invulnerable after respawning and has lost their invulnerability.
+msg_you_have_lost_your_respawn_protection: 'Straci��e�� ochron�� po teleportacji do punktu spawnu.'
+#Message shown to a player when they are denied the ability to pick up items because they are under respawn protection.
+msg_err_cannot_pickup_respawn_protection: 'Nie mo��esz podnosi�� przedmiot��w, gdy jeste�� pod ochron�� po teleportacji do punktu spawnu.'
+#Added in 0.126
+#Used in the nation screen:
+status_capital: 'Stolica:'
+#Used in the resident screen's town hover, to denote when a player joined a town.
+status_joined_town: 'Do����czono do miasta:'
+#Used in the town screen's nation hover, to denote when a town joined a nation.
+status_joined_nation: 'Do����czono do nacji:'
+#Shown in status screen elements where a value is not known.
+status_unknown: 'nieznane'
+#Feedback given for the /ta set nationzoneoverride [townname] [size] command.
+msg_nationzone_override_set_to: 'Miasto %s posiada indywidualny rozmiar Peryferii Nacji ustawiony na %s.'
+#Feedback given for the /ta set nationzoneoverride [townname] 0 command.
+msg_nationzone_override_removed: 'Miasto %s utraci��o indywidualny rozmiar Peryferii Nacji.'
+#Added in 0.127
+#Used in status screen:
+status_nation_zone_size: 'Wielko���� Peryferii Nacji:'
+#Shown when a player adds people to their friends list.
+msg_res_friend_added_to_list: 'Dodano %s do listy znajomych.'
+#Shown when a player removes people from their friends list.
+msg_res_friend_removed_from_list: 'Usuni��to %s z listy znajomych.'
+#Generic resident freed from jail message.
+msg_resident_unjailed: '%s zosta�� wypuszczony.'
+#Shown when an admin uses /ta toggle devmode.
+msg_admin_toggle_devmode: 'Tryb Developerski: %s'
+#Shown when an admin uses /ta toggle debug.
+msg_admin_toggle_debugmode: 'Tryb Debugowania: %s'
+#Shown when an admin uses /ta toggle townwithdraw
+msg_admin_toggle_townwithdraw: 'Wyp��aty Miasta: %s'
+#Shown when an admin uses /ta toggle nationwithdraw
+msg_admin_toggle_nationwithdraw: 'Wyp��aty Nacji: %s'
+#Shown when claiming a town block for the town.
+msg_process_town_claim: 'Przejmowanie terenu...'
+#Shown when unclaiming a town block for the town.
+msg_process_town_unclaim: 'Porzucenie terenu...'
+#Shown when there is nothing to unclaim.
+msg_err_nothing_to_unclaim: 'Nie ma nic do porzucenia!'
+#Given as feedback when /ta checkperm is used.
+msg_perm_true: 'Uprawnienia przyznane.'
+#Given as feedback when /ta checkperm is used.
+msg_err_perm_false: 'Brak Uprawnie��.'
+#Shown at the bottom of the /towny map
+#First variable is townname or None, 2nd variable is plot owner's name or None.
+status_towny_map_town_line: '&2Miasto: &a%s &7| &2W��a��ciciel: &a%s'
+#Shown on /towny version
+msg_towny_version: '&2Wersja Towny: &a%s'
+#Shown to admins and ops when a player has been blocked from logging into the server.
+msg_admin_blocked_login: '&2 Gracz korzystaj��cy z adresu IP &c%s &2pr��bowa�� zalogowa�� si�� przy u��yciu konta %s, co mog��oby zaszkodzi�� gospodarce Twojego serwera, ale zosta�� zatrzymany przez Towny. Rozwa�� zbanowanie tego adresu IP!'
+#Shown during resident purge
+msg_scanning_for_old_residents: 'Skanowanie w poszukiwaniu starych rezydent��w...'
+#Shown during resident purge
+msg_deleting_resident: 'Usuwanie rezydenta: %s.'
+#Shown during resident purge
+msg_purge_complete: 'Czystka mieszka��c��w uko��czona. Pozbyto si�� %s rezydent��w.'
+#Message to the Town, shown when a town is given bonus blocks.
+msg_you_have_been_given_bonus_blocks: 'Twoje miasto otrzyma��o do dyspozycji %s bonusowych chunk��w.'
+#Message shown when a town cannot purchase any more bonus blocks.
+msg_err_you_cannot_purchase_any_more_bonus_blocks: 'Twoje miasto nie mo��e dokupi�� wi��cej bonusowych chunk��w. Osi��gni��to ich maksymaln�� ilo����.'
+#Added in 0.128
+#Message shown to a capital city which is being denied the ability to toggle peaceful on.
+msg_err_capital_cannot_be_peaceful: 'Stolice nie mog�� zmienia�� statusu pokojowego.'
+#Message shown as feedback for /t toggle nationzone command.
+msg_changed_nationzone: 'Peryferie Nacji otaczaj��ce miasto s�� teraz %s'
+#Error message shown when a town tries to toggle their nationzone which doesn't exist.
+msg_err_your_town_has_no_nationzone_to_toggle: 'Twoje miasto nie ma Peryferii Nacji, aby m��c prze����czy�� ich obowi��zywanie!'
+#Added in 0.129
+#Shown in /towny prices, describing what controls nation upkeep.
+towny_prices_nation_upkeep_based_on: '&7Utrzymanie nacji zale��ne jest od czynnika &a%s'
+#Shown in /towny prices, describing what controls nation upkeep when it is per town.
+towny_prices_upkeep_num_towns: 'liczba miast.'
+#Shown in /towny prices, describing that controls nation upkeep when it is per resident.
+towny_prices_upkeep_nation_level: 'poziom nacji (ilo���� rezydent��w)'
+#Added in 0.130
+#Jail causes
+msg_jailed_mayor: 'Zamkni��ty przez burmistrza.'
+#Jail causes
+msg_jailed_outlaw: 'Zabito jako wygna��ca.'
+#Jail causes
+msg_jailed_war: 'Jeniec wojenny.'
+#Jail handbook messages
+msg_jailed_handbook_1: 'Wygl��da na to, ��e zosta��e�� wi��ziony, z powodu %s'
+#Jail handbook messages
+msg_jailed_handbook_2: 'Nie dobrze... C����, co mo��esz z tym zrobi��? Oto kilka pomocnych wskaz��wek dla Ciebie, przydatnych, gdy odbywasz kar��.'
+#Jail handbook messages
+msg_jailed_handbook_3: 'Zosta��e�� zamkni��ty na %s godzin. Po odbyciu kary zostaniesz wypuszczony na wolno����.'
+#Jail handbook messages
+msg_jailed_handbook_4_can: 'Mo��esz uciec z wi��zienia, opuszczaj��c swoje miasto poprzez polecenie ''/town leave''.'
+#Jail handbook messages
+msg_jailed_handbook_4_cant: 'Gdy jeste�� wi��ziony, nie mo��esz opu��ci�� swojego miasta, w celu ucieczki z wi��zienia.'
+#Jail handbook messages
+msg_jailed_handbook_bail_1: 'Mo��esz zosta�� zwolniony z kary wi��zienia p��ac��c kaucj�� za pomoc�� ''/res jail payball''.'
+#Jail handbook messages
+msg_jailed_handbook_bail_2: 'Wykupienie b��dzie kosztowa�� %s.'
+#Jail handbook messages
+msg_jailed_handbook_5: 'Je��li chcesz si�� podj���� ucieczki, dostaj��c si�� na dzikie tereny, staniesz si�� wolny.'
+#Jail handbook messages
+msg_jailed_handbook_6: 'Ale nie umrzyj, zanim dostaniesz si�� na dzikie tereny - w takim wypadku wr��cisz za kratki.'
+#Jail handbook messages
+msg_jailed_teleport: 'Na szcz����cie per��y kresowe i owoce chorusa mog�� by�� u��ywane do ucieczki, teraz musisz tylko je mie��.'
+#Jail handbook messages
+msg_jailed_war_prisoner: 'Jako jeniec wojenny zostaniesz uwolniony, je��li twojej nacji uda si�� sprowadzi�� HP dzia��ki wi��ziennej do 0, lub je��li miasto, w kt��rym jeste�� wi��ziony, zostanie usuni��ty z wojny.'
+#Jail handbook title
+msg_jailed_title: 'No i zosta��e�� zamkni��ty :('
+#Jail handbook author
+msg_jailed_author: 'Lito��ciwy Stra��nik'
+#Added in 0.130
+#Message shown when there are no allies to list in /town allylist.
+msg_error_town_has_no_allies: 'Miasto nie ma sojusznik��w.'
+#Message shown when there are no enemies to list in /town enemylist.
+msg_error_town_has_no_enemies: 'Miasto nie ma wrog��w.'
+#Added in 0.132
+#Message shown in the lines of the baltop books
+msg_baltop_book_format: '%s. %s | %s'
+#Added in 0.133
+#Message shown when a confirmation times out.
+msg_confirmation_timed_out: 'Up��yn���� limit czasu na potwierdzanie.'
+#Added in 0.134
+tc_player_channel_sound_muted: 'D��wi��ki wiadomo��ci z tego kana��u zosta��y wyciszone'
+tc_player_channel_sound_unmuted: 'D��wi��ki wiadomo��ci z tego kana��u zosta��y odciszone'
+#Added in 0.135
+msg_cant_toggle_pvp_outsider_in_plot: 'Na terenie twojej dzia��ki jest obcy, nie mo��esz zmieni�� statusu pvp!'
+#Added in 0.136
+msg_view_on_web: '&Kliknij, aby wy��wietli�� na stronie.'
+#Added in 0.137
+#Shown globally when a town merges with another town.
+town1_has_merged_with_town2: '&6Miasto %s wyrazi��o zgod�� na scalenie si�� z miastem zwierzchniczym %s.'
+#Shown in the town and nation status screens to inform about neutrality costs.
+status_neutrality_cost: 'Koszt neutralno��ci:'
+#Added in 0.138
+#Line 1 of the givebonus warning.
+msg_ptw_warning_1: 'Je��li zap��aci��e�� realnymi pieni��dzmi za ten zakup, zrozum: serwer na kt��rym grasz narusza licencj�� Minecraft EULA i licencj�� pluginu Towny.'
+#Line 2 of the givebonus warning.
+msg_ptw_warning_2: 'Zesp���� Towny nigdy nie zamierza��, aby ekspansja miasta by��a realizowana przy pomocy realnych pieni��dzy.'
+#Line 3 of the givebonus warning.
+msg_ptw_warning_3: 'Je��eli zakupu dokona��e�� prawdziwymi pi��ni��dzmi, powiniene�� rozwa��y�� zmian�� serwera na taki, kt��ry szanuje ��yczenie zespo��u Towny.'
+#Message shown when a town invites a player to join, and that town has a nation.
+you_have_been_invited_to_join3: 'Zosta��e�� zaproszony do do����czenia do %s&9 (Nacja: %s&9)'
+#Added in 0.139
+#Message shown when a town cannot afford to unclaim their land because the refund price is negative and charges them money.
+msg_err_your_town_cannot_afford_unclaim: 'Twoje miasto nie mo��e pozwoli�� sobie na porzucenie tego terenu. Potrzebna jest kwota %s.'
+#Message shown when a town pays to unclaim their land because the refund is a negative amount.
+msg_your_town_paid_x_to_unclaim: 'Miasto zap��aci��o %s za porzucenie tej ziemi.'
+#Confirmation message shown when a player will unclaim land that costs money.
+confirmation_unclaiming_costs: 'Porzucenie tego terenu b��dzie kosztowa�� %s, czy chcesz kontynuowa��?'
+#Added in 0.140
+#Message shown on first join, making players aware they can change how Towny messages appear using their Client's language setting.
+msg_your_locale: 'Towny u��ywa j��zyka twojej gry (%s) do t��umaczenia wiadomo��ci. B��d�� ��wiadomy, ��e w t��umaczeniu mo��e brakowa�� tekst��w.'
+#Message shown when a player tries to rename their town too quickly.
+msg_you_must_wait_x_seconds_before_renaming_your_town: 'Musisz poczeka�� %s sekund przed ponown�� zmian�� nazwy miasta.'
+#Added in 1.141
+msg_newday_already_scheduled_soon: 'Nowe zadanie dnia jest ju�� zaplanowane i b��dzie dost��pne wkr��tce.'
+#Added in 0.142
+#Message shown when a player is toggling neutrality too fast.
+msg_err_cannot_toggle_neutral_x_seconds_remaining: 'Nie mo��esz zmieni�� statusu neutralno��ci, odczekaj %s sekund.'
+#Added in 0.143
+#Message shown when a console sender uses a command meant for in game.
+msg_err_command_not_for_console_use: 'Tego polecenia nie mo��e zosta����wykonane z konsoli.'
+#Added in 0.144
+#Message shown when an admin uses /ta town NAME toggle unlimitedclaims.
+msg_town_unlimitedclaims_setting_set_to: 'Miasto %s ma ustawione zniesienie limitu przej��tych ziem na %s'
+#Message shown when an admin uses up their claims and is asked if they want to turn on unlimited claiming.
+did_you_want_to_toggle_unlimited_claims: 'Nie masz wystarczaj��cej liczby chunk��w mo��liwych do przej��cia. Czy chcesz wy����czy�� ten limit dla miasta %s?'
+#Added in 0.145
+#Message shown when a conquered town tries to leave their nation.
+msg_err_your_conquered_town_cannot_leave_the_nation_yet: 'Nie mo��esz opu��ci�� swojej nacji, twoje miasto jest podbite.'
+msg_err_console_only: 'To polecenie mo��e by�� wykonywane jedynie przez konsol��.'
+msg_err_player_only: 'To polecenie mo��e by�� u��ywane tylko przez gracza.'
+#Added in 0.146
+#Message shown when a resident toggles bordertitles with /res toggle bordertitles
+msg_border_titles_toggled: 'Wiadomo���� tytu��owa wy��wietlana podczas wkroczenia ma granic�� to %s.'
+#Added in 0.147
+#Message shown confirming that an admin wants to reset their Towny config
+this_will_reset_your_config: 'Wykonanie tego polecenia spowoduje zresetowanie pliku config.yml do pliku domy��lnego. Czy chcesz kontynuowa��?'
+#Message shown when an admin is setting a new king or capital and would override the config by doing so
+msg_warn_overriding_server_config: 'W ten spos��b omijasz limity ilo��ci mieszka��c��w ustawione w konfiguracji serwera. Czy nadal chcesz kontynuowa��?'
+#Added in 0.148
+#Message shown when invalid outpost spawns are removed using the /ta commands.
+msg_removed_x_invalid_outpost_spawns: 'Usuni��to nieprawid��owe punkty spawnu dla plac��wek w ilo��ci %d.'
+#Added in 0.149
+#Message shown when a player logs in and their town is bankrupt.
+msg_your_town_is_bankrupt: 'Twoje miasto og��osi��o upad��o����, wp��a�� pieni��dze do swojego banku poleceniem /town deposit {amount}.'
+#Added in 0.150
+#Message shown when a player cannot do something because they have a town.
+msg_err_you_cannot_use_this_command_because_you_are_already_a_member_of_a_town: 'Nie mo��esz u��y�� tej komendy, poniewa�� ju�� jeste�� cz��onkiem miasta. Je��li chcesz kontynuowa��, musisz u��y�� ''/t leave''.'
+#Message shown when a player tries to spawn while in an town they are outlawed in, when outlaw TPing is a disallowed zone.
+msg_a_town_you_are_outlawed_in: 'miasto, od kt��rego jeste�� odizolowany.'
+#Message shown when TownyRTP could not find any towns to teleport to.
+msg_err_could_not_find_any_towns_to_rtp: 'Nie mo��na znale���� ��adnych otwartych, publicznych miast z dzia��kami na sprzeda�� (za kt��re ci�� sta��), do kt��rych mo��esz si����teleportowa��.'
+#Message showing payment for RTP.
+msg_cost_spawn_rtp: '&bObci����ono ci�� kwot�� %s za teleportacj����do losowej dzia��ki wystawionej na sprzeda��.'
+#Message shown to a player when they use the town rtp command.
+msg_you_are_about_to_be_teleported_to_a_plot: 'Za chwil�� zostaniesz przeteleportowany na dzia��k��, kt��ra jest do kupienia za kwot�� %s. U��yj ''/plot claim'' w celu zaj��cia dzia��ki, gdy b��dziesz na niej sta��.'
+#Shown in TownyRTP when a player joins a town and is prompted to be TPd to some land to buy.
+townyrtp.the_town_has_plots_to_buy_would_you_like_to_tp: "Miasto %s ma dzia��ki, kt��re mo��esz kupi��, czy przeteleportowa�� si�� do dzia��ki, kt��r�� mo��esz teraz kupi��?"
+#Shown when you arrive at your destination after opting in to be teleported to a plot to buy.
+townyrtp.you_have_arrived: "Zosta��e�� przeteleportowany do dzia��ki, kt��r�� mo��esz kupi��. U��yj komendy \"/plot claim\" je��eli chcesz zaj���� dzia��k��."
+#Used in the town's status screen to display plots
+status_plot_string: 'Dzia��ki'
+#Displays a plot type and the amount of townblocks of that type in the town
+status_plot_hover: '%s:'
+#Usage:
+msg_usage: 'Sk��adnia komendy: %s'
+#Shown in teh bank history books when there are no pages to display
+msg_err_no_pages_to_display: 'Brak wpis��w w historii!'
+#Added in 0.151
+#Message shown to players trying to spawn to a non-allied/non-member nation when public spawning is not allowed at all.
+msg_err_nation_unaffiliated: 'Ta nacja nie jest z tob�� w����aden spos��b powi��zana.'
+#Message shown to players trying to spawn to a non-nation/non-member town when public spawning is not allowed at all.
+msg_err_town_unaffiliated: 'To miasto nie jest z tob�� w ��aden spos��b powi��zane.'
+#Added in 0.152
+#Message shown when a player tries to add a jail cell location where one already exists.
+msg_err_this_location_already_has_a_jailcell: 'Ta lokalizacja ma ju�� kom��rk�� wi��zienia.'
+#Title line of the /plot perm hud.
+msg_perm_hud_title: 'Uprawnienia dzia��ki'
+#Seen in /plot perm hud:
+msg_perm_hud_build: 'Buduj: '
+#Seen in /plot perm hud:
+msg_perm_hud_destroy: 'Niszczenie: '
+#Seen in /plot perm hud:
+msg_perm_hud_switch: 'Prze����czanie: '
+#Seen in /plot perm hud:
+msg_perm_hud_item_use: 'Przedmiot: '
+#Seen in /plot perm hud:
+msg_perm_hud_plot_type: 'Rodzaj: '
+#Seen in /plot perm hud:
+msg_perm_hud_pvp: 'Walka: '
+#Seen in /plot perm hud:
+msg_perm_hud_explosions: 'Wybuchy: '
+#Seen in /plot perm hud:
+msg_perm_hud_firespread: 'Rozprzestrzenianie si�� ognia: '
+#Seen in /plot perm hud:
+msg_perm_hud_mobspawns: 'Spawn Mob��w: '
+#Seen in /plot perm hud:
+msg_perm_hud_key: 'Klucz'
+#Seen in /plot perm hud:
+msg_perm_hud_friend: 'przyjaciel'
+#Seen in /plot perm hud:
+msg_perm_hud_town: 'miasto'
+#Seen in /plot perm hud:
+msg_perm_hud_ally: 'sojusznik'
+#Seen in /plot perm hud:
+msg_perm_hud_resident: 'mieszkaniec'
+#Seen in /plot perm hud:
+msg_perm_hud_nation: 'nar��d'
+#Seen in /plot perm hud:
+msg_perm_hud_outsider: 'outsider'
+#Seen in /plot perm hud:
+msg_perm_hud_plot_name: 'Dzia��ka:'
+#Added in 0.153
+#Message shown confirming /ta town NAME settownlevel # command.
+msg_town_level_overridden_with: 'The town %s has had their townlevel set to %s.'
+#Message shown when unsetting a manual town level.
+msg_town_level_unset: 'The town %s has had their manually-set townlevel unset. Current townlevel is %s.'
+#Message show when a town is unable to have purchased townblocks, when /ta town NAME giveboughtblocks is used.
+msg_err_town_not_allowed_purchased_blocks: 'The town %s is unable to purchase townblocks based on the config rules.'
+#Message shown when unsetting all purchased townblocks from a town.
+msg_purchased_blocks_unset: 'The town %s has had their purchased townblocks removed.'
+#Message shown when /ta town name giveboughtblocks # is used.
+msg_purchased_blocks_changed: 'The town %s has been given %s bought townblocks, they currently have %s bought townblocks.'
+#Added in 0.154
+msg_comptype_upkeep: 'Utrzymanie'
+#Added in 0.155
+#Message shown when toggling town upkeep admin setting
+msg_town_upkeep_setting_set_to: 'The town %s has had their upkeep setting set to %s.'
+#Shown when a player tries to set a plot type but their town has reached the limit, first number is the limit and the string is the type name.
+msg_town_plot_type_limit_reached: 'Twoje miasto osi��gne��o limit %d %s dzia��ek.'
+#Added in 0.156
+msg_spawn_cost_free: 'Za darmo'
+#Message shown when someone tries to set a plot's type to one already set.
+msg_plot_already_of_type: 'Ta dzia��ka jest ju�� typu %s.'
+msg_town_board_reset: '&bTown board reset.'
+msg_town_has_no_jailslots: 'Wi��zienie w mie��cie jest pe��ne.'
+msg_player_has_been_sent_to_jail_into_cell_number_x_for_x_hours_by_x_for_x_bail: '%s has been sent to %s into cell number %s for %s hours with a bail of %s by %s.'
+msg_player_has_been_sent_to_jail_into_cell_number_x_for_x_hours_by_x: '%s zosta�� wys��any do %s. Odbywa kar�� w celi numer %s, kt��ra to potrwa %s godzin. Wyrok zatwierdzony przez %s.'
+msg_you_have_been_jailed_your_bail_is_x: 'Aresztowano ci�� twoja kaucja wynosi %s.'
+msg_err_higher_than_max_allowed_bail_x: 'Twoja kaucja wynosi wi��cej ni�� maksimum, czyli %s.'
+msg_err_higher_than_max_allowed_hours_x: 'Your set hours were higher then the maximum which is %s.'
+msg_not_enough_money_in_bank_to_jail_x_fee_is_x: 'Za ma��o ��rodk��w w banku miasta, aby aresztowa�� %s, op��ata wynosi %s.'
+msg_you_were_released_as_town_ran_out_of_slots: 'Stra��nicy uwolnili ci��, ��eby zwolni�� miejsce.'
+msg_x_has_been_released_as_jail_slots_ran_out: 'Zwolniono %s aby zwolni�� miejsce na innego wi����nia.'
+msg_you_were_released_as_town_ran_out_of_upkeep_funds: 'Zosta��e�� uwolniony, poniewa�� twoi stra��nik��w nie sta�� na trzymanie ci�� w wi��zieniu.'
+msg_x_has_been_released_ran_out_of_upkeep_funds: 'Uwolniono %s z powodu braku ��rodk��w w banku miasta.'
+msg_x_has_been_withdrawn_for_upkeep_of_prisoner_x: 'Wyp��acono %s z banku miasta, ��eby op��aci�� koszty utrzymania wi����nia %s.'
+msg_x_has_been_withdrawn_for_jailing_of_prisoner_x: 'Wyp��acono %s z banku miasta, ��eby op��aci�� koszty aresztowania wi����nia %s.'
+#Message shown in the confirmation for /ta resetbanks {amount}.
+confirmation_are_you_sure_you_want_to_reset_all_banks: 'Are you sure you want to reset all town and nation banks to %s?'
+#Message shown when a nation cannot add a town because of the max-residents-limit.
+msg_err_cannot_add_nation_over_resident_limit: '&cYour nation has reached the maximum number of allowed residents-per-nation, %s, and cannot add %s.'
+#Message shown to a town when they cannot join a nation because of the max-residents-limit.
+msg_err_cannot_join_nation_over_resident_limit: '&cYou cannot join this nation as it would be over the residents-per-nation limit of %s.'
+#Message shown to a town because the nation has hit their max-towns-limit.
+msg_err_cannot_join_nation_over_town_limit: '&cYou cannot join this nation, it has reached the maximum number of allowed towns-per-nation: %s.'
+#Message shown confirming /tw set usedefaults
+confirmation_are_you_sure_you_want_to_reset_this_worlds_settings: 'Czy na pewno chcesz, aby zresetowano wszystkie ustawienia tego ��wiata do tych, kt��re zosta��y ustawione w plikach konfiguracji?'
+#Part of the /town plots output.
+msg_town_plots_title: ' Town Plots'
+#Part of the /town plots output.
+msg_town_plots_town_size: '<dark_green>Wielko���� Miasta: <green>%s/%s'
+#Part of the /town plots output.
+msg_town_plots_town_bought: ' <aqua>[Bought: %s/%s]'
+#Part of the /town plots output.
+msg_town_plots_town_bonus: '<aqua>[Bonus: %s]'
+#Part of the /town plots output.
+msg_town_plots_town_nationbonus: '<aqua>[BonusPa��stwa: %s]'
+#Part of the /town plots output.
+msg_town_plots_town_owned_land: '<dark_green>Town Owned Land: <green>%s'
+#Part of the /town plots output.
+msg_town_plots_type_header: '<dark_green>Type: <green>Player-Owned <gray>/ <aqua>ForSale <gray>/ <yellow>Total'
+#Part of the /town plots output.
+msg_town_plots_type_header_revenue: ' <gray>/ <dark_green>Daily Revenue'
+#Part of the /town plots output.
+msg_town_plots_type_line: '<dark_green>%s: <green>%s <gray>/ <aqua>%s <gray>/ <yellow>%s'
+#Part of the /town plots output.
+msg_town_plots_type_line_revenue: ' <gray>/ <dark_green>%s'
+#Message giving confirmation warning for trusttown
+confirmation_msg_trusttown_consequences: 'You are about to give full plot permissions to an entire town. This means that the mayor of the town will be able to decide who gets permission to build and break in your town, by adding residents. If this town is open, then anyone can join and gain full access to your town. Are you sure you wish to trust all residents (including future residents,) from this town?'
+#Message shown when a player uses a command that is blocked because their location has an active war.
+msg_command_war_blocked: 'You cannot run that command because your town is at war.'
+#Message shown when a player tries to unclaim land but cannot because an outsider is there (and the config doesn't allow this.)
+msg_cant_unclaim_outsider_in_town: 'There is an outsider in this townblock, you can''t unclaim this townblock!'
+#Message shown when a player is making a town too soon after deleting one.
+msg_err_cannot_create_new_town_x_seconds_remaining: 'You cannot create a new town, %s seconds remaining on cooldown.'
+#Message shown when a player is claiming land too soon after unclaiming it.
+msg_err_cannot_claim_townblock_x_seconds_remaining: 'You cannot claim this townblock: %s, %s seconds remaining on cooldown.'
+#Messages shown when an admin uses /ta set founder {townname} {foundername}
+msg_founder_set: 'The town of %s has had the founder set to %s.'
+#Message shown when toggling town allowed to war admin setting
+msg_town_allowedtowar_setting_set_to: 'The town %s has had their allowed-to-war setting set to %s.'
+#Message shown to confirm that a player wants to unclaim all of their land, besides the homeblock, seen with /t unclaim all.
+confirmation_did_you_want_to_unclaim_all: 'Are you sure you want to unclaim all of your land? (Your homeblock will not be unclaimed.)'
+#Message shown after a player unclaims all their land.
+msg_you_have_unclaimed_everything_but_your_homeblock: "You have unclaimed everything but your homeblock. To unclaim your homeblock you must set a new homeblock using '/t set homeblock' first."
+msg_warn_are_you_sure_you_want_to_transfer_nation_ownership: "<red>Are you sure you want to transfer nation ownership to %s? This action is irreversible!"
+msg_warn_town_already_capital: "<red>The town of %s is already the nation capital."
+msg_min_adjacent_blocks: 'You are required to have at least %s adjacent town blocks. There is only %s.'
+#Shown when a player with /plot evict permissions uses /plot claim on an owned but not for sale plot, please preserve comma space at the start when translating.
+msg_plot_claim_consider_evict_instead: ', perhaps you are looking for /plot evict instead?'
+#Shown to a player when Towny does not know of them.
+msg_you_are_unknown: "You are not known to Towny."
+#Generic Resident/Town/Nation/Thing is not known to Towny.
+msg_townyobject_unknown: "%s is not known to Towny."
+#Shown when a resident is unknown to Towny.
+msg_err_resident_unknown: "%s is not a resident that is recognized."
+#Shown when a town is unknown to Towny.
+msg_err_town_unknown: "%s is not a town that is recognized."
+#Shown when a nation is unknown to Towny.
+msg_err_nation_unknown: "%s is not a nation that is recognized."
+#Shown when a resident doesn't belong to a town.
+msg_err_townyobject_x_has_no_town: "%s does not belong to any town."
+#Shown when a town doesn't belong to a nation.
+msg_err_townyobject_x_has_no_nation: "%s does not belong to any nation."
+#Shown to admins when they use /plot claimedat on a plot which has no registration date.
+msg_err_townblock_has_no_claimedat_data: "This townblock has no data on when it was claimed."
+#Shown when someone cannot afford something, to tell them what it costs.
+msg_err_you_need_x_to_pay: "You need %s to pay."
+#Shown when someone tries to deposit/withdraw 0 amounts.
+msg_err_amount_must_be_greater_than_zero: "Amount must be greater than zero."
+#Message shown when taking over claims is disabled on a server.
+msg_err_taking_over_claims_is_not_enabled: "Taking over claims is not enabled on this server."
+#Messages shown when taking over a claim is not allowed because the town is not overclaimed.
+msg_err_this_townblock_cannot_be_taken_over: "This TownBlock cannot be taken over, the town that it belongs to is not overclaimed."
+#Message shown when taking over a claim would also set the homeblock because the town has no claims.
+msg_err_you_cannot_make_this_your_homeblock: "You cannot make this claim because it would make this TownBlock your homeblock, which is not allowed."
+#Message shown when taking over a claim is stopped by another plugin.
+msg_err_another_plugin_cancelled_takeover: "Another plugin has stopped your takeover of this land."
+#Confirmation shown when taking over a claim.
+confirmation_you_are_about_to_take_over_a_claim: "You are about to take over a claim belonging to %s for the cost: %s. Did you want to continue?"
+#Warning message shown when a town is beginning to claim close to their limit, and the takeoverclaim feature is active.
+msg_warning_you_are_almost_out_of_townblocks: "Warning: You have nearly used up your available townblocks for claiming. If you lose a resident you will be at risk of your town being able to have townblocks stolen by other towns."
+#Warning message shown on login when a town is overclaimed and at risk of falling victim to the takeoverclaim feature.
+msg_warning_your_town_is_overclaimed: "Warning: Your town is overclaimed. While you have too many townblocks claimed, it will be possible for other towns to takeover plots of your town, consider unclaiming some land."
+#Chunk Notification slug, shown when entering a plot that can be stolen.
+chunk_notification_takeover_available: " <red>[TakeoverClaim Available]"
+#Message shown when a takeover claim would cut a town into two sections.
+msg_err_you_cannot_over_claim_would_cut_into_two: "You cannot take over this plot, because doing so would split the town into two segments. You will have to overclaim from a different direction."
+#Message shown when an admin tries to toggle conquered off of a town that is not conquered.
+msg_err_that_town_is_not_conquered: "%s is already not conquered."
+#Message shown when a town has its conquered status removed by an admin.
+msg_conquered_status_removed: "%s has had their conquered status removed."
+msg_setup_command_folia: "The /ta install command currently does not work on Folia due to the conversation API not working, refer to the install guide below instead."
+msg_perm_gui_folia: "This button currently does not work on Folia due to the conversation API not working, use the /plot perm add <name> command instead."
+msg_folia_scoreboard: "Changing scoreboards is currently not supported on Folia."
+#Message shown when a player cannot unclaim land because at least one plot wouldn't have enough adjacent claims.
+msg_err_cannot_unclaim_not_enough_adjacent_claims: "You cannot unclaim this townblock because the townblock at %s,%s would not have enough adjacent claims (%s are required.)"
+#Message shown when a nation collects taxes from its towns.
+msg_tax_collected_from_towns: "<aqua>Your nation collected %s in tax from its towns."
+#Message shown when a town collects taxes from its residents.
+msg_tax_collected_from_residents: "<aqua>Your town collected %s in tax from its residents."
+#Message shown when a town collects taxes from its plottaxes.
+msg_tax_collected_from_plots: "<aqua>Your town collected %s in tax from its plots' taxes."
+#Message shown when a nation collects taxes from its towns that are conquered.
+msg_tax_collected_from_conquered_towns: "<aqua>Your nation collected %s in extra tax from its conquered towns."
+msg_your_town_was_exempt_from_the_nation_conquered_tax: "<aqua>Your town was exempt from the nation's conquered tax."
+msg_nation_set_conquered_tax__amount_set: "%s has set the conquered tax amount to %s."
+msg_err_cannot_set_nation_conquere_tax_amount_higher_than: "You cannot set the conquered tax above %s."
+msg_err_your_town_is_not_old_enough_to_overclaim: "Your town is not old enough to overclaim, you must wait another %s."
+msg_err_your_cannot_overclaim_for_another: "You cannot overclaim again for another %s."

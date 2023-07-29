@@ -1,0 +1,360 @@
+[22:57:59] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[22:58:00] [ServerMain/INFO]: Loaded 7 recipes
+[22:58:00] [Server thread/INFO]: Starting minecraft server version 1.20.1
+[22:58:00] [Server thread/INFO]: Loading properties
+[22:58:01] [Server thread/INFO]: This server is running Paper version git-Paper-100 (MC: 1.20.1) (Implementing API version 1.20.1-R0.1-SNAPSHOT) (Git: f402f89)
+[22:58:01] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[22:58:01] [Server thread/INFO]: Using 4 threads for Netty based IO
+[22:58:01] [Server thread/WARN]: [!] The timings profiler has been enabled but has been scheduled for removal from Paper in the future.
+    We recommend installing the spark profiler as a replacement: https://spark.lucko.me/
+    For more information please visit: https://github.com/PaperMC/Paper/issues/8948
+[22:58:01] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using 1 I/O threads, 1 worker threads, and gen parallelism of 1 threads
+[22:58:01] [Server thread/INFO]: Default game type: SURVIVAL
+[22:58:01] [Server thread/INFO]: Generating keypair
+[22:58:01] [Server thread/INFO]: Starting Minecraft server on *:25567
+[22:58:01] [Server thread/INFO]: Using epoll channel type
+[22:58:01] [Server thread/INFO]: Paper: Using libdeflate (Linux x86_64) compression from Velocity.
+[22:58:01] [Server thread/INFO]: Paper: Using OpenSSL 3.0.x (Linux x86_64) cipher from Velocity.
+[22:58:02] [Server thread/INFO]: [SpigotLibraryLoader] [EvenMoreFish] Loading 3 libraries... please wait
+[22:58:02] [Server thread/INFO]: [SpigotLibraryLoader] [EvenMoreFish] Loaded library /home/gameuser/libraries/com/zaxxer/HikariCP/4.0.3/HikariCP-4.0.3.jar
+[22:58:02] [Server thread/INFO]: [SpigotLibraryLoader] [EvenMoreFish] Loaded library /home/gameuser/libraries/org/slf4j/slf4j-api/2.0.0-alpha1/slf4j-api-2.0.0-alpha1.jar
+[22:58:02] [Server thread/INFO]: [SpigotLibraryLoader] [EvenMoreFish] Loaded library /home/gameuser/libraries/org/flywaydb/flyway-core/9.16.2/flyway-core-9.16.2.jar
+[22:58:02] [Server thread/INFO]: [SpigotLibraryLoader] [EvenMoreFish] Loaded library /home/gameuser/libraries/com/fasterxml/jackson/dataformat/jackson-dataformat-toml/2.14.0/jackson-dataformat-toml-2.14.0.jar
+[22:58:02] [Server thread/INFO]: [SpigotLibraryLoader] [EvenMoreFish] Loaded library /home/gameuser/libraries/com/fasterxml/jackson/core/jackson-databind/2.14.0/jackson-databind-2.14.0.jar
+[22:58:02] [Server thread/INFO]: [SpigotLibraryLoader] [EvenMoreFish] Loaded library /home/gameuser/libraries/com/fasterxml/jackson/core/jackson-annotations/2.14.0/jackson-annotations-2.14.0.jar
+[22:58:02] [Server thread/INFO]: [SpigotLibraryLoader] [EvenMoreFish] Loaded library /home/gameuser/libraries/com/fasterxml/jackson/core/jackson-core/2.14.0/jackson-core-2.14.0.jar
+[22:58:02] [Server thread/INFO]: [SpigotLibraryLoader] [EvenMoreFish] Loaded library /home/gameuser/libraries/org/apache/commons/commons-text/1.10.0/commons-text-1.10.0.jar
+[22:58:02] [Server thread/INFO]: [SpigotLibraryLoader] [EvenMoreFish] Loaded library /home/gameuser/libraries/org/apache/commons/commons-lang3/3.12.0/commons-lang3-3.12.0.jar
+[22:58:02] [Server thread/INFO]: [SpigotLibraryLoader] [EvenMoreFish] Loaded library /home/gameuser/libraries/com/github/ben-manes/caffeine/caffeine/2.9.3/caffeine-2.9.3.jar
+[22:58:02] [Server thread/INFO]: [SpigotLibraryLoader] [EvenMoreFish] Loaded library /home/gameuser/libraries/org/checkerframework/checker-qual/3.19.0/checker-qual-3.19.0.jar
+[22:58:02] [Server thread/INFO]: [SpigotLibraryLoader] [EvenMoreFish] Loaded library /home/gameuser/libraries/com/google/errorprone/error_prone_annotations/2.10.0/error_prone_annotations-2.10.0.jar
+[22:58:02] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.4.98
+[22:58:02] [Server thread/INFO]: [Vault] Loading server plugin Vault v1.7.3-b131
+[22:58:02] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.2.15+6463-5ca4dff
+[22:58:02] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@3118042]
+[22:58:02] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.9-beta1+2249-223b80c
+[22:58:02] [Server thread/INFO]: [Multiverse-Core] Loading server plugin Multiverse-Core v4.3.1-b861
+[22:58:02] [Server thread/INFO]: [Essentials] Loading server plugin Essentials v2.20.0
+[22:58:02] [Server thread/INFO]: [CMILib] Loading server plugin CMILib v1.4.0.3
+[22:58:02] [Server thread/INFO]: [MythicMobs] Loading server plugin MythicMobs v5.3.5-64893d49
+[22:58:02] [Server thread/INFO]: [LumineUtils] (io.lumine.mythic.bukkit.utils.) is bound to plugin MythicMobs - io.lumine.mythic.bukkit.MythicBukkit
+[22:58:02] [Server thread/INFO]: [Towny] Loading server plugin Towny v0.99.5.7
+[22:58:02] [Server thread/INFO]: [ChestShop] Loading server plugin ChestShop v3.12.2 (build 353)
+[22:58:02] [Server thread/INFO]: [ChestShop] WorldGuard version 7.0.9-beta1+2249-223b80c loaded.
+[22:58:02] [Server thread/INFO]: [mcMMO] Loading server plugin mcMMO v2.1.218
+[22:58:02] [Server thread/INFO]: [mcMMO] Registered WG flags successfully!
+[22:58:02] [Server thread/INFO]: [Jobs] Loading server plugin Jobs v5.2.0.0
+[22:58:02] [Server thread/INFO]: [DisableRecipe] Loading server plugin DisableRecipe v1.4.4
+[22:58:02] [Server thread/INFO]: [BlueMap] Loading server plugin BlueMap v3.16
+[22:58:02] [Server thread/INFO]: [Colored Signs] Loading server plugin ColoredSigns v6.2.1.212
+[22:58:02] [Server thread/INFO]: [LocketteX] Loading server plugin LocketteX v1.8.0
+[22:58:02] [Server thread/INFO]: [QualityArmory] Loading server plugin QualityArmory v2.0.10
+[22:58:02] [Server thread/INFO]: [SilkSpawners] Loading server plugin SilkSpawners v7.5.0
+[22:58:02] [Server thread/INFO]: [TownyChat] Loading server plugin TownyChat v0.107
+[22:58:02] [Server thread/INFO]: [UltimateFood] Loading server plugin UltimateFood v1.1.2
+[22:58:02] [Server thread/INFO]: [Brewery] Loading server plugin Brewery v3.1.1
+[22:58:02] [Server thread/INFO]: [CommandPanels] Loading server plugin CommandPanels v3.19.1.1
+[22:58:02] [Server thread/INFO]: [dr] Loading server plugin DiceRoller v0.0.1
+[22:58:02] [Server thread/INFO]: [EvenMoreFish] Loading server plugin EvenMoreFish v1.6.11.3
+[22:58:02] [Server thread/INFO]: [DecorHeads] Loading server plugin DecorHeads v2.3.0
+[22:58:02] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[22:58:02] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.4.98
+[22:58:03] [Server thread/INFO]:         __    
+[22:58:03] [Server thread/INFO]:   |    |__)   LuckPerms v5.4.98
+[22:58:03] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[22:58:03] [Server thread/INFO]: 
+[22:58:03] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[22:58:03] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[22:58:03] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[22:58:03] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[22:58:03] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 1152ms)
+[22:58:03] [Server thread/INFO]: [Vault] Enabling Vault v1.7.3-b131
+[22:58:03] [Server thread/INFO]: [Vault] [Economy] Essentials Economy found: Waiting
+[22:58:03] [Server thread/INFO]: [Vault] [Permission] SuperPermissions loaded as backup permission system.
+[22:58:03] [Server thread/INFO]: [Vault] Enabled Version 1.7.3-b131
+[22:58:03] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[22:58:03] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.2.15+6463-5ca4dff
+[22:58:03] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[22:58:03] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[22:58:04] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_20_R1.PaperweightAdapter as the Bukkit adapter
+[22:58:04] [Server thread/INFO]: Preparing level "aenix"
+[22:58:05] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[22:58:05] [Server thread/INFO]: Time elapsed: 198 ms
+[22:58:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[22:58:05] [Server thread/INFO]: Time elapsed: 41 ms
+[22:58:05] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[22:58:05] [Server thread/INFO]: Time elapsed: 16 ms
+[22:58:05] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.9-beta1+2249-223b80c
+[22:58:05] [Server thread/INFO]: [WorldGuard] (aenix) TNT ignition is PERMITTED.
+[22:58:05] [Server thread/INFO]: [WorldGuard] (aenix) Lighters are PERMITTED.
+[22:58:05] [Server thread/INFO]: [WorldGuard] (aenix) Lava fire is PERMITTED.
+[22:58:05] [Server thread/INFO]: [WorldGuard] (aenix) Fire spread is UNRESTRICTED.
+[22:58:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'aenix'
+[22:58:05] [Server thread/INFO]: [WorldGuard] (aenix_nether) TNT ignition is PERMITTED.
+[22:58:05] [Server thread/INFO]: [WorldGuard] (aenix_nether) Lighters are PERMITTED.
+[22:58:05] [Server thread/INFO]: [WorldGuard] (aenix_nether) Lava fire is PERMITTED.
+[22:58:05] [Server thread/INFO]: [WorldGuard] (aenix_nether) Fire spread is UNRESTRICTED.
+[22:58:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'aenix_nether'
+[22:58:05] [Server thread/INFO]: [WorldGuard] (aenix_the_end) TNT ignition is PERMITTED.
+[22:58:05] [Server thread/INFO]: [WorldGuard] (aenix_the_end) Lighters are PERMITTED.
+[22:58:05] [Server thread/INFO]: [WorldGuard] (aenix_the_end) Lava fire is PERMITTED.
+[22:58:05] [Server thread/INFO]: [WorldGuard] (aenix_the_end) Fire spread is UNRESTRICTED.
+[22:58:05] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'aenix_the_end'
+[22:58:05] [Server thread/INFO]: [WorldGuard] Loading region data...
+[22:58:05] [Server thread/INFO]: [Multiverse-Core] Enabling Multiverse-Core v4.3.1-b861
+[22:58:05] [Server thread/WARN]: [Multiverse-Core] "Multiverse-Core v4.3.1-b861" has registered a listener for org.bukkit.event.entity.EntityCreatePortalEvent on method "public void com.onarandombox.MultiverseCore.listeners.MVPortalListener.entityPortalCreate(org.bukkit.event.entity.EntityCreatePortalEvent)", but the event is Deprecated. "Server performance will be affected"; please notify the authors [dumptruckman, Rigby, fernferret, lithium3141, main--].
+[22:58:05] [Server thread/INFO]: [Multiverse-Core] ?aWe are aware of the warning about the deprecated event. There is no alternative that allows us to do what we need to do and performance impact is negligible. It is safe to ignore.
+[22:58:05] [Server thread/INFO]: [Multiverse-Core] 3 - World(s) loaded.
+[22:58:05] [Server thread/WARN]: [Multiverse-Core] Buscript failed to load! The script command will be disabled! If you would like not to see this message, use `/mv conf enablebuscript false` to disable Buscript from loading.
+[22:58:05] [Server thread/INFO]: [Multiverse-Core] Version 4.3.1-b861 (API v24) Enabled - By dumptruckman, Rigby, fernferret, lithium3141 and main--
+[22:58:05] [Server thread/INFO]: [Essentials] Enabling Essentials v2.20.0
+[22:58:05] [Server thread/ERROR]: [Essentials] You are running an unsupported server version!
+[22:58:06] [Server thread/INFO]: [Essentials] Attempting to convert old kits in config.yml to new kits.yml
+[22:58:06] [Server thread/INFO]: [Essentials] No kits found to migrate.
+[22:58:06] [Server thread/INFO]: [Essentials] Loaded 38132 items from items.json.
+[22:58:06] [Server thread/INFO]: [Essentials] Using locale en_US
+[22:58:06] [Server thread/INFO]: [Essentials] ServerListPingEvent: Spigot iterator API
+[22:58:06] [Server thread/INFO]: [Essentials] Starting Metrics. Opt-out using the global bStats config.
+[22:58:06] [Server thread/INFO]: [Vault] [Economy] Essentials Economy hooked.
+[22:58:06] [Server thread/INFO]: [Essentials] Using Vault based permissions (LuckPerms)
+[22:58:06] [Server thread/INFO]: [CMILib] Enabling CMILib v1.4.0.3
+[22:58:07] [Server thread/INFO]: Server version: v1_20_R1 - 1.20.1 - paper
+[22:58:07] [Server thread/INFO]: Updated (EN) language file. Took 37ms
+[22:58:07] [Server thread/INFO]: [MythicMobs] Enabling MythicMobs v5.3.5-64893d49
+[22:58:07] [Server thread/INFO]: [MythicMobs] Loading MythicMobs for Paper (MC: 1.20.1)...
+[22:58:07] [Server thread/INFO]: [MythicMobs] The server is running PaperSpigot; enabled PaperSpigot exclusive functionality
+[22:58:09] [Server thread/INFO]: [MythicMobs] Mythic mcMMO Support has been enabled!
+[22:58:09] [Server thread/INFO]: [MythicMobs] Mythic Vault Support has been enabled!
+[22:58:09] [Server thread/INFO]: [MythicMobs] Mythic WorldGuard Support has been enabled!
+[22:58:09] [Server thread/INFO]: [MythicMobs] Base directory /home/gameuser/plugins/MythicMobs/SavedData
+[22:58:09] [Server thread/INFO]: [MythicMobs] Module directory /home/gameuser/plugins/MythicMobs/SavedData/worlds
+[22:58:10] [Server thread/INFO]: [MythicMobs] Loading Packs...
+[22:58:10] [Server thread/INFO]: [MythicMobs] Loading Items...
+[22:58:10] [Server thread/INFO]: [MythicMobs] Loading Item Groups...
+[22:58:10] [Server thread/INFO]: [MythicMobs] Loading Skills...
+[22:58:10] [Server thread/INFO]: [MythicMobs] Loading Drop Tables...
+[22:58:10] [Server thread/INFO]: [MythicMobs] Loading Random Spawns...
+[22:58:10] [Server thread/INFO]: [MythicMobs] Loading Spawn Blocks...
+[22:58:10] [Server thread/INFO]: [MythicMobs] ? Loaded 8 mobs.
+[22:58:10] [Server thread/INFO]: [MythicMobs] ? Loaded 3 vanilla mob overrides.
+[22:58:10] [Server thread/INFO]: [MythicMobs] ? Loaded 0 mob stacks.
+[22:58:10] [Server thread/INFO]: [MythicMobs] ? Loaded 3 skills.
+[22:58:10] [Server thread/INFO]: [MythicMobs] ? Loaded 0 random spawns.
+[22:58:10] [Server thread/INFO]: [MythicMobs] ? Loaded 3 mythic items.
+[22:58:10] [Server thread/INFO]: [MythicMobs] ? Loaded 2 drop tables.
+[22:58:10] [Server thread/INFO]: [MythicMobs] ? Loaded 0 mob spawners.
+[22:58:10] [Server thread/INFO]: [MythicMobs] MythicMobs configuration file loaded successfully.
+[22:58:10] [Server thread/INFO]: [MythicMobs] Started up bStats Metrics
+[22:58:10] [Server thread/INFO]: [MythicMobs] ? MythicMobs v5.3.5 ( build 64893d49 ) has been successfully loaded!
+[22:58:10] [Server thread/INFO]: [Towny] Enabling Towny v0.99.5.7
+[22:58:10] [Server thread/INFO]: ====================      Towny      ========================
+[22:58:10] [Server thread/INFO]: [Towny] Successfully loaded translations for 42 languages.
+[22:58:10] [Server thread/INFO]: [Towny] Config: Loaded 9 townblock types: shop, inn, arena, jail, default, bank, wilds, farm, embassy.
+[22:58:10] [Server thread/INFO]: [Towny] Database: [Load] flatfile [Save] flatfile
+[22:58:10] [Server thread/INFO]: [Towny] Database: Loaded in 17ms.
+[22:58:10] [Server thread/INFO]: [Towny] Database: 100% of residents have stored UUIDs.
+[22:58:10] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Cleaning up old backups...
+[22:58:10] [Server thread/INFO]: [Towny] Searching for third-party plugins...
+[22:58:10] [Server thread/INFO]: [Towny] Plugins found: 
+[22:58:10] [Server thread/INFO]: [Towny]   Permissions: TownyPerms, LuckPerms v5.4.98 via Vault
+[22:58:10] [Server thread/INFO]: [Towny]   Chat: LuckPerms v5.4.98 via Vault
+[22:58:10] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Successfully cleaned backups.
+[22:58:10] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Making backup...
+[22:58:10] [Server thread/INFO]: [Towny]   Economy: EssentialsX Economy via Vault
+[22:58:10] [Server thread/INFO]: [Towny]   Add-ons: TownyChat v0.107
+[22:58:10] [Server thread/WARN]: [Towny]   Warning: EssentialsX Economy has been known to reset
+                           town and nation bank accounts on rare occasions.
+[22:58:10] [Folia Async Scheduler Thread #0/INFO]: [Towny] Time until a New Day: 13 hours, 1 minutes, 50 seconds
+[22:58:10] [Folia Async Scheduler Thread #1/INFO]: [Towny] Checking for updates...
+[22:58:10] [Server thread/INFO]: =============================================================
+[22:58:10] [Server thread/INFO]: [Towny] Version: 0.99.5.7 - Plugin Enabled
+[22:58:10] [Server thread/INFO]: =============================================================
+[22:58:10] [Server thread/INFO]: [ChestShop] Enabling ChestShop v3.12.2 (build 353)
+[22:58:10] [Server thread/INFO]: [ChestShop] Found locales ar, it, es, el, hu, fr, pl, cs, pt_br, ja, sv, da, es_mx, sr, tr, nl, zh_tw, af, ko, no, vi, ro, he, ru, ca, zh, de, fi, en, uk
+[22:58:11] [ForkJoinPool.commonPool-worker-1/INFO]: [Towny] Towny flatfiles and settings successfully backed up.
+[22:58:11] [Server thread/INFO]: [ChestShop] Using EssentialsX Economy as the Economy provider now.
+[22:58:11] [Server thread/INFO]: [ChestShop] Vault loaded!
+[22:58:11] [Server thread/INFO]: [ChestShop] Using Paper's BlockDestroyEvent instead of the BlockPhysicsEvent!
+[22:58:11] [Server thread/INFO]: [ChestShop] Auto-updater is disabled. If you want the plugin to automatically download new releases then set 'TURN_OFF_UPDATES' to 'false' in your config.yml!
+[22:58:11] [Server thread/INFO]: [mcMMO] Enabling mcMMO v2.1.218
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Initializing config: config.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: config.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Config initialized: config.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [Debug] No errors found in config.yml!
+[22:58:11] [Server thread/INFO]: [mcMMO] Loading locale from plugins/mcMMO/locales/locale_override.properties
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Initializing config: advanced.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: advanced.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Config initialized: advanced.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [Debug] No errors found in advanced.yml!
+[22:58:11] [Server thread/INFO]: [mcMMO] Platform String: 1.20.1-R0.1-SNAPSHOT
+[22:58:11] [Server thread/INFO]: [mcMMO] Minecraft version determined to be - 1.20.1
+[22:58:11] [Server thread/INFO]: [mcMMO] Loading compatibility layers...
+[22:58:11] [Server thread/INFO]: [mcMMO] Finished loading compatibility layers.
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Initializing config: persistent_data.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: persistent_data.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Config initialized: persistent_data.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [Debug] No errors found in persistent_data.yml!
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Initializing config: upgrades_overhaul.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: upgrades_overhaul.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Config initialized: upgrades_overhaul.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Initializing config: treasures.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: treasures.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Config initialized: treasures.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Initializing config: fishing_treasures.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: fishing_treasures.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Config initialized: fishing_treasures.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] Registering enchantments for Fishing Book...
+[22:58:11] [Server thread/INFO]: [mcMMO] Loading mcMMO potions.yml File...
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Initializing config: coreskills.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: coreskills.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Config initialized: coreskills.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Initializing config: sounds.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: sounds.yml
+[22:58:11] [Server thread/INFO]: [mcMMO] [config] Config initialized: sounds.yml
+[22:58:11] [Folia Async Scheduler Thread #1/INFO]: [Towny] No new updates found.
+[22:58:11] [Server thread/INFO]: [mcMMO] Loading mcMMO skillranks.yml File...
+[22:58:12] [Server thread/INFO]: [mcMMO] [config] Initializing config: child.yml
+[22:58:12] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: child.yml
+[22:58:12] [Server thread/INFO]: [mcMMO] [config] Config initialized: child.yml
+[22:58:12] [Server thread/INFO]: [mcMMO] [config] Initializing config: repair.vanilla.yml
+[22:58:12] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: repair.vanilla.yml
+[22:58:12] [Server thread/INFO]: [mcMMO] [config] Config initialized: repair.vanilla.yml
+[22:58:12] [Server thread/INFO]: [mcMMO] [config] Initializing config: salvage.vanilla.yml
+[22:58:12] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: salvage.vanilla.yml
+[22:58:12] [Server thread/INFO]: [mcMMO] [config] Config initialized: salvage.vanilla.yml
+[22:58:12] [Server thread/INFO]: [mcMMO] (plugins/mcMMO/flatfile/mcmmo.users) Validating database file..
+[22:58:12] [Server thread/INFO]: [mcMMO] Enabling Acrobatics Skills
+[22:58:12] [Server thread/INFO]: [mcMMO] Registered subskill: Roll
+[22:58:12] [Server thread/INFO]: [mcMMO] [config] Initializing config: experience.yml
+[22:58:12] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: experience.yml
+[22:58:12] [Server thread/INFO]: [mcMMO] [config] Config initialized: experience.yml
+[22:58:12] [Server thread/INFO]: [mcMMO] 0 entries in mcMMO World Blacklist
+[22:58:12] [Server thread/INFO]: [mcMMO] [config] Initializing config: chat.yml
+[22:58:12] [Server thread/INFO]: [mcMMO] [config] Loading config from disk: chat.yml
+[22:58:12] [Server thread/INFO]: [mcMMO] [config] Config initialized: chat.yml
+[22:58:12] [Server thread/WARN]: Plugin 'mcMMO' is creating timing 'Commands' - this is deprecated behavior, please report it to the authors: nossr50, GJ, NuclearW, bm01, Glitchfinder, TfT_02, t00thpick1, Riking, electronicboy, kashike
+[22:58:12] [Server thread/WARN]: Plugin 'mcMMO' is creating timing 'Command: ac' - this is deprecated behavior, please report it to the authors: nossr50, GJ, NuclearW, bm01, Glitchfinder, TfT_02, t00thpick1, Riking, electronicboy, kashike
+[22:58:12] [Server thread/WARN]: Plugin 'mcMMO' is creating timing 'Command: pc' - this is deprecated behavior, please report it to the authors: nossr50, GJ, NuclearW, bm01, Glitchfinder, TfT_02, t00thpick1, Riking, electronicboy, kashike
+[22:58:12] [Server thread/INFO]: [Jobs] Enabling Jobs v5.2.0.0
+[22:58:12] [Server thread/INFO]: ------------- Jobs -------------
+[22:58:12] [Server thread/INFO]: Connected to database (SqLite)
+[22:58:12] [Server thread/INFO]: Loaded 8 titles
+[22:58:12] [Server thread/INFO]: Loaded 69 protected blocks timers
+[22:58:12] [Server thread/INFO]: Loaded 1403 custom item names
+[22:58:12] [Server thread/INFO]: Loaded 81 custom entity names
+[22:58:12] [Server thread/INFO]: Loaded 2 custom MythicMobs names
+[22:58:12] [Server thread/INFO]: Loaded 38 custom enchant names
+[22:58:12] [Server thread/INFO]: Loaded 21 custom enchant names
+[22:58:12] [Server thread/INFO]: Loaded 16 custom color names
+[22:58:12] [Server thread/INFO]: Loaded 4 shop items
+[22:58:12] [Server thread/INFO]: Loaded 1 quests for Enchanter
+[22:58:12] [Server thread/INFO]: Loaded 1 quests for Weaponsmith
+[22:58:12] [Server thread/INFO]: Loaded 1 quests for Builder
+[22:58:12] [Server thread/INFO]: Loaded 1 quests for Farmer
+[22:58:12] [Server thread/INFO]: Loaded 1 quests for Crafter
+[22:58:12] [Server thread/INFO]: Loaded 1 quests for Digger
+[22:58:12] [Server thread/INFO]: Loaded 1 quests for Fisherman
+[22:58:12] [Server thread/INFO]: Loaded 1 quests for Woodcutter
+[22:58:12] [Server thread/INFO]: Loaded 1 quests for Hunter
+[22:58:12] [Server thread/INFO]: Loaded 1 quests for Miner
+[22:58:12] [Server thread/INFO]: Loaded 1 quests for Brewer
+[22:58:12] [Server thread/INFO]: Loaded 1 quests for Explorer
+[22:58:12] [Server thread/INFO]: Loaded 12 jobs
+[22:58:12] [Server thread/INFO]: Loaded 0 boosted items
+[22:58:12] [Jobs-DatabaseSaveTask/INFO]: Started database save task.
+[22:58:12] [Jobs-BufferedPaymentThread/INFO]: Started buffered payment thread.
+[22:58:12] [Server thread/INFO]: Preloaded 1 players data in 0.0
+[22:58:12] [Server thread/INFO]: WorldGuard detected.
+[22:58:12] [Server thread/INFO]: MythicMobs 5.x detected.
+[22:58:12] [Server thread/INFO]: mcMMO2.1.218 was found - Enabling capabilities.
+[22:58:12] [Server thread/INFO]: Registered McMMO 2.x listener
+[22:58:12] [Server thread/INFO]: [Jobs] MythicMobs was found - Enabling capabilities.
+[22:58:12] [Server thread/INFO]: Loading explorer data
+[22:58:12] [Server thread/INFO]: Loaded explorer data (1) in 0 ms
+[22:58:12] [Server thread/INFO]: Plugin has been enabled successfully.
+[22:58:12] [Server thread/INFO]: ------------------------------------
+[22:58:12] [Server thread/INFO]: [DisableRecipe] Enabling DisableRecipe v1.4.4
+[22:58:12] [Server thread/INFO]: [BlueMap] Enabling BlueMap v3.16
+[22:58:12] [Server thread/INFO]: [BlueMap] Saving all worlds once, to make sure the level.dat is present...
+[22:58:12] [Server thread/WARN]: A manual (plugin-induced) save has been detected while server is configured to auto-save. This may affect performance.
+[22:58:12] [Server thread/INFO]: [Colored Signs] Enabling ColoredSigns v6.2.1.212
+[22:58:12] [Server thread/INFO]: [LocketteX] Enabling LocketteX v1.8.0
+[22:58:12] [Server thread/INFO]: ? ? ?? ???? ???????????? ???? ?? ? ?
+
+[22:58:12] [Server thread/INFO]: ?  LocketteX v1.8.0 Enabled ?
+[22:58:12] [Server thread/INFO]: ?  Protect your valuables!
+[22:58:12] [Server thread/INFO]: ?  Made with ?  by Valentina_pro
+
+[22:58:12] [Server thread/INFO]: ? ? ?? ???? ???????????? ???? ?? ? ?
+[22:58:12] [Server thread/INFO]: [QualityArmory] Enabling QualityArmory v2.0.10
+[22:58:12] [Server thread/INFO]: [QualityArmory] Hooked with Towny!
+[22:58:12] [Server thread/INFO]: [QualityArmory] -Loaded 11 Ammo types.
+[22:58:12] [Server thread/INFO]: [QualityArmory] -Loaded 16 Misc.
+[22:58:13] [Server thread/INFO]: [QualityArmory] -Loaded 70 Gun types.
+[22:58:13] [Server thread/INFO]: [QualityArmory] -Loading Attachment: p30silenced
+[22:58:13] [Server thread/INFO]: [QualityArmory] -Loading Attachment: uzicorn
+[22:58:13] [Server thread/INFO]: [QualityArmory] -Loading Attachment: awpasiimov
+[22:58:13] [Server thread/INFO]: [QualityArmory] -Loaded 3 Attachment types.
+[22:58:13] [Server thread/INFO]: [QualityArmory] -Loaded 4 Armor types.
+[22:58:13] [Server thread/INFO]: [SilkSpawners] Enabling SilkSpawners v7.5.0
+[22:58:13] [Server thread/INFO]: [SilkSpawners] WorldGuard was found and support is enabled
+[22:58:13] [Server thread/INFO]: [SilkSpawners] Loading support for v1_20_R1
+[22:58:13] [Server thread/INFO]: [SilkSpawners] AutoUpdater is enabled and now running.
+[22:58:13] [Server thread/INFO]: [SilkSpawners] BarAPI is disabled due to config setting.
+[22:58:13] [Server thread/INFO]: [TownyChat] Enabling TownyChat v0.107
+[22:58:13] [Server thread/INFO]: [TownyChat] Towny version 0.99.5.7 found.
+[22:58:13] [Server thread/INFO]: [TownyChat] Default Channel set to general
+[22:58:13] [Server thread/INFO]: [UltimateFood] Enabling UltimateFood v1.1.2
+[22:58:13] [Server thread/ERROR]: [UltimateFood] Please don't use UUIDs for head textures. Use base64 or player name instead.
+[22:58:13] [Server thread/ERROR]: [UltimateFood] Error while creating recipe for Avocado_dessert (&fAvocado dessert)
+[22:58:13] [Server thread/ERROR]: [UltimateFood] x Material is not a minecraft material, an ItemsAdders material, or an uf food!
+[22:58:13] [Server thread/INFO]: [Brewery] Enabling Brewery v3.1.1
+[22:58:13] [Server thread/INFO]: [Brewery] Brewery enabled!
+[22:58:13] [Server thread/INFO]: [CommandPanels] Enabling CommandPanels v3.19.1.1
+[22:58:13] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.19.1.1 Plugin Loading...
+[22:58:13] [Server thread/INFO]: [CommandPanels] RockyHawk's CommandPanels v3.19.1.1 Plugin Loaded!
+[22:58:13] [Server thread/INFO]: [dr] Enabling DiceRoller v0.0.1
+[22:58:13] [Server thread/INFO]: DiceRoller has been loaded!
+[22:58:13] [Server thread/INFO]: [EvenMoreFish] Enabling EvenMoreFish v1.6.11.3
+[22:58:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Spigot: v1_20_R1! Trying to find NMS support
+[22:58:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] NMS support 'MC1_20_R1' loaded!
+[22:58:13] [Server thread/INFO]: [NBTAPI] [NBTAPI] Found Gson: class com.google.gson.Gson
+[22:58:13] [Server thread/INFO]: [EvenMoreFish] EvenMoreFish by Oheers : Enabled
+[22:58:13] [Server thread/INFO]: [DecorHeads] Enabling DecorHeads v2.3.0
+[22:58:13] [Server thread/INFO]: Running delayed init tasks
+[22:58:13] [Server thread/INFO]: [Essentials] Essentials found a compatible payment resolution method: Vault Compatibility Layer (v1.7.3-b131)!
+[22:58:13] [Server thread/INFO]: [Jobs] Successfully linked with Vault. (EssentialsX Economy)
+[22:58:13] [Craft Scheduler Thread - 3 - Essentials/INFO]: [Essentials] Fetching version information...
+[22:58:13] [Server thread/INFO]: [TownyChat] -******* TownyChat enabled *******-
+[22:58:13] [Craft Scheduler Thread - 1 - BlueMap/INFO]: [BlueMap] Loading...
+[22:58:13] [Craft Scheduler Thread - 5 - Brewery/INFO]: [Brewery] Background data loading complete.
+[22:58:13] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] Checking for Updates ... 
+[22:58:13] [Craft Scheduler Thread - 1 - BlueMap/INFO]: [BlueMap] Downloading https://piston-data.mojang.com/v1/objects/e575a48efda46cf88111ba05b624ef90c520eef1/client.jar to bluemap/minecraft-client-1.20.0.jar ...
+[22:58:13] [Craft Scheduler Thread - 7 - Vault/INFO]: [Vault] No new version available
+[22:58:14] [Server thread/INFO]: [SilkSpawners] Result from AutoUpdater is: NO_UPDATE
+[22:58:14] [Server thread/INFO]: Protect ? [?] Using Towny as Claim Provider.
+[22:58:14] [Server thread/INFO]: Done (13.050s)! For help, type "help"
+[22:58:14] [Server thread/INFO]: Timings Reset
+[22:58:14] [Craft Scheduler Thread - 1 - BlueMap/INFO]: [BlueMap] Loading resources...
+[22:58:14] [Craft Scheduler Thread - 1 - BlueMap/INFO]: [BlueMap] Loading textures...
+[22:58:15] [Craft Scheduler Thread - 1 - BlueMap/INFO]: [BlueMap] Baking resources...
+[22:58:15] [Craft Scheduler Thread - 1 - BlueMap/INFO]: [BlueMap] Resources loaded.
+[22:58:15] [Craft Scheduler Thread - 1 - BlueMap/INFO]: [BlueMap] Loading world '06e5f8e1-9bdb-4636-b62b-4835f89faf64' (/home/gameuser/aenix_the_end/DIM1)...
+[22:58:15] [Craft Scheduler Thread - 1 - BlueMap/INFO]: [BlueMap] Initializing Storage: 'file' (Type: FILE)
+[22:58:15] [Craft Scheduler Thread - 1 - BlueMap/INFO]: [BlueMap] Loading map 'aenix_the_end'...
+[22:58:15] [Craft Scheduler Thread - 1 - BlueMap/INFO]: [BlueMap] Loading world 'c46ce620-f444-414a-9c7e-2c89581565ed' (/home/gameuser/aenix)...
+[22:58:15] [Craft Scheduler Thread - 1 - BlueMap/INFO]: [BlueMap] Loading map 'aenix'...
+[22:58:15] [Craft Scheduler Thread - 1 - BlueMap/INFO]: [BlueMap] Loading world '4b99b43f-bcc1-499a-a9e7-d8c6d62b787b' (/home/gameuser/aenix_nether/DIM-1)...
+[22:58:15] [Craft Scheduler Thread - 1 - BlueMap/INFO]: [BlueMap] Loading map 'aenix_nether'...
+[22:58:15] [Craft Scheduler Thread - 1 - BlueMap/INFO]: [BlueMap] WebServer bound to: /[0:0:0:0:0:0:0:0]:8100
+[22:58:15] [Thread-17/INFO]: [BlueMap] WebServer started.
+[22:58:15] [Craft Scheduler Thread - 1 - BlueMap/INFO]: [BlueMap] Loaded!
+[23:00:26] [User Authenticator #0/INFO]: UUID of player SnippleRifsky is a6ab995f-07a8-4c36-8791-55bbe705faa9
+[23:00:26] [Server thread/INFO]: SnippleRifsky joined the game
+[23:00:26] [Server thread/INFO]: SnippleRifsky[/192.168.0.220:56196] logged in with entity id 189 at ([aenix]-3494.722118844524, 107.86439379429646, -320.69899363901385)
+[23:00:29] [Craft Scheduler Thread - 12 - mcMMO/INFO]: [mcMMO] Creating new data for player: SnippleRifsky
+[23:01:02] [Server thread/INFO]: TPS from last 1m, 5m, 15m: 20.0, 20.0, 20.0
+[23:01:18] [Server thread/INFO]: SnippleRifsky issued server command: /qa
+[23:01:24] [Server thread/INFO]: SnippleRifsky issued server command: /qa craft
+[23:01:31] [Server thread/INFO]: SnippleRifsky lost connection: Disconnected
+[23:01:31] [Server thread/INFO]: SnippleRifsky left the game

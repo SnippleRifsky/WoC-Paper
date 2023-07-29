@@ -1,0 +1,86 @@
+prefix: '&a[Shop] &r'
+shopinfo: "&aD��kkan Bilgisi:\n&fSahip: &7%owner \n&fStok: &7%stock \n&fE��ya: &7%item"
+shopinfo_buy: '&7%price &f��cret kar����l������nda &7%amount &fadet sat��n al'
+shopinfo_sell: '&7%price &f��cret kar����l������nda &7%amount &fadet sat'
+iteminfo: '&aE��ya Bilgisi: &r'
+iteminfo_fullname: '&fTam ��sim: &7%item'
+iteminfo_shopname: '&fD��kkan Tabelas��: &7%item'
+iteminfo_repaircost: '&fTamir ��creti: &7%cost'
+iteminfo_book: |-
+  &fKitap Ba��l������: &7%title
+  &fKitap Yazar��: &7%author
+  &fKitap Sayfalar��: &7%pages
+iteminfo_book_generation: '&fKitap Jenerasyonu: &7%generation'
+iteminfo_lore: |-
+  &fA����klama:
+  &r%lore
+METRICS: |-
+  &a[Shop] &f��l����tler:
+  &fHesaplar:&7 %accounts
+  &f����lem ortalamalar��:&7 %totalTransactions &f(al����:&7 %buyTransactions &fsat����:&7 %sellTransactions&f)
+  &fE��ya ticareti ortalamalar��:&7 %totalItems &f(al��nan:&7 %boughtItems &fsat��lan:&7 %soldItems&f)
+ACCESS_DENIED: Bu d��kkan��n depo konteynerine eri��im izniniz yok!
+TRADE_DENIED: Bu d��kkanda ticaret yapma izniniz yok!
+TRADE_DENIED_ACCESS_PERMS: Eri��iminiz olan d��kkanlarla ticarete giremezsiniz!
+TRADE_DENIED_CREATIVE_MODE: Yarat��c�� modda iken d��kkanlarla ticarete giremezsiniz!
+NOT_ENOUGH_MONEY: Yeteri kadar paran��z yok!
+NOT_ENOUGH_MONEY_SHOP: D��kkan sahibinin yeteri kadar paras�� yok!
+CLIENT_DEPOSIT_FAILED: Hesab��n��za depozito i��leminde bir sorun meydana geldi!
+SHOP_DEPOSIT_FAILED: D��kkan sahibine depozito i��leminde bir sorun olu��tu!
+NO_ECONOMY_ACCOUNT: D��kkan sahibine ait bir ekonomi hesab�� bulunmuyor!
+NO_BUYING_HERE: Burada bir ��eyler sat��n alamazs��n��z!
+NO_SELLING_HERE: Burada bir ��eyler satamazs��n��z!
+NOT_ENOUGH_SPACE_IN_INVENTORY: Envanterinizde yeterli bo��luk yok!
+NOT_ENOUGH_SPACE_IN_CHEST: Sand��kta yeterli bo��luk yok!
+NOT_ENOUGH_ITEMS_TO_SELL: Satacak kadar yeterli e��yan��z yok!
+NOT_ENOUGH_SPACE_IN_YOUR_SHOP: |-
+  [%price %item&7 d��kkan dolul!](&f%seller&7 sat���� yapmaya ��al����t��
+  &7D��nya: &f%world
+  &7Lokasyon: &f%x/%y/%z)
+NOT_ENOUGH_STOCK: Bu d��kkan��n stoklar�� t��kenmi��.
+NOT_ENOUGH_STOCK_IN_YOUR_SHOP: |-
+  [%price %item&7 d��kkan��n stoklar�� d��kenmi��!](&f%buyer&7 sat��n almaya ��al����t��
+  &7D��nya: &f%world
+  &7Lokasyon: &f%x/%y/%z)
+YOU_BOUGHT_FROM_SHOP: '%owner isimli ki��iden %price para kar����l������nda %item
+  sat��n ald��n.'
+SOMEBODY_BOUGHT_FROM_YOUR_SHOP: |-
+  [%buyer %price kar����l������nda %item sat��n ald��.](&7D��nya: &f%world
+  &7Lokasyon: &f%x/%y/%z)
+YOU_SOLD_TO_SHOP: '%buyer isimli ki��iye %price kar����l������nda %item satt��n��z.'
+SOMEBODY_SOLD_TO_YOUR_SHOP: |-
+  [%seller %price kar����l������nda %item satt��.](&7D��nya: &f%world
+  &7Lokasyon: &f%x/%y/%z)
+YOU_CANNOT_CREATE_SHOP: Bu t��r bir d��kkan olu��turamazs��n��z!
+NO_CHEST_DETECTED: Herhangi bir sand��k bulunamad��!
+INVALID_SHOP_DETECTED: D��kkan kullan��lamaz!
+INVALID_SHOP_PRICE: D��kkan ��creti ge��ersiz!
+INVALID_SHOP_QUANTITY: D��kkan ��r��n miktar�� ge��ersiz!
+CANNOT_ACCESS_THE_CHEST: Bu sand����a eri��ebilme yetkiniz yok!
+SELL_PRICE_HIGHER_THAN_BUY_PRICE: Sell price is above the buy price!
+SELL_PRICE_ABOVE_MAX: '%price sat���� ��creti, %maxprice olan maksimum ��cretten y��ksek!'
+SELL_PRICE_BELOW_MIN: '%price sat���� ��creti, %minprice olan minimum ��cretten d������k!'
+BUY_PRICE_ABOVE_MAX: '%price sat��n alma ��creti, %maxprice olan maksimum ��cretten
+  y��ksek!'
+BUY_PRICE_BELOW_MIN: '%price sat��n alma ��creti, %minprice olan minimum ��cretten
+  d������k!'
+CLICK_TO_AUTOFILL_ITEM: Bu d��kkan i��in bulunan ����enin bulundu��u tabelaya t��klay��n!
+NO_ITEM_IN_HAND: Otomatik doldurmak i��in elinde bir e��yan yok!
+PROTECTED_SHOP: D��kkan ba��ar��yla LWC ile korundu!
+PROTECTED_SHOP_SIGN: D��kkan tabelas�� ba��ar��yla LWC ile korundu!
+SHOP_CREATED: D��kkan ba��ar��yla olu��turuldu!
+SHOP_FEE_PAID: '%amount ��dedin.'
+SHOP_REFUNDED: '%amount iade ald��n.'
+ITEM_GIVEN: '%player isimli ki��iye %item verildi.'
+RESTRICTED_SIGN_CREATED: Tabela ba��ar��yla olu��turuldu!
+PLAYER_NOT_FOUND: Oyuncu bulunamad��!
+NO_PERMISSION: Bunu yapma yetkin yok!
+INCORRECT_ITEM_ID: Ge��ersiz bir e��ya kodu girdin!
+INVALID_CLIENT_NAME: Kullan��c�� ad��n ge��erli bir Minecraft kullan��c�� ad�� de��il!
+NOT_ENOUGH_PROTECTIONS: Koruma olu��turulamad��!
+NO_SHOP_FOUND: D��kkan bulunamad��.
+CANNOT_CREATE_SHOP_HERE: Burada d��kkan olu��turamazs��n!
+TOGGLE_MESSAGES_OFF: Art��k d��kkan(lar)��ndan bildirimler almayacaks��n.
+TOGGLE_MESSAGES_ON: Art��k d��kkan(lar)��ndan bildirimler alacaks��n.
+TOGGLE_ACCESS_ON: Art��k eri��imin olan d��kkanlarda ticaret yapamayacaks��n.
+TOGGLE_ACCESS_OFF: Art��k eri��imin olan d��kkanlarda ticaret yapabileceksin.

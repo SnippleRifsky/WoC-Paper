@@ -1,0 +1,1714 @@
+---
+name: Towny
+language: Turkish
+author: ElgarL
+website: 'http://townyadvanced.github.io/'
+description: >
+  Language file for all game messages for this Locale.
+#A note on editing this file.
+#----------------------------
+#Do not alter this file if it is in the reference folder.
+#Before you edit this file, read about how Towny handles
+#language files:
+#https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works#multi-language.
+#A note on text formatting (how Towny status_title_pvpinserts words.)
+#----------------------------------------------------
+#You MUST retain spacing in the texts.
+#If a text begins or ends with a space, it must remain that
+#way.
+#%s = data to be supplied by the plugin.
+#If you find that a line has multiple %s variables which would
+#be in a different order in your language, you can change them
+#to %1$s, %2$s, %4$s, %3$s to change their order. ie: %4$s
+#will always use the 4th variable, no matter where it is
+#placed on the line.
+#A note on text colouring and formatting.
+#----------------------------------------
+#Black = &0, Navy = &1, Green = &2, Blue = &3, Red = &4
+#Purple = &5, Gold = &6, LightGray = &7, Gray = &8
+#DarkPurple = &9, LightGreen = &a, LightBlue = &b
+#Rose = &c, LightPurple = &d, Yellow = &e, White = &f
+#This language file also supports using MiniMessage for colours
+#and formatting. Learn about MiniMessage formatting here:
+#https://docs.adventure.kyori.net/minimessage/format.html
+default_towny_prefix: '&6[Towny] &b'
+default_town_prefix: '&6[%s] &b'
+default_nation_prefix: '&6[%s] &6'
+unclaimed_plot_name: 'Sahipsiz'
+unclaimed_zone_name: 'Vah��i Do��a'
+############################################################
+#+------------------------------------------------------+ #
+#|help messages                                         | #
+#+------------------------------------------------------+ #
+############################################################
+help_0: 'Genel Towny Yard��m��'
+help_1: 'Towny hakk��nda daha fazla bilgi edinmek i��in a��a����daki komutlar�� deneyin.'
+help_2: 'Kasaba Sohbeti'
+help_3: 'Ulus Sohbeti'
+town_help_1: 'Kasaban��z��n durumu'
+town_help_2: '[Belediye Ba��kan��]'
+town_help_3: 'Se��ilen ��ehirlerin durumu'
+town_help_4: 'Konumunuzun kasaba durumuna k��sayol.'
+town_help_5: 'Kasabalara ������nlan��r.'
+town_help_6: 'Belediye ba��kan�� olarak sizinle yeni kasaba.'
+town_help_7: 'Hedef belediye ba��kan�� olan yeni kasaba.'
+town_help_8: 'Belediye ba��kanlar�� i��in komutlar�� listeleyin.'
+town_help_9: 'O g��n bug��n!'
+town_help_10: 'Kasabadaki t��m ��evrimi��i sakinleri listeleyin'
+mayor_help_3: 'Talep alan�� ��ehire ba��l�� de��il'
+mayor_help_4: 'Etraf��n��zda X yar����ap��na kadar hak iddia edin'
+mayor_help_5: 'Maksimum yar����ap i��in hak talebinde bulunun'
+mayor_help_6: 'Bu kasaba blo��u sahiplenilmemi��'
+mayor_help_7: 'Etraf��nda hak iddia etmekten vazge��meye ��al����.'
+mayor_help_8: 'T��m kasaba bloklar��n�� kald��rmaya ��al������n.'
+nation_help_1: 'Uluslar��n durumu'
+nation_help_2: '[Ulus]'
+nation_help_3: 'Hedef ��lke durumu'
+nation_help_4: 'T��m uluslar�� listeleyin'
+nation_help_5: 'Ulusunu terk et'
+nation_help_6: 'Yeni bir ulus yarat��n'
+nation_help_7: 'Ulus lideri komutlar��n�� listele'
+nation_help_8: 'Yeni bir ulus yarat��n'
+nation_help_9: 'Ulustaki t��m ��evrimi��i sakinleri listeleyin'
+king_help_1: 'Ulus Lideri Yard��m��'
+king_help_2: '��ttifak��n��z�� kurun.'
+king_help_3: 'D����manlar��n��z�� ayarlay��n.'
+res_1: 'Durumun'
+res_2: '[yerle��ik]'
+res_3: 'Hedef oyuncunun durumu'
+res_4: 'T��m aktif oyuncular�� listele'
+res_5: 'yard��m i��in'
+res_6: '��evrimi��i ma��'
+res_7: 'Tam ad'
+mode_1: 'Her kasaba blo��u aras��ndaki haritay�� g��ster'
+mode_2: 'Y��r��rken iddia etmeye ��al����'
+mode_3: 'Y��r��rken hak talebini reddetmeye ��al����'
+mode_4: 'Kasaba kanal��na varsay��lan sohbet'
+mode_5: 'Ulus kanal��na varsay��lan sohbet'
+mode_6: 'Sava�� b��lgeleri yapmak i��in d����man s��n��rlar��na %s yerle��tirebilir.'
+plot_perms: '��izim izinleri i��in %s yerine %s kullan��n.'
+plot_perms_1: 'Yerle��ik araziler, d����ar��dan gelen izinleri kullanmaz.'
+res_list: 'Sakinleri'
+res_sing: 'Yerle��ik'
+mayor_sing: 'Belediye Ba��kan��'
+admin_sing: 'Y��netici'
+town_sing: 'Kasaba'
+nation_sing: 'Ulus'
+nation_plu: 'Uluslar'
+king_sing: 'Lider'
+town_plu: 'Kasabalar'
+world_plu: 'D��nyalar'
+world_sing: 'D��nya'
+world_help_1: 'Mevcut d��nyan��n durumu'
+world_help_2: '[D��nya]'
+world_help_3: 'D��nyan��n durumunu hedefleyin'
+world_help_4: 'T��m d��nyalar�� listeleyin'
+world_help_5: 'Bu par��ay�� yeniden olu��tur'
+townyadmin_help_1: 'Bu kasaba blo��unun hak talebini kald��r'
+townyadmin_help_2: '��evrenizdeki hak talebinden vazge��meye ��al������n.'
+admin_panel_2: 'Kasabay�� yeniden y��kle'
+admin_panel_3: 'Yeni g��n kodunu ��al����t��r��n'
+msg_block_claim: 'Bu kasaba blo��unu sahiplen'
+msg_plot_nfs: 'Sat��l��k arsay�� y��k��n'
+msg_nfs_abr: '&e'' fs '' ve '' nfs '', '' sat���� ��ncesi '' ve '' sat���� d������ '' k��saltmalar�� olarak kabul edilir.'
+msg_plot_fs: 'Bu alan�� a����k artt��rmaya ����kar��n.'
+############################################################
+#+------------------------------------------------------+ #
+#|   Messages                                           | #
+#+------------------------------------------------------+ #
+############################################################
+msg_buy: '&b%s i��in %d %s sat��n ald��.'
+msg_buy_resident_plot: '&b%s, %s i��in %s arsas��n�� sat��n ald��!'
+msg_couldnt_pay_taxes: '&b%s vergi ��deyemedi ve %s taraf��ndan at��ld��.'
+msg_couldnt_pay_plot_taxes: '&b%s vergi ��deyemedi ve bir arsas��n�� kaybetti.'
+msg_payed_town_tax: '&b��denen ��ehir vergisi '
+msg_payed_plot_cost: '&b%s i��indeki %s parseller i��in %s ��dendi'
+msg_payed_resident_tax: '&b��denen ikamet vergisi '
+msg_bankrupt_town: ' kasaba olarak kalmay�� g��ze alamazd��m.'
+msg_bankrupt_nation: ' bir ulus olarak kalmay�� g��ze alamazd��m.'
+msg_nation_not_peaceful: '&bUlus, bar��������l devleti kar����layamaz.'
+msg_nation_cant_peaceful: '&bUlus bar��������l bir ulus olmay�� kald��ramaz.'
+msg_peaceful_disabled: '&bUlus bar������ k��resel olarak devre d������ b��rak��ld��.'
+msg_you_paid: '&bBar��������l bir stat�� ayarlamak i��in %s alt��n ��dediniz.'
+msg_nation_set_peace: '&bUlusun devleti ba��ar��yla de��i��tirildi.'
+msg_nation_allow_peaceful: '&bBar��������l kalmak i��in millet izinleri art��k: %s'
+msg_mobremoval_world: '&bMob lar��n ortaya ����kmas��n�� engellemek: %s'
+msg_mobremoval_town: '&bKasaba Moblar��n��n ortaya ����kmas��n�� engelleme izni: %s'
+msg_nation_peaceful: '&bUlusun ��imdi bar��������l'
+msg_tax_exempt: '&bKasaba personeli vergiden muaft��r.'
+msg_del_nation: '&e%s &bulusu da����ld��!'
+msg_del_resident: '&e%s &bt��m Towny verilerini kaybetti!'
+msg_join_nation: '&b%s kasabas�� ulusa kat��ld��!'
+msg_join_town: '&b%s ��ehire kat��ld��!'
+msg_friend_add: '&b%s seni arkada�� olarak ekledi.'
+msg_friend_remove: '&b%s seni arkada�� olarak sildim.'
+msg_left_town: '&b%s kasabadan ayr��ld��'
+msg_you_left: '&bAyr��ld��n %s.'
+msg_not_mayor: '&bSen belediye ba��kan�� de��ilsin.'
+msg_not_king: '&bUlus lideri de��ilsin.'
+msg_not_mayor_ass: '&bSen belediye ba��kan�� veya asistan de��ilsin.'
+msg_not_king_ass: '&bUlus lideri veya bir asistan de��ilsin.'
+msg_own_nation_disallow: '&bBunu kendi ulusuna yapamazs��n.'
+msg_no_perms_claim: '&bKasaban��z�� geni��letme izniniz yok.'
+msg_outpost_disable: '&bOutpost''lar mevcut de��il.'
+msg_kicked_by: '&e%s &btaraf��ndan kasabadan at��ld��n.'
+msg_kicked: '&b%s isimli y��netici %s isimli ki��iyi kasabadan att��.'
+msg_nation_kicked_by: '&bKasaban��z %s taraf��ndan ulustan at��ld��.'
+msg_town_left_nation: '&bKasaban��z %s ulusunu terk etti.'
+msg_nation_town_left: '&b%s kasabas�� ulusunuzdan ayr��ld��.'
+msg_nation_kicked: '&b%s isimli ki��i, %s isimli kasabay�� ulustan att��.'
+msg_raised_ass: '&b%s, %s''yi %s asistan��na y��kseltti.'
+msg_lowered_to_res_by: '&b%s taraf��ndan normal ikamet eden stat��s��ne indirildiniz.'
+msg_lowered_to_res: '&b%s %s, normal ikamete indirildi.'
+msg_invalid_name: '&bBu isimlerin hi��biri ge��erli de��ildi.'
+msg_invited_join_town: '&b%s isimli ki��i %s isimli ki��iyi kasabaya davet etti.'
+msg_invited_join_nation: '&b%s taraf��ndan %s kasabas�� ulusa davet edildi.'
+msg_deny_invite: '&b%s davetinizi reddetti.'
+msg_invited: '&b%s grubuna kat��lmaya davet edildiniz.'
+msg_town_online: 'Kasaba da ��evrimi��i Olanlar'
+msg_nation_online: 'Ulus da ��evrimi��i Olanlar'
+msg_allied_nations: '&b%s ��lkelerle m��ttefik %s.'
+msg_enemy_nations: '&b%s,%s ��lkelerine kar���� bir nefret geli��tirdi.'
+msg_enemy_to_neutral: '&b%s stat��s��n�� %s i��in bar��������l olarak de��i��tirdi.'
+msg_added_ally: '&b%s ulusunla m��ttefik.'
+msg_removed_ally: '&b%s, ulusunuzla ittifak�� iptal etti.'
+msg_added_enemy: '&b%s, ulusunuza kar���� bir nefret geli��tirdi.'
+msg_removed_enemy: '&b%s ��lkenize kar���� bar��������l hale geldi.'
+msg_unable_ally_enemy: '&cBizi d����man olarak g��rd��kleri i��in %s ile m��ttefik olam��yor.'
+msg_deny_ally: '&b%s ittifak talebinizi reddetti.'
+msg_accept_ally: '&b%s ��lkesi bir ittifak talebinizi kabul etti.'
+msg_ally_req_sent: '&bBir ittifak talebi %s ulusuna g��nderildi.'
+msg_ally_request: '&b%s bir ittifak kurmak istiyor.'
+msg_unable_ally_offline: "&cHedef ��lkenin belediye ba��kan�� ��evrim d������ oldu��u i��in ittifak talep edilemiyor."
+msg_unable_ally_npc: "&cHedef ��lkenin belediye ba��kan�� bir NPC oldu��u i��in ittifak talep edilemiyor."
+msg_claimed: '&2Ba��ar��yla claim al��nd��'
+msg_unclaimed: '&2Ba��ar��yla claim kald��r��ld��'
+msg_not_claimable: '&cBu d��nya iddia edilemez.'
+msg_abandoned_area: '&bTerk edilmi�� alan%s'
+msg_admin_unclaim_area: '&cZorla bu alan silindi %s'
+msg_abandoned_area_1: '&bKasaban��z b��lgeyi terk etti'
+msg_no_money_purchase_plot: '&cBu arsay�� sat��n almak i��in yeterli paran��z yok.'
+msg_town_no_money_purchase_plot: '&cKasaban��n bu arsay�� geri alacak kadar paras�� yok..'
+msg_no_funds_new_town: '&c%s burada yeni bir kasaba kurmaya g��c��m��z yetmez.'
+msg_no_funds_claim: '&cKasaban��z,%s alt��n ile %s kasaba blo��unu alamaz. Kasaba bankas��na daha fazla para ekleyin.'
+msg_no_funds_to_buy: '&cKasaban��z %s alt��n ile %s, %s sat��n alamaz. Kasaba bankas��na daha fazla para ekleyin.'
+msg_annexed_area: '&2Al��nan b��lge %s'
+msg_max_plot_own: '&cEn fazla %s say��s��ndan fazla arsaya sahip olamazs��n��z.'
+msg_max_outposts_own: '&c%s say��s��ndan fazla karakola sahip olamazs��n��z.'
+msg_no_funds_new_nation: '&cKasaban��n yeni bir ulus kurmaya g��c�� yetmiyor.'
+msg_already_claimed: '&cBu alan zaten sahiplenildi, ��u ki��i taraf��ndan: %s'
+msg_already_claimed_1: '&cBu alan (%s) zaten birine ait.'
+msg_already_claimed_2: '&cBu alan zaten al��nd��.'
+msg_too_close: '&cBu b��lge ba��ka bir ��ehire ��ok yak��n.'
+msg_too_far: '&cBu b��lge di��er kasabalardan ��ok uzakta.'
+msg_not_claimed: '&bBu alan (%s) al��namad��.'
+msg_not_claimed_1: '&bBu alan ��zerinde hak iddia edilmedi.'
+msg_not_own_area: '&cSe��ili alana sahip de��ilsiniz.'
+msg_not_own_place: '&bBu yer kimseye ait de��il.'
+msg_area_not_own: '&cBu alan size ait de��il.'
+msg_area_not_recog: '&cBu b��lge Towny taraf��ndan tan��nm��yor.'
+msg_specify_name: '&bKasaba ad��n�� belirtin'
+msg_specify_nation_name: '&bUlus ad��n�� belirtin'
+msg_peasant_right: '&bBir k��yl��n��n liderlerini tahta zorlama hakk�� yoktur..'
+msg_cost_spawn: '&bKasaban��n ortaya ����k������na ������nlanmak i��in %s ��cretlendirildiniz.'
+msg_cost_spawn_refund: '&bKasaba ortaya ����k������n�� kullanma ��creti size iade edildi.'
+msg_town_spawn_warmup: '&bI����nlan��yorsunuz...'
+msg_town_rename_disabled: '&bKasaba Yeniden Adland��rma Devre D������'
+msg_town_set_name: '&b%s kasaban��n ad��n�� %s olarak de��i��tirdi.'
+msg_nation_set_name: '&b%s, milleti uluslar��n��n ismini &e%s &bolarak yeniden adland��rd��.'
+msg_changed_pvp: '&c%s PVP, %s olarak ayarland��.'
+msg_changed_public: '&cKasaban��n genel durumu art��k %s.'
+msg_changed_expl: '&c%s i��indeki patlamalar art��k %s.'
+msg_changed_fire: '&c%s i��indeki yang��n yay��lmas�� art��k %s.'
+msg_changed_mobs: '&c%s i��inde ortaya ����kan canavarlar art��k %s.'
+msg_the_plot_group: 'Arsa Grubu'
+msg_changed_taxpercent: '&cY��zdeye dayal�� vergiler art��k %s.'
+msg_changed_open: '&cDavetsiz kat��l��m art��k %s.'
+msg_toggle_open_on_warning: 'Uyar��: Kasaba a����ksa, kasaba izinleri kapat��lmal��d��r. T��r ''/town set perm off'' followed by ''/town set perm reset''.'
+msg_changed_world_setting: '&c%s i��in %s: %s.'
+msg_world_pvp: '&cBu d��nya sadece PvP dir.'
+msg_world_mobs: '&cBu d��nyada Canavar do��ma zorunlulu��u var.'
+msg_world_expl: '&cBu d��nyada zorla Patlamalar var. Bu d��nyada zorla Patlamalar var.'
+msg_world_fire: '&cBu d��nyada ate�� yay��ld��.'
+msg_town_mobs: '&cBu kasabada canavarlar zorunlu olarak ortaya ����k��yor.'
+msg_plot_pvp: '&cPVP Arena Arsa da de��i��tirilemez.'
+msg_plot_regen_wrong_size: '&cRegen yaln��zca varsay��lan ��izim boyutu (16) kullan��ld������nda ger��ekle��tirilebilir.'
+msg_reloaded: '&2Towny nin ayarlar�� yeniden y��klendi.'
+msg_undo_complete: '&2Geri alma tamamland��.'
+msg_give_total: '&b%s ikramiye verdi. (Toplam:%s)'
+mag_backup_success: '&2Yedekleme ba��ar��l��.'
+msg_xx_withdrew_xx: '&b%s %s alt��n %s bankas��ndan ��ekti.'
+msg_xx_deposited_xx: '&b%s %s alt��n,%s bankas��na yat��rd��.'
+msg_insuf_funds: '&cO kadar alt��n��n yok.'
+msg_err_withdraw_disabled: 'Bu bankadan para ��ekme devre d������ b��rak��ld��!'
+msg_err_deposit_capped: 'Paray�� k������msemek m��mk��n de��il. Bu bankan��n s��n��r�� %s.'
+msg_set_town_home: '&bKasaban��n ana blo��u %s olarak ba��ar��yla de��i��tirildi'
+msg_set_town_spawn: '&bKasaban��n do��ma yeri ba��ar��yla de��i��tirildi.'
+msg_set_outpost_spawn: '&bKarakolun do��ma yeri ba��ar��yla de��i��tirildi.'
+msg_set_title: '&b%s isimli ki��iye "%s" unvan�� verildi.'
+msg_set_surname: '&b%s isimli ki��iye "%s" soyad�� verildi.'
+msg_clear_title_surname: '&b%s isimli ki��inin "%s" soyad�� temizlendi.'
+msg_clear_plot_material: '&bArsa, a��a����daki blok t��rlerinden temizlendi: %s.'
+msg_set_perms: '&b��zinleri ba��ar��yla de��i��tirildi:'
+msg_set_claim: '&b%s nin hak talebinde bulunulabilirli��i %s ile ba��ar��yla de��i��tirildi'
+msg_set_perms_reset: '&bT��m %s alanlar��ndaki izinler ba��ar��yla s��f��rland��.'
+msg_usedefault: '&bBu d��nya (%s) art��k genel varsay��lan ayarlar�� kullan��yor.'
+msg_set_wild_perms: '&b%s in wild izinleri %s ba��ar��yla de��i��tirildi'
+msg_set_wild_ignore: '&b%s nin vah��i yok sayma bloklar�� %s olarak ba��ar��yla de��i��tirildi'
+msg_set_wild_name: '&b%s in vah��i ad�� ba��ar��yla %s olarak de��i��tirildi'
+msg_set_wild_regen: '&b%s nin vah��i yenilenmesi ��u ��ekilde ba��ar��yla de��i��tirildi ''%s'''
+msg_set_use_towny_on: '&bBu d��nya art��k kasaba kurallar��n�� takip ediyor.'
+msg_set_use_towny_off: '&cBu d��nya t��m ��ehir etkile��imlerinden muaft��r.'
+msg_error_must_be_int: '&bMiktar tam say�� olmal��d��r.'
+msg_error_input_must_be_int: '&c%s bir tam say�� olmal��'
+msg_error_must_be_num: '&bMiktar bir say�� olmal��d��r.'
+msg_error_input_must_be_num: '&c%s bir say�� olmal��'
+msg_must_specify_amnt: '&bMiktar�� belirtmelidir. ��rne��in %s 54'
+msg_town_set_tax: '&b%s, g��nl��k ikamet vergisini %s olarak ayarlad��'
+msg_town_set_plottax: '&b%s, parsellerin g��nl��k vergisini %s olarak belirledi'
+msg_town_set_plotprice: '&b%s, parsellerin fiyat��n�� %s olarak belirledi'
+msg_town_set_alttax: '&b%s,%s parsellerinin g��nl��k vergisini %s olarak belirledi'
+msg_town_set_altprice: '&b%s,%s parsellerinin fiyat��n�� %s olarak belirledi'
+msg_town_set_nation_tax: '&b%s, ��lke vergisini %s olarak ayarlad��'
+msg_set_nation_tag: '&b%s ulus etiketini ��u ��ekilde ayarlad�� [%s]'
+msg_set_town_tag: '&b%s kasaba etiketini ��u ��ekilde ayarlad�� [%s]'
+msg_reset_nation_tag: '&b%s ulus etiketini sildi.'
+msg_reset_town_tag: '&b%s kasaba etiketini sildi.'
+msg_mayor_abandon: '&bHalk��n�� terk mi edeceksin? Eminseniz "/town set mayor" ile ba��ka bir belediye ba��kan�� se��in.'
+msg_new_day_tax: '&bYeni bir g��n burada! Vergiler ve kira topland��'
+msg_new_day: '&bYeni bir g��n burada Herkese G��nayd��n!'
+msg_new_king: '&b%s Art��k %s ulusunun lideri!'
+msg_err_new_king_notmayor: '&cYeni ulus lideri bir ba��kan de��il.'
+msg_err_king_not_in_nation: '&cYeni ulus lideri bu ulusa ait de��il.'
+msg_err_fight_like_king: '&cBar���� bir se��enek de��il! Bir lider gibi d��v����!'
+msg_no_access_nation_bank: '&cUlusun bankas��na eri��iminiz yok.'
+msg_err_no_money: '&cBankada yeterli para yok.'
+msg_new_mayor: '&b%s ��imdi belediye ba��kan��!'
+msg_new_nation: '&b%s isimli ki��i &e%s &bad��nda bir ulus kurdu'
+msg_new_town: '&b%s isimli ki��i &e%s &bad��nda bir kasaba kurdu h.o'
+msg_plot_for_sale: '&b%s arsay�� (%s) sat����a sundu!'
+msg_plot_for_sale_amount: '&b%s, (%s) arsay�� %s fiyata sat����a sundu!'
+msg_plot_set_type: '&bArsa t��r�� %s olarak ayarland��'
+msg_cache_block_error: '&cTowny ye kay��tl�� de��ilsiniz. Yeniden g��nl����e kaydetmeyi deneyin.'
+msg_cache_block_error_wild: '&cVah��i do��ada %s izin verilmez.'
+msg_cache_block_error_plot: '&cBu kasabada %s''��n %s giri��imine izin verilmiyor.'
+msg_cache_block_error_town_resident: '&cSakinlerin buraya %s girmesine izin verilmiyor.'
+msg_cache_block_error_town_allies: '&cM��ttefiklerin %s yapmas��na izin verilmiyor.'
+msg_cache_block_error_town_outsider: '&cYabanc��lar��n %s giri��imine izin verilmez.'
+msg_err_cant_afford_tp_town: '&c%s ye ������nlanmaya g��c��m��z yetmez.'
+msg_err_not_public: '&cBu kasaba halka a����k de��il.'
+msg_err_not_open: '&c%s kasabas��n��n kap��lar�� herkese a����k de��il. Belediye ba��kan��ndan veya bir asistandan kat��lmas��n�� isteyin.'
+msg_err_town_spawn_forbidden: '&cKasaba spawn��na yolculuk yasak.'
+msg_err_town_spawn_nation_forbidden: '&cUlusunuzdaki di��er kasabalara kasaba spawn seyahat etmek yasakt��r.'
+msg_err_town_spawn_ally_forbidden: '&cKasaba, ulusunla m��ttefik olan kasabalara seyahat etmek yasak.'
+msg_err_public_spawn_forbidden: '&cDi��er kasabalara halka a����k olarak do��mak yasakt��r..'
+msg_err_public_spawn_enemy: '&cD����manlar i��in halka a����k do��ma yolculu��u yasakt��r.'
+msg_err_town_spawn_disallowed_from: '&c%s den kasaba do��mas��na izin verilmiyor.'
+msg_err_outpost_spawn: '&cBu kasaba i��in belirlenmi�� bir karakol spawn yeri yok.'
+msg_err_cant_afford_tp: '&bKasaban��z��n spawn��na ������nlanmay�� g��ze alamazs��n��z.'
+msg_err_plot_nfs: '&cBu arsa sat��l��k de��il.'
+msg_err_not_part_town: '&cSe��ili b��lge ��ehrinizin bir par��as�� de��il.'
+msg_err_not_attached_edge: '&cSe��ili alan kenara eklenmemi��.'
+msg_err_empty_area_selection: '&cAlmak istedi��iniz arazi di��er arsalar��n��z ile ��apraz! L��tfen yan yana olan arazileri almaya ��al������n.'
+msg_err_not_enough_blocks: '&cBu araziyi almak i��in yeterli claim hakk�� yok (Claim hakk�� kazanmak i��in kasaban��za yeni ��yeler alabilirsiniz).'
+msg_err_cant_afford_blocks: '&cKasaba, %s maliyetiyle %s kasaba bloklar��n�� talep edemez'
+msg_err_not_in_town_claim: '&cArsa talep etmek i��in bir ��ehire ait olmal��s��n.'
+msg_err_must_belong_town: '&cBir ��ehire ait olmal��s��n.'
+msg_err_dont_belong_town: '&cBir ��ehire ait de��ilsin.'
+msg_err_dont_belong_nation: '&bBir ulusa ait de��ilsin.'
+msg_err_not_same_nation: '&b%s ulusunuza ait de��il.'
+msg_err_rect_auto: '&cOtomobili yaln��zca ��ehirler ve sakinler kullanabilir.'
+msg_err_invalid_radius: '&cGe��ersiz yar����ap. Bir tam say�� veya "otomatik" kullan��n.'
+msg_err_not_configured: '&cBu d��nya Towny taraf��ndan yap��land��r��lmad��.'
+msg_err_updating_item_perms: '&c����e kullan��m izinleri ��nbelle��i g��ncellenirken hata olu��tu.'
+msg_err_updating_switch_perms: '&cAnahtar izinleri ��nbelle��i g��ncellenirken hata olu��tu.'
+msg_err_updating_destroy_perms: '&c��zinleri yok etme ��nbelle��ini g��ncelleme hatas��.'
+msg_err_updating_build_perms: '&cDerleme izinleri ��nbelle��i g��ncellenirken hata olu��tu.'
+msg_err_admin_only: '&cBu komutu yaln��zca bir y��netici kullanabilir.'
+msg_err_admin_only_delete: '&cYaln��zca y��netici di��er yerle��ik verileri silebilir.'
+msg_err_admin_only_delete_town: '&cSadece bir y��netici di��er ��ehir verilerini silebilir.'
+msg_err_admin_only_delete_nation: '&cDi��er ulus verilerini yaln��zca bir y��netici silebilir.'
+msg_err_online_or_npc: '&c%s ��evrimi��idir veya bir NPC dir.'
+msg_err_not_registered: '&cdata ya Kay��tl�� de��ilsin'
+msg_err_not_registered_1: '&c%s kay��tl�� de��il'
+msg_err_invalid_name: '&c%s ge��ersiz bir isim.'
+msg_err_already_res: '&c%s zaten bir ��ehire ait.'
+msg_err_already_in_town: '&c%s zaten %s nin bir par��as��.'
+msg_err_already_nation: '&cHedef kasaba zaten bir millete ait.'
+msg_err_invalid_property: '&cGe��ersiz "%s" ��zelli��i.'
+msg_err_not_supported: '&cHen��z desteklenmiyor.'
+msg_err_invalid_input: '&cGe��ersiz Giri��. %s kullan'
+msg_err_negative: '&cGiri�� negatif olamaz.'
+msg_err_input_too_long: '&cGiri�� ��ok uzun.'
+msg_err_invalid_choice: '&cGe��ersiz se��im'
+msg_err_invalid_sub: '&cGe��ersiz alt komut.'
+msg_err_command_disable: '&cBu komut i��in yeterli izne sahip de��ilsiniz.'
+msg_err_universe_limit: '&cEvren daha fazla kasaba tutamaz.'
+msg_err_too_many_npc: '&c��ok fazla npc kay��tl��.'
+msg_err_negative_money: '&cNegatif paran��z olamaz.'
+msg_err_not_percentage: '&cY��zdeler 100 ��n alt��nda olmal��d��r.'
+msg_err_no_economy: '&cEkonomi a����lmad��.'
+msg_err_not_block_type: '&cBu ge��erli bir ��izim t��r�� de��il!'
+msg_not_allowed_join: '&c%s nin bir ��ehire kat��lmas��na izin verilmiyor.'
+msg_offline_no_join: '&c%s ��evrimd������, ancak izinleri kullan��yor, bu y��zden bir ��ehire kat��lamazs��n��z.'
+msg_err_cannot_perform_action: '&cBu eylem %s i��inde ger��ekle��tirilemez.'
+msg_npc_flag: '&bNPC bayra���� art��k %s i��in %s.'
+msg_warning_delete: '&4*** UYARI, &e%s &4ALTIN EKS��KL������ NEDEN��YLE B��R SONRAK�� YEN�� G��NDE S��L��NECEK ***'
+#these messages are only used if town/nation creation is set to admins only
+msg_admin_only_create_nation: '&cYaln��zca y��neticilerin ��lke olu��turmas��na izin verilir.'
+msg_admin_only_create_town: '&cYaln��zca y��neticilerin kasaba olu��turmas��na izin verilir.'
+#Required residents to be part of a nation
+msg_err_not_enough_residents_new_nation: '&cKasaban��z��n bir ulus yaratmaya yetecek kadar ��yesi yok.'
+msg_err_not_enough_residents_join_nation: '&b%s kasabas��nda bir ulusa kat��lmaya yetecek kadar insan yok.'
+msg_not_enough_residents_no_longer_capital: '&bUlusun eski ba��kentinde art��k ulusun ba��kenti olmaya yetecek kadar ��ye yok. Ulusun yeni ba��kenti %s.'
+msg_town_not_enough_residents_left_nation: '&b%s kasabas��n��n art��k bir ulusa ��ye olacak kadar sakini yok ve ��lkeden ����kar��ld��.'
+msg_nation_disbanded_town_not_enough_residents: '&b%s kasabas��n��n art��k ulusu y��netecek kadar sakini yok ve ��lkeyi da����lmaya zorlad��.'
+msg_not_enough_residents_refunded: '&bYeterli say��da ikametgah��n��z olmad������ i��in ��lkenizin da����lmas�� i��in %s geri ��deme ald��n��z.'
+msg_not_enough_residents_capital: '&b%s kasabas��nda ulusun ba��kenti olmaya yetecek kadar sakin yok.'
+list_page: '&bSayfa %s/%s'
+list_err_not_enough_pages: '&cYaln��zca %s sayfa mevcut'
+#Added in 0.30
+#Added in 0.31
+msg_err_tax_minimum_not_met: '��ehir verginizi %s nin alt��na ayarlayamazs��n��z.'
+msg_unknown_rank_available_ranks: 'Bilinmeyen s��ra %s. ��zin verilen s��ralamalar %s.'
+msg_no_permission_to_give_rank: 'You do not have permission to grant this rank.Bilinmeyen s��ra %s. ��zin verilen s��ralamalar %s'
+msg_you_have_been_given_rank: 'Size %s, %s r��tbesi verildi.'
+msg_you_have_given_rank: '%s da %s r��tbesini %s isimli ki��iye verdiniz.'
+msg_resident_not_your_town: 'O sakin bir kasaban��n ��yesi de��il!'
+msg_resident_already_has_rank: '%s zaten bu %s r��tbesine sahip.'
+msg_you_have_had_rank_taken: '%s, %s r��tbesinden d����t��n��z.'
+msg_you_have_taken_rank_from: '%s nin %s r��tbesini %s den kald��rd��n��z.'
+msg_resident_doesnt_have_rank: '%s, s r��tbesine sahip de��il.'
+msg_town_has_no_jails: 'Kasabada kurulu hapishane yok.'
+msg_no_permission_to_jail_your_residents: 'Kendi sakinlerinizi hapse atma izniniz yok.'
+msg_resident_not_part_of_any_town: 'O oyuncu herhangi bir kasaban��n par��as�� de��il.'
+msg_player_not_jailed_in_your_town: 'O oyuncu senin kasabanda hapse at��lmad��.'
+msg_cannot_spawn_while_jailed: 'Hapsedilmi��ken ortaya ����kamaz.'
+msg_cannot_abandon_town_while_jailed: 'Hapsedildi��inizde ��ehrinizi terk etmenize izin verilmez.'
+msg_player_escaped_jail_by_leaving_town: '%s g����ebe olarak hapisten ka��t��.'
+msg_set_jail_spawn: 'Hapishane plan��n��n ortaya ����k������ ba��ar��yla ayarland��.'
+msg_killed_attempting_to_escape_jail: '&4%s hapishaneden ka��maya ��al������rken ��ld��r��ld��.'
+msg_err_jailed_players_no_teleport: '&4Hapsedilen oyuncular ������nlanamaz!'
+msg_player_escaped_jail_into_wilderness: '&4%s,%s ile kar����la��arak hapisten ka��t��'
+msg_err_invalid_string_board_not_set: 'Ge��ersiz dize, Town Board ayarlanmad��.'
+msg_plot_name_removed: 'Arsa ad�� kald��r��ld��.'
+msg_plot_name_set_to: 'Arsa ad�� ��u ��ekilde ayarland�� [%s].'
+msg_plot_price_too_expensive: 'Arsa fiyat�� ��ok pahal��.'
+msg_you_robbed_player: '%s adl�� ki��iyi soydunuz %s.'
+msg_player_robbed_you: '%s seni %s ��ald��.'
+msg_you_lost_money: '��ld������n i��in %s kaybettin.'
+msg_player_couldnt_pay_player_town_bank_paying_instead: '%s in c��zdan�� %s tatmin edemedi. %s ��ehir bankas��ndan al��nd��.'
+msg_err_could_not_take_deathfunds: '��l��m fonu alamad��.'
+msg_you_lost_money_dying: '%s kaybettiniz.'
+msg_your_town_lost_money_dying: 'Kasaban��z %s kaybetti.'
+msg_your_nation_lost_money_dying: 'Ulusunuz %s kaybetti.'
+msg_err_couldnt_take_deathfunds: '��l��m alt��n�� alamad��.'
+msg_err_couldnt_take_town_deathfunds: 'Kasaba ��l��m alt��n�� alamad��.'
+msg_err_couldnt_take_nation_deathfunds: 'Ulus ��l��m alt��n�� alamad��.'
+msg_you_gained_money_for_killing: '%s Alt��n kazand��n��z.'
+msg_err_ender_pearls_disabled: '&4Ender ��ncileri devre d������ b��rak��ld��!'
+msg_err_no_sleep_in_enemy_inn: '&4D����man��n Han��nda uyuyamazs��n.'
+msg_err_cant_use_bed: '&4Bu yata����n kaplad������ araziye sahip de��ilsiniz ve bu bir Han arsas�� de��il.'
+msg_town_plots_revenue_disclaimer: '&aG��sterilen gelir tahminidir ve arsa sahibinin ��deyip ��deyemeyece��i bir fakt��rd��r.'
+msg_town_set_perm_syntax_error: 'Bu komut i��in ge��ersiz kelime kombinasyonu. Kullan��m�� ''/town set perm ?'' For proper command syntax.'
+msg_plot_set_perm_syntax_error: 'Bu komut i��in ge��ersiz kelime kombinasyonu. Kullan��m�� ''/plot set perm ?'' For proper command syntax.'
+#Added in 0.32
+msg_err_townadmintownrank_wrong_town: '��ye o kasabaya ait de��il.'
+msg_err_resident_already_an_outlaw: 'Bu oyuncu, ��ehriniz taraf��ndan zaten bir kanun ka��a���� olarak g��r��l��yor.'
+msg_err_not_outlaw_in_your_town: 'Bir kasaba ��yesini kanun ka��a���� olarak belirleyemezsiniz.'
+msg_you_have_been_declared_outlaw: '%s i��inde kanun ka��a���� ilan edildiniz. O kasabada ��l�� yakalanmay��n.'
+msg_you_have_declared_an_outlaw: '%s,%s i��inde kanun ka��a���� ilan edildi.'
+msg_you_have_been_undeclared_outlaw: 'Art��k  %s de kanun ka��a���� de��ilsin.'
+msg_you_have_undeclared_an_outlaw: '%s art��k %s i��inde bir kanun ka��a���� de��il.'
+msg_err_player_not_an_outlaw: 'Bu oyuncu kanun ka��a���� olarak listelenmedi.'
+msg_err_outlaw_in_open_town: 'Seni haydut sayan a����k bir kasabaya kat��lamazs��n.'
+msg_you_are_an_outlaw_in_this_town: '&4Dikkatli ol %s seni kanun ka��a���� olarak g��r��yor, burada ��lmek hapis anlam��na gelebilir.'
+msg_err_town_not_close_enough_to_nation: '%s nin ana blo��u, ba��kentinizin ana blo��una ulusunuza kat��lacak kadar yak��n de��il.'
+msg_nation_town_moved_their_homeblock_too_far: '%s nin ana blo��u, ulusunuzun ba��kentinin ana blokundan ��ok uza��a ta����nd�� ve ulusunuzdan kald��r��ld��.'
+#Added in 0.33
+msg_err_invalid_radius_number: '&cGe��ersiz yar����ap miktar��. %s veya daha az kullan��n.'
+#Added in 0.34
+msg_err_max_residents_per_town_reached: '&cMaksimum sakin say��s��na (%s) zaten ula����ld��.'
+#Added in 0.35
+msg_err_resident_doesnt_meet_invite_cooldown: '&cOyuncu %s, bir ��ehire davet edilecek kadar uzun s��redir sunucuda de��il, l��tfen bekleyin.'
+msg_cant_toggle_pvp_outsider_in_town: 'Kasaban��zda bir yabanc�� var, pvp stat��n��z�� de��i��tiremezsiniz!'
+msg_err_unclaim_not_outpost: 'Hak talebinde bulunulam��yor, bu arsa bir karakol de��il!'
+outpost_plu: 'Karakollar'
+#Added in 0.36
+msg_err_not_enough_residents: 'Bu kasabada bunu yapacak kadar sakin yok.'
+#Added in 0.37
+msg_err_friendly_fire_disable: 'Dost ate��i devre d������ b��rak��ld��!'
+#Added in 0.38
+msg_claim_error: '&cBa��ka bir eklenti (%s) / (%s) kasaba blo��u talebini durdurdu, i��lemi tamamlayamad��.'
+#Added in 0.39
+msg_err_town_spawn_forbidden_war: '&cKasaba do��ma yolculu��una yaln��zca sava�� s��ras��nda izin verilir.'
+msg_err_town_spawn_forbidden_peace: '&cSava�� s��ras��nda kasaba da do��ma yolculu��u yasak.'
+msg_err_town_spawn_nation_forbidden_war: '&cKasaban��n ��lkenizdeki di��er kasabalara seyahat etmesine yaln��zca sava�� s��ras��nda izin verilir.'
+msg_err_town_spawn_nation_forbidden_peace: '&cSava�� s��ras��nda ulusunuzdaki di��er ��ehirlere kasaba spawn seyahati yasakt��r.'
+msg_err_town_spawn_ally_forbidden_war: '&cUlusunuzla m��ttefik olan ��ehirlere kasaba do��ma yolculu��u yaln��zca sava�� s��ras��nda izin verilir.'
+msg_err_town_spawn_ally_forbidden_false: '&cSava�� s��ras��nda ulusunuzla m��ttefik olan kasabalara kasaba spawn seyahatleri yasakt��r.'
+msg_err_public_spawn_forbidden_war: '&cDi��er ��ehirlere halka a����k seyahatlere yaln��zca sava�� s��ras��nda izin verilir.'
+msg_err_public_spawn_forbidden_peace: '&cSava�� s��ras��nda di��er ��ehirlere halka a����k seyahat etmek yasakt��r.'
+#Added in 0.40
+mayor_help_9: 'Bir karakolun hak talebini reddetme giri��imi'
+#Added in 0.41 (Invite-Update)
+invite_plu: 'Davet etme'
+invite_sent_by: 'Davet G��nderen'
+invite_help_1: 'Bir ��ehire kat��lma davetini kabul edin'
+invite_help_2: 'Bir ��ehire kat��lma davetini reddedin'
+invite_help_4: 'B��t��n kasabaya kat��lma davetlerini reddedin'
+invite_help_3: 'T��m davetlerinizi listeleyin'
+town_invite_help_1: 'Kasaban��za bir oyuncu davet edin'
+town_invite_help_2: 'Bir oyuncuya g��nderilen daveti iptal et'
+town_invite_help_3: 'G��nderdi��iniz t��m davetleri listeler'
+town_invite_help_4: 'Ald������n��z t��m davetleri listeler'
+town_invite_help_5: 'Bir ulusa kat��lma talebini kabul edin'
+town_invite_help_6: 'Bir ulusa kat��lma talebini reddedin'
+nation_invite_help_1: 'Bir ��ehri milletinize davet edin'
+nation_invite_help_2: 'Bir ��ehire g��nderilen daveti iptal et'
+nation_invite_help_3: 'Kasabalara g��nderilen t��m davetleri listeleyin'
+nation_ally_help_1: 'Ulusunuza bir m��ttefik eklemeye ��al������n'
+nation_ally_help_2: 'Ulusunuzun bir m��ttefikini kald��rmaya ��al������n'
+nation_ally_help_3: 'G��nderdi��iniz t��m m��ttefik istekleri listeler'
+nation_ally_help_4: 'Ald������n��z t��m m��ttefik istekleri listeler'
+nation_ally_help_5: 'Bir ulusa m��ttefik olma talebini kabul edin'
+nation_ally_help_6: 'Bir ulusa m��ttefik olma iste��ini reddet'
+nation_ally_help_7: 'Bir m��ttefik talebini iptal edin'
+msg_player_denied_all_invites: "Al��nan t��m davetlerin reddedildi."
+msg_err_player_no_invites: '&cHi�� davetin yok!'
+msg_err_player_has_multiple_invites: '&cBirden fazla davetiniz var, l��tfen belirtin!'
+msg_err_player_has_too_many_invites: '%s ��ok fazla daveti varsa, tekrar davet etmeden ��nce onlardan baz��lar��n�� reddetmelerini isteyin.'
+msg_err_player_already_invited: '&bZaten %s ��ehrinize kat��lmaya davet ettiniz!'
+msg_err_town_no_invites: '&bKasaban��n hi�� daveti yok!'
+msg_err_town_specify_invite: '&cL��tfen daveti belirtin!'
+msg_err_town_has_too_many_invites: '&bKasaba %s ��ok fazla davete sahip, tekrar davet etmeden ��nce onlardan baz��lar��n�� reddetmelerini isteyin.'
+msg_err_town_sent_too_many_invites: '&bKasaba ��ok fazla davet g��nderdi, tekrar denemeden ��nce baz��lar��n�� iptal edin!'
+msg_err_town_already_invited: '&bZaten %s ��lkenize kat��lmaya davet ettiniz!'
+msg_err_nation_specify_invite: '&cL��tfen talebi belirtin!'
+msg_err_nation_no_requests: '&bUlusun herhangi bir m��ttefik talebi yok!'
+msg_err_nation_sent_too_many_invites: '&bUlus ��ok fazla davetiye g��nderdi, tekrar denemeden ��nce baz��lar��n�� iptal edin!'
+msg_err_nation_sent_too_many_requests: '&b��lke ��ok fazla istek g��nderdi, tekrar denemeden ��nce baz��lar��n�� iptal edin!'
+msg_err_nation_has_too_many_requests: '&b%s ��lkesinin ��ok fazla iste��i var, tekrar istemeden ��nce baz��lar��n�� reddetmelerini isteyin.'
+player_received_invites: '&b%a/%m davet ald��n��z.'
+town_revoke_invite: '&bKasaba %s, onlara kat��lma davetinizi iptal etti.'
+town_revoke_invite_successful: '&bKasaban��za kat��lma davetini ba��ar��yla geri ald��n��z.'
+town_received_invites: '&bKasaba %a/%m davet ald��.'
+town_sent_invites: '&bKasaba% a/%m davet g��nderdi.'
+nation_revoke_invite: '&b%s ��lkesi, onlara kat��lma davetinizi iptal etti.'
+nation_revoke_invite_successful: '&bUlusunuza kat��lma davetini ba��ar��yla geri ald��n��z.'
+nation_revoke_ally: '&b%s ulusu m��ttefik iste��ini geri ald��.'
+nation_revoke_ally_successful: '&bBir m��ttefik iste��ini ba��ar��yla iptal ettiniz.'
+nation_received_requests: '&b��lke %a/%m m��ttefik iste��i ald��.'
+nation_sent_invites: '&b��lke% a/%m davet g��nderdi.'
+nation_sent_ally_requests: '&b��lke %a/%m m��ttefik iste��i g��nderdi.'
+no_confirmations_open: '&cOnaylayacak hi��bir ��eyin yok!'
+successful_cancel: '����lem iptal edildi!'
+successful_deny: '&bDavet ba��ar��yla reddedildi.'
+successful_deny_request: '&bAlly iste��i ba��ar��yla reddedildi.'
+msg_ally_removed_successfully: '&bAlly ba��ar��yla kald��r��ld��.'
+town_deleted_by_admin: '&bKasaba &e%s &bba��ar��yla silindi'
+nation_deleted_by_admin: '&e%s &b��lkesi ba��ar��yla silindi'
+are_you_sure_you_want_to_continue: 'Devam etmek istedi��ine emin misin?'
+you_have_been_invited_to_join: 'Kat��lmaya davet edildiniz '
+you_have_been_requested_to_ally: 'M��ttefik olman istendi '
+this_message_will_expire: 'Bu, 20 saniye i��inde otomatik olarak sona erecek'
+player_sing: 'Oyuncu'
+nation_zone_this_area_under_protection_of: '%s nin bu k��sm�� ��unun korumas�� alt��ndad��r: %s'
+#Added in 0.42
+you_have_been_invited_to_join2: '%s grubuna davet edildiniz'
+you_have_been_requested_to_ally2: '%s ile ittifak kurman��z istendi'
+#Added in 0.43
+town_help_11: 'Yeni bir kasaba olu��turun. Bo��luk de��il "_" kullan��n.'
+changed_plot_town: '&bArsa kasabas��n�� ba��ar��yla de��i��tirdiniz: %s!'
+not_standing_in_plot: 'Ge��erli bir komplonun i��inde durmuyorsunuz!'
+msg_err_homeblock_has_not_been_set: 'Ana Blok ayarlanmad��, ��nce ''/town set homeblock'' kullan��n.'
+msg_err_spawn_not_within_homeblock: 'Spawn homeBlock i��inde de��il, ��nce ''/town set homeblock '' komutunu kullan��n.'
+#Added in 0.44
+#TownyChat language strings
+tc_err_invalid_command: 'Hata: Bilinmeyen komut!'
+tc_settings_reloaded: '[TownyChat] Ayarlar yeniden y��klendi!'
+tc_err_unrecognized_command_format: 'Hata: tan��nmayan komut bi��imi!'
+tc_channel_list_status: '(Durum)'
+tc_channel_list_in: '����inde'
+tc_channel_list_out: 'D����ar��'
+tc_err_you_dont_have_perm_mute_list: 'Sesi kapatma listesini g��rme izniniz yok'
+tc_err_you_dont_have_unmute_perm: 'Sesi a��ma izniniz yok'
+tc_err_no_channel_called_channel: 'Adl�� kanal yok &f%s'
+tc_err_no_muted_players_in_channel_players: '&f%s &bi��inde sesi kapat��lm���� oyuncu yok'
+tc_players_muted_in_channel: '[TownyChat] &f%n &2oyuncunun sesi &f%s &2: &f%s i��inde kapat��ld��'
+tc_err_no_online_players_with_name: '&f%s ismine sahip ��evrimi��i oyuncu yok'
+tc_err_you_dont_have_mute_perms: 'Sessize alma izinlerine sahip de��ilsiniz'
+tc_err_you_cant_mute_admin: 'Bir Towny y��neticisinin sesini kapatamazs��n��z.'
+tc_err_you_cant_mute_chat_mod: 'Bir sohbet moderat��r��n��n sesini kapatamazs��n��z.'
+tc_player_already_muted_in_channel: '[TownyChat] Oyuncunun sesi zaten &f%s konumunda kapat��ld��'
+tc_player_is_now_muted_in_channel: '[TownyChat] &f%s &2 art��k &f%s &2i��inde susturuldu'
+tc_player_is_not_muted_in_channel: '[TownyChat] Oyuncu &f%s i��erisinde susturulmam����'
+tc_player_is_now_unmuted_in_channel: '[TownyChat] &f%s &2 art��k &f%s &2i��inde a����ld��'
+tc_err_you_are_currently_muted_in_channel: '&b��u anda &f%s &bi��inde sesinizin kapat��lm���� haldesiniz&c!'
+tc_err_you_cannot_leave_channel: '&f%s kanal��ndan ayr��lamazs��n'
+tc_you_already_left_channel: '[TownyChat] Zaten &f%s kanal��ndan ayr��ld��n'
+tc_you_left_channel: '[TownyChat] Ayr��ld��n &f%s'
+tc_you_are_now_talking_in_channel: '[TownyChat] Art��k &f%s kanal��nda konu��uyorsun'
+tc_err_you_cannot_join_channel: '&f%s kanal��na kat��lamazs��n'
+tc_you_are_already_in_channel: '[TownyChat] Zaten &f%s kanal��ndas��n'
+tc_you_joined_channel: '[TownyChat] &f%s kanal��na kat��ld��n'
+tc_err_you_are_already_talking_in_default_channel_help: 'Zaten varsay��lan kanalda konu��uyorsunuz. Ba��ka bir kanala ge��mek i��in o kanal��n komutunu kullan��n.'
+tc_err_unable_to_talk_essentials_mute: 'Konu��am��yorum ... ��u anda sesiniz kapal��!'
+tc_err_unable_to_talk_you_are_spamming: 'Konu��am��yorum ... Spam yap��yorsunuz!'
+msg_admin_set_plot_help_1: 'Kasabadayken.'
+msg_admin_set_plot_help_2: 'Vah��i do��ada.'
+msg_err_not_enough_outposts_free_to_claim: 'Hak talebinde bulunmak i��in yeterli say��da karakol yok %s/%s'
+msg_err_over_outposts_limit: 'Karakoluna ������nlanamazs��n, limitini a��t��n %s/%s'
+#Status Screen elements (/res, /town, /nation, /tw, /plot perm)
+#These are translated because we may (or may not) be handling longer words in a smart way.
+#If you are a translator feel free to skip over this section, as it may or may not appear very nice
+#in game. It would be best to see what the changes look like in game before you PR it to github.
+outlaws: 'Haydutlar:' #Used on /t outlawlist
+online: '&a(Aktif)'
+registered_last_online: '&2Kay��tl��: &a%s &8| &2Son ��evrimi��i: &a%s' #Used in mayor hover text in /town status screen.
+status_perm: 'Yetki:' #Used on /plot perm, /res
+status_on: '&4A��IK'
+status_off: '&aKAPALI'
+status_on_good: '&aA��IK'
+status_off_bad: '&4KAPALI'
+status_forced: '&cZorla'
+status_adjustable: '&aAyarlanabilir'
+status_pvp: 'PVP:'
+explosions: 'Patlamalar:'
+firespread: 'Ate�� Yay��l��m��:'
+mobspawns: 'Yarat��k Do��umu:'
+owner_of_x_plots: '%s arsan��n sahibi.'
+status_bank: 'Banka:'
+status_town: 'Kasaba:'
+status_no_town: 'Yok'
+status_town_ranks: 'Kasaba R��tbeleri:'
+status_nation_ranks: 'Ulus R��tbeleri:'
+jailed_in_town: ' ��u kasabada: %s'
+status_friends: 'Arkada��lar'
+rank_list_title: '%s R��tbe Listesi'
+rank_list_mayor: 'Ba��kan:'
+status_title_capital: '&b(Ba��kent)'
+status_title_pvp: ' &4(PVP)'
+status_title_open: ' &b(A����k)'
+status_town_board: 'Pano:'
+status_founded: 'Kurulu��:'
+status_founded_by: 'Kurucu:'
+status_town_size: 'Kasaba b��y��kl������:'
+status_town_size_bought: 'Sat��n al��nd��:'
+status_town_size_bonus: 'Bonus:'
+status_town_size_nationbonus: 'Ulus Bonusu:'
+status_town_outposts: 'Karakollar:'
+status_bank_town2: 'G��nl��k masraf:'
+status_bank_town3: 'Vergi:'
+status_town_nation: 'Ulus:'
+status_town_reslist_overlength: 've dahas��...'
+status_nation_king: 'Lider:'
+status_nation_tax: 'Ulus Vergisi:'
+status_nation_conquered_tax: 'ConqueredTax:'
+status_nation_towns: 'Kasabalar'
+status_nation_allies: 'M��ttefikler'
+status_nation_enemies: 'D����manlar'
+status_nation_enemied_by: 'Ulusunuzu d����man olarak g��ren uluslar'
+status_world_claimable: '&aAl��nabilir'
+status_world_noclaims: '&cAl��namaz'
+status_world_forcepvp: 'ZorunluPVP:'
+status_world_fire: 'Ate��:'
+status_world_forcefire: 'Zorla Ate��:'
+status_world_forceexplosion: 'Zorla Patlama:'
+status_world_worldmobs: 'D��nya Yarat��klar��:'
+status_world_forcetownmobs: 'Zorla Kasaba Yarat��klar��:'
+status_world_unclaimrevert: 'Geri alma i��lemini iptal et:'
+status_world_explrevert: 'Patlama Geri D��n������:'
+status_world_ignoredblocks: 'G��rmezden Gelinen Bloklar:'
+status_res_taxexempt: 'Yetkili, ��ehir vergilerini ��demekten muaft��r.'
+status_res_tax: '��ehir vergisi:'
+status_res_plottax: 'Toplam arsa vergileri:'
+status_res_totaltax: '��denmesi_gereken_toplam_vergi:'
+#Added in 0.45
+msg_err_unable_to_use_bank_outside_nation_capital: 'Ulus bankan��z�� ba��kentin d������nda kullanamazs��n��z.'
+msg_err_unable_to_use_bank_outside_your_town: 'Kasaba bankan��z�� ��ehrinizin d������nda kullanamazs��n��z.'
+msg_time_until_a_new_day: 'Yeni Bir G��ne Kalan S��re: '
+msg_hours: 'saat'
+msg_minutes: 'dakika'
+msg_seconds: 'saniye'
+msg_err_invalid_string_nationboard_not_set: 'Ge��ersiz dize, Nation Board ayarlanmad��.'
+msg_plot_evict: 'Arsa ba��ar��yla tahliye edildi.'
+msg_no_one_to_evict: 'Bu arsadan tahliye edilecek kimse yok.'
+#Added in 0.46
+nation_help_10: 'Ortaya ����kan uluslara ������nlanma.'
+msg_nation_spawn_warmup: '&bI����nlan��yorsunuz...'
+msg_set_nation_spawn: '&bUlusun do��ma yeri ba��ar��yla de��i��tirildi.'
+msg_err_cant_afford_tp_nation: '&c%s ye ������nlanmaya g��c��m��z yetmez.'
+msg_err_nationspawn_has_not_been_set: '&cUlus do��ma noktas�� belirlenmedi.'
+msg_err_spawn_not_within_nationtowns: '&cUlus, ulusun bir par��as�� olan bir kasabada do��mal��d��r..'
+msg_err_spawn_not_within_capital: '&cUlusun do��du��u yer ba��kentte olmal��.'
+msg_err_nation_spawn_war: '&cSava�� s��ras��nda ulusun ortaya ����kmas�� sevimli de��il.'
+msg_err_nation_not_public: '&cBu millet halka a����k de��il.'
+msg_nation_toggle_public: '&aUlus ayar�� ba��ar��yla de��i��tirildi.'
+status_yes: '&aEVET'
+status_no: '&cHAYIR'
+msg_err_unable_to_use_bank_outside_bank_plot: 'Bu komutu bir banka veya ev arsas�� d������nda kullanamazs��n��z.'
+msg_err_nation_spawn_forbidden: '&cUlus do��ma yolculu��u yasakland��.'
+msg_err_nation_spawn_forbidden_war: '&cUlus do��ma yolculu��una yaln��zca sava�� s��ras��nda izin verilir.'
+msg_err_nation_spawn_forbidden_peace: '&cSava�� s��ras��nda ulus do��ma yolculu��u yasakt��r.'
+msg_err_nation_spawn_ally_forbidden: '&cUluslar��n m��ttefik ��lkelere seyahat etmesi yasakt��r.'
+msg_err_nation_spawn_nation_forbidden_war: '&cUluslar��n di��er m��ttefik ��lkelere seyahatine yaln��zca sava�� s��ras��nda izin verilir.'
+msg_err_nation_spawn_nation_forbidden_peace: '&cSava�� s��ras��nda ulusun di��er m��ttefik ��lkelere seyahat etmesi yasakt��r.'
+msg_err_public_nation_spawn_forbidden: '&cDi��er uluslara halka a����k seyahat etmek yasakt��r.'
+msg_err_public_nation_spawn_forbidden_war: '&cDi��er uluslara halka a����k seyahatlere yaln��zca sava�� s��ras��nda izin verilir.'
+msg_err_public_nation_spawn_forbidden_peace: '&cSava�� s��ras��nda di��er uluslara halka a����k seyahat etmek yasakt��r.'
+msg_spawn_cost_set_to: '&b%s,/%s spawn kullan��m��n��n fiyat��n�� %s olarak ayarlad��'
+msg_err_cannot_set_spawn_cost_more_than: '&cDo��ma maliyetini ��u de��erden daha y��ksek ayarlayamazs��n��z: %s'
+msg_err_ally_isnt_public: '&cM��ttefikiniz, %s, halka a����k spawn�� etkinle��tirmiyor. I����nlanma reddedildi.'
+msg_nation_changed_public: '&cThe Nation ��n kamusal stat��s�� art��k %s.'
+#Added in 0.47:
+status_plot_type: 'Arsa Tipi:'
+msg_no_self_jailing: 'Kendini hapse atamazs��n.'
+online2: ' &a(Aktif)'
+build: '��n��a etme'
+destroy: 'Yok etme'
+switch: 'De��i��tirme'
+item_use: 'E��ya_Kullan��m��'
+owner_status: 'Kurucu'
+towny_map_header: 'Towny Haritas�� '
+towny_map_unclaimed: 'Sahipsiz'
+towny_map_claimed: 'Talep edildi'
+towny_map_forsale: 'Sat��l��k'
+towny_map_yourtown: 'Senin ��ehrin'
+towny_map_yourplot: 'Arsa'
+towny_map_ally: 'M��ttefik'
+towny_map_enemy: 'D����man'
+enabled: 'Etkin'
+disabled: 'Devre d������'
+forced: 'Zorla'
+adjustable: 'Ayarlanabilir'
+#Added in 0.48:
+msg_no_funds_new_town2: '&c%s buraya yeni bir kasaba kuramazs��n yeterli alt��n��n yok, bu da fiyat�� %s.'
+msg_no_funds_new_nation2: '&cKasaban��n yeni bir ulus kurmaya g��c�� yetmez, bunun maliyeti %s.'
+msg_no_funds_claim2: '&cKasaban��n bankas��nda %s alt��n var, Bu claimi almak i��in %s alt��n gerekiyor. /t deposit %s komutunu kullanarak ��ehir bankas��na %s alt��n ekleyin'
+msg_err_cant_afford_blocks2: '&cKasaba,%s maliyetiyle %s kasaba bloklar��n�� talep edemez. /t deposit %s kullanarak ��ehir bankas��na %s ekleyin'
+msg_err_not_enough_variables: '&cYeterli de��i��ken yok: '
+nation_rechecked_by_admin: '&b��lkenin %s kasaba mesafeleri ba��ar��yla yeniden kontrol edildi.'
+msg_err_nation_over_town_limit: '&cUlusunuz, ��lke ba����na izin verilen maksimum kasaba say��s��na ula��t��: %s.'
+#Added in 0.49
+msg_process_claim: 'Arsa Hak Talebi ����leniyor...'
+msg_process_unclaim: '����leniyor Arsa Hak Talebi...'
+msg_total_townblocks: 'Toplam Kasaba Bloklar��: '
+#Added in 0.50
+friend_list: 'Arkada��lar Listesi'
+#The following formatting lists apply to friends lists on the /res screen; townranks lists on the /town screen;
+#nationranks lists on the /nation screen; and probably more lists of residents.
+res_format_list_1: '&2' #First colour applied to Resident lists, ex: on /res, the friend list's Friends section.
+res_format_list_2: '&a' #Second colour applied to Resident lists, ex: on /res, the friend list's [1] section.
+res_format_list_3: '&f' #Third colour applied to Resident lists, ex: on /res, the friend list's list of friends' names section.
+townboard_message_colour_1: '&6'
+townboard_message_colour_2: '&e'
+nationboard_message_colour_1: '&6'
+nationboard_message_colour_2: '&e'
+not_registered: 'Kay��tl�� de��il.'
+msg_error_missing_comparator: '&bNeye g��re s��ralanaca����n�� belirtmelidir.'
+msg_error_invalid_comparator: '&bGe��ersiz kar����la��t��r��c��.'
+msg_error_multiple_comparators: '&b��ok fazla kar����la��t��r��c��. Yaln��zca birini belirtin.'
+msg_error_comparator_failed: '&bKar����la��t��r��c�� ba��ar��s��z oldu. Farkl�� bir tane dene.'
+number_of_residents: '(Sakin Say��s��)'
+number_of_towns: '(��l��e Say��s��)'
+town_name: 'Kasaba Ad��'
+nation_name: 'Ulus Ad��'
+refund_message: '&aKasaba blo��u hakk��n��zdan vazge��ti��iniz i��in %s kadar ��deme ald��n��z(��ade edilen Kasaba blo��u:%s).'
+msg_bankrupt_town_multiple: '&bA��a����daki kasabalar bak��m masraflar��n�� kar����layamad��lar ve da����ld��lar: '
+msg_bankrupt_nation_multiple: '&bA��a����daki ��lkeler bak��m masraflar��n�� kar����layamad��lar ve da����ld��lar: '
+msg_couldnt_pay_tax: '&b%s vergi ��deyemedi ve at��ld�� %s.'
+msg_couldnt_pay_nation_tax_multiple: '&bA��a����daki ��ehirler ulus vergisini kar����layamad�� ve ulusu terk etti: '
+msg_couldnt_pay_town_tax_multiple: '&bA��a����daki sakinler ��ehir vergisini kar����layamad�� ve s��rg��ne g��nderildi: '
+msg_couldnt_pay_plot_taxes_multiple: '&bA��a����daki sakinler arsalar��n��n bir k��sm�� veya tamam�� i��in arsa vergisini kar����layamad��: '
+msg_bankrupt_town2: '&b%s bir kasaba olarak kalamazd��.'
+msg_bankrupt_nation2: '&b%s ulus olarak kalamazd��.'
+status_embassy_town: '��u kasabalarda topraklar�� var'
+#Added in 0.51:
+msg_error_invalid_comparator_nation: '&bGe��ersiz kar����la��t��r��c��. %s deneyin.'
+msg_error_invalid_comparator_town: '&bGe��ersiz kar����la��t��r��c��. %s deneyin.'
+msg_err_merging_for_kings_only: '&bBirle��tirme yaln��zca bir Ulus Lideri taraf��ndan yap��labilir.'
+msg_err_king_of_that_nation_is_not_online: '&b%s Ulusunun Lideri,%s ��evrimi��i de��il. Birle��tirme ba��ar��s��z oldu.'
+nation1_has_merged_with_nation2: '&6%s ��lkesi, h��k��m s��ren milletiyle birle��meyi kabul etti: %s.'
+msg_would_you_merge_your_nation_into_other_nation: '&6%s ��lkenizi %s ulusuna d��n����t��rmeyi kabul eder misiniz? Bu, t��m kasaba ve ��lke bankalar��n��n paras��n�� %s ye aktaracak.'
+no_open_towns: 'Listelenecek a����k kasaba yok.'
+#Added in 0.52:
+msg_error_nation_has_no_allies: 'Ulusun listelenecek m��ttefiki yok.'
+msg_error_nation_has_no_enemies: 'Ulusun listelenecek d����man�� yok.'
+msg_error_ta_plot_claim: 'Eksik oyuncu ad��, ��rne��in:/ta plot claim OyuncuAd�� Burada hak talebinde bulun'
+msg_error_no_player_with_that_name: '��simli oyuncu bulunamad�� %s'
+msg_admin_has_given_you_a_plot: 'Bir y��netici sizin i��in bir arsa talep etti: %s'
+msg_town_forcemobs_setting_set_to: '%s kasabas��n��n mob ayarlar�� %s olarak zorunlu k��l��nd��'
+msg_town_forcepvp_setting_set_to: '%s kasabas��n��n pvp ayar�� %s'
+msg_town_forcedisabledpvp_setting_set_to: '%s ��ehri, adhmindisabledpvp ayarlar��n�� %s olarak zorlad��'
+msg_nation_changed_open: '&cUlusun stat��s�� art��k a��k %s.'
+msg_err_already_in_a_nation: 'Kasaban��z zaten bir ulusun i��inde.'
+msg_err_nation_not_open: '&c%s ��lkesinin kap��lar�� herkese a����k de��il. Kral��dan veya bir asistandan kasaban��z�� davet etmesini isteyin.'
+msg_err_nation_homeblock_in_another_world: '&cKasaban��z��n ana blo��u, ulus ba��kentinin ana blo��u ile ayn�� d��nyada de��il.'
+status_bank_town_penalty_upkeep: 'Fazla vergi talep et:'
+#Added in 0.53:
+msg_error_cannot_town_spawn_youre_an_outlaw_in_town: '%s olarak do��amazs��n��z, orada kanun ka��a���� olarak i��aretlendiniz.'
+#Added in 0.55:
+msg_you_cannot_use_that_command_while_jailed: '&4Hapsedilmi��ken bu komutu kullanamazs��n��z..'
+#Added in 0.56:
+msg_cache_block_error_town_nation: '&cUlusal ��yelerin %s yapmas��na izin verilmiyor.'
+#Added in 0.57:
+msg_err_already_res2: '&c%s zaten bir ��ehire ait.'
+msg_err_cannot_afford_plot_set_type_cost: '&cGrafi��i %s tipi maliyetlendirmeye ayarlayamazs��n��z %s'
+msg_plot_set_cost: '&bGrafi��i yaz��ya ayarlamak i��in %s ��cretlendirildiniz: %s'
+msg_err_townspawn_has_not_been_set: '&cKasaba ortaya ����kmas�� ayarlanmad��.'
+msg_err_player_too_far_from_town_spawn: '&c%s kasabaya davet almak i��in kasaban��z��n do��mas��ndan ��ok uzakta. Maksimum mesafe:%s blok.'
+#Added in 0.58:
+msg_resident_bail_amount: 'Yerle��ik Kefalet masraflar��: '
+msg_mayor_bail_amount: 'Belediye Ba��kan�� Kefalet masraflar��: '
+msg_king_bail_amount: 'Ulus Lideri Kefalet masraflar��: '
+msg_has_paid_bail: '%s kefalet bedelini ��dedi ve serbest kald��.'
+msg_err_unable_to_pay_bail: 'Kefaleti kar����layam��yor.'
+msg_err_bail_not_enabled: 'Kefalet etkinle��tirilmedi.'
+msg_you_have_been_freed_from_jail: 'Hapisten sal��verildin.'
+msg_player_has_been_freed_from_jail_number: '%s,%s numaral�� hapishaneden kurtar��ld��.'
+msg_player_has_been_sent_to_jail_number: '%s,%s numaral�� hapishaneye g��nderildi.'
+msg_player_is_not_online: '%s ��evrimi��i de��il.'
+msg_mysql_dump_success: 'MySQL veritaban�� d��k��m�� tamamland��.'
+msg_err_mysql_not_being_used: 'Yap��land��rman��z mysql yi kaydetmek ve y��klemek i��in ayarlanmam����.'
+msg_save_success: 'Veritaban�� kaydedildi.'
+msg_load_success: 'Veritaban�� y��klendi.'
+msg_err_cannot_afford_to_set_outpost: 'Kasaban��z, bu kasaba blokunu bir karakola yerle��tirmek i��in yeterli paraya sahip de��il..'
+msg_too_close2: 'Bu b��lge ba��ka bir kasaban��n arsas��na ��ok yak��n.'
+homeblock: 'ev blo��u'
+townblock: 'kasaba blo��u'
+outpost: 'karakol'
+msg_err_not_same_town: '&b%s senin kasabana ait de��il.'
+#Added in 0.59:
+msg_modes_set: 'Se��ili Kanal: '
+msg_err_this_plot_doesnt_have_any_associated_metadata: 'Bu arsa, ili��kili herhangi bir meta veriye sahip de��il.'
+msg_err_the_metadata_for_key_is_not_registered: '"%S" i��in meta veriler kay��tl�� de��il!'
+msg_key_x_was_successfully_updated_to_x: '%s anahtar�� ba��ar��yla g��ncellendi %s.'
+msg_err_key_x_is_not_part_of_this_plot: '%s anahtar�� bu grafi��in bir par��as�� de��il, m��mk��nse l��tfen ekleyin.'
+msg_err_key_x_already_exists: '%s anahtar�� zaten var!'
+msg_custom_data_was_successfully_added_to_townblock: '��zel veriler ba��ar��yla townblock a eklendi!'
+msg_data_successfully_deleted: 'Veriler ba��ar��yla silindi!'
+msg_err_key_cannot_be_deleted: 'Anahtar mevcut olmad������ i��in silinemez!'
+msg_err_this_town_doesnt_have_any_associated_metadata: 'Bu kasaban��n ili��kili herhangi bir meta verisi yok.'
+msg_err_key_x_is_not_part_of_this_town: '%s anahtar�� bu kasaban��n bir par��as�� de��il, m��mk��nse l��tfen ekleyin.'
+msg_custom_data_was_successfully_added_to_town: '��zel veriler ��ehire ba��ar��yla eklendi!'
+msg_error_too_many_pages: '��ok fazla sayfa.'
+msg_err_location_is_not_within_a_town: 'Konum bir kasaba i��inde de��il.'
+msg_err_location_is_not_within_a_jail_plot: 'Konum bir Hapishane arsas�� i��inde de��il.'
+msg_err_town_has_no_jail_spawns_set: 'Kasabada hapishane ����kma yeri yok.'
+msg_err_town_has_no_outpost_spawns_set: 'Kasabada belirlenmi�� bir karakol belirme yeri yok.'
+msg_err_location_is_not_within_an_outpost_plot: 'Konum, karakol arsas�� i��inde de��il.'
+msg_err_town_has_not_set_a_spawn_location: 'Kasaba bir spawn yeri belirlemedi.'
+msg_err_town_has_no_claim_over_this_town_block: 'Kasaban��n bu kasaba blo��u ��zerinde hi��bir hakk�� yok.'
+msg_err_town_doesnt_belong_to_any_nation: 'Kasaba herhangi bir millete ait de��il.'
+msg_err_mayor_doesnt_belong_to_town: 'Belediye ba��kan�� kasabaya ait de��il.'
+msg_err_tag_too_long: '��ok uzun etiketleyin.'
+msg_err_nation_has_not_set_a_spawn_location: '��lke bir belirme konumu belirlemedi.'
+msg_err_resident_doesnt_belong_to_any_town: 'Sakin herhangi bir ��ehire ait de��il'
+msg_err_could_not_set_default_modes_for: '����in varsay��lan modlar ayarlanamad��'
+#Added in 0.60
+msg_set_war_allowed_on: 'Bu d��nyada sava��a izin verilecek.'
+msg_set_war_allowed_off: 'Sava�� bu d��nyay�� etkilemeyecek.'
+#Added in 0.61
+#Added in 0.62
+msg_err_cannot_toggle_pvp_x_seconds_remaining: 'PVP yi de��i��tiremezsiniz,%s saniye kald��.'
+msg_err_cannot_spawn_x_seconds_remaining: '%s saniye sonra tekrar ������nlanabilirsiniz.'
+#Added in 0.63
+msg_plot_set_to_nfs: 'Arsa art��k sat��l��k de��il.'
+msg_err_x_spawn_disallowed_from_x: '&c%s spawn''a %s dan izin verilmiyor.'
+msg_the_wilderness: "\nVah��i Do��a"
+msg_enemy_areas: 'D����man alanlar��'
+msg_neutral_towns: 'Tarafs��z kasabalar'
+#Added in 0.64
+msg_err_no_nation_with_that_name: '%s ad��nda bir ��lke bulunamad��'
+msg_err_cannot_unclaim_homeblock: 'Ana blo��unuzu a��amazs��n��z, ana blo��unuzu hareket ettirmek i��in ''/town set homeblock'' se��ene��ini kullan��n.'
+#Added in 0.65
+msg_err_rename_cancelled: 'Yeniden adland��rma ba��ka bir eklenti taraf��ndan iptal edildi.'
+#Added in 0.66
+#Added in 0.67
+msg_conquered: '[Fethedildi]'
+#Added in 0.68
+msg_plot_group_claim_confirmation: 'Bu arsa,%s arsa grubunun bir par��as��d��r, talebinizi onaylayarak hepsini sat��n alacaks��n��z.'
+msg_plot_group_unclaim_confirmation: 'Bu arsa,%s arsa grubunun bir par��as�� olup, bunlar��n hepsine hak iddia etmeyece��inizi onaylars��n��z.'
+msg_plot_group_toggle_confirmation: 'Bu arsa,%s arsa grubunun bir par��as��d��r ve hepsi ��zerinde bir ��zelli��i de��i��tirece��inizi onaylar..'
+msg_plot_group_set_perm_confirmation: 'Bu grafik,%s arsa grubunun bir par��as��d��r ve bunlar��n hepsinde kal��c�� ��izgiyi ayarlayaca����n��z�� onaylars��n��z..'
+msg_plot_evict_group: 'Bu grupland��r��lm���� arsan��n oyuncusunu ba��ar��yla tahliye ettiniz, %s.'
+msg_err_plot_belongs_to_group_plot_fs: 'Arsa:%s bir gruba ait, kullan /plot group [group name] fs [amount]'
+msg_err_plot_belongs_to_group_set: 'Arsa bir gruba ait, kullan /plot group set'
+msg_plot_group_set_for_sale: '%s grubu sat����a ����kar��ld��!'
+msg_err_plot_already_belongs_to_a_group: 'Bu arsa zaten bir gruba ait:%s, l��tfen ba��ka bir gruba eklemeden ��nce bu gruptan kasaba blo��unu kald��r��n.'
+msg_err_you_must_specify_a_group_name: 'Bir ��izim grubu ad�� belirtmelisiniz.'
+msg_plot_was_put_into_group_x: 'Arsa &9 (%s,%s) &2,%s grubuna yerle��tirildi'
+msg_err_plot_not_associated_with_a_group: 'Bu arsa bir grupla ili��kili de��il.'
+msg_plot_was_removed_from_group_x: 'Arsa &9 (%s,%s) &2,%s grubundan kald��r��ld��'
+msg_plot_renamed_from_x_to_y: '%s arsa,%s olarak yeniden adland��r��ld��.'
+msg_err_plot_group_specify_price: 'L��tfen fiyat�� belirtin, ��rn.: /plot group fs [price]'
+msg_player_put_group_up_for_sale: '%s,%s grubunu %s i��in sat����a sundu'
+msg_err_could_not_set_group_type: 'Grup t��r�� ayarlanamad�� - '
+msg_set_group_type_to_x: '��izim grubunun t��r�� %s olarak de��i��tirildi'
+msg_player_successfully_bought_group_x: '%s,%s arsa grubunu ba��ar��yla sat��n ald��'
+status_plot_group_name_and_size: 'Townblock ��u grubun bir par��as��: %s. Grupta toplam %s Townblock var.'
+msg_player_made_group_not_for_sale: '%s grubu sat���� i��in de��il %s yapt��.'
+#Added in 0.69
+msg_err_cannot_set_group_to_jail: '��izim gruplar�� hapishane t��rlerine ayarlanamaz.'
+#Added in 0.70
+msg_err_plot_group_name_required: '��izim grubu ad��n�� belirtmelisiniz yani, /plot group add {name}'
+msg_confirmation_spigot_click_accept: '%s ����esini t��klay��n veya %s yaz��n'
+msg_confirmation_spigot_click_cancel: '%s ����esini t��klay��n veya %s yaz��n'
+msg_you_cannot_kick_yourself: 'Kendini tekmeleyemezsin.'
+msg_you_cannot_kick_this_resident: '%s i atamazs��n��z, onlar belediye ba��kan�� veya asistan.'
+#Added in 0.71
+msg_err_plot_belongs_to_group_plot_fs2: 'Arsa:%s bir gruba ait, kullan��m�� /plot group fs [miktar]'
+msg_err_plot_belongs_to_group_plot_nfs: 'Arsa:%s bir gruba ait, kullan��m�� /plot group nfs'
+#Added in 0.72
+msg_err_admin_controlled_pvp_prevents_you_from_changing_pvp: 'Y��netici taraf��ndan kontrol edilen% s ayar��, pvp yi %s olarak de��i��tirmenizi engelliyor.'
+#Added in 0.73
+msg_err_you_aren't currently jailed: '��u anda hapiste de��ilsin.'
+#Added in 0.74
+msg_err_you_are_not_allowed_to_create_the_other_side_of_this_portal: 'Bu konumda bu portal��n di��er taraf��n�� yaratman��za izin verilmiyor.'
+#Added in 0.75
+msg_already_ally: 'Ulusun zaten %s ile m��ttefik.'
+#Added in 0.76
+msg_you: 'Sen'
+#Added in 0.77
+msg_click_spawn: '&aDo��mak i��in t��klay��n: &e%s'
+msg_spawn_cost: '&aDo��ma Maliyeti = &e%s'
+#Added in 0.78
+msg_reload_error: 'Towny yi yeniden y��klerken bir hata olu��tu.'
+msg_reloaded_config: '&2Yap��land��rma ba��ar��yla yeniden y��klendi.'
+msg_reloaded_perms: '&2��zinler ba��ar��yla yeniden y��klendi.'
+msg_reloaded_db: '&2Veritaban�� ba��ar��yla yeniden y��klendi'
+msg_reloaded_lang: '&2Dil dosyas�� ba��ar��yla yeniden y��klendi'
+msg_reset_config: '&2Yap��land��rma s��f��rland��'
+msg_err_teleport_cancelled: 'Hareket, ������nlanman��z�� iptal etti.'
+#Added in 0.79
+msg_cache_block_error_plot_friends: 'Arkada��lar'
+msg_cache_block_error_plot_allies: 'm��ttefikler'
+msg_cache_block_error_plot_outsiders: 'yabanc��'
+msg_cache_block_error_plot_town_members: 'kasaba ��yeleri'
+msg_err_invalid_nation_map_color: '&cBilinmeyen harita rengi. ��zin verilen renkler %s.'
+msg_nation_map_color_changed: '&bUlus haritas��n��n rengi de��i��tirildi %s.'
+msg_err_unable_to_add_more_residents_without_nation: 'Kasaban��z, ��nce bir ulusa kat��lmadan veya olu��turmadan %s sakininden fazlas��n�� davet edemez.'
+msg_the_following_towns_were_deleted_for_having_0_claims: '0 claim talebinde bulunan a��a����daki ��ehirler silindi: %s'
+msg_spawn_warn: 'Spawnlanma maliyeti %s Alt��n. Kabul ediyormusun? ��pucu: Bu onaylar�� atlamak i��in -ignore ekleyin.'
+msg_confirm_purchase: 'Bunun fiyat��  %s Alt��n. Kabul ediyormusun?'
+msg_warn_the_following_towns_will_be_removed_from_your_nation: 'Yeni ba��kente yeterince yak��n olmayacaklar�� i��in ��u kasabalar ��lkenizden silinecek: %s. Devam etmek istiyor musunuz?'
+msg_ta_deposit_all_success: 'Ba��ar��yla t��m ��lke ve kasaba bankalar��na %s yat��r��ld��.'
+bonus_townblocks: 'bonus kasaba bloklar��'
+#Added in 0.80
+nomad_sing: 'G����ebe'
+msg_new_town_advice: '&a��ehrinizi yaratt������n��z i��in tebrikler! Kasaban��z, ��u anda %s de��erinde olan g��nl��k bir vergi ��deyecek."/t deposit miktar" komutunu kullanarak ��ehrinize para yat��rabilirsiniz. vergi ��deyecek paran��z yoksa ��ehriniz silinecektir. Maliyetlerinizi /towny prices ile istedi��iniz zaman g��rebilirsiniz. Sonraki g��nl��k vergi %s i��inde al��nd��.'
+#Added in 0.81
+msg_err_teleport_cancelled_damage: 'Hasar ald��n��z ������nlanman��z iptal edildi.'
+#Added in 0.82
+invitation_prefix: "&8[&7Davetiye&8] &9"
+confirmation_prefix: "&8[&7Onayla&8] &9"
+this_message_will_expire2: '&9Bu i��lem, %s saniye i��inde otomatik olarak sona erecek!'
+msg_hover_next_page: 'Sonraki Sayfa'
+msg_hover_previous_page: '��nceki sayfa'
+#Added in 0.83
+msg_max_tax_amount_only_for_percent: "Maksimum vergi tutarlar�� yaln��zca vergi y��zdesi olan ��ehirler i��in belirlenebilir."
+msg_town_set_tax_max_percent_amount: "%s, maksimum vergi y��zdesi tutar��n�� %s olarak ayarlad��."
+#Added in 0.84
+msg_err_plot_belongs_to_group_toggle: 'Arsa bir gruba ait, kullan��m�� /plot group toggle'
+#Added in 0.85
+msg_set_perms_reset_single: '&bBu grafikteki izinler ba��ar��yla s��f��rland��.'
+#Added in 0.86
+status_bank_bankrupt: '(��FLAS ETT��)'
+msg_warning_bankrupt: '&4*** UYARI %s, ALTIN EKS��KL������ NEDEN��YLE B��R SONRAK�� YEN�� G��NDE BANKRUPA G��DECEK ***'
+msg_town_bankrupt_by_upkeep: '&b%s, bak��m masraflar��n�� kar����layamad�� ve iflas etti.'
+msg_town_bankrupt_by_upkeep_multiple: '&bA��a����daki kasabalar bak��m masraflar��n�� kar����layamad�� ve iflas etti: '
+msg_town_bankrupt_by_nation_tax: '&b%s, %s vergisini ��deyemedi ve iflas etti.'
+msg_town_bankrupt_by_nation_tax_multiple: '&bA��a����daki kasabalar ulus vergisini kar����layamad�� ve iflas etti: '
+msg_town_debts_cleared: '%s t��m bor��lar��n�� kapatt�� ve art��k iflas etmiyor.'
+msg_err_bankrupt_town_cannot_claim: '��flas etmi�� bir kasaba i��in arsa talep etmenize izin verilmez.'
+msg_err_bankrupt_town_cannot_build: '��flas etmi�� bir kasabada in��aat yapmaya izin verilmiyor.'
+msg_err_bankrupt_town_cannot_toggle_open: '��flas etmi�� bir kasabada davetleri a��maya izin verilmez.'
+msg_err_bankrupt_town_cannot_invite: 'Oyuncular�� iflas etmi�� bir ��ehre davet etmeye izin verilmez.'
+msg_payed_nation_tax: '&b��ehriniz %s Alt��n ��lke vergisini ��dedi.'
+msg_your_town_couldnt_pay_the_nation_tax_of: '&b��ehrin %s ulusunun vergisini kar����layamad�� ve ulustan at��ld��.'
+msg_your_town_payed_upkeep: '&bKasaban��z %s g��nl��k bak��m��n�� ��dedi.'
+msg_your_nation_payed_upkeep: '&b��lken %s g��nl��k bak��m��n�� ��dedi.'
+msg_your_town_couldnt_pay_upkeep: '&bKasaban��z %s g��nl��k bak��m masraflar��n�� ��deyemedi ve da����ld��.'
+msg_your_nation_couldnt_pay_upkeep: '&bUlusunuz %s g��nl��k bak��m masraflar��n�� ��deyemedi ve da����ld��.'
+#Added in 0.87
+msg_town_reached_debtcap_and_is_disbanded: '&b%s, bak��m masraflar��n�� ��deyemedi, bor�� kapa����na ula��t�� ve da����ld��.'
+msg_town_reached_debtcap_and_is_disbanded_multiple: '&bA��a����daki kasabalar bak��m masraflar��n�� ��deyemediler, bor��lar��na ula��t��lar ve da����ld��lar: '
+msg_unable_to_deposit_x: 'O kasaban��n bankas��na %s Alt��n yat��r��lam��yor.'
+msg_unable_to_withdraw_x: 'O kasaban��n bankas��ndan %s Alt��n ��ekilemiyor.'
+status_debtcap: 'Bor�� ��st S��n��r��:'
+status_world_explrevert_entity: 'Varl��k Patlamas�� Geri D��nd��rme:'
+status_world_explrevert_block: 'Patlamay�� Geri Almay�� Engelle:'
+#Added in 0.88
+msg_nation_already_peaceful: '&cUlus zaten bar��������l.'
+msg_nation_already_not_peaceful: '&cUlus zaten bar��������l de��il.'
+#Added in 0.89
+status_world_friendlyfire: 'Dost ate��i:'
+status_world_wildernessmobs: 'Vah��i Do��a Moblar��:'
+msg_outlaw_kick_cooldown: '&c%s ��lkesinde kanun ka��a���� say��l��rs��n��z. Kasabay�� terk etmek i��in %s hakk��n��z kald��, aksi takdirde yeniden do��ma noktan��za ������nlanacaks��n��z.'
+msg_outlaw_kicked: '&4%s i��inde ho�� kar����lanm��yorsun. I����nland��n.'
+msg_outlaw_town_notify: '&cBir haydut, %s ��ehrinizin topraklar��na girdi.'
+msg_your_town_payed_upkeep_with_debt: '&cKasaban��z g��nl��k %s bak��m masraf��n�� bor��la ��dedi.'
+msg_payed_nation_tax_with_debt: '&cKasaban��z bor��la birlikte %s ��lke vergisini ��dedi.'
+#Added in 0.90
+status_plot_clear_deletion: 'PlotClearBlockDelete:'
+msg_err_plot_clear_disabled_in_this_world: 'Bu d��nyada /plot clear komutu devre d������ b��rak��lm����t��r.'
+#Added in 0.91
+msg_universe_attribution: 'Yap��mc��lar: '
+msg_universe_contributors: ' Ve sizin gibi katk��da bulunanlar. '
+msg_universe_heart: '<3'
+townblock_plu: 'Town Bloklar��'
+#Added in 0.92
+#Town Ruins
+admin_panel_4: 'Yeni saat kodunu ��al����t��r��n'
+msg_newhour_success: 'newhour komutu ba��ar��yla y��r��t��ld��'
+town_help_12: 'Kasaban��z�� y��k��k bir devletten geri al��n.'
+msg_warning_town_ruined_if_deleted: "UYARI!: Kasaban��z�� silerseniz, %d saat boyunca harap bir duruma girecektir. Bu s��reden sonra tam silme ger��ekle��ecektir. Y��k��lm���� durumda, t��m izinler etkinle��tirilir ve kasaba kederli olabilir."
+msg_warning_town_ruined_if_deleted2: "Kasaba, %d saat sonra ''/t reclaim'' komutunu kullan��larak herhangi bir kasaba sakini taraf��ndan geri al��nabilir."
+msg_err_cannot_reclaim_town_unless_ruined: '&cKasaban�� geri alamazs��n ����nk�� mahvolmad��.'
+msg_err_cannot_reclaim_town_yet: '&cKasaban��z�� %d saat daha geri alamazs��n��z.'
+msg_town_reclaimed: '&b%s, %s kasabas��n�� geri ald��.'
+msg_err_cannot_use_command_because_town_ruined: "&cKasaban��z mahvoldu��u i��in bu komutu kullanamazs��n��z. Normal komut kullan��m��na devam etmek i��in ya ''/town reclaim'' komutunu kullanarak ��ehri geri al��n veya ''/town allow '' komutunu kullanarak kasabay�� terk edin."
+msg_warning_your_town_is_ruined_for_x_more_hours: '&cKasaban��z %d saat daha harap durumda. Kasabay�� kurtarmak i��in belediye ba��kan�� olmal��s��n��z! E��er belediye ba��kan�� iseniz ''/town reclaim'' komutunu kullan��n.'
+msg_time_remaining_before_full_removal: 'Tam silinmeden ��nce kalan zaman: %d saat.'
+msg_time_until_reclaim_available: 'Al��nabilirlik s��resi: %d saat.'
+msg_reclaim_available: 'Geri alma mevcut.'
+#Added in 0.93
+msg_changed_peaceful: '&cKasaban��n tarafs��zl������ / bar����severli��i art��k %s.'
+msg_err_town_unclaim_canceled: '&cHak talebi iptal edildi. Bu b��lgeyi ��u anda hak talebinde bulunamazs��n��z.'
+#Added in 0.94
+msg_comptype_residents: '��ye Say��s��'
+msg_comptype_townblocks: '��ddia Edilen Kasaba Bloklar��n��n Say��s��'
+msg_comptype_balance: 'Bankadaki Alt��n'
+msg_comptype_online: '��evrimi��i Oyuncular'
+msg_comptype_towns: '��l��e Say��s��'
+msg_comptype_name: 'Alfabetik s��ra'
+msg_comptype_open: 'Genel Durum'
+msg_status_npc: '&c%s ger��ek bir oyuncu de��ildir ve yaln��zca Towny ile s��n��rl��d��r.'
+npc_created: 'Kuruldu:'
+msg_no_funds_claim_plot: '&c%s alt��n maliyetine sahip arsay�� talep edemezsiniz.'
+msg_no_funds_claim_plot_group: '&c%s altt��n maliyetine sahip %s arazilerini talep edemezsiniz.'
+status_town_title_peaceful: '&b(Bar��������l)'
+#Added in 0.95
+status_public: '&b(Halka a����k)'
+msg_days: ' g��n'
+msg_comptype_public: 'Kamu Durumu'
+towny_prices_title: 'Fiyat'
+towny_prices_town_nation: '&e[Yeni] &2Kasaba: &a%s &8| &2Ulus: &a%s'
+towny_prices_reclaim: '&e[Geri Alma] &2Kasaba: &a%s'
+towny_prices_upkeep: '&e[Vergi] &2Kasaba: &a%s &8| &2Ulus: &a%s'
+towny_prices_overclaimed_upkeep: '&e[A����r�� Talep Edilen Vergi] &2Kasaba: &a%s'
+towny_prices_claiming_townblock: '&e[Talep ediliyor] &2TownBlok: &a%s'
+towny_prices_claiming_townblock_increase: ' &8| &2Kasaba Blo��u ba����na art����: &a+%s'
+towny_prices_claiming_outposts: '&e[Claiming] &2Karakollar: &a%s'
+towny_prices_upkeep_based_on: '&7Kasaba vergisi, &a%s'
+towny_prices_upkeep_num_plots: 'arsa say��s��.'
+towny_prices_upkeep_town_level: 'kasaba seviyesi (sakinlerin say��s��.)'
+towny_prices_overclaimed_based_on: '&8Fazla talep edilen vergi, &a%s %s de��erine ba��l��d��r'
+towny_prices_overclaimed_num_plots: 'a����r�� talep edilen parsellerin say��s�� *'
+towny_prices_overclaimed_flat_cost: 'sabit bir maliyet'
+towny_prices_townname: '&cKasaba: &b%s'
+towny_prices_price_plot: '&c    [Fiyat] &2Arsa: &a%s &8| &2Karakol: &a%s'
+towny_prices_price_shop: '&c            &2Market: &a%s &8| &2El��ilik: &a%s'
+towny_prices_taxes_plot: '&c    [Vergiler]    &2Yerle��ik: &a%s &8| &2Arsa: &a%s'
+towny_prices_taxes_shop: '&c            &2Market: &a%s &8| &2El��ilik: &a%s'
+towny_prices_town_neutral_tax: '&c            &2Bar���� durumu: &a%s'
+towny_prices_plots: '&c    [Arsa Ayarlar��]'
+towny_prices_type_single: '            &2%s: &a%s'
+towny_prices_type_double: '            &2%s: &a%s &8| &2%s: &a%s'
+towny_prices_nationname: '&cUlus: &6%s'
+towny_prices_nation_tax: '&c    [Vergiler] &2Kasaba: &a%s &8| &2Bar����: &a%s'
+#Added in 0.96
+msg_town_destroyed_by_nation_tax: '&bFethedilen ��ehir %s ��lke vergisini ��deyemedi ve d����t��.'
+msg_town_destroyed_by_nation_tax_multiple: '&bA��a����daki fethedilen ��ehirler ulus vergisini kar����layamad�� ve d����t��: '
+msg_your_town_was_exempt_from_the_nation_tax: '&bKasaban��z ulus vergisinden muaft��.'
+#Added in 0.97
+status_perm_line_format: '&a%s=&7' #The Build = ---- Destroy = ---- seen in the status screen.
+msg_comptype_ruined: 'Y��k��k Durumu'
+msg_comptype_bankrupt: '��flas Durumu'
+msg_ruined: '&c(Y��k��k)'
+msg_bankrupt: '&c(��flas)'
+#Added in 0.98
+msg_del_town2: '&b%s kasabas�� silindi!'
+msg_ruin_town: '&b%s kasabas�� harabeye d��nd��!'
+gui_title_select_plot_type: 'Arsa Tipi Se��'
+gui_title_no_restrictions: 'Bu arsa t��r�� i��in herhangi bir k��s��tlama yoktur.'
+gui_title_towny_allowedblocks: '%s ��zin Verilen Blok Listesi'
+gui_title_towny_wildsblocks: 'Towny Vah��i Do��a Bloklar�� Listesi'
+gui_title_towny_itemuse: 'Towny ItemUse Listesi'
+gui_title_towny_switch: 'Towny Switch Listesi'
+gui_title_towny_plotclear: 'Towny Plot Clear Delete Listesi'
+#Added in 0.99 - FlatFile L10N
+#NOTICE
+#While these strings can be translated, we caution you to keep them in English.
+flatfile_dbg_cannot_set_capital_try_next: 'Nation %s could not set capital to %s, selecting a new capital...'
+flatfile_dbg_deleting_duplicate: 'Deleting: %s which is a duplicate of %s'
+flatfile_dbg_folders_found: 'Folders found %s'
+flatfile_dbg_group_file_missing_town_delete: 'Group file missing Town, deleting %s'
+flatfile_dbg_loading_group_list: 'Loading Group list...'
+flatfile_dbg_loading_nation: 'Loading Nation: %s'
+flatfile_dbg_loading_nation_list: 'Loading Nation list...'
+flatfile_dbg_loading_resident: 'Loading Resident: %s'
+flatfile_dbg_loading_resident_list: 'Loading Resident list...'
+flatfile_dbg_loading_server_world_list: 'Loading Server World List...'
+flatfile_dbg_loading_town: 'Loading Town: %s'
+flatfile_dbg_loading_town_list: 'Loading Town list...'
+flatfile_dbg_loading_townblock_list: 'Loading TownBlock list...'
+flatfile_dbg_loading_world: 'Loading World: %s'
+flatfile_dbg_loading_world_list: 'Loading World List...'
+flatfile_dbg_mismatched_townblock_size: '%s townblocks were found with a town_block_size that does not match your config, they were not loaded into memory.'
+flatfile_dbg_missing_file_delete_group_entry: 'Missing file: %s deleting entry in group.txt'
+flatfile_dbg_missing_file_delete_groups_entry: 'Missing file: %s deleting entry in groups.txt'
+flatfile_dbg_removing_nation_not_found: 'Removing %s because they are not found in the nations.txt'
+flatfile_dbg_removing_resident_not_found: 'Removing %s because they are not found in the residents.txt'
+flatfile_dbg_removing_town_not_found: 'Removing %s because they are not found in the towns.txt.'
+flatfile_dbg_town_fetch_outlaw: 'Town Fetching Outlaw: %s'
+flatfile_dbg_undefined_capital_select_new: 'Nation %s did not have a capital defined, selecting a new capital...'
+flatfile_dbg_world_loaded_townblocks: 'World: %s loaded %s TownBlocks.'
+flatfile_err_cannot_create_defaults: 'Could not create flatfile default files and folders.'
+flatfile_err_could_not_add_to_town: 'Could not add to town!'
+flatfile_err_exception_reading_file: 'Loading Error: Exception while reading file %s'
+flatfile_err_exception_reading_group_file_at_line: 'Loading Error: Exception while reading Group file %s at line: %s'
+flatfile_err_exception_reading_townblock_file_at_line: 'Loading Error: Exception while reading TownBlock file %s at line: %s.'
+flatfile_err_exception_reading_world_file_at_line: 'Loading Error: Exception while reading world file %s at line: %s, in towny/data/worlds/%s.txt'
+flatfile_err_file_error_reading_world_file_at_line: 'Loading Error: File error while reading %s at line: %s, in towny/data/worlds/%s.txt'
+flatfile_err_homeblock_load_invalid_location: '[Warning] %s - HomeBlock tried to load invalid Location.'
+flatfile_err_homeblock_load_invalid_townblock: '[Warning] %s - HomeBlock tried to load invalid TownBlock.'
+flatfile_err_homeblock_load_invalid_world: '[Warning] %s - HomeBlock tried to load invalid World.'
+flatfile_err_invalid_townblock_resident: 'Invalid resident for TownBlock %s. Skipped setting resident for TownBlock...'
+flatfile_err_loading_group_list_at_line: 'Error loading Group List at %s, in towny/data/groups.txt'
+flatfile_err_loading_world_list_at_line: 'Error loading World list at %s, in towny/data/worlds.txt'
+flatfile_err_nation_could_not_load_capital_disband: 'The nation %s could not load a capital city and is being disbanded.'
+flatfile_err_reading_nation_file_at_line: 'Loading Error: Exception while reading nation file %s at line %s, in towny/data/nations/%s.txt'
+flatfile_err_reading_outlaw_of_town_duplicate: 'Loading Error: Exception while reading an outlaw of town file %s.txt. The outlaw %s is duplicated! Skipping adding duplicate...'
+flatfile_err_reading_outlaw_of_town_not_exist: 'Loading Error: Exception while reading an outlaw of town file %s.txt. The outlaw %s does not exist! Removing from list...'
+flatfile_err_reading_resident_at_line: 'Loading Error: Exception while reading resident file %s at line: %s, in towny/data/residents/%s.txt'
+flatfile_err_reading_town_file_at_line: 'Loading Error: Exception while reading town file %s at line: %s, in towny/data/towns/%s.txt'
+flatfile_err_resident_tried_load_invalid_town: 'Loading Error: %s tried to load the town %s which is invalid. Removing town from the resident.'
+flatfile_err_town_homeblock_not_exist: '[Warning] %s does not have a HomeBlock.'
+flatfile_err_townblock_file_contains_unregistered_town_delete: 'TownBlock file contains unregistered Town: %s, deleting %s'
+flatfile_err_townblock_file_missing_town_delete: 'TownBlock file missing Town, deleting %s'
+flatfile_err_townblock_file_unknown_err: 'TownBlock file contains unknown error, deleting %s.'
+msg_ta_removed_all_titles_and_surnames_removed: 'T��m sakinlerin unvanlar�� ve soyadlar�� kald��r��ld��.'
+msg_err_homeblock_already_set_here: 'Bu konum zaten ��ehrinizin ana blo��u.'
+#Added in 0.100
+msg_town_merge_err_mayor_only: '&cBirle��tirme yaln��zca bir belediye ba��kan�� taraf��ndan yap��labilir.'
+msg_town_merge_err_not_close: '&c%s kasabas��, ��ehrinizden ��ok uzakta. Onlar��n ana blo��u, ana blokunuzdan en az %d kasaba blo��u olmal��d��r.'
+msg_town_merge_request_sent: '&b%s belediye ba��kan��na birle��tirme iste��i g��nderildi.'
+msg_town_merge_request_received: '&b%s belediye ba��kan��, %s, ��ehrinizle birle��mek istedi. Bu, t��m kasaba bloklar��n��, sakinleri ve kasaba bankas�� paras��n�� %s''ye aktaracak.'
+msg_town_merge_request_denied: '&cBirle��tirme iste��i reddedildi.'
+msg_town_merge_other_offline: '&c%s belediye ba��kan��, %s ��u anda ��evrimd������. Birle��tirme ba��ar��s��z oldu.'
+msg_town_merge_err_too_many_residents: '&cBirle��tirme ba��ar��s��z oldu: Yeni yerle��ik ki��i miktar�� (%d) s��n��r��n�� a����yor'
+msg_town_merge_err_too_many_townblocks: '&cBirle��tirme ba��ar��s��z oldu: Yeni kasaba boyutu (%d) s��n��r��n�� a����yor'
+msg_town_merge_err_too_many_outposts: '&cBirle��tirme ba��ar��s��z oldu: Yeni karakol miktar�� (%d) s��n��r��n�� a����yor'
+msg_town_merge_err_not_enough_money: '&cBirle��tirme ba��ar��s��z oldu: Yeterli para yok. (%s/%s)'
+msg_town_merge_err_too_many_purchased_townblocks: '&cBirle��tirme ba��ar��s��z oldu: ��ok fazla sat��n al��nm���� kasaba blo��u (%d)'
+msg_town_merge_warning: '&cUyar��: Kabul edilirse, %s ile birle��tirmenin maliyeti %s Alt��n olacakt��r.'
+msg_town_merge_debt_warning: '&cUyar��:%s ��u anda bor��lu, kabul edilirse borcunu ��demeniz gerekecek.'
+msg_town_merge_cost_breakdown: '&bMaliyet d��k��m��: Temel maliyet: %s, Kasaba arazi maliyeti: %s, ��flas maliyeti: %s, Bonus arazi maliyeti: %s'
+msg_town_merge_failed: '&cBirle��tirme ba��ar��s��z oldu.'
+msg_town_merge_cancelled: '&cBirle��tirme iptal edildi.'
+msg_town_merge_success: '&b%s taraf��ndan sahip olunan %s kasabas��, %s kasabas��na ba��ar��yla birle��tirildi.'
+#Reasons for withdrawing/depositing for the bankhistory book.
+msg_town_merge_cost_withdraw: 'Kasaba Birle��tirme Maliyetleri'
+msg_town_merge_transaction_reason: 'Kasaba Birle��tirme'
+towny_prices_town_merge: '&e[Birle��tirme] &2Temel Maliyeti: &a%s &8| &2Ba����na Konu: &a%s'
+#Added in 0.101
+msg_err_nation_not_allied_with: '&cUlusunuz %s ulusu ile m��ttefik de��il.'
+msg_err_nation_not_enemies_with: '&cUlusunuz %s ulusu ile d����man de��il.'
+msg_err_nation_already_enemies_with: '&cUlusunuz %s ulusu ile zaten d����man.'
+msg_err_ally_already_requested: '&c%s ulusu ile ittifak yapmay�� zaten istediniz.'
+msg_err_nation_not_allied_with_2: '&c%s ulusu, %s ulusu ile m��ttefik de��il.'
+msg_err_nation_not_enemies_with_2: '&c%s ulusu, %s ulusu ile d����man de��il.'
+msg_err_nation_already_allied_with_2: '&c%s ulusu, %s ulusu ile zaten m��ttefik.'
+msg_err_nation_already_enemies_with_2: '&c%s ulusu, %s ulusu ile zaten d����man.'
+msg_ta_allies_enemies_updated: '&bM��ttefikler/D����manlar i��in %s g��ncellendi.'
+#Added in 0.102
+towny_map_detailed_information: '&2Ayr��nt��l�� arsa bilgilerini g��rmek i��in t��klay��n.'
+msg_err_nation_capital_too_many_residents: '&cMevcut ba��kentte %s ile de��i��tirilemeyecek kadar ��ok insan var.'
+msg_deleting_nation_will_result_in_losing_residents: '&cUyar��: ��lkenizi silmek, ��ehrinizin %d n��fus s��n��r��n�� a��t������ anlam��na gelir ve bu da %d sakininin ����kar��lmas��yla sonu��lan��r.'
+#Added in 0.103
+msg_command_blocked_inside_towns: '&cBu komutu kasaba i��inde kullanamazs��n��z..'
+msg_command_limited: 'Bu komutu sadece kendi arsalar��n��zda kullanabilirsiniz..'
+#Added in 0.104
+#Don't add a space to the end please
+msg_plot_perm_claimed_at: '��urada al��nd��:'
+#Added in 0.105
+msg_wilderness_use_x_in_all_worlds: 'Vah��i do��a kullan��m�� t��m d��nyalarda %s oldu.'
+msg_regenerations_use_x_in_all_worlds: 'Yenilenmeler t��m d��nyalarda %s oldu.'
+#Added in 0.106
+msg_command_outsider_blocked: '%s''de ya��amad������n��z i��in bu komutu ��al����t��ramazs��n��z.'
+#Added in 0.107
+msg_jailed_for_x_hours: ' %s saat i��in:'
+msg_err_this_jail_has_no_cells: 'Bu hapishanede h��cre yok.'
+msg_err_no_cell_found_at_this_location: 'Bu konumda hi��bir hapishane h��cresi bulunamad��.'
+msg_jail_cell_set: 'Hapishane h��cresi seti.'
+msg_jail_cell_removed: 'Hapishane h��cresi kald��r��ld��.'
+msg_err_resident_is_already_jailed: '%s zaten hapse at��ld��'
+msg_err_the_town_does_not_have_that_many_jails: 'Kasabada bu kadar ��ok hapishane yok.'
+msg_err_that_jail_plot_does_not_have_that_many_cells: 'Bu hapishane plan��nda o kadar ��ok h��cre yok.'
+msg_primary_jail_set_for_town: 'Kasaban��z��n birincil hapishanesi kuruldu.'
+msg_x_has_been_freed_from_x: '%s isimli ki��i, %s hapishanesinden serbest b��rak��ld��'
+msg_you_have_been_jailed: 'Hapse at��ld��n.'
+msg_run_to_the_wilderness_or_wait_for_a_jailbreak: 'Vah��i do��aya ko��un veya jailbreak''i bekleyin.'
+msg_err_player_is_not_jailed: 'Bu oyuncu hapse at��lmaz.'
+msg_you_have_paid_bail: 'Kefalet ��dedin.'
+msg_you_have_been_freed_via_jailbreak: 'Art��k ��zg��rs��n!'
+msg_you_have_served_your_sentence_and_are_free: 'Hapis cezan�� ��ektin art��k ��zg��rs��n.'
+msg_x_has_served_their_sentence_and_is_free: '%s hapis cezas��n�� ��ekti. O art��k ��zg��r!'
+msg_you've_been_jailed_for_x_hours: '%s saattir hapistesiniz.'
+msg_you_are_being_sent_to_jail: 'Hapse g��nderiliyorsun...'
+msg_err_you_cannot_remove_the_last_cell: 'Ba��ka bir h��cre eklenene kadar bu hapishanedeki son hapishane h��cresini kald��ramazs��n��z'
+msg_do_not_log_out_while_waiting_to_be_teleported: 'Hapse ������nlanmadan ��nce ����k���� yapmay��n, bu ��l��mc��l olur.'
+jail_plu: 'Hapishaneler'
+jail_sing: 'Hapis'
+msg_resident_has_not_played_long_enough_to_be_jailed: '%s hapse at��lacak kadar uzun oynamad��, %s daha bekleyin'
+#Added in 0.108
+msg_town_not_peaceful: '&bTown bar��������l bir devleti kar����layamazd��.'
+msg_town_already_peaceful: '&b��ehir zaten bar��������l.'
+msg_town_already_not_peaceful: '&bKasaba zaten bar��������l de��il.'
+msg_town_cant_peaceful: '&bKasaba, bar��������l bir kasaba olmay�� g��ze alamazd��.'
+msg_town_paid_for_neutral_status: '&bKasaban��z, bar��������l stat��n��z�� korumak i��in %s alt��n ��dedi.'
+msg_nation_paid_for_neutral_status: '&bUlusunuz, bar��������l stat��n��z�� korumak i��in %s alt��n ��dedi.'
+your_town_has_been_invited_to_join_nation: 'Kasaban��z ulusa kat��lmaya davet edildi: %s'
+#Added in 0.109
+msg_err_no_one_to_purge: '&bTemizlenecek etkin olmayan ��ye yok.'
+msg_purging_will_remove_the_following_residents: '&bL��tfen a��a����daki sakinleri temizlemek istedi��inizi onaylay��n: %s'
+msg_purge_complete_x_removed: '&bTemizleme tamamland��, %s sakin kald��r��ld��.'
+msg_err_days_must_be_greater_than_0: 'G��nler s��f��rdan b��y��k olmal��d��r.'
+msg_err_outlawed_players_no_teleport: '&4��u anda bulundu��unuz ��ehirde yasa d������s��n��z, ������nlanman��z m��mk��n de��il!'
+msg_err_you_cannot_use_command_while_in_outlaw_town: '&4Yasad������ oldu��unuz bir kasabadayken bu komutu kullanamazs��n��z.'
+#Added in 0.110
+msg_safe_mode: "[Hata] G��venli modda kilitlendi!"
+msg_safe_mode_base: '[Hata] Towny, bir hata nedeniyle G��venli Modda kilitlendi! '
+msg_safe_mode_player: 'Bir y��neticiye sunucunun konsolunu kontrol etmesini s��yleyin'
+msg_safe_mode_admin: 'Daha fazla bilgi i��in sunucunun konsolunu kontrol edin.'
+msg_err_you_can_only_claim_outposts_in_your_homeblocks_world: 'Sadece ana blo��unuzun d��nyas��ndaki ileri karakollar�� talep edebilirsiniz.'
+msg_err_not_close_enough_to_your_town_nearest_plot: 'Karakol talep edemiyorsunuz, en yak��n claim talebinizden %s ��ehir blo��u kadar uzaktas��n��z. ��zin verilen maksimum mesafe: %s ��ehir blo��u.'
+msg_err_you_have_moved_your_homeblock_too_recently_wait_x: 'Ana blo��unuzu ��ok yak��n zamanda ta����d��n��z! %s saniye daha bekleyin.'
+msg_err_you_cannot_move_your_homeblock_this_far_limit_is_x_you_are_x: 'Ana blo��unuzu bu kadar ��ok blokla hareket ettiremezsiniz, s��n��r %s, bu alan %s blok ��tede.'
+msg_err_usingtowny_disabled: 'Bu d��nya t��m Towny etkile��imlerinden muaft��r. ��nce /townyworld ge��i��ini kullanaraktowny''yi kullan��n.'
+#Added in 0.111
+msg_plot_group_already_exists_did_you_want_to_transfer: 'Bu ��ehir blo��u zaten %s arsa grubunun bir par��as��. %s arsa grubuna aktarmak istedi��inizden emin misiniz?'
+msg_townblock_transferred_from_x_to_x_group: 'Townblock, %s''den %s arsa grubuna aktar��ld��.'
+msg_plotgroup_deleted: '%s arsa grubu silindi.'
+msg_plotgroup_empty_deleted: '%s arsa grubu hi��bir ��ehir blo��una sahip de��ildi ve silindi.'
+plotgroup_plu: 'Arsa Gruplar��'
+msg_err_this_town_has_no_plot_groups: 'Belirtilen kasabada arsa grubu yok.'
+msg_err_this_plot_is_already_part_of_the_plot_group_x: 'Bu ��ehir blo��u zaten arsa grubunun bir par��as��: %s'
+map_hover_plot_group: 'Arsa Grubu: '
+map_hover_plot_group_size: ' Boyut: '
+map_hover_plots: '%s arsalar'
+#Added in 0.112
+msg_checking_for_updates: 'G��ncellemeleri kontrol etme...'
+msg_no_new_updates: 'Yeni g��ncelleme bulunamad��.'
+msg_new_update_available: '&bYeni g��ncelleme mevcut: %s | Mevcut versiyon: %s'
+msg_download_here: 'Buradan indir: %s'
+msg_click_to_download: '&b��ndirmek i��in buraya t��klay��n.'
+msg_latest_version: '&2Towny versiyon: &a%s &2| En son s��r��m: &a%s'
+msg_up_to_date: '&aG��ndemdesin.'
+msg_click_purchase: 'Sat��n almak i��in t��klay��n'
+msg_you_must_join_this_town_to_claim_this_plot: 'Bu arsay�� almak i��in bu kasabaya kat��lmal��s��n��z: %s kasabas��na kat��lmak ve claim talebi iddia etmeye devam etmek ister misiniz?'
+#Added in 0.113
+status_trustedlist: 'G��venilir'
+msg_click_to_edit: '&6D��zenlemek i��in t��kla.'
+permission_gui_header: 'Towny ��zni GUI'
+msg_last_edited: '&7&oEn son %s ile %s de��i��tirilmi��tir.'
+msg_trusted_added: '&b%s, bu %s''ye g��venilir olarak eklendi.' #Last %s is either town or townblock
+msg_already_trusted: '&b%s, bu %s i��in zaten g��venilir.'
+msg_trusted_added_2: '&b%s, size %s konusunda g��vendi: %s.' #Last %s is the town name or worldcoord.
+msg_not_trusted: '&b%s, bu %s i��in g��venilir de��il.'
+msg_trusted_removed: '&b%s, bu %s i��inde g��venilir olarak kald��r��ld��.'
+msg_trusted_removed_2: '&b%s, sizi bir %s: %s i��inde g��venilir olarak ����kard��.'
+msg_overrides_removed: '&b%s i��in izin ge��ersiz k��lmalar�� kald��r��ld��.'
+msg_overrides_added: '&b%s i��in varsay��lan izin ge��ersiz k��lmalar�� eklendi.'
+msg_no_overrides_set: '&b%s, bu %s i��in ayarlanm���� herhangi bir ge��ersiz k��lmaya sahip de��il.'
+msg_overrides_already_set: '&b%s zaten bu %s i��in ayarlanm���� ge��ersiz k��lmalara sahip.'
+msg_cache_block_err: '&cBurada %s yapman��za izin verilmiyor.'
+msg_err_plot_belongs_to_group: '&cArsa bir gruba ait, %s kullan��n.'
+plotgroup_sing: 'Arsa Grubu'
+msg_err_ally_limit_reached: 'Milletiniz m��ttefik s��n��r��na ula��t��, kabul edemiyor.'
+#Added in 0.114
+msg_err_group_not_found: '%s grubu bulunamad��.'
+msg_err_expected_command_format: 'Yanl���� s��zdizimi, bekleniyor: %s'
+msg_err_group_already_has_node: '%s grubu zaten %s yetkisine sahip.'
+msg_err_group_doesnt_have_node: '%s grubu %s yetkisine sahip de��il.'
+msg_successfully_added_node_to_group: '%s, %s dizinine ba��ar��yla eklendi.'
+msg_successfully_removed_node_from_group: '%s, %s i��inden ba��ar��yla kald��r��ld��.'
+msg_err_there_is_already_a_town_or_nationrank_called_x: '%s ad��nda bir %s zaten var.'
+msg_err_there_is_no_town_or_nationrank_called_x: '%s ad��nda %s yok.'
+msg_successfully_add_rank_to_the_town_or_nation_rank: '%s, %s dizinine ba��ar��yla eklendi.'
+msg_successfully_removed_rank_from_the_town_or_nation_rank: '%s, %s dizininden ba��ar��yla kald��r��ld��.'
+msg_err_group_has_no_nodes: '%s grubuna atanm���� izin yok.'
+msg_title_group_permissions: '%s Yetkileri'
+help_ta_perms_listgroups: 'Grup Listesi.'
+help_ta_perms_group: 'Gruptaki izinleri g��ster'
+help_ta_perms_groupaddpermnode: 'Bir gruba bir yetki ekleyin.'
+help_ta_perms_groupremovepermnode: 'Gruptan bir yetkiyi kald��r��n.'
+help_ta_perms_townrankadd: 'Townyperms dosyas��na bir townrank ekler.'
+help_ta_perms_townrankremove: 'Townyperms dosyas��ndan bir townrank kald��r��r.'
+help_ta_perms_nationrankadd: 'Townyperms dosyas��na bir ulus s��ralamas�� ekler..'
+help_ta_perms_nationrankremove: 'Townyperms dosyas��ndan bir ulus s��ralamas��n�� kald��r��r.'
+msg_err_that_resident_doesnt_belong_to_that_nation: 'O mukim o millete ait de��il.'
+#Added in 0.115
+msg_comptype_founded: 'Kurulu�� Tarihi'
+msg_err_must_be_greater_than_or_equal_to: 'Tutar %s alt��ndan b��y��k veya ona e��it olmal��d��r'
+err_invalid_yaml: 'Y��kleme hatas��: %s dosyas�� y��klenemedi (yaml ayr����t��r��c��dan ge��iyor mu?).'
+#Added in 0.116
+msg_town_map_color_changed: '&b��ehir haritas�� rengi %s olarak de��i��tirildi.'
+#Added in 0.117
+msg_err_this_townblock_doesnt_match_the_groups_type: 'Bu claim blo��u,  %s t��rden olmad������ i��in gruba eklenemez.'
+#Added in 0.118
+status_title_nopvp: '&a(PvP_kapal��)'
+#Added in 0.119
+msg_err_resident_cannot_be_jailed_because_they_are_outlawed_there: 'Yasad������ olduklar�� bir yerde vatanda����n��z�� hapse atamazs��n��z.'
+msg_err_resident_cannot_be_jailed_because_they_are_enemied_there: 'D����man say��ld������ bir yerde oldu��u i��in vatanda����n��z�� hapse atamazs��n��z.'
+#Added in 0.120
+msg_resident_prompt: 'Sohbette oyuncunun ad��n�� girin veya ����kmak i��in Q tu��una bas��n. Bu i��lem, 30 saniye i��inde otomatik olarak zaman a����m��na u��rayacakt��r.'
+msg_prompt_cancel: '����tem iptal edildi veya zaman a����m��na u��rad��.'
+#Added in 0.121
+status_title_primary_colour: '&6' #Used to colour the majority of the title bar.
+status_title_secondary_colour: '&e' #Used to colour the words in the title bar.
+status_format_list_1: '&2' #First colour applied to status screen lists, ex: on /res, the friend list's Friends section.
+status_format_list_2: '&a' #Second colour applied to status screen lists, ex: on /res, the friend list's [1] section.
+status_format_list_3: '&f' #Third colour applied to status screen lists, ex: on /res, the friend list's list of friends' names section.
+status_format_key_value_key: '&2' #Colour applied to a status screen element which is just a line of text, or the key in a key/value element.
+status_format_key_value_value: '&a' #Colour applied to the value in a status screen element which has two parts, ex: Registered: SomeDate. (SomeDate is the value.)
+status_format_bracket_element: '&b' #Colour applied to a status element within a bracket, ex: [Bonus: #].
+status_format_hover_key: '&a' #Colour applied to a status screen element which is a hover-able key, ex: [Rank List]
+status_format_hover_bracket_colour: '&7' #Colour applied to the brackets of a hover-able status screen element.
+status_format_key_important: '&c' #Colour applied to an important status screen value, ex: (BANKRUPT), Ruined town reclaim lines, taxes/upkeep costs.
+status_splitter: ' &7| ' #Used in status screens where a splitter is used between values.
+status_home_element: ' &7[Ana Arsa: %s]'
+status_registered: 'Kay��t:'
+status_lastonline: 'En son g��r��lme:'
+status_fractions: '%s/%s'
+status_rank_list: 'R��tbe Listesi'
+status_hover_click_for_more: 'Daha fazla bilgi i��in t��klay��n.'
+status_jailed: 'Hapis_Durumu:'
+status_bad_yes: '&cEVET'
+status_good_no: '&aHAYIR'
+status_resident_tax_title: '%s Vergisi'
+help_menu_command: '<mavi>'
+help_menu_subcommand: '<su>'
+help_menu_explanation: '<gri>'
+help_menu_requirement: '<k��rm��z��>'
+#Added in 0.122
+msg_warn_the_following_towns_will_be_removed_from_the_merged_nation: "��lke ba��kentinize yeterince yak��n olmayacaklar�� i��in, birle��tirme tamamland������nda ��u kasabalar kald��r��lacak: %s.\n"
+#Added in 0.123
+msg_err_invalid_townyworld: "'%s' ge��erli bir towny d��nyas�� de��il."
+msg_err_enter_world_name_first: 'L��tfen ��nce d��nyan��n ad��n�� girin.'
+msg_wilderness_use_set_to: '&bVah��i do��a kullan��m�� %s i��inde %s olarak ayarland��.'
+#Added in 0.124
+msg_err_invalid_response: 'Ge��ersiz cevap! ����kmak i��in Q tu��una bas��n veya ��nceki soruya geri d��n��n.'
+msg_setup_full_guide_link: '&bTam kurulum k��lavuzunun ba��lant��s�� i��in buray�� t��klay��n.'
+msg_setup_wildernessuse: 'Vah��i do��ada kullan��m�� etkinle��tirmek ister misiniz? Bu, oyuncular��n vah��i do��ada blok k��rmas��na/in��a etmesine izin verecektir.'
+msg_setup_revertunclaim: 'Claim talebinde bulunmama durumunda geri d��nd��rmeyi kullanmak ister misiniz? Bu, sahiplenilmediklerinde kasaba bloklar��n��n yava�� yava�� yenilenmesini sa��layacakt��r.'
+msg_setup_town_block_ratio: 'Kasaba blok oran��n��z�� neye ayarlamak istersiniz? Varsay��lan, ikamet eden ki��i ba����na 8 ��ehir blo��udur. Daha y��ksek miktarlar, kasabalar��n sahip olduklar�� her sakin i��in daha fazla talep etmesine izin verecektir. Bunu 0 say��s��na ayarlamak, town_levels de��erlerini kullanmas��n�� sa��layacakt��r.'
+msg_setup_town_cost: 'Yeni bir kasaba yaratman��n maliyeti ne kadar olmal��? Varsay��lan: 250'
+msg_setup_nation_cost: 'Sizce yeni bir ulus olu��turman��n bedeli ne olmal��? Varsay��lan 1000.'
+msg_setup_townblock_cost: 'Bir ��ehir blo��unu talep etmenin maliyeti ne kadar olmal��d��r? Varsay��lan de��er 25. Townblock, bir Chunk ile ayn�� boyuttad��r (varsay��lan ayarlar).'
+msg_setup_success: 'Yap��land��rma de��erleri ba��ar��yla yeni de��erlerinizle de��i��tirildi.'
+#Added in 0.125
+#Player has recently died and respawned and is invulnerable.
+msg_err_player_cannot_be_harmed: '%s yak��n zamanda ortaya ����kt�� ve zarar veremez.'
+#Player was invulnerable after respawning and has lost their invulnerability.
+msg_you_have_lost_your_respawn_protection: 'Yeniden do��ma koruman�� kaybettin.'
+#Message shown to a player when they are denied the ability to pick up items because they are under respawn protection.
+msg_err_cannot_pickup_respawn_protection: 'Respawn korumas�� aktif iken e��ya alamazs��n��z.'
+#Added in 0.126
+#Used in the nation screen:
+status_capital: 'Ba��kent:'
+#Used in the resident screen's town hover, to denote when a player joined a town.
+status_joined_town: 'Kat��ld������ ��ehir:'
+#Used in the town screen's nation hover, to denote when a town joined a nation.
+status_joined_nation: 'Kat��lan ulus:'
+#Shown in status screen elements where a value is not known.
+status_unknown: 'bilinmeyen'
+#Feedback given for the /ta set nationzoneoverride [townname] [size] command.
+msg_nationzone_override_set_to: '%s, ulusal b��lge ge��ersiz k��lma ayar��n�� %s olarak ayarlad��.'
+#Feedback given for the /ta set nationzoneoverride [townname] 0 command.
+msg_nationzone_override_removed: '%s, ulusal b��lge ge��ersiz k��lma ayar��n�� %s olarak ayarlad��.'
+#Added in 0.127
+#Used in status screen:
+status_nation_zone_size: 'Ulus B��lge Boyutu:'
+#Shown when a player adds people to their friends list.
+msg_res_friend_added_to_list: 'Arkada�� listenize %s isimli oyuncu eklendi.'
+#Shown when a player removes people from their friends list.
+msg_res_friend_removed_from_list: '%s, arkada�� listenizden kald��r��ld��.'
+#Generic resident freed from jail message.
+msg_resident_unjailed: '%s hapisten ����kar��ld��.'
+#Shown when an admin uses /ta toggle devmode.
+msg_admin_toggle_devmode: 'Geli��tirici Modu: %s'
+#Shown when an admin uses /ta toggle debug.
+msg_admin_toggle_debugmode: 'Debug Modu: %s'
+#Shown when an admin uses /ta toggle townwithdraw
+msg_admin_toggle_townwithdraw: 'Kasabadan Para ��ekme: %s'
+#Shown when an admin uses /ta toggle nationwithdraw
+msg_admin_toggle_nationwithdraw: 'Ulus Para ��ekme: %s'
+#Shown when claiming a town block for the town.
+msg_process_town_claim: 'Kasaban��n Claim Talebi ����leniyor...'
+#Shown when unclaiming a town block for the town.
+msg_process_town_unclaim: 'Kasaban��n UnClaim Talebi ����leniyor...'
+#Shown when there is nothing to unclaim.
+msg_err_nothing_to_unclaim: 'Reddedilecek bir ��ey yok!'
+#Given as feedback when /ta checkperm is used.
+msg_perm_true: '��zin Do��ru.'
+#Given as feedback when /ta checkperm is used.
+msg_err_perm_false: '��zin Yanl����.'
+#Shown at the bottom of the /towny map
+#First variable is townname or None, 2nd variable is plot owner's name or None.
+status_towny_map_town_line: '&2Kasaba: &a%s &7| &2Sahibi: &a%s'
+#Shown on /towny version
+msg_towny_version: '&2Towny S��r��m��: &a%s'
+#Shown to admins and ops when a player has been blocked from logging into the server.
+msg_admin_blocked_login: '&c%s &2IP adresini kullanan bir oyuncu, sunucunuzun ekonomisine zarar verebilecek bir hesap ad�� olan &c%s &2ile oturum a��maya ��al����t��, ancak Towny taraf��ndan engellendi. Bu IP adresini yasaklaman��z�� ��neriyoruz!'
+#Shown during resident purge
+msg_scanning_for_old_residents: 'Eski sakinler taran��yor...'
+#Shown during resident purge
+msg_deleting_resident: '��ye siliniyor: %s.'
+#Shown during resident purge
+msg_purge_complete: '��ye temizleme tamamland��: %s silindi.'
+#Message to the Town, shown when a town is given bonus blocks.
+msg_you_have_been_given_bonus_blocks: 'Size %s bonus ��ehir blo��u verildi.'
+#Message shown when a town cannot purchase any more bonus blocks.
+msg_err_you_cannot_purchase_any_more_bonus_blocks: 'Kasaban��z daha fazla bonus blok sat��n alamaz. Maksimum miktara ula����ld��.'
+#Added in 0.128
+#Message shown to a capital city which is being denied the ability to toggle peaceful on.
+msg_err_capital_cannot_be_peaceful: 'Ba��kentler bar��������l stat��y�� de��i��tiremez.'
+#Message shown as feedback for /t toggle nationzone command.
+msg_changed_nationzone: 'Kasabay�� ��evreleyen Ulus B��lgesi art��k %s'
+#Error message shown when a town tries to toggle their nationzone which doesn't exist.
+msg_err_your_town_has_no_nationzone_to_toggle: 'Kasaban��zda de��i��tirilecek bir Ulus B��lgesi yok!'
+#Added in 0.129
+#Shown in /towny prices, describing what controls nation upkeep.
+towny_prices_nation_upkeep_based_on: '&7Ulus bak��m�� &a%s&7''''ye dayal��d��r.'
+#Shown in /towny prices, describing what controls nation upkeep when it is per town.
+towny_prices_upkeep_num_towns: 'kasaba say��s��.'
+#Shown in /towny prices, describing that controls nation upkeep when it is per resident.
+towny_prices_upkeep_nation_level: 'ulus d��zeyi (say�� sakinleri.)'
+#Added in 0.130
+#Jail causes
+msg_jailed_mayor: 'Belediye ba��kan�� taraf��ndan hapse at��ld��.'
+#Jail causes
+msg_jailed_outlaw: 'Bir kanun ka��a���� olarak ��ld��r��ld��.'
+#Jail causes
+msg_jailed_war: 'Sava�� Tutsa����.'
+#Jail handbook messages
+msg_jailed_handbook_1: '%s nedeniyle hapse at��lm����s��n��z gibi g��r��n��yor'
+#Jail handbook messages
+msg_jailed_handbook_2: 'Bu ��ok k��t�� ha. Peki bu konuda ne yapabilirsin? ����te cezan�� ��ekerken sana yard��mc�� olacak baz�� ipu��lar��.'
+#Jail handbook messages
+msg_jailed_handbook_3: '%s saattir hapistesiniz. Cezan�� ��ekerek ��zg��r olacaks��n.'
+#Jail handbook messages
+msg_jailed_handbook_4_can: '/town leave komutunu kullanarak ��ehrinizden ayr��l��p, hapisten ka��abilirsiniz.'
+#Jail handbook messages
+msg_jailed_handbook_4_cant: 'Hapisteyken hapishaneden ka��mak i��in kasaban�� terk edemeyeceksin.'
+#Jail handbook messages
+msg_jailed_handbook_bail_1: 'Kefaletinizi ''''/res jail paybail'''' komutunu kullanarak ��deyerek hapisten kurtulabilirsiniz.'
+#Jail handbook messages
+msg_jailed_handbook_bail_2: 'Kefalet bedeli %s Alt��na m��l olacak.'
+#Jail handbook messages
+msg_jailed_handbook_5: 'Direnmek ve ka��mak i��in ��abalamak zorunda kal��rsan��z, vah��i do��aya ula����rsan��z, ��zg��rl������n��z�� de kazan��rs��n��z.'
+#Jail handbook messages
+msg_jailed_handbook_6: 'Ama vah��i do��aya ula��madan ��lme, yoksa hemen hapse geri d��nersin.'
+#Jail handbook messages
+msg_jailed_teleport: 'Neyse ki, ender incilerin ve koro meyvesinin ka��man��za yard��mc�� olmas�� i��in kullan��lmas��na izin veriliyor, ��imdi sadece baz��lar��n�� ele ge��irmeniz gerekiyor.'
+#Jail handbook messages
+msg_jailed_war_prisoner: "Bir sava�� tutsa���� olarak, yurtta��lar��n��z hapishane plan��n��n Can��n�� 0''a indirebilirse veya hapse att������n��z kasaba sava��tan ����kar��l��rsa serbest b��rak��l��rs��n��z.\n"
+#Jail handbook title
+msg_jailed_title: 'Hapse at��ld��n��z :('
+#Jail handbook author
+msg_jailed_author: 'Towny Jailco.'
+#Added in 0.130
+#Message shown when there are no allies to list in /town allylist.
+msg_error_town_has_no_allies: 'Kasaban��n listelenecek m��ttefiki yok.'
+#Message shown when there are no enemies to list in /town enemylist.
+msg_error_town_has_no_enemies: 'Kasaban��n listelenecek d����man�� yok.'
+#Added in 0.132
+#Message shown in the lines of the baltop books
+msg_baltop_book_format: '%s. %s | %s'
+#Added in 0.133
+#Message shown when a confirmation times out.
+msg_confirmation_timed_out: 'Onay Zaman a����m��na u��rad��.'
+#Added in 0.134
+tc_player_channel_sound_muted: 'Kanaldan susturuldu'
+tc_player_channel_sound_unmuted: 'Kanal susturulmas�� kalkt��'
+#Added in 0.135
+msg_cant_toggle_pvp_outsider_in_plot: 'Arsan��zda bir yabanc�� var, pvp durumunuzu de��i��tiremezsiniz!'
+#Added in 0.136
+msg_view_on_web: '&7Webde g��r��nt��lemek i��in t��kla.'
+#Added in 0.137
+#Shown globally when a town merges with another town.
+town1_has_merged_with_town2: '&6%s Kasabas��, %s Kasabas�� ile birle��meyi kabul etti.'
+#Shown in the town and nation status screens to inform about neutrality costs.
+status_neutrality_cost: 'Tarafs��zl��k ��creti:'
+#Added in 0.138
+#Line 1 of the givebonus warning.
+msg_ptw_warning_1: 'Bu ��ehir bloklar�� i��in ger��ek hayatta herhangi bir para ��dediyseniz l��tfen anlay��n: Oynad������n��z sunucu Minecraft EULA ve Towny lisans��n�� ihlal ediyor.'
+#Line 2 of the givebonus warning.
+msg_ptw_warning_2: 'Towny ekibi, ��ehir bloklar��n��n ger��ek parayla sat��n al��nabilmesini asla ama��lamad��.'
+#Line 3 of the givebonus warning.
+msg_ptw_warning_3: 'Ger��ek para ��dediyseniz, Towny Tak��m��n��n isteklerine sayg�� duyan bir Towny sunucusunda oynamay�� d������nmelisiniz.'
+#Message shown when a town invites a player to join, and that town has a nation.
+you_have_been_invited_to_join3: '%s Kasabas��na davet edildiniz!&9 (Kasaba Ulusu: %s&9)'
+#Added in 0.139
+#Message shown when a town cannot afford to unclaim their land because the refund price is negative and charges them money.
+msg_err_your_town_cannot_afford_unclaim: 'Kasaban��z��n bu araziden vazge��mek i��in yeterli paras�� bulunmamakta. Bankaya %s kadar alt��n atmal��s��n��z.'
+#Message shown when a town pays to unclaim their land because the refund is a negative amount.
+msg_your_town_paid_x_to_unclaim: 'Kasaban��z bir arsay�� b��nyesinden ����karmak i��in %s alt��n ��dedi.'
+#Confirmation message shown when a player will unclaim land that costs money.
+confirmation_unclaiming_costs: 'Arsa hakk��ndan vazge��mek size %s alt��na m��l olucakt��r. Devam etmek istiyormusunuz?'
+#Added in 0.140
+#Message shown on first join, making players aware they can change how Towny messages appear using their Client's language setting.
+msg_your_locale: 'Towny, mesajlar��n�� ��evirmek i��in oyuncu bilgisayar��n��n yerel ayar��n�� (%s) kullan��r. ��evirilerde eksik dizeler olabilece��ini unutmay��n.'
+#Message shown when a player tries to rename their town too quickly.
+msg_you_must_wait_x_seconds_before_renaming_your_town: 'Kasaban�� yeniden adland��rmak i��in %s saniye beklemelisin.'
+#Added in 1.141
+msg_newday_already_scheduled_soon: 'Yeni bir g��nl��k g��revin yak��nda ger��ekle��mesi planland��.'
+#Added in 0.142
+#Message shown when a player is toggling neutrality too fast.
+msg_err_cannot_toggle_neutral_x_seconds_remaining: 'Sava�� durumunu de��i��tiremezsiniz, %s saniye kald��.'
+#Added in 0.143
+#Message shown when a console sender uses a command meant for in game.
+msg_err_command_not_for_console_use: 'Konsol taraf��ndan bu komut kullan��lamaz.'
+#Added in 0.144
+#Message shown when an admin uses /ta town NAME toggle unlimitedclaims.
+msg_town_unlimitedclaims_setting_set_to: '%s kasabas��n��n s��n��rs��z claim talebi ayar�� %s olarak ayarland��.'
+#Message shown when an admin uses up their claims and is asked if they want to turn on unlimited claiming.
+did_you_want_to_toggle_unlimited_claims: 'Claim talebinde bulunmak i��in yeterli claim hakk��n��z yok, %s kasabas�� i��in s��n��rs��z claim hakk�� talebinde bulunmak istediniz mi?'
+#Added in 0.145
+#Message shown when a conquered town tries to leave their nation.
+msg_err_your_conquered_town_cannot_leave_the_nation_yet: 'Ulusunu terk edemezsin, kasaban fethedilmi��.'
+msg_err_console_only: 'Bu komut sadece konsol taraf��ndan kullan��labilir.'
+msg_err_player_only: 'Bu komut sadece bir oyuncu taraf��ndan kullan��labilir.'
+#Added in 0.146
+#Message shown when a resident toggles bordertitles with /res toggle bordertitles
+msg_border_titles_toggled: 'S��n��rlar�� a��mak %s oldu��unda ba��l��k mesajlar�� g��sterilir.'
+#Added in 0.147
+#Message shown confirming that an admin wants to reset their Towny config
+this_will_reset_your_config: 'Bu komut kulland������n��zda config.yml s��f��rlanacakt��r ve default hale gelecektir. Devam etmek istiyor musunuz?'
+#Message shown when an admin is setting a new king or capital and would override the config by doing so
+msg_warn_overriding_server_config: 'Bu komutu kullanarak hali haz��rda bulunan kasaba ��ye s��n��r��n�� de��i��tireceksiniz. Devam etmek istiyor musunuz?'
+#Added in 0.148
+#Message shown when invalid outpost spawns are removed using the /ta commands.
+msg_removed_x_invalid_outpost_spawns: '%d ge��ersiz karakol spawn�� kald��r��ld��.'
+#Added in 0.149
+#Message shown when a player logs in and their town is bankrupt.
+msg_your_town_is_bankrupt: 'Kasaba bankan��z iflans etmi�� durumda, bankan��za /town deposit {amount} komutunu yazarak para ekleyin.'
+#Added in 0.150
+#Message shown when a player cannot do something because they have a town.
+msg_err_you_cannot_use_this_command_because_you_are_already_a_member_of_a_town: 'Zaten bir kasaban��n ��yesi oldu��unuz i��in bu komutu kullanamazs��n��z. Devam etmek istiyorsan��z ''/t leave'' kullanman��z gerekecek.'
+#Message shown when a player tries to spawn while in an town they are outlawed in, when outlaw TPing is a disallowed zone.
+msg_a_town_you_are_outlawed_in: 'bu kasaba Haydut ilan edildi��in bir kasaba.'
+#Message shown when TownyRTP could not find any towns to teleport to.
+msg_err_could_not_find_any_towns_to_rtp: 'Rtp i��in herhangi bir a����k, halka a����k kasaba ile birlikle (kar����layabilece��iniz,) sat��l��k arsalar bulunamad��.'
+#Message showing payment for RTP.
+msg_cost_spawn_rtp: '&bSat��l��k rastgele bir kasaba arsas��na ������nlanmak i��in %s Kadar ��cret ��dediniz.'
+#Message shown to a player when they use the town rtp command.
+msg_you_are_about_to_be_teleported_to_a_plot: 'Kat��lman��z�� sa��layacak, %s cinsinden sat��l��k bir arsaya ������nlanmak ��zeresiniz. Geldi��inizde arsan��z�� talep etmek i��in ''/plot claim''i kullan��n.'
+#Shown in TownyRTP when a player joins a town and is prompted to be TPd to some land to buy.
+townyrtp.the_town_has_plots_to_buy_would_you_like_to_tp: "%s kasabas�� sat��n alabilece��iniz arsalar i��eriyor, sat��n alabilece��in bir arsaya ������nlanmak ister misin?"
+#Shown when you arrive at your destination after opting in to be teleported to a plot to buy.
+townyrtp.you_have_arrived: "Sat��n alabilece��iniz bir arsaya ������nland��n��z. Arsay�� almak i��in \"/plot claim\" komutunu kullanabilirsiniz."
+#Used in the town's status screen to display plots
+status_plot_string: 'Arsalar'
+#Displays a plot type and the amount of townblocks of that type in the town
+status_plot_hover: '%s:'
+#Usage:
+msg_usage: 'Kullan��m: %s'
+#Shown in teh bank history books when there are no pages to display
+msg_err_no_pages_to_display: 'G��r��nt��lenecek Sayfa yok!'
+#Added in 0.151
+#Message shown to players trying to spawn to a non-allied/non-member nation when public spawning is not allowed at all.
+msg_err_nation_unaffiliated: 'O Ulus sana ba��l�� de��il.'
+#Message shown to players trying to spawn to a non-nation/non-member town when public spawning is not allowed at all.
+msg_err_town_unaffiliated: 'O Kasaba sana ba��l�� de��il.'
+#Added in 0.152
+#Message shown when a player tries to add a jail cell location where one already exists.
+msg_err_this_location_already_has_a_jailcell: 'Bu alan��n zaten bir hapishane h��cresi var.'
+#Title line of the /plot perm hud.
+msg_perm_hud_title: 'Arsa Yetkileri'
+#Seen in /plot perm hud:
+msg_perm_hud_build: 'Yap��: '
+#Seen in /plot perm hud:
+msg_perm_hud_destroy: 'Sil: '
+#Seen in /plot perm hud:
+msg_perm_hud_switch: 'De��i��tir: '
+#Seen in /plot perm hud:
+msg_perm_hud_item_use: 'E��ya: '
+#Seen in /plot perm hud:
+msg_perm_hud_plot_type: 'T��r: '
+#Seen in /plot perm hud:
+msg_perm_hud_pvp: 'PVP: '
+#Seen in /plot perm hud:
+msg_perm_hud_explosions: 'Patlamalar: '
+#Seen in /plot perm hud:
+msg_perm_hud_firespread: 'Ate�� Yay��lmas��: '
+#Seen in /plot perm hud:
+msg_perm_hud_mobspawns: 'Yarat��k Do��mas��: '
+#Seen in /plot perm hud:
+msg_perm_hud_key: 'Anahtar'
+#Seen in /plot perm hud:
+msg_perm_hud_friend: 'arkada��'
+#Seen in /plot perm hud:
+msg_perm_hud_town: 'kasaba'
+#Seen in /plot perm hud:
+msg_perm_hud_ally: 'm��ttefik'
+#Seen in /plot perm hud:
+msg_perm_hud_resident: 'sakin'
+#Seen in /plot perm hud:
+msg_perm_hud_nation: 'ulus'
+#Seen in /plot perm hud:
+msg_perm_hud_outsider: 'yabanc��'
+#Seen in /plot perm hud:
+msg_perm_hud_plot_name: 'Arsa: '
+#Added in 0.153
+#Message shown confirming /ta town NAME settownlevel # command.
+msg_town_level_overridden_with: '%s kasabas��n��n seviyesi %s olarak ayarland��.'
+#Message shown when unsetting a manual town level.
+msg_town_level_unset: '%s kasabas��n��n el ile ayarlanm���� seviyesi s��f��rland��. ��u anki seviyesi %s.'
+#Message show when a town is unable to have purchased townblocks, when /ta town NAME giveboughtblocks is used.
+msg_err_town_not_allowed_purchased_blocks: '%s kasabas�� configde yap��lan ayara g��re townblock sat��n alamaz.'
+#Message shown when unsetting all purchased townblocks from a town.
+msg_purchased_blocks_unset: '%s kasabas��n��n sat��n al��nan townblocklar�� kald��r��ld��.'
+#Message shown when /ta town name giveboughtblocks # is used.
+msg_purchased_blocks_changed: '%s kasabas��na %s townblock verildi, ��u an %s townblocklar�� mevcut.'
+#Added in 0.154
+msg_comptype_upkeep: 'Bak��m'
+#Added in 0.155
+#Message shown when toggling town upkeep admin setting
+msg_town_upkeep_setting_set_to: '%s kasabas��n��n bak��m ayar�� %s olarak ayarland��.'
+#Shown when a player tries to set a plot type but their town has reached the limit, first number is the limit and the string is the type name.
+msg_town_plot_type_limit_reached: 'Kasaban %d olan %s limitine ula��t��.'
+#Added in 0.156
+msg_spawn_cost_free: '��cretsiz'
+#Message shown when someone tries to set a plot's type to one already set.
+msg_plot_already_of_type: 'Bu arsa ��oktan %s tipinde.'
+msg_town_board_reset: '&bKasaba tahtas�� temizlendi.'
+msg_town_has_no_jailslots: 'Kasaba hapishanesi dolu.'
+msg_player_has_been_sent_to_jail_into_cell_number_x_for_x_hours_by_x_for_x_bail: '%s, %s hapishanesine %s. h��creye %s saatli��ine ve %s ila %s kefaletiyle g��nderildi.'
+msg_player_has_been_sent_to_jail_into_cell_number_x_for_x_hours_by_x: '%s, %s taraf��ndan %s saat boyunca %s h��cre numaras��na %s i��in g��nderildi.'
+msg_you_have_been_jailed_your_bail_is_x: 'Hapse d����t��n, kefaret bedelin %s.'
+msg_err_higher_than_max_allowed_bail_x: 'Belirlenmi�� kefaletin maksimum de��erden fazla. (%s)'
+msg_err_higher_than_max_allowed_hours_x: 'Belirlenmi�� saatin maksimum de��erden fazla. (%s)'
+msg_not_enough_money_in_bank_to_jail_x_fee_is_x: '��ehir kasas��nda %s oyuncusunu hapsetmek i��in yeterli de��il, ��cret %s.'
+msg_you_were_released_as_town_ran_out_of_slots: 'Gardiyanlar��n alan kazanmak i��in seni serbest b��rakt��.'
+msg_x_has_been_released_as_jail_slots_ran_out: '%s, ba��ka bir tutsa��a yer a��mas�� i��in serbest b��rak��ld��.'
+msg_you_were_released_as_town_ran_out_of_upkeep_funds: 'Gardiyanlar��n seni tutuklu b��rakmaya mali g��c�� yetmedi��i i��in serbest b��rak��ld��n.'
+msg_x_has_been_released_ran_out_of_upkeep_funds: '%s, ��ehir kasas��ndaki kaynak eksikli��inden ��t��r�� serbest b��rak��ld��.'
+msg_x_has_been_withdrawn_for_upkeep_of_prisoner_x: '��ehir kasas��ndan %s ��ekildi, %s tutsa����n��n bak��m masraf�� i��in ��denecek.'
+msg_x_has_been_withdrawn_for_jailing_of_prisoner_x: '��ehir kasas��ndan %s ��ekildi, %s tutsa����n��n hapsedilmesi i��in ��denecek.'
+#Message shown in the confirmation for /ta resetbanks {amount}.
+confirmation_are_you_sure_you_want_to_reset_all_banks: 'T��m kasaba ve ulus bankalar��n�� %s''e e��itlemek istedi��inizden emin misiniz?'
+#Message shown when a nation cannot add a town because of the max-residents-limit.
+msg_err_cannot_add_nation_over_resident_limit: '&cUlusun maksimum izin verilen ulus ba����na vatanda�� say��s��na ula��t��, %s ve %s eklenilemiyor.'
+#Message shown to a town when they cannot join a nation because of the max-residents-limit.
+msg_err_cannot_join_nation_over_resident_limit: '&cBu ulusa kat��lamazs��n��z, ����nk�� bu ulus ba����na ikamet eden ki��i s��n��r�� olan %s''yi a��acakt��r.'
+#Message shown to a town because the nation has hit their max-towns-limit.
+msg_err_cannot_join_nation_over_town_limit: '&cBu ulusa kat��lamazs��n, izin verilen maksimum kasaba say��s��na ula��t��: %s.'
+#Message shown confirming /tw set usedefaults
+confirmation_are_you_sure_you_want_to_reset_this_worlds_settings: 'D��nya ayarlar��n��, konfig��rasyondaki normal ayarlara s��f��rlamak istedi��inize emin misiniz?'
+#Part of the /town plots output.
+msg_town_plots_title: ' Kasaba Arazileri'
+#Part of the /town plots output.
+msg_town_plots_town_size: '<dark_green>Kasaba B��y��kl������: <green>%s/%s'
+#Part of the /town plots output.
+msg_town_plots_town_bought: ' <aqua>[Al����: %s/%s]'
+#Part of the /town plots output.
+msg_town_plots_town_bonus: ' <aqua>[Bonus: %s]'
+#Part of the /town plots output.
+msg_town_plots_town_nationbonus: ' <aqua>[UlusBonusu: %s]'
+#Part of the /town plots output.
+msg_town_plots_town_owned_land: '<dark_green>Kasaba Taraf��ndan Al��nm���� Alan: <green>%s'
+#Part of the /town plots output.
+msg_town_plots_type_header: '<dark_green>T��r: <green>Oyuncu-Sahipli <gray>/ <aqua>Sat����ta <gray>/ <yellow>Toplam'
+#Part of the /town plots output.
+msg_town_plots_type_header_revenue: ' <gray>/ <dark_green>G��nl��k Gelir'
+#Part of the /town plots output.
+msg_town_plots_type_line: '<dark_green>%s: <green>%s <gray>/ <aqua>%s <gray>/ <yellow>%s'
+#Part of the /town plots output.
+msg_town_plots_type_line_revenue: ' <gray>/ <dark_green>%s'
+#Message giving confirmation warning for trusttown
+confirmation_msg_trusttown_consequences: 'B��t��n bir kasabaya tam arsa izinleri vermek ��zeresiniz. Bu, kasaban��n belediye ba��kan��n��n, sakinleri ekleyerek kasaban��zda kimin in��aat ve y��kma izni alaca����na karar verebilece��i anlam��na gelir. Bu kasaba a����ksa, o zaman herkes kat��labilir ve kasaban��za tam eri��im sa��layabilir. Bu kasaban��n t��m sakinlerine (gelecekteki sakinler dahil) g��venmek istedi��inizden emin misiniz?'
+#Message shown when a player uses a command that is blocked because their location has an active war.
+msg_command_war_blocked: 'Kasaban sava��tayken bu komutu kullanamazs��n.'
+#Message shown when a player tries to unclaim land but cannot because an outsider is there (and the config doesn't allow this.)
+msg_cant_unclaim_outsider_in_town: 'Bu mahallede bir yabanc�� var, bu mahalleyi sahiplenemezsiniz!'
+#Message shown when a player is making a town too soon after deleting one.
+msg_err_cannot_create_new_town_x_seconds_remaining: 'Yeni bir kasaba olu��turamazs��n��z, bekleme s��resinde %s saniye kald��.'
+#Message shown when a player is claiming land too soon after unclaiming it.
+msg_err_cannot_claim_townblock_x_seconds_remaining: 'Bu ��ehir blo��unu talep edemezsiniz: %s, bekleme s��resinde kalan %s saniye.'
+#Messages shown when an admin uses /ta set founder {townname} {foundername}
+msg_founder_set: '%s kasabas��n��n kurucusu %s olarak ayarland��.'
+#Message shown when toggling town allowed to war admin setting
+msg_town_allowedtowar_setting_set_to: '%s kasabas��n��n sava�� ayar�� %s olarak ayarland��.'
+#Message shown to confirm that a player wants to unclaim all of their land, besides the homeblock, seen with /t unclaim all.
+confirmation_did_you_want_to_unclaim_all: 'Arazinizin t��m��n�� geri almak istedi��inizden emin misiniz? (Homeblock''unuz talep edilmeyecektir.)'
+#Message shown after a player unclaims all their land.
+msg_you_have_unclaimed_everything_but_your_homeblock: "Ev blo��unuz d������nda her ��eyi sahiplenmediniz. Ana arazi'nizi iptal etmek i��in ��nce '/t set homeblock' se��ene��ini kullanarak yeni bir Ana arazi ayarlaman��z gerekir."
+msg_warn_are_you_sure_you_want_to_transfer_nation_ownership: "<red>Ulus liderli��ini %s e devretmek istedi��inizden emin misiniz? Bu i��lem geri al��nmaz!"
+msg_warn_town_already_capital: "<red>%s kasabas�� zaten ba��kent."
+msg_min_adjacent_blocks: 'En az %s biti��ik ��ehir blo��una sahip olman��z gerekmektedir. Sadece %s var.'
+#Shown when a player with /plot evict permissions uses /plot claim on an owned but not for sale plot, please preserve comma space at the start when translating.
+msg_plot_claim_consider_evict_instead: ', belki de bunun yerine /plot evict instead?'
+#Shown to a player when Towny does not know of them.
+msg_you_are_unknown: "Towny seni tan��m��yor."
+#Generic Resident/Town/Nation/Thing is not known to Towny.
+msg_townyobject_unknown: "%s, Towny taraf��ndan bilinmiyor."
+#Shown when a resident is unknown to Towny.
+msg_err_resident_unknown: "%s tan��nan bir yerle��ik de��il."
+#Shown when a town is unknown to Towny.
+msg_err_town_unknown: "%s tan��nan bir kasaba de��il."
+#Shown when a nation is unknown to Towny.
+msg_err_nation_unknown: "%s tan��nan bir ulus de��il."
+#Shown when a resident doesn't belong to a town.
+msg_err_townyobject_x_has_no_town: "%s herhangi bir kasabaya ait de��il."
+#Shown when a town doesn't belong to a nation.
+msg_err_townyobject_x_has_no_nation: "%s herhangi bir ulusa ait de��il."
+#Shown to admins when they use /plot claimedat on a plot which has no registration date.
+msg_err_townblock_has_no_claimedat_data: "Bu kasaba blo��unun ne zaman talep edildi��ine dair hi��bir veri yok."
+#Shown when someone cannot afford something, to tell them what it costs.
+msg_err_you_need_x_to_pay: "%s ��demen gerekiyor."
+#Shown when someone tries to deposit/withdraw 0 amounts.
+msg_err_amount_must_be_greater_than_zero: "Tutar s��f��rdan b��y��k olmal��d��r."
+#Message shown when taking over claims is disabled on a server.
+msg_err_taking_over_claims_is_not_enabled: "Taleplerin devral��nmas�� bu sunucuda etkin de��il."
+#Messages shown when taking over a claim is not allowed because the town is not overclaimed.
+msg_err_this_townblock_cannot_be_taken_over: "Bu Kasaba Blo��u devral��namaz, ait oldu��u kasaba ��zerinde hak iddia edilemez."
+#Message shown when taking over a claim would also set the homeblock because the town has no claims.
+msg_err_you_cannot_make_this_your_homeblock: "Bu iddiada bulunamazs��n��z ����nk�� bu, bu Kasaba Blo��u'nu ev blo��unuz yapar ki buna izin verilmez."
+#Message shown when taking over a claim is stopped by another plugin.
+msg_err_another_plugin_cancelled_takeover: "Ba��ka bir eklenti, bu topraklar�� ele ge��irmenizi durdurdu."
+#Confirmation shown when taking over a claim.
+confirmation_you_are_about_to_take_over_a_claim: "%s'ye ait bir talebi ��u maliyet kar����l������nda devralmak ��zeresiniz: %s. Devam etmek istedin mi?"
+#Warning message shown when a town is beginning to claim close to their limit, and the takeoverclaim feature is active.
+msg_warning_you_are_almost_out_of_townblocks: "Uyar��: Hak talebinde bulunmak i��in mevcut ��ehir bloklar��n��z�� neredeyse t��kettiniz. Bir sakini kaybederseniz, ��ehrinizin di��er kasabalar taraf��ndan ��al��nan ��ehir bloklar��na sahip olma riskiyle kar���� kar����ya kalacaks��n��z."
+#Warning message shown on login when a town is overclaimed and at risk of falling victim to the takeoverclaim feature.
+msg_warning_your_town_is_overclaimed: "Uyar��: Kasaban��z fazla talep edildi. Sahip oldu��unuz ��ok fazla kasaba blo��unuz olsa da, di��er kasabalar��n ��ehrinizdeki arazileri ele ge��irmesi m��mk��n olacak, baz�� arazileri geri almay�� d������n��n."
+#Chunk Notification slug, shown when entering a plot that can be stolen.
+chunk_notification_takeover_available: " <red>[Devralma Talebi Mevcut]"
+#Message shown when a takeover claim would cut a town into two sections.
+msg_err_you_cannot_over_claim_would_cut_into_two: "Bu arsay�� ele ge��iremezsin, ����nk�� bunu yapmak kasabay�� iki b��l��me ay��r��r. Farkl�� bir y��nden fazla talepte bulunman��z gerekecek."
+#Message shown when an admin tries to toggle conquered off of a town that is not conquered.
+msg_err_that_town_is_not_conquered: "%s zaten fethedilmedi."
+#Message shown when a town has its conquered status removed by an admin.
+msg_conquered_status_removed: "%s fethedilme durumunu kald��rd��."
+msg_setup_command_folia: "/ta install komutu ��u anda konu��ma API'sinin ��al����mamas�� nedeniyle Folia'da ��al����m��yor, bunun yerine a��a����daki kurulum k��lavuzuna bak��n."
+msg_perm_gui_folia: "Bu d����me ��u anda konu��ma API'sinin ��al����mamas�� nedeniyle Folia'da ��al����m��yor, bunun yerine /plot perm add <name> komutunu kullan��n."
+msg_folia_scoreboard: "Changing scoreboards is currently not supported on Folia."
+#Message shown when a player cannot unclaim land because at least one plot wouldn't have enough adjacent claims.
+msg_err_cannot_unclaim_not_enough_adjacent_claims: "%s,%s adresindeki kasaba blo��u yeterli say��da biti��ik hak talebine sahip olmayaca����ndan (%s gereklidir.)"
+#Message shown when a nation collects taxes from its towns.
+msg_tax_collected_from_towns: "<aqua>Your nation collected %s in tax from its towns."
+#Message shown when a town collects taxes from its residents.
+msg_tax_collected_from_residents: "<aqua>Your town collected %s in tax from its residents."
+#Message shown when a town collects taxes from its plottaxes.
+msg_tax_collected_from_plots: "<aqua>Your town collected %s in tax from its plots' taxes."
+#Message shown when a nation collects taxes from its towns that are conquered.
+msg_tax_collected_from_conquered_towns: "<aqua>Your nation collected %s in extra tax from its conquered towns."
+msg_your_town_was_exempt_from_the_nation_conquered_tax: "<aqua>Your town was exempt from the nation's conquered tax."
+msg_nation_set_conquered_tax__amount_set: "%s has set the conquered tax amount to %s."
+msg_err_cannot_set_nation_conquere_tax_amount_higher_than: "You cannot set the conquered tax above %s."
+msg_err_your_town_is_not_old_enough_to_overclaim: "Your town is not old enough to overclaim, you must wait another %s."
+msg_err_your_cannot_overclaim_for_another: "You cannot overclaim again for another %s."

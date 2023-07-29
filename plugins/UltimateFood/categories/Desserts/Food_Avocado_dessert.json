@@ -1,0 +1,26 @@
+{
+    "uniqueID": "Avocado_dessert",
+    "displayName": "&fAvocado dessert",
+    "description": [],
+    "instantEat": false,
+    "foodMaterial": "PLAYER_HEAD",
+    "headTexture": "33e38dfb-3336-4db7-86a6-89e8a3dacd40",
+    "customModelData": 30013,
+    "permission": "",
+    "price": 0.0,
+    "saturation": 1.6999463,
+    "hunger": 1.435,
+    "health": 0.0,
+    "commands": [],
+    "recipe": {
+        "shape": [
+            "xxx",
+            "xxx",
+            "xxx"
+        ],
+        "materials": {
+            "x": "icon_cancel"
+        },
+        "craft_amount": 1
+    }
+}

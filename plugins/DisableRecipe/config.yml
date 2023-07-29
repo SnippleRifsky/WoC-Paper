@@ -1,0 +1,33 @@
+# For help with the configuration file, please visit DisableRecipe's wiki page here:
+# https://docs.mattisadev.com/spigot-plugins/disable-crafting
+
+crafting:
+  enabled: true
+  items:
+    '1':
+      material: <Material> # '*' (To disable all items)
+      bypass-permission: <Bypass Permission> # OPTIONAL
+      worlds:
+      - world1
+      - world2
+      - etc
+    # - * (To disable in all worlds)
+    2a47shdsdnsgjshf:
+      material: <Material> # '*' (To disable all items)
+      bypass-permission: <Bypass Permission> # OPTIONAL
+      worlds:
+      - world1
+      - world2
+      - etc
+# - * (To disable in all worlds)
+
+smelting:
+  enabled: true
+  items:
+    '1':
+      material: STONE # '*' (To disable all items)
+      worlds:
+      - world
+      - world_nether
+      - world_the_end
+# - * (To disable in all worlds)

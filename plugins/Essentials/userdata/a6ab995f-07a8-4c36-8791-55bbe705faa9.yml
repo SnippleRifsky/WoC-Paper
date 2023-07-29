@@ -1,0 +1,30 @@
+teleportenabled: true
+teleportauto: false
+godmode: false
+muted: false
+jailed: false
+ip-address: 192.168.0.220
+afk: false
+socialspy: false
+npc: false
+powertoolsenabled: true
+accepting-pay: true
+baltop-exempt: false
+timestamps:
+  lastteleport: 0
+  lastheal: 0
+  mute: 0
+  jail: 0
+  onlinejail: 0
+  logout: 1690671691023
+  login: 1690671626519
+money: '0'
+logoutlocation:
+  world: c46ce620-f444-414a-9c7e-2c89581565ed
+  world-name: aenix
+  x: -3405.447469185415
+  y: 120.7874815815683
+  z: -184.13687004798584
+  yaw: -11.254770278930664
+  pitch: -0.3001388907432556
+last-account-name: SnippleRifsky

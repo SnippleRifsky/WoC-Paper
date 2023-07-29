@@ -1,0 +1,1714 @@
+---
+name: Towny
+language: swedish
+author: ElgarL
+website: 'http://townyadvanced.github.io/'
+description: >
+  Language file for all game messages for this Locale.
+#A note on editing this file.
+#----------------------------
+#Do not alter this file if it is in the reference folder.
+#Before you edit this file, read about how Towny handles
+#language files:
+#https://github.com/TownyAdvanced/Towny/wiki/How-Towny-Works#multi-language.
+#A note on text formatting (how Towny status_title_pvpinserts words.)
+#----------------------------------------------------
+#You MUST retain spacing in the texts.
+#If a text begins or ends with a space, it must remain that
+#way.
+#%s = data to be supplied by the plugin.
+#If you find that a line has multiple %s variables which would
+#be in a different order in your language, you can change them
+#to %1$s, %2$s, %4$s, %3$s to change their order. ie: %4$s
+#will always use the 4th variable, no matter where it is
+#placed on the line.
+#A note on text colouring and formatting.
+#----------------------------------------
+#Black = &0, Navy = &1, Green = &2, Blue = &3, Red = &4
+#Purple = &5, Gold = &6, LightGray = &7, Gray = &8
+#DarkPurple = &9, LightGreen = &a, LightBlue = &b
+#Rose = &c, LightPurple = &d, Yellow = &e, White = &f
+#This language file also supports using MiniMessage for colours
+#and formatting. Learn about MiniMessage formatting here:
+#https://docs.adventure.kyori.net/minimessage/format.html
+default_towny_prefix: '&6[Towny] &b'
+default_town_prefix: '&6[%s] &b'
+default_nation_prefix: '&6[%s] &6'
+unclaimed_plot_name: 'Stadsmark'
+unclaimed_zone_name: 'Vildmark'
+############################################################
+#+------------------------------------------------------+ #
+#|help messages                                         | #
+#+------------------------------------------------------+ #
+############################################################
+help_0: 'Allm��n hj��lp f��r Towny'
+help_1: 'Testa n��gra av f��ljande kommandon f��r att l��ra dig mer om Towny.'
+help_2: 'Stadschatt'
+help_3: 'Nationschatt'
+town_help_1: 'Skriver ut information om din stad i chatten.'
+town_help_2: '[borgm��stare]'
+town_help_3: 'Information om den staden.'
+town_help_4: 'Information om staden du st��r i just nu.'
+town_help_5: 'Teleportera dig till stadens egna resm��l.'
+town_help_6: 'Ny stad med dig som borgm��stare.'
+town_help_7: 'Ny stad med spelare som borgm��stare.'
+town_help_8: 'Borgm��starens kommandon.'
+town_help_9: 'F��nga dagen!'
+town_help_10: 'Lista p�� inloggade spelare i staden.'
+mayor_help_3: 'Marken ��r inte sammankopplad med din stad.'
+mayor_help_4: 'K��p marken omkring dig med en radius p�� X'
+mayor_help_5: 'K��p all mark du kan ��t alla h��ll.'
+mayor_help_6: '��verge marken du st��r p��.'
+mayor_help_7: '��verge marken omkring dig.'
+mayor_help_8: '��verge all din mark!'
+nation_help_1: 'Information om nationen.'
+nation_help_2: '[nation]'
+nation_help_3: 'Information om den nationen.'
+nation_help_4: 'Lista alla nationer.'
+nation_help_5: 'L��mna nationen.'
+nation_help_6: 'Skapa en ny nation.'
+nation_help_7: 'Visa nationsledarens kommandon'
+nation_help_8: 'Skapa en ny nation med den kungen.'
+nation_help_9: 'Lista p�� inloggade spelare i nationen.'
+king_help_1: 'Hj��lp med nationens ledare'
+king_help_2: 'Best��m dina allierade.'
+king_help_3: 'Best��m dina fiender.'
+res_1: 'Personlig status'
+res_2: '[inv��nare]'
+res_3: 'Informationen om den spelaren.'
+res_4: 'Lista p�� spelare online.'
+res_5: 'f��r hj��lp'
+res_6: 'L��gg till en spelare som v��n.'
+res_7: 'Spelare med exakt stavning. (auto-complete fungerar ej)'
+mode_1: 'Visa en karta p�� marken du g��r ��ver.'
+mode_2: 'K��p marken medan du g��r.'
+mode_3: '��verge marken medan du g��r.'
+mode_4: 'St��ll in att skriva i stadschatten.'
+mode_5: 'St��ll in att skriva i nationschatten.'
+mode_6: 'Kan placera %s hos fienders gr��nser f��r att skapa en krigszon.'
+plot_perms: 'Anv��nd %s ist��llet f��r %s till markbeh��righet.'
+plot_perms_1: 'Inv��nares mark anv��nder inte beh��righeten ''utomst��ende''.'
+res_list: 'Inv��nare'
+res_sing: 'Inv��nare'
+mayor_sing: 'Borgm��stare'
+admin_sing: 'Administrat��r'
+town_sing: 'Stad'
+nation_sing: 'Nation'
+nation_plu: 'Nationer'
+king_sing: 'Ledare'
+town_plu: 'St��der'
+world_plu: 'V��rldar'
+world_sing: 'V��rld'
+world_help_1: 'Information om v��rlden.'
+world_help_2: '[v��rld]'
+world_help_3: 'Information om den v��rlden.'
+world_help_4: 'Lista alla v��rldar.'
+world_help_5: '��terskapa denna mark.'
+townyadmin_help_1: '��verge marken du st��r p��.'
+townyadmin_help_2: '��verge marken omkring dig.'
+admin_panel_2: 'ladda om Towny'
+admin_panel_3: 'K��r ''new day'' kod'
+msg_block_claim: 'K��p marken'
+msg_plot_nfs: 'S��tter ut marken till salu'
+msg_nfs_abr: '&e''fs'' och ''nfs'' accepteras som f��rkortning av ''forsale'' och ''notforsale''.'
+msg_plot_fs: 'L��gg upp mark f��r aktion.'
+############################################################
+#+------------------------------------------------------+ #
+#|   Messages                                           | #
+#+------------------------------------------------------+ #
+############################################################
+msg_buy: '&bK��pte %d %s till priset %s.'
+msg_buy_resident_plot: '&b%s k��pte %s mark till priset %s!'
+msg_couldnt_pay_taxes: '&b%s kunde inte betala skatten och blev utsl��ngd fr��n %s.'
+msg_couldnt_pay_plot_taxes: '&b%s kunde inte betala skatten och f��rlorade sin mark.'
+msg_payed_town_tax: '&bBetalade statsskatten '
+msg_payed_plot_cost: '&bBetalade %s f��r %s mark i %s'
+msg_payed_resident_tax: '&bBetalade inv��narskatten '
+msg_bankrupt_town: ' hade inte r��d att forts��tta som stad.'
+msg_bankrupt_nation: ' hade inte r��d att forts��tta som nation.'
+msg_nation_not_peaceful: '&bNationen hade inte r��d att forts��tta vara fredliga.'
+msg_nation_cant_peaceful: '&bNationen hade inte r��d att bli fredliga.'
+msg_peaceful_disabled: '&bNationer kan inte vara fredliga.'
+msg_you_paid: '&bDu betalade %s f��r att bli fredlig.'
+msg_nation_set_peace: '&bLyckades ��ndra nationens status.'
+msg_nation_allow_peaceful: '&bNationens tillst��nd att f��rbli fredligt ��r nu: %s'
+msg_mobremoval_world: '&bBlockering av monster och djur i v��rlden: %s'
+msg_mobremoval_town: '&bTill��t monster och djur i st��der: %s'
+msg_nation_peaceful: '&bDin nation ��r nu fredlig!'
+msg_tax_exempt: '&bStadens personal betalar inte skatt.'
+msg_del_nation: '&bNationen %s uppl��stes!'
+msg_del_resident: '&bTog bort all Towny-data f��r %s!'
+msg_join_nation: '&bStaden %s gick med i nationen!'
+msg_join_town: '&b%s gick med i staden!'
+msg_friend_add: '&b%s lade till dig som v��n.'
+msg_friend_remove: '&b%s tog bort dig som v��n.'
+msg_left_town: '&b%s l��mnade staden'
+msg_you_left: '&bDu l��mnade %s.'
+msg_not_mayor: '&bDu ��r inte borgm��stare i staden.'
+msg_not_king: '&bDu ��r inte nationens ledare.'
+msg_not_mayor_ass: '&bDu ��r varken borgm��stare eller medhj��lpare i staden.'
+msg_not_king_ass: '&bDu ��r varken nationens ledare eller assistent.'
+msg_own_nation_disallow: '&bDu kan inte g��ra det h��r mot din egen nation.'
+msg_no_perms_claim: '&bDu har inte tillst��nd att ut��ka staden.'
+msg_outpost_disable: '&bKolonier ��r inte tillg��ngliga.'
+msg_kicked_by: '&bDu blev utsl��ngd fr��n staden av %s.'
+msg_kicked: '&b%s sl��ngde ut %s fr��n staden.'
+msg_nation_kicked_by: '&bDin stad blev utsl��ngd fr��n nationen av %s.'
+msg_town_left_nation: '&bDin stad l��mnade nationen %s.'
+msg_nation_town_left: '&bStaden %s l��mnade din nation.'
+msg_nation_kicked: '&b%s sl��ngde ut %s fr��n nationen.'
+msg_raised_ass: '&b%s befordrade %s till %s medhj��lpare.'
+msg_lowered_to_res_by: '&bDu blev degraderad till normal inv��nare av %s.'
+msg_lowered_to_res: '&b%s degradera %s till normal inv��nare.'
+msg_invalid_name: '&bInga av dessa namn var giltiga.'
+msg_invited_join_town: '&b%s bj��d in %s till staden.'
+msg_invited_join_nation: '&b%s bj��d in %s till nationen.'
+msg_deny_invite: '&b%s nekade din inbjudan.'
+msg_invited: '&bDu har blivit inbjuden att g�� med i %s.'
+msg_town_online: 'Inloggade inv��nare i staden'
+msg_nation_online: 'Inloggade inv��nare i nationen'
+msg_allied_nations: '&b%s allierade med nationerna %s.'
+msg_enemy_nations: '&b%s utvecklade ett hat mot nationerna %s.'
+msg_enemy_to_neutral: '&b%s har ��ndrat till att vara fredliga mot %s.'
+msg_added_ally: '&b%s allierade med din nation.'
+msg_removed_ally: '&b%s slutade alliera med din nation.'
+msg_added_enemy: '&b%s utvecklade ett hat mot din nation.'
+msg_removed_enemy: '&b%s har blivit fredliga mot din nation.'
+msg_unable_ally_enemy: '&cKan inte alliera med %s d�� vi ��r deras fiende.'
+msg_deny_ally: '&b%s nekande din f��rfr��gan om allians.'
+msg_accept_ally: '&bNationen %s godk��nner din f��rfr��gan om allians.'
+msg_ally_req_sent: '&bEn f��rfr��gan om allians har skickats till nationen %s.'
+msg_ally_request: '&b%s skulle vilja starta en allians.'
+msg_unable_ally_offline: "&cKan inte skicka en f��rfr��gan om allians d�� kungen f��r nationen ��r offline."
+msg_unable_ally_npc: "&cKan inte skicka en f��rfr��gan om allians d�� kungen f��r nationen ��r en NPC."
+msg_claimed: '&2Tog ��ver marken'
+msg_unclaimed: '&2L��mnade tillbaka marken'
+msg_not_claimable: '&cDu kan inte ��ga mark i denna v��rlden.'
+msg_abandoned_area: '&b��vergav ytan %s'
+msg_admin_unclaim_area: '&cTvingades l��mna tillbaka marken  %s'
+msg_abandoned_area_1: '&bDin stad ��vergav ytan'
+msg_no_money_purchase_plot: '&cDu har inte tillr��ckligt  med pengar f��r att k��pa marken.'
+msg_town_no_money_purchase_plot: '&cStaden har inte tillr��ckligt  med pengar f��r att k��pa tillbaka marken.'
+msg_no_funds_new_town: '&c%s har inte r��d att starta ett nytt samh��lle h��r.'
+msg_no_funds_claim: '&cStaden har inte r��d att k��pa %s markbitar till priset %s. L��gg in mer pengar i stadens bank.'
+msg_no_funds_to_buy: '&cStaden har inte r��d att k��pa %s %s som kostar %s. L��gg in mer pengar i stadens bank.'
+msg_annexed_area: '&2Slog ihop med ytan %s'
+msg_max_plot_own: '&cDu kan inte ��ga mer ��n %s markbitar.'
+msg_max_outposts_own: '&cDu kan inte ��ga mer ��n %s kolonier.'
+msg_no_funds_new_nation: '&cStaden har inte r��d med att starta en nation.'
+msg_already_claimed: '&cDen h��r ytan har redan blivit er��vrad av: %s'
+msg_already_claimed_1: '&cDen h��r ytan (%s) tillh��r redan n��gon.'
+msg_already_claimed_2: '&cDen h��r ytan har redan blivit er��vrad.'
+msg_too_close: '&cDen h��r ytan ��r f��r n��ra en annan stad.'
+msg_too_far: '&cDen h��r ytan ��r f��r l��ngt ifr��n andra st��der.'
+msg_not_claimed: '&bDen h��r ytan (%s) har inte blivit er��vrad.'
+msg_not_claimed_1: '&bDen h��r ytan har inte blivit er��vrad.'
+msg_not_own_area: '&cDu ��ger inte den valda ytan.'
+msg_not_own_place: '&bDenna mark ��gs inte av n��gon.'
+msg_area_not_own: '&cDenna yta tillh��r inte dig.'
+msg_area_not_recog: '&cDenna yta ��r inte fr��n Towny.'
+msg_specify_name: '&bSe till att v��lja ett namn f��r staden'
+msg_specify_nation_name: '&bSe till att v��lja ett namn f��r nationen'
+msg_peasant_right: '&bEn bonde har inte r��tten att tvinga sina ledare till tronen.'
+msg_cost_spawn: '&bDu betalde avgiften %s f��r att teleportera till stadens resm��l.'
+msg_cost_spawn_refund: '&bDu blev ��terbetald avgiften f��r att anv��nda stadens resm��l.'
+msg_town_spawn_warmup: '&bV��ntar p�� teleportering...'
+msg_town_rename_disabled: '&bNamn��ndring av stad ��r inaktiverat'
+msg_town_set_name: '&b%s ��ndrade namn p�� staden till %s.'
+msg_nation_set_name: '&b%s ��ndrade namn p�� nationen till %s.'
+msg_changed_pvp: '&c%s PVP har blivit %s.'
+msg_changed_public: '&cStadens offentliga status ��r nu %s.'
+msg_changed_expl: '&cExplosioner i %s ��r nu %s.'
+msg_changed_fire: '&cEldspridning i %s ��r nu %s.'
+msg_changed_mobs: '&cMonster i %s ��r nu %s.'
+msg_the_plot_group: 'Tomtgruppen'
+msg_changed_taxpercent: '&cProcentbaserad skatt ��r nu %s.'
+msg_changed_open: '&cIng��ng utan inbjudan ��r nu %s.'
+msg_toggle_open_on_warning: 'Varning: Townperms b��r st��ngas av om staden ��r ��ppen. Skriv ''/town set perm off'' f��ljt av ''/town set perm reset''.'
+msg_changed_world_setting: '&c%s f��r %s ��r: %s.'
+msg_world_pvp: '&cDetta ��r en PVP v��rld.'
+msg_world_mobs: '&cMonster ��r p��tvingat i denna v��rld.'
+msg_world_expl: '&cExplosioner ��r p��tvingat i denna v��rld.'
+msg_world_fire: '&cEldspridning ��r p��tvingat i denna v��rld.'
+msg_town_mobs: '&cThis town has Monster spawns forced on.'
+msg_plot_pvp: '&cPVP kan inte ��ndras i en Arena.'
+msg_plot_regen_wrong_size: '&c��terh��mtning fungerar endast p�� mark som ��r av standardstorleken (16).'
+msg_reloaded: '&2Townys inst��llningar laddades om.'
+msg_undo_complete: '&2��ngringen ��r klar.'
+msg_give_total: '&bGav %s bonus. (Totalt: %s)'
+mag_backup_success: '&2Backup lyckades.'
+msg_xx_withdrew_xx: '&b%s tog ut %s fr��n %s banken.'
+msg_xx_deposited_xx: '&b%s satte in %s p�� %s banken.'
+msg_insuf_funds: '&cDu har inte s�� mycket.'
+msg_err_withdraw_disabled: 'Uttag fr��n banken ��r ej aktiverat!'
+msg_err_deposit_capped: 'Det g��r inte att s��tta in mer pengar. Denna bank ��r begr��nsad till %s.'
+msg_set_town_home: '&bLyckades ��ndra stadens hemblock till %s'
+msg_set_town_spawn: '&bLyckades ��ndra stadens resm��l.'
+msg_set_outpost_spawn: '&bLyckades byta kolonins resm��l.'
+msg_set_title: '&b%s fick titeln ''%s&b''.'
+msg_set_surname: '&b%s fick efternamnet ''%s&b''.'
+msg_clear_title_surname: '&b%s togs bort fr��n ''%s''.'
+msg_clear_plot_material: '&bTomten rensades av f��ljande block typer:%s.'
+msg_set_perms: '&bLyckades byta beh��righeter till:'
+msg_set_claim: '&bLyckades ��ndra %s k��pkraft till %s'
+msg_set_perms_reset: '&bLyckades ��terst��lla beh��righeter p�� alla %s markbitar.'
+msg_usedefault: '&bDenna v��rld (%s) anv��nder nu de globala standardinst��llningarna.'
+msg_set_wild_perms: '&bLyckades ��ndra %s vildmarksr��ttigheter %s'
+msg_set_wild_ignore: '&bLyckades ��ndra %s ignorera block i vildmarken till %s'
+msg_set_wild_name: '&bLyckades ��ndra %s namn p�� vildmarken till %s'
+msg_set_wild_regen: '&bLyckades ��ndra %s ��tergenerering av naturen i vildmarken till ''%s'''
+msg_set_use_towny_on: '&bDenna v��rld f��ljer nu Townyregler.'
+msg_set_use_towny_off: '&cDenna v��rld anv��nder inte Towny.'
+msg_error_must_be_int: '&bBeloppet m��ste vara ett heltal.'
+msg_error_input_must_be_int: '&c%s must be an integer'
+msg_error_must_be_num: '&bBeloppet m��ste vara ett nummer.'
+msg_error_input_must_be_num: '&c%s must be a number'
+msg_must_specify_amnt: '&bM��ste ange belopp. T.ex. %s 54'
+msg_town_set_tax: '&b%s har satt den dagliga skatten till %s'
+msg_town_set_plottax: '&b%s har satt den dagliga skatten p�� mark till %s'
+msg_town_set_plotprice: '&b%s har satt priset p�� mark till %s'
+msg_town_set_alttax: '&b%s har fastst��llt den dagliga skatten p�� %s mark till %s'
+msg_town_set_altprice: '&b%s har satt priset p�� %s mark till %s'
+msg_town_set_nation_tax: '&b%s har satt nationskatten p�� %s'
+msg_set_nation_tag: '&b%s har ��ndrat nationstaggen till [%s]'
+msg_set_town_tag: '&b%s har ��ndrat stadstasggen till [%s]'
+msg_reset_nation_tag: '&b%s har nollst��llt nationstaggen.'
+msg_reset_town_tag: '&b%s har nollst��llt stadstaggen.'
+msg_mayor_abandon: '&bT��nker du ��verge dina inv��nare? V��lj en ny borgm��stare ''/town set mayor'' om du ��r s��ker.'
+msg_new_day_tax: '&bEn ny dag ��r h��r! Skatter och hyror har samlats in.'
+msg_new_day: '&bEn ny dag ��r h��r!'
+msg_new_king: '&b%s ��r nu nationens ledare av %s!'
+msg_err_new_king_notmayor: '&cNya nations ledaren ��r inte en borgm��stare.'
+msg_err_king_not_in_nation: '&cNya nations ledaren tillh��r inte denna nation.'
+msg_err_fight_like_king: '&cFred ��r inte en m��jlighet! Sl��ss som en Ledare!'
+msg_no_access_nation_bank: '&cDu har inte tillg��ng till nationens bank.'
+msg_err_no_money: '&cDet finns inte tillr��ckligt med pengar i banken.'
+msg_new_mayor: '&b%s ��r nu borgm��stare!'
+msg_new_nation: '&b%s skapade en ny nation som heter %s'
+msg_new_town: '&b%s skapade en ny stad som heter %s'
+msg_plot_for_sale: '&b%s satte upp marken (%s) till salu!'
+msg_plot_for_sale_amount: '&b%s put the plot (%s) up for sale for %s!'
+msg_plot_set_type: '&bMarktyp satt till %s'
+msg_cache_block_error: '&cDu har inte registrerats hos Towny. F��rs��k att logga igen.'
+msg_cache_block_error_wild: '&cInte till��tet att %s i vildmarken.'
+msg_cache_block_error_plot: '&c��garen till��ter inte %s till %s h��r.'
+msg_cache_block_error_town_resident: '&cInv��narna f��r inte %s.'
+msg_cache_block_error_town_allies: '&cAllierade f��r inte %s.'
+msg_cache_block_error_town_outsider: '&cUtomst��ende f��r inte %s.'
+msg_err_cant_afford_tp_town: '&cHar inte r��d att teleportera till %s.'
+msg_err_not_public: '&cDen staden ��r inte offentlig.'
+msg_err_not_open: '&cStad %s ��r inte ��ppen f��r alla. Fr��ga borgm��staren eller en assistent om att f�� g�� med.'
+msg_err_town_spawn_forbidden: '&cDet ��r f��rbjudet att resa in i staden.'
+msg_err_town_spawn_nation_forbidden: '&cResor till andra st��der i din nation ��r f��rbjudna.'
+msg_err_town_spawn_ally_forbidden: '&cResor till st��der som ��r allierade med din nation ��r f��rbjudet.'
+msg_err_public_spawn_forbidden: '&cDet ��r f��rbjudet att resa till offentliga st��der.'
+msg_err_public_spawn_enemy: '&cDet ��r f��rbjudet f��r fiender att resa till offentliga st��der.'
+msg_err_town_spawn_disallowed_from: '&cResor till staden ��r f��rbjudet fr��n %s.'
+msg_err_outpost_spawn: '&cDet finns inga kolonier med resm��l i den h��r staden.'
+msg_err_cant_afford_tp: '&bHar inte r��d att teleportera till din stads resm��l.'
+msg_err_plot_nfs: '&cDenna mark ��r inte till salu.'
+msg_err_not_part_town: '&cValt omr��de ��r inte en del av din stad.'
+msg_err_not_attached_edge: '&cValt omr��de inte f��st vid kanten.'
+msg_err_empty_area_selection: '&cDet valda omr��det inneh��ller ingen giltig mark.'
+msg_err_not_enough_blocks: '&cDet finns inte tillr��ckligt med tillg��ngliga stadsblock f��r att er��vra denna mark.'
+msg_err_cant_afford_blocks: '&cStaden har inte r��d att er��vra %s stadsblock till kostnaden av %s'
+msg_err_not_in_town_claim: '&cDu m��ste tillh��ra en stad f��r att kunna k��pa mark.'
+msg_err_must_belong_town: '&cDu m��ste tillh��ra en stad.'
+msg_err_dont_belong_town: '&cDu tillh��r inte en stad.'
+msg_err_dont_belong_nation: '&bDu tillh��r inte en nation.'
+msg_err_not_same_nation: '&b%s tillh��r inte din nation.'
+msg_err_rect_auto: '&cEndast st��der och inv��nare kan anv��nda auto.'
+msg_err_invalid_radius: '&cOgiltig radie. Anv��nd ett heltal eller ''auto''.'
+msg_err_not_configured: '&cDenna v��rld har inte konfigurerats med Towny.'
+msg_err_updating_item_perms: '&cFel vid uppdatering av artikelanv��ndningbeh��righetens cache (item_use).'
+msg_err_updating_switch_perms: '&cFel vid uppdatering av v��xlingsbeh��righetens cache (switch).'
+msg_err_updating_destroy_perms: '&cFel vid uppdatering av f��rst��relsebeh��righetens cache (destroy).'
+msg_err_updating_build_perms: '&cFel vid uppdatering av byggbeh��righetens cache (build).'
+msg_err_admin_only: '&cEndast en administrat��r kan anv��nda detta kommando.'
+msg_err_admin_only_delete: '&cEndast en administrat��r kan ta bort andra spelares data.'
+msg_err_admin_only_delete_town: '&cEndast en administrat��r kan ta bort andra st��ders data.'
+msg_err_admin_only_delete_nation: '&cEndast en administrat��r kan ta bort annan nationers data.'
+msg_err_online_or_npc: '&c%s ��r online eller ��r en NPC.'
+msg_err_not_registered: '&cDu ��r inte registrerad.'
+msg_err_not_registered_1: '&c%s ��r inte ett registerat kommando i Towny.'
+msg_err_invalid_name: '&c%s ��r ett ogiltigt namn.'
+msg_err_already_res: '&c%s tillh��r redan en stad.'
+msg_err_already_in_town: '&c%s ��r redan med i %s.'
+msg_err_already_nation: '&cDen staden ��r redan med i en nation.'
+msg_err_invalid_property: '&cOgiltig ''%s'' egendom.'
+msg_err_not_supported: '&cSt��ds ��nnu inte.'
+msg_err_invalid_input: '&cFelaktig input. Anv��nda %s'
+msg_err_negative: '&cInput f��r inte vara negativ.'
+msg_err_input_too_long: '&cInput ��r f��r l��ng.'
+msg_err_invalid_choice: '&cOgiltigt val'
+msg_err_invalid_sub: '&cOgiltigt underkommando.'
+msg_err_command_disable: '&cDu har inte tillr��ckligt med beh��righeter f��r det kommandot.'
+msg_err_universe_limit: '&cUniversum kan inte rymma fler st��der.'
+msg_err_too_many_npc: '&cF��r m��nga NPC:er ��r registrerade.'
+msg_err_negative_money: '&cDu kan inte inte ��vertrassera ditt konto. (Negativa pengar).'
+msg_err_not_percentage: '&cProcentandelen m��ste vara under 100.'
+msg_err_no_economy: '&cEkonomi har inte aktiverats.'
+msg_err_not_block_type: '&cDet ��r inte en giltig marktyp!'
+msg_not_allowed_join: '&c%s f��r inte g�� med i en stad.'
+msg_offline_no_join: '&c%s ��r offline och kan inte g�� med i en stad.'
+msg_err_cannot_perform_action: '&cDet g��r inte att utf��ra den h��r ��tg��rden i %s.'
+msg_npc_flag: '&bNPC flaggan ��r nu %s f��r %s.'
+msg_warning_delete: '&4*** VARNING, %s KOMMER RADERAS N��STA DAG PGA. BRISTEN AV PENGAR ***'
+#these messages are only used if town/nation creation is set to admins only
+msg_admin_only_create_nation: '&cEndast administrat��rer f��r skapa nationer.'
+msg_admin_only_create_town: '&cEndast administrat��rer f��r skapa st��der.'
+#Required residents to be part of a nation
+msg_err_not_enough_residents_new_nation: '&cDin stad har inte tillr��ckligt med inv��nare f��r att skapa en nation.'
+msg_err_not_enough_residents_join_nation: '&bStaden %s har inte tillr��ckligt med inv��nare f��r att g�� med i nationen.'
+msg_not_enough_residents_no_longer_capital: '&bNationens gamla huvudstad har inte l��ngre tillr��ckligt med inv��nare. Nationens nya huvudstad ��r %s.'
+msg_town_not_enough_residents_left_nation: '&bStaden %s har inte l��ngre tillr��ckligt med inv��nare f��r att vara medlem i en nation och har tagits bort fr��n nationen.'
+msg_nation_disbanded_town_not_enough_residents: '&bStaden %s har inte l��ngre tillr��ckligt med inv��nare f��r att f��rs��rja nationen och har tvingat nationen att st��ngas.'
+msg_not_enough_residents_refunded: '&bDu har ��terbetalats $%s f��r att din nation uppl��ses p�� grund av att de inte har tillr��ckligt med inv��nare.'
+msg_not_enough_residents_capital: '&bStaden %s har inte tillr��ckligt med inv��nare f��r att vara huvudstaden i nationen.'
+list_page: '&bSida %s av %s'
+list_err_not_enough_pages: '&cEndast %s sidor tillg��ngliga.'
+#Added in 0.30
+#Added in 0.31
+msg_err_tax_minimum_not_met: 'Du kan inte st��lla stadskatten under %s.'
+msg_unknown_rank_available_ranks: 'Ok��nd rank %s. Till��tna ranker ��r %s.'
+msg_no_permission_to_give_rank: 'Du har inte tillst��nd att bevilja denna rank.'
+msg_you_have_been_given_rank: 'Du har beviljats %s ranken av %s.'
+msg_you_have_given_rank: 'Du har beviljat %s ranken av %s till %s.'
+msg_resident_not_your_town: 'Den spelaren ��r inte en medlem av staden!'
+msg_resident_already_has_rank: '%s har redan ranken %s.'
+msg_you_have_had_rank_taken: 'Du har degraderats fr��n ranken %s av %s.'
+msg_you_have_taken_rank_from: 'Du har tagit bort ranken %s av %s fr��n %s.'
+msg_resident_doesnt_have_rank: '%s har inte ranken %s.'
+msg_town_has_no_jails: 'Staden har inga f��ngelser.'
+msg_no_permission_to_jail_your_residents: 'Du har inte r��tt att f��ngsla dina egna inv��nare.'
+msg_resident_not_part_of_any_town: 'Den spelaren tillh��r inte n��gon stad.'
+msg_player_not_jailed_in_your_town: 'Spelaren ��r inte f��ngslad i din stad.'
+msg_cannot_spawn_while_jailed: 'Du kan inte resa till st��nder n��r du ��r f��ngslad.'
+msg_cannot_abandon_town_while_jailed: 'Du kan inte l��mna din stad n��r du ��r f��ngslad.'
+msg_player_escaped_jail_by_leaving_town: '%s har rymt ifr��n f��ngelset genom att s��ga upp sitt boende och stadstillh��righet.'
+msg_set_jail_spawn: 'Lyckades st��lla in f��ngelsets respunkt.'
+msg_killed_attempting_to_escape_jail: '&4%s d��dades i f��rs��k att fly fr��n f��ngelset.'
+msg_err_jailed_players_no_teleport: '&4F��ngslade spelare kan inte bli teleporterade!'
+msg_player_escaped_jail_into_wilderness: '&4%s rymde fr��n f��ngelset genom att springa till %s'
+msg_err_invalid_string_board_not_set: 'Ogiltig text, stadstavlan ��r inte inst��lld.'
+msg_plot_name_removed: 'Tomtnamn borttaget.'
+msg_plot_name_set_to: 'Tomtnamn satt till [%s].'
+msg_plot_price_too_expensive: 'Tomtpriset ��r f��r dyrt.'
+msg_you_robbed_player: 'Du r��nade %s p�� %s.'
+msg_player_robbed_you: '%s r��nade dig p�� %s.'
+msg_you_lost_money: 'Du f��rlorade %s eftersom du dog.'
+msg_player_couldnt_pay_player_town_bank_paying_instead: '%s''s pl��nbok kunde inte tillfredsst��lla %s. %s togs fr��n stadsbanken.'
+msg_err_could_not_take_deathfunds: 'Det gick inte att ta d��dsmedel.'
+msg_you_lost_money_dying: 'Du f��rlorade %s.'
+msg_your_town_lost_money_dying: 'Din stad f��rlorade %s.'
+msg_your_nation_lost_money_dying: 'Din nation f��rlorade %s.'
+msg_err_couldnt_take_deathfunds: 'Det gick inte att ta d��dsmedel.'
+msg_err_couldnt_take_town_deathfunds: 'Det gick inte att ta stadens d��dsmedel.'
+msg_err_couldnt_take_nation_deathfunds: 'Det gick inte att ta nationens d��dsmedel.'
+msg_you_gained_money_for_killing: 'Du fick %s f��r att d��da %s.'
+msg_err_ender_pearls_disabled: '&4Enderp��rlor ��r avst��ngda!'
+msg_err_no_sleep_in_enemy_inn: '&4Du kan inte sova i en fiendes v��rdshus.'
+msg_err_cant_use_bed: '&4Du ��ger inte marken s��ngen st��r i och det ��r inte en v��rdshustomt.'
+msg_town_plots_revenue_disclaimer: '&aInt��kter som visas ber��knas och huruvida ��garen av plotten kan betala ��r en faktor.'
+msg_town_set_perm_syntax_error: 'Ogiltig word combination for this command. See ''/town set perm ?'' For proper command syntax.'
+msg_plot_set_perm_syntax_error: 'Ogiltig word combination for this command. See ''/plot set perm ?'' For proper command syntax.'
+#Added in 0.32
+msg_err_townadmintownrank_wrong_town: 'Den personen tillh��r inte staden.'
+msg_err_resident_already_an_outlaw: 'Den spelaren betraktas redan vara lagl��s i din stad.'
+msg_err_not_outlaw_in_your_town: 'Du kan inte ange en stadsmedlem som lagl��s.'
+msg_you_have_been_declared_outlaw: 'Du har f��rklarats lagl��s i %s. Se till att inte d�� i den staden.'
+msg_you_have_declared_an_outlaw: '%s har f��rklarats lagl��s i %s.'
+msg_you_have_been_undeclared_outlaw: 'Du ��r inte l��ngre lagl��s i %s.'
+msg_you_have_undeclared_an_outlaw: '%s ��r inte l��ngre lagl��s i %s.'
+msg_err_player_not_an_outlaw: 'Den spelaren listades inte som lagl��s.'
+msg_err_outlaw_in_open_town: 'Du kan inte g�� med i en ��ppen stad som har bed��mt dig lagl��s.'
+msg_you_are_an_outlaw_in_this_town: '&4Var f��rsiktig %s ser dig som lagl��s, att d�� h��r kan inneb��ra f��ngesle.'
+msg_err_town_not_close_enough_to_nation: '%ss hemblock ��r inte tillr��ckligt n��ra din huvudstads hemblock f��r att g�� med i din nation.'
+msg_nation_town_moved_their_homeblock_too_far: '%ss hemblock flyttades f��r l��ngt ifr��n din nations huvudstad och har tagits bort fr��n din nation.'
+#Added in 0.33
+msg_err_invalid_radius_number: '&cOgiltig radius amount. Use an %s or less.'
+#Added in 0.34
+msg_err_max_residents_per_town_reached: '&cMaximalt antal inv��nare (%s) har redan uppn��tts.'
+#Added in 0.35
+msg_err_resident_doesnt_meet_invite_cooldown: '&cSpelaren %s har inte varit online p�� servern tillr��ckligt l��nge f��r att bli inbjuden till en stad, v��nligen v��nta.'
+msg_cant_toggle_pvp_outsider_in_town: 'Det finns en utomst��ende i din stad, du kan inte ��ndra din pvp-status!'
+msg_err_unclaim_not_outpost: 'Det g��r inte att ��verge den h��r marken, det ��r inte en koloni!'
+outpost_plu: 'Kolonier'
+#Added in 0.36
+msg_err_not_enough_residents: 'Det finns inte tillr��ckligt m��nga inv��nare i denna stad f��r att g��ra det.'
+#Added in 0.37
+msg_err_friendly_fire_disable: 'V��dabek��mpning ��r avst��ngt!'
+#Added in 0.38
+msg_claim_error: '&cEtt annan plugin stoppade ��vertagandet av (%s)/(%s) stadsblock, kunde inte slutf��ra operationen.'
+#Added in 0.39
+msg_err_town_spawn_forbidden_war: '&cResor till stadens spawn ��r endast till��tet under krig.'
+msg_err_town_spawn_forbidden_peace: '&cResor till stadens spawn ��r f��rbjudet vid krig.'
+msg_err_town_spawn_nation_forbidden_war: '&cResor till andra st��ders spawn i din nation ��r endast till��tna vid krig.'
+msg_err_town_spawn_nation_forbidden_peace: '&cResor till andra st��ders spawn i din nation ��r f��rbjudna vid krig.'
+msg_err_town_spawn_ally_forbidden_war: '&cResor till spawn hos allierade st��der till din nation ��r endast till��tna vid krig.'
+msg_err_town_spawn_ally_forbidden_false: '&cResor till spawn hos allierade st��der till din nation ��r f��rbjudna vid krig.'
+msg_err_public_spawn_forbidden_war: '&cOffentliga spawnresor till andra st��der ��r endast till��tet under krig.'
+msg_err_public_spawn_forbidden_peace: '&cOffentliga spawnresor till andra st��der ��r f��rbjudet under krig.'
+#Added in 0.40
+mayor_help_9: 'F��rs��k till att ��verge en koloni'
+#Added in 0.41 (Invite-Update)
+invite_plu: 'Inbjudningar'
+invite_sent_by: 'Inbjudan skickad av'
+invite_help_1: 'Acceptera en inbjudan f��r att g�� med i en stad'
+invite_help_2: 'Avb��j en inbjudan att g�� med i en stad'
+invite_help_4: 'Decline all invites to join a town'
+invite_help_3: 'Lista alla dina inbjudningar'
+town_invite_help_1: 'Bjud in en spelare till din stad'
+town_invite_help_2: '��terkalla en inbjudan, som skickades till en spelare'
+town_invite_help_3: 'Lista alla dina skickade inbjudningar'
+town_invite_help_4: 'Listar alla inbjudningar du har f��tt'
+town_invite_help_5: 'Acceptera en inbjudan om att g�� med i en nation'
+town_invite_help_6: 'Neka en inbjudan om att g�� med i en nation'
+nation_invite_help_1: 'Bjud in en stad till din nation'
+nation_invite_help_2: '��terkalla en inbjudan, som skickades till en stad'
+nation_invite_help_3: 'Lista alla inbjudningar som skickats till st��der'
+nation_ally_help_1: 'F��rs��k l��gga till en allierad till din nation'
+nation_ally_help_2: 'F��rs��k att ta bort en allierad fr��n din nation'
+nation_ally_help_3: 'Listar alla f��rfr��gningar om allians som du skickat'
+nation_ally_help_4: 'Listar alla inbjudningar om allians som du mottagit'
+nation_ally_help_5: 'Acceptera en inbjudan om att alliera dig med en nation'
+nation_ally_help_6: 'Neka en inbjudan om att alliera dig med en nation'
+nation_ally_help_7: '��terkalla en inbjudan till allians'
+msg_player_denied_all_invites: "All of your received invites have been denied."
+msg_err_player_no_invites: '&cDu har inga inbjudningar!'
+msg_err_player_has_multiple_invites: '&cDu har flera inbjudningar, v��nligen specificera!'
+msg_err_player_has_too_many_invites: '%s har f��r m��nga inbjudningar, be spelaren att avb��ja n��gra, innan du bjuder in igen.'
+msg_err_player_already_invited: '&bDu har redan bjudit in %s att g�� med i din stad!'
+msg_err_town_no_invites: '&bStaden har inga inbjudningar!'
+msg_err_town_specify_invite: '&cV��nligen ange inbjudan!'
+msg_err_town_has_too_many_invites: '&bStaden %s har f��r m��nga inbjudningar, ber dem att avb��ja n��gra, innan du bjuder in igen.'
+msg_err_town_sent_too_many_invites: '&bStaden har skickat f��r m��nga inbjudningar, ��terkalla n��gra innan du f��rs��ker igen!'
+msg_err_town_already_invited: '&bDu har redan bjudit in %s att g�� med i din nation!'
+msg_err_nation_specify_invite: '&cV��nligen specificera inbjudan!'
+msg_err_nation_no_requests: '&bNationen har inga f��rfr��gningar om allians!'
+msg_err_nation_sent_too_many_invites: '&bNationen har skickat f��r m��nga inbjudningar, ��terkalla n��gra innan du f��rs��ker igen!'
+msg_err_nation_sent_too_many_requests: '&bNationen har skickat f��r m��nga f��rfr��gningar, ��terkalla n��gra innan du f��rs��ker igen!'
+msg_err_nation_has_too_many_requests: '&bNationen %s har f��r m��nga f��rfr��gningar, be dem att avb��ja n��gra, innan du beg��r igen.'
+player_received_invites: '&bDu har f��tt %a/%m inbjudningar.'
+town_revoke_invite: '&bStaden %s, ��terkallade din inbjudan att g�� med i den.'
+town_revoke_invite_successful: '&bDu har framg��ngsrikt ��terkallat en inbjudan att g�� med i din stad.'
+town_received_invites: '&bStaden har f��tt %a/%m inbjudningar.'
+town_sent_invites: '&bStaden har skickat %a/%m inbjudningar.'
+nation_revoke_invite: '&bNationen %s, ��terkallade din inbjudan om att ansluta till dem.'
+nation_revoke_invite_successful: '&bDu har framg��ngsrikt ��terkallat en inbjudan att g�� med i din stad.'
+nation_revoke_ally: '&bNationen %s, ��terkallade deras beg��ran om allians.'
+nation_revoke_ally_successful: '&bDu har framg��ngsrikt ��terkallat en beg��ran om allians.'
+nation_received_requests: '&bNationen har f��tt %a/%m f��rfr��gningar om allians.'
+nation_sent_invites: '&bNationen har skickat %a/%m inbjudningar.'
+nation_sent_ally_requests: '&bNationen har skickat %a/%m f��rfr��gningar om allians.'
+no_confirmations_open: '&cDu har inget att bekr��fta!'
+successful_cancel: '&c��tg��rden avbruten!'
+successful_deny: '&bInbjudan nekades framg��ngsrikt.'
+successful_deny_request: '&bBeg��ran om allians nekades framg��ngsrikt.'
+msg_ally_removed_successfully: '&bDen allierade har tagits bort framg��ngsrikt.'
+town_deleted_by_admin: '&bStaden %s togs bort framg��ngsrikt'
+nation_deleted_by_admin: '&bNationen %s har tagits bort framg��ngsrikt'
+are_you_sure_you_want_to_continue: '��r du s��ker p�� att du vill forts��tta?'
+you_have_been_invited_to_join: 'Du har blivit inbjuden att g�� med '
+you_have_been_requested_to_ally: 'Du har uppmanats att alliera dig '
+this_message_will_expire: 'Detta upph��r automatiskt om 20 sekunder'
+player_sing: 'Spelare'
+nation_zone_this_area_under_protection_of: 'Denna del av %s ��r under skydd av %s'
+#Added in 0.42
+you_have_been_invited_to_join2: 'Du har blivit inbjuden att g�� med %s'
+you_have_been_requested_to_ally2: 'Du har uppmanats att alliera dig med %s'
+#Added in 0.43
+town_help_11: 'Skapa en ny stad. Anv��nd ''_'' och inte mellanslag.'
+changed_plot_town: '&bDu har framg��ngsrikt ��ndrat plottens stad till %s!'
+not_standing_in_plot: 'Du st��r inte i en giltig plot!'
+msg_err_homeblock_has_not_been_set: 'Hemblocket har inte st��llts in, anv��nd ''/town set homeblock'' f��rst.'
+msg_err_spawn_not_within_homeblock: 'Spawn ��r inte inom hemblocket, anv��nd ''/town set homeblock'' f��rst.'
+#Added in 0.44
+#TownyChat language strings
+tc_err_invalid_command: 'Fel: Ogiltigt kommando!'
+tc_settings_reloaded: '[TownyChat] Inst��llningar omladdade!'
+tc_err_unrecognized_command_format: 'Fel: ok��nt format p�� kommandot!'
+tc_channel_list_status: '(Status)'
+tc_channel_list_in: 'Aktiv'
+tc_channel_list_out: 'Inaktiv'
+tc_err_you_dont_have_perm_mute_list: 'Du har inte beh��righet att se mute-listan'
+tc_err_you_dont_have_unmute_perm: 'Du har inte beh��righet att unmuta'
+tc_err_no_channel_called_channel: 'Det finns ingen kanal som heter &f%s'
+tc_err_no_muted_players_in_channel_players: 'Det finns inga tystade spelare i &f%s'
+tc_players_muted_in_channel: '[TownyChat] &f%n &2spelare tystade i &f%s&2: &f%s'
+tc_err_no_online_players_with_name: 'Det finns inga spelare online med namnet &f%s'
+tc_err_you_dont_have_mute_perms: 'Du har inte beh��righet att muta'
+tc_err_you_cant_mute_admin: 'Du kan inte tysta en Towny-administrat��r.'
+tc_err_you_cant_mute_chat_mod: 'Du kan inte tysta en chattmoderator.'
+tc_player_already_muted_in_channel: '[TownyChat] Spelaren ��r redan tystad i &f%s'
+tc_player_is_now_muted_in_channel: '[TownyChat] &f%s &2��r nu tystad i &f%s'
+tc_player_is_not_muted_in_channel: '[TownyChat] Spelaren ��r inte tystad i &f%s'
+tc_player_is_now_unmuted_in_channel: '[TownyChat] &f%s &2��r nu avtystad i &f%s'
+tc_err_you_are_currently_muted_in_channel: 'Du ��r f��r n��rvarande tystad i &f%s&c!'
+tc_err_you_cannot_leave_channel: 'Du kan inte l��mna &f%s'
+tc_you_already_left_channel: '[TownyChat] Du har redan l��mnat &f%s'
+tc_you_left_channel: '[TownyChat] Du l��mnade &f%s'
+tc_you_are_now_talking_in_channel: '[TownyChat] Du pratar nu i &f%s'
+tc_err_you_cannot_join_channel: 'Du kan inte g�� med i &f%s'
+tc_you_are_already_in_channel: '[TownyChat] Du ��r redan med i &f%s'
+tc_you_joined_channel: '[TownyChat] Du gick med i &f%s'
+tc_err_you_are_already_talking_in_default_channel_help: 'Du talar redan i standardkanalen. F��r att byta till en annan kanal, anv��nd kommandot f��r den kanalen.'
+tc_err_unable_to_talk_essentials_mute: 'Det g��r inte att prata... Du ��r tystad f��r tillf��llet!'
+tc_err_unable_to_talk_you_are_spamming: 'Det g��r inte att prata... Du spammar!'
+msg_admin_set_plot_help_1: 'N��r du bor i en stad.'
+msg_admin_set_plot_help_2: 'N��r du ��r i vildmarken.'
+msg_err_not_enough_outposts_free_to_claim: 'Inte tillr��ckligt med kolonier kvar %s/%s'
+msg_err_over_outposts_limit: 'Du kan inte teleportera till dina kolonier, du har ��verskridit gr��nsen %s/%s'
+#Status Screen elements (/res, /town, /nation, /tw, /plot perm)
+#These are translated because we may (or may not) be handling longer words in a smart way.
+#If you are a translator feel free to skip over this section, as it may or may not appear very nice
+#in game. It would be best to see what the changes look like in game before you PR it to github.
+outlaws: 'Lagl��sa:' #Used on /t outlawlist
+online: '&a(Inloggad)'
+registered_last_online: '&2Registerad: &a%s &8| &2Senast Online: &a%s' #Used in mayor hover text in /town status screen.
+status_perm: 'Beh��righet:' #Used on /plot perm, /res
+status_on: '&4P��'
+status_off: '&aAV'
+status_on_good: '&aP��'
+status_off_bad: '&4AV'
+status_forced: '&cTvingade'
+status_adjustable: '&aJusterbar'
+status_pvp: 'PVP:'
+explosions: 'Explosioner:'
+firespread: 'Eldspridning:'
+mobspawns: 'Monster-spawns:'
+owner_of_x_plots: '��gare av %s tomter.'
+status_bank: 'Bank:'
+status_town: 'Stad:'
+status_no_town: 'Ingen'
+status_town_ranks: 'Stadens Ranker:'
+status_nation_ranks: 'Nationens Ranker:'
+jailed_in_town: ' i Stad: %s'
+status_friends: 'V��nner'
+rank_list_title: '%s Ranklista'
+rank_list_mayor: 'Borgm��stare:'
+status_title_capital: '&b(Capital)'
+status_title_pvp: '&4(PVP)'
+status_title_open: '&b(��ppen)'
+status_town_board: 'Tavla:'
+status_founded: 'Grundad:'
+status_founded_by: 'Founded by:'
+status_town_size: 'Stadens Storlek:'
+status_town_size_bought: 'K��pt:'
+status_town_size_bonus: 'Bonus:'
+status_town_size_nationbonus: 'NationsBonus:'
+status_town_outposts: 'Utposter:'
+status_bank_town2: 'Dagligt underh��ll:'
+status_bank_town3: 'Skatt:'
+status_town_nation: 'Nation:'
+status_town_reslist_overlength: 'med flera...'
+status_nation_king: 'Ledare:'
+status_nation_tax: 'Nationsskatt:'
+status_nation_conquered_tax: 'ConqueredTax:'
+status_nation_towns: 'St��der'
+status_nation_allies: 'Allierade'
+status_nation_enemies: 'Fiender'
+status_nation_enemied_by: 'Nations that consider your nation an enemy'
+status_world_claimable: '&aTillg��nglig att claima'
+status_world_noclaims: '&cIngaClaims'
+status_world_forcepvp: 'TvingaPVP:'
+status_world_fire: 'Eld:'
+status_world_forcefire: 'P��tvinga eld:'
+status_world_forceexplosion: 'P��tvinga explosion:'
+status_world_worldmobs: 'V��rldsmonster:'
+status_world_forcetownmobs: 'P��tvinga stadsmonster:'
+status_world_unclaimrevert: '��terst��ll vid unclaim:'
+status_world_explrevert: '��terst��llning vid explosion:'
+status_world_ignoredblocks: 'Ignorerade Block:'
+status_res_taxexempt: 'Personalen ��r undantagen fr��n att betala stadsskatter.'
+status_res_tax: 'Stadsskatt:'
+status_res_plottax: 'Total tomtskatt:'
+status_res_totaltax: 'Total skatt att betala:'
+#Added in 0.45
+msg_err_unable_to_use_bank_outside_nation_capital: 'Du kan inte anv��nda din nations bank utanf��r nationens huvudstad.'
+msg_err_unable_to_use_bank_outside_your_town: 'Du kan inte anv��nda din nations bank utanf��r din stad.'
+msg_time_until_a_new_day: 'Tid till en ny dag: '
+msg_hours: ' timmar'
+msg_minutes: ' minuter'
+msg_seconds: ' sekunder'
+msg_err_invalid_string_nationboard_not_set: 'Ogiltig str��ng, nationstavla ej inst��lld.'
+msg_plot_evict: 'Plot framg��ngsrikt vr��kt.'
+msg_no_one_to_evict: 'Ingen att vr��ka fr��n denna tomt.'
+#Added in 0.46
+nation_help_10: 'Teleportera dig till nationens spawn.'
+msg_nation_spawn_warmup: '&bV��ntar p�� teleportering...'
+msg_set_nation_spawn: '&b��ndrade framg��ngsrikt nationens spawn.'
+msg_err_cant_afford_tp_nation: '&cHar inte r��d att teleportera till %s.'
+msg_err_nationspawn_has_not_been_set: '&cNationens spawn har inte angetts.'
+msg_err_spawn_not_within_nationtowns: '&cNationens spawn m��ste vara i en stad som tillh��r nationen.'
+msg_err_spawn_not_within_capital: '&cNationens spawn m��ste vara i huvudstaden.'
+msg_err_nation_spawn_war: '&cNation-spawns ��r inte till��tna under krigstid.'
+msg_err_nation_not_public: '&cDen nationen ��r inte offentlig.'
+msg_nation_toggle_public: '&aV��xlade framg��ngsrikt nationsinst��llningen publik.'
+status_yes: '&aJA'
+status_no: '&cNEJ'
+msg_err_unable_to_use_bank_outside_bank_plot: 'Du kan inte anv��nda det kommandot utanf��r en bank eller en hemplot.'
+msg_err_nation_spawn_forbidden: '&cResor till spawn ��r f��rbjudna i nationen.'
+msg_err_nation_spawn_forbidden_war: '&cResor till nationens spawn ��r endast till��tet under krig.'
+msg_err_nation_spawn_forbidden_peace: '&cResor till stadens spawn ��r f��rbjudet vid krig.'
+msg_err_nation_spawn_ally_forbidden: '&cResor till spawn i allierade nationer ��r f��rbjudet.'
+msg_err_nation_spawn_nation_forbidden_war: '&cResor till spawn hos andra allierade nationer ��r endast till��tet vid krig.'
+msg_err_nation_spawn_nation_forbidden_peace: '&cResor till spawn hos andra allierade nationer ��r f��rbjudet vid krig.'
+msg_err_public_nation_spawn_forbidden: '&cDet ��r f��rbjudet att resa till andra nationerns publika spawn.'
+msg_err_public_nation_spawn_forbidden_war: '&cOffentliga spawnresor till andra nationer ��r endast till��tet under krig.'
+msg_err_public_nation_spawn_forbidden_peace: '&cOffentliga spawnresor till andra nationer ��r f��rbjudet under krig.'
+msg_spawn_cost_set_to: '&b%s har satt priset f��r att anv��nda /%s spawn till %s'
+msg_err_cannot_set_spawn_cost_more_than: '&cDu kan inte st��lla in spawnkostnaden h��gre ��n %s'
+msg_err_ally_isnt_public: '&cDin allierade, %s, har inte offentlig spawn aktiverat. Teleportering nekad.'
+msg_nation_changed_public: '&cNationens offentliga status ��r nu %s.'
+#Added in 0.47:
+status_plot_type: 'Typ av tomt:'
+msg_no_self_jailing: 'Du kan inte sl��nga dig sj��lv i f��ngelset.'
+online2: ' &a(Online)'
+build: 'Bygga'
+destroy: 'F��rst��ra'
+switch: '��ppna'
+item_use: 'anv��nda saker'
+owner_status: '��gare'
+towny_map_header: 'Towny Karta '
+towny_map_unclaimed: 'Vildmark'
+towny_map_claimed: 'Stadsmark'
+towny_map_forsale: 'Till Salu'
+towny_map_yourtown: 'Din Stad'
+towny_map_yourplot: 'Din Plot'
+towny_map_ally: 'Allierad'
+towny_map_enemy: 'Fiende'
+enabled: 'Aktiverat'
+disabled: 'Inaktiverat'
+forced: 'Tvingade'
+adjustable: 'Justerbar'
+#Added in 0.48:
+msg_no_funds_new_town2: '&c%s har inte r��d att starta en ny stad h��r, vilket kostar %s.'
+msg_no_funds_new_nation2: '&cStaden har inte r��d med att starta en nation, vilket kostar %s.'
+msg_no_funds_claim2: '&cStaden har inte r��d att claima %s stadsblock som kostar %s. S��tt in %s i stadsbanken med /t deposit %s'
+msg_err_cant_afford_blocks2: '&cStaden har inte r��d att claima %s stadsblock som kostar %s. S��tt in %s i stadsbanken med /t deposit %s'
+msg_err_not_enough_variables: '&cInte tillr��ckligt med variabler: '
+nation_rechecked_by_admin: '&bNationens %s stadsavst��nd har kontrollerats p�� nytt.'
+msg_err_nation_over_town_limit: '&cDin nation har n��tt det maximala antalet till��tna st��der-per-nation: %s.'
+#Added in 0.49
+msg_process_claim: 'Bearbetar ny mark...'
+msg_process_unclaim: 'Bearbetar borttagning av mark...'
+msg_total_townblocks: 'Totalt antal stadsblock: '
+#Added in 0.50
+friend_list: 'Lista med v��nner'
+#The following formatting lists apply to friends lists on the /res screen; townranks lists on the /town screen;
+#nationranks lists on the /nation screen; and probably more lists of residents.
+res_format_list_1: '&2' #First colour applied to Resident lists, ex: on /res, the friend list's Friends section.
+res_format_list_2: '&a' #Second colour applied to Resident lists, ex: on /res, the friend list's [1] section.
+res_format_list_3: '&f' #Third colour applied to Resident lists, ex: on /res, the friend list's list of friends' names section.
+townboard_message_colour_1: '&6'
+townboard_message_colour_2: '&e'
+nationboard_message_colour_1: '&6'
+nationboard_message_colour_2: '&e'
+not_registered: 'Inte registerad.'
+msg_error_missing_comparator: '&bM��ste spcificera hur det ska sorteras.'
+msg_error_invalid_comparator: '&bOgiltig j��mf��relse.'
+msg_error_multiple_comparators: '&bF��r m��nga j��mf��relser, ange endast en.'
+msg_error_comparator_failed: '&bJ��mf��raren misslyckades. F��rs��k med en annan.'
+number_of_residents: '(Antal inv��nare)'
+number_of_towns: '(Antal st��der)'
+town_name: 'Stadsnamn - (Inv��nare)'
+nation_name: 'Nationsnamn - (Inv��nare)'
+refund_message: '&a��terbetalade $%s f��r att unclaima %s stadsblock.'
+msg_bankrupt_town_multiple: '&bF��ljande st��der hade inte r��d med underh��llet och har uppl��sts: '
+msg_bankrupt_nation_multiple: '&bF��ljande nationer hade inte r��d med sitt underh��ll och har uppl��sts: '
+msg_couldnt_pay_tax: '&b%skunde inte betala skatt och blev sparkad fr��n %s.'
+msg_couldnt_pay_nation_tax_multiple: '&bF��ljande st��der hade inte r��d med nationskatten och fick l��mna nationen: '
+msg_couldnt_pay_town_tax_multiple: '&bF��ljande inv��nare hade inte r��d med stadsskatten och har utvisats: '
+msg_couldnt_pay_plot_taxes_multiple: '&bF��ljande inv��nare hade inte r��d med markskatt p�� n��gra eller alla markbitar: '
+msg_bankrupt_town2: '&b%s hade inte r��d att forts��tta vara en stad.'
+msg_bankrupt_nation2: '&b%s hade inte r��d att forts��tta vara en nation.'
+status_embassy_town: 'Ambassader i'
+#Added in 0.51:
+msg_error_invalid_comparator_nation: '&bInvalid comparator. Try %s.'
+msg_error_invalid_comparator_town: '&bInvalid comparator. Try %s.'
+msg_err_merging_for_kings_only: '&bSammanslagning kan enbart g��ras utav Nations Ledaren.'
+msg_err_king_of_that_nation_is_not_online: '&bNations Ledaren av %s, %s, ��r inte online. Sammanslagning misslyckades.'
+nation1_has_merged_with_nation2: '&6Nationen %s har g��tt med p�� att sl��s samman med den r��dande nationen %s.'
+msg_would_you_merge_your_nation_into_other_nation: '&6Skulle du g�� med p�� att l��sa upp din nation %s i nationen %s? Detta kommer att ��verf��ra alla st��der och nationsbankens pengar till %s.'
+no_open_towns: 'Inga ��ppna st��der att lista.'
+#Added in 0.52:
+msg_error_nation_has_no_allies: 'Nationen har inga allierade att lista.'
+msg_error_nation_has_no_enemies: 'Nationen har inga fiender att lista.'
+msg_error_ta_plot_claim: 'Saknar spelarnamn, ex: /ta plot claim PlayerNameHere'
+msg_error_no_player_with_that_name: 'Ingen spelare med namnet %s hittades'
+msg_admin_has_given_you_a_plot: 'En administrat��r har claimat en plot f��r dig p��: %s'
+msg_town_forcemobs_setting_set_to: 'The town %s has had their mobs setting forced to %s'
+msg_town_forcepvp_setting_set_to: 'Staden %s har f��tt sin pvp-inst��llning tvingad till %s'
+msg_town_forcedisabledpvp_setting_set_to: 'The town %s has had their admindisabledpvp setting forced to %s'
+msg_nation_changed_open: '&cNationens ��ppen-status ��r nu %s.'
+msg_err_already_in_a_nation: 'Din stad ��r redan med i en nation.'
+msg_err_nation_not_open: '&cNationens %s har inte ��ppnat sina d��rrar f��r n��gon. Fr��ga nations ledaren eller en assistent om att f�� g�� med.'
+msg_err_nation_homeblock_in_another_world: '&cDin stads hemblock ��r inte i samma v��rld som nationens huvudstads hemblock.'
+status_bank_town_penalty_upkeep: '��verclaim-avgift:'
+#Added in 0.53:
+msg_error_cannot_town_spawn_youre_an_outlaw_in_town: 'Du kan inte ta dig spawnpunkten i %s, du ��r lagl��s d��r.'
+#Added in 0.55:
+msg_you_cannot_use_that_command_while_jailed: '&4Du kan inte anv��nda det kommandot n��r du sitter f��ngslad.'
+#Added in 0.56:
+msg_cache_block_error_town_nation: '&cNationens medlemmar till��ts inte %s.'
+#Added in 0.57:
+msg_err_already_res2: '&c%s tillh��r redan en stad.'
+msg_err_cannot_afford_plot_set_type_cost: '&cDu har inte r��d att st��lla in tomten till en %s typ som kostar %s'
+msg_plot_set_cost: '&bDu har debiterats %s f��r att s��tta plotten till typ: %s'
+msg_err_townspawn_has_not_been_set: '&cStadens spawn har inte angetts.'
+msg_err_player_too_far_from_town_spawn: '&c%s ��r f��r l��ngt bort fr��n din stads spawn f��r att f�� en inbjudan till staden. Max distans: %s block.'
+#Added in 0.58:
+msg_resident_bail_amount: 'Inv��nar-borgen kostar: '
+msg_mayor_bail_amount: 'Borgm��starens borgen kostar: '
+msg_king_bail_amount: 'Nation Ledarens borgen kostar: '
+msg_has_paid_bail: '%s har betalat borgen och ��r fri.'
+msg_err_unable_to_pay_bail: 'Det gick inte att betala borgen.'
+msg_err_bail_not_enabled: 'Borgen (bail) ��r inte aktiverat.'
+msg_you_have_been_freed_from_jail: 'Du har befriats fr��n f��ngelset.'
+msg_player_has_been_freed_from_jail_number: '%s har befriats fr��n f��ngelse nummer %s.'
+msg_player_has_been_sent_to_jail_number: '%s har skickats till f��ngelse nummer %s.'
+msg_player_is_not_online: '%s ��r inte online.'
+msg_mysql_dump_success: 'MySQL databas-dump f��rdigst��lld.'
+msg_err_mysql_not_being_used: 'Din konfiguration ��r inte inst��lld p�� att spara och ladda mysql.'
+msg_save_success: 'Databas sparad.'
+msg_load_success: 'Databas laddad.'
+msg_err_cannot_afford_to_set_outpost: 'Din stad har inte tillr��ckligt med pengar f��r att s��tta detta stadsblock till en koloni.'
+msg_too_close2: 'Den h��r ytan ��r f��r n��ra en annan stads %s.'
+homeblock: 'hemblock'
+townblock: 'stadsblock'
+outpost: 'koloni'
+msg_err_not_same_town: '&b%s tillh��r inte din stad.'
+#Added in 0.59:
+msg_modes_set: 'L��gen inst��llda: '
+msg_err_this_plot_doesnt_have_any_associated_metadata: 'Denna mark har ingen associerad metadata.'
+msg_err_the_metadata_for_key_is_not_registered: 'Metadatan f��r ''%s'' ��r inte registrerad!'
+msg_key_x_was_successfully_updated_to_x: 'Nyckeln %s uppdaterades framg��ngsrikt till %s.'
+msg_err_key_x_is_not_part_of_this_plot: 'Nyckeln %s tillh��r inte denna mark, om m��jligt l��gg till den.'
+msg_err_key_x_already_exists: 'Nyckeln %s finns redan!'
+msg_custom_data_was_successfully_added_to_townblock: 'Anpassad data har lagts till i stadsblock!'
+msg_data_successfully_deleted: 'Data har tagits bort!'
+msg_err_key_cannot_be_deleted: 'Nyckeln kan inte raderas eftersom den inte finns!'
+msg_err_this_town_doesnt_have_any_associated_metadata: 'Den h��r staden har inga associerade metadata.'
+msg_err_key_x_is_not_part_of_this_town: 'Nyckeln %s tillh��r inte denna stad, om m��jligt l��gg till den.'
+msg_custom_data_was_successfully_added_to_town: 'Anpassad data har lagts till i staden!'
+msg_error_too_many_pages: 'F��r m��nga sidor.'
+msg_err_location_is_not_within_a_town: 'Platsen ��r inte inom en stad.'
+msg_err_location_is_not_within_a_jail_plot: 'Platsen ligger inte inom en f��ngelse.'
+msg_err_town_has_no_jail_spawns_set: 'Staden har inga f��ngelser.'
+msg_err_town_has_no_outpost_spawns_set: 'Staden har inga spawnpunkter f��r sina kolonier utsatta.'
+msg_err_location_is_not_within_an_outpost_plot: 'Platsen ligger inte inom en koloni.'
+msg_err_town_has_not_set_a_spawn_location: 'Staden har inte st��llt in ett resm��l.'
+msg_err_town_has_no_claim_over_this_town_block: 'Staden har ingen makt ��ver detta stadsblock.'
+msg_err_town_doesnt_belong_to_any_nation: 'Staden tillh��r inte n��gon nation.'
+msg_err_mayor_doesnt_belong_to_town: 'Borgm��staren tillh��r inte staden.'
+msg_err_tag_too_long: 'Taggen ��r f��r l��ng.'
+msg_err_nation_has_not_set_a_spawn_location: 'Nation har inte st��llt in ett resm��l.'
+msg_err_resident_doesnt_belong_to_any_town: 'Spelaren tillh��r inte n��gon stad.'
+msg_err_could_not_set_default_modes_for: 'Det gick inte att st��lla in standardl��gen f��r '
+#Added in 0.60
+msg_set_war_allowed_on: 'Krig kommer att till��tas i denna v��rld.'
+msg_set_war_allowed_off: 'Krig kommer inte att p��verka den h��r v��rlden.'
+#Added in 0.61
+#Added in 0.62
+msg_err_cannot_toggle_pvp_x_seconds_remaining: 'Du kan inte v��xla PVP, %s sekunder kvar.'
+msg_err_cannot_spawn_x_seconds_remaining: 'Du kan inte spawna f��rens om %s sekunder.'
+#Added in 0.63
+msg_plot_set_to_nfs: 'Plotten ��r inte l��ngre till salu.'
+msg_err_x_spawn_disallowed_from_x: '&c%s spawn ��r inte till��tet fr��n %s.'
+msg_the_wilderness: 'vildmarken'
+msg_enemy_areas: 'Fiendens omr��den'
+msg_neutral_towns: 'Neutrala st��der'
+#Added in 0.64
+msg_err_no_nation_with_that_name: 'Ingen nation med namnet %s hittades'
+msg_err_cannot_unclaim_homeblock: 'Du kan inte ta bort ditt hemblock, anv��nd ''/town set homeblock'' f��r att flytta ditt hemblock.'
+#Added in 0.65
+msg_err_rename_cancelled: 'Namnbytet avbr��ts av ett annat plugin.'
+#Added in 0.66
+#Added in 0.67
+msg_conquered: '&4(Ockuperad)'
+#Added in 0.68
+msg_plot_group_claim_confirmation: 'Denna tomt ��r en del av en grupp av %s tomt(er), genom att bekr��fta ditt anspr��k kommer du att k��pa dem alla.'
+msg_plot_group_unclaim_confirmation: 'Denna tomt ��r en del av en grupp av %s tomt(er), genom att bekr��fta kommer du unclaima dem alla.'
+msg_plot_group_toggle_confirmation: 'Denna tomt ��r en del av en grupp av %s tomt(er), genom att bekr��fta kommer du v��xla en egenskap f��r samtliga.'
+msg_plot_group_set_perm_confirmation: 'Denna tomt ��r en del av en grupp av %s tomt(er), genom att bekr��fta kommer du st��lla in perm-linen f��r samtliga.'
+msg_plot_evict_group: 'Du har framg��ngsrikt vr��kt spelaren fr��n denna grupperade tomt, %s.'
+msg_err_plot_belongs_to_group_plot_fs: 'Mark: %s tillh��r en grupp, anv��nd /plot group [gruppnamn] fs [belopp]'
+msg_err_plot_belongs_to_group_set: 'Marken tillh��r en grupp, anv��nd /plot group set'
+msg_plot_group_set_for_sale: 'Gruppen %s lades ut till f��rs��ljning!'
+msg_err_plot_already_belongs_to_a_group: 'Denna mark tillh��r redan en grupp: %s, ta bort stadsblocken fr��n den gruppen innan du l��gger till den i en annan.'
+msg_err_you_must_specify_a_group_name: 'Du m��ste ange ett namn p�� gruppen av plots.'
+msg_plot_was_put_into_group_x: 'Plotten &9(%s,%s) &2sattes i gruppen %s'
+msg_err_plot_not_associated_with_a_group: 'Denna plot ��r inte associerad med en grupp.'
+msg_plot_was_removed_from_group_x: 'Plotten &9(%s,%s) &2togs bort fr��n gruppen %s'
+msg_plot_renamed_from_x_to_y: 'Plotten %s har bytt namn till %s.'
+msg_err_plot_group_specify_price: 'V��nligen ange priset, ex: /plot group fs [price]'
+msg_player_put_group_up_for_sale: '%s lade ut gruppen %s till salu f��r %s'
+msg_err_could_not_set_group_type: 'Kunde inte ange grupptyp - '
+msg_set_group_type_to_x: '��ndrade plott-gruppens typ till %s'
+msg_player_successfully_bought_group_x: '%s k��pte framg��ngsrikt plott-gruppen %s'
+status_plot_group_name_and_size: 'Stadstomten ��r en del av gruppen: %s som har %s stadstomter totalt.'
+msg_player_made_group_not_for_sale: '%s st��llde in gruppen %s p�� ej till salu.'
+#Added in 0.69
+msg_err_cannot_set_group_to_jail: 'Markgrupper kan inte bli f��ngelseplotter.'
+#Added in 0.70
+msg_err_plot_group_name_required: 'Du m��ste ange plottgruppens namn dvs /plot group add {name}'
+msg_confirmation_spigot_click_accept: 'Klicka %s eller skriv %s'
+msg_confirmation_spigot_click_cancel: 'Klicka %s eller skriv %s'
+msg_you_cannot_kick_yourself: 'Du kan inte sparka dig sj��lv.'
+msg_you_cannot_kick_this_resident: 'Du kan inte sparka %s, den ��r borgm��staren eller en assistent.'
+#Added in 0.71
+msg_err_plot_belongs_to_group_plot_fs2: 'Mark: %s tillh��r en grupp, anv��nd /plot group fs [belopp]'
+msg_err_plot_belongs_to_group_plot_nfs: 'Mark: %s tillh��r en grupp, anv��nd /plot group nfs'
+#Added in 0.72
+msg_err_admin_controlled_pvp_prevents_you_from_changing_pvp: 'Den admin-kontrollerade inst��llningen %s hindrar dig fr��n att v��xla pvp till %s.'
+#Added in 0.73
+msg_err_you_aren't currently jailed: 'Du ��r f��r n��rvarande inte f��ngslad.'
+#Added in 0.74
+msg_err_you_are_not_allowed_to_create_the_other_side_of_this_portal: 'Du f��r inte skapa den andra sidan av denna portal p�� denna plats.'
+#Added in 0.75
+msg_already_ally: 'Din nation ��r redan allierad med %s.'
+#Added in 0.76
+msg_you: 'Du'
+#Added in 0.77
+msg_click_spawn: '&aKlicka f��r att spawna vid: &e%s'
+msg_spawn_cost: '&aSpawnkostnad = &e%s'
+#Added in 0.78
+msg_reload_error: 'Det gick inte att ladda om Towny.'
+msg_reloaded_config: '&2Konfigurationen har laddats om.'
+msg_reloaded_perms: '&2Beh��righeterna har laddats om.'
+msg_reloaded_db: '&2Databasen laddades om.'
+msg_reloaded_lang: '&2Spr��kfilen har laddats om.'
+msg_reset_config: '&2Konfigfilen har ��terst��llts.'
+msg_err_teleport_cancelled: 'Din teleportering avbr��ts pga. av att du flyytade p�� dig.'
+#Added in 0.79
+msg_cache_block_error_plot_friends: 'v��nner'
+msg_cache_block_error_plot_allies: 'allierade'
+msg_cache_block_error_plot_outsiders: 'utomst��ende'
+msg_cache_block_error_plot_town_members: 'stadsmedlemmar'
+msg_err_invalid_nation_map_color: '&cOk��nd kartf��rg. Till��tna f��rger ��r %s.'
+msg_nation_map_color_changed: '&bNationskartans f��rg ��ndrades till %s.'
+msg_err_unable_to_add_more_residents_without_nation: 'Din stad kan inte bjuda in fler ��n %s inv��nare utan att f��rst g�� med eller skapa en nation.'
+msg_the_following_towns_were_deleted_for_having_0_claims: 'F��ljande st��der raderades f��r att ha n��gon mark: %s'
+msg_spawn_warn: 'Kostnad f��r spawn: %s. Forts��tt? Tips: l��gg till -ignore f��r att skippa denna fr��ga n��sta g��ng.'
+msg_confirm_purchase: 'Att g��ra detta kostar %s. Forts��tt?'
+msg_warn_the_following_towns_will_be_removed_from_your_nation: 'Eftersom de inte kommer att vara tillr��ckligt n��ra den nya huvudstaden kommer f��ljande st��der att tas bort fr��n din nation: %s. Vill du forts��tta?'
+msg_ta_deposit_all_success: 'Lyckades deponera %s till alla nationers och st��ders banker.'
+bonus_townblocks: 'bonus stadsblock'
+#Added in 0.80
+nomad_sing: 'Nomad'
+msg_new_town_advice: 'Grattis till att du skapade din stad! Din stad kommer att betala ett dagligt underh��ll som f��r n��rvarande v��rderas till %s. Du kan s��tta in pengar i din stads bank med ''/t deposit #''. Utan pengar f��r att betala underh��llet kommer din stad att raderas. Du kan se dina kostnader n��r som helst med /towny prices. N��sta dagliga underh��ll betalas om %s.'
+#Added in 0.81
+msg_err_teleport_cancelled_damage: 'Skador har avbrutit din teleportering.'
+#Added in 0.82
+invitation_prefix: "&8[&7Inbjudan&8] &9"
+confirmation_prefix: "&8[&7Bekr��ftelse&8] &9"
+this_message_will_expire2: '&9Det h��r upph��r automatiskt om %s sekunder'
+msg_hover_next_page: 'N��sta sida'
+msg_hover_previous_page: 'F��reg��ende sida'
+#Added in 0.83
+msg_max_tax_amount_only_for_percent: "Maximalt skattebelopp kan endast st��llas in f��r st��der med procentuell skatt."
+msg_town_set_tax_max_percent_amount: "%s har satt den maximala skattesatsen till %s."
+#Added in 0.84
+msg_err_plot_belongs_to_group_toggle: 'Marken tillh��r en grupp, anv��nd /plot group toggle'
+#Added in 0.85
+msg_set_perms_reset_single: '&bLyckades ��terst��lla beh��righeter f��r denna plot.'
+#Added in 0.86
+status_bank_bankrupt: '(BANKRUTT)'
+msg_warning_bankrupt: '&4*** VARNING, %s KOMMER BLI BANKRUTT N��STA DAG P�� GRUND AV BRIST AV KAPITAL ***'
+msg_town_bankrupt_by_upkeep: '&b%s hade inte r��d med sitt underh��ll och har g��tt i konkurs.'
+msg_town_bankrupt_by_upkeep_multiple: '&bF��ljande st��der hade inte r��d med underh��llet och har g��tt i konkurs: '
+msg_town_bankrupt_by_nation_tax: '&b%s kunde inte betala %s skatten och har g��tt i konkurs.'
+msg_town_bankrupt_by_nation_tax_multiple: '&bF��ljande st��der hade inte r��d med nationens skatt och har g��tt i konkurs: '
+msg_town_debts_cleared: '%s har rensat alla sina skulder och ��r inte l��ngre bankrutt.'
+msg_err_bankrupt_town_cannot_claim: 'Inte till��tet att claima plots f��r en bankrutt stad.'
+msg_err_bankrupt_town_cannot_build: 'Inte till��tet att bygga i en bankrutt stad.'
+msg_err_bankrupt_town_cannot_toggle_open: 'Inte till��tet att v��xla ��ppen-status i en bankrutt stad.'
+msg_err_bankrupt_town_cannot_invite: 'Inte till��tet att bjuda in spelare till en bankrutt stad.'
+msg_payed_nation_tax: '&cDin stad betalade nationens skatt p�� %s.'
+msg_your_town_couldnt_pay_the_nation_tax_of: '&bDin stad hade inte r��d med den nationsskatten p�� %s och sparkades fr��n nationen.'
+msg_your_town_payed_upkeep: '&cDin stad betalade den dagliga kostnaden p�� %s.'
+msg_your_nation_payed_upkeep: '&cDin nation betalade den dagliga kostnaden p�� %s.'
+msg_your_town_couldnt_pay_upkeep: '&bDin stad kunde inte betala den dagliga kostnaden %s och har uppl��sts.'
+msg_your_nation_couldnt_pay_upkeep: '&bDin nationen kunde inte betala den dagliga kostnaden %s och har uppl��sts.'
+#Added in 0.87
+msg_town_reached_debtcap_and_is_disbanded: '&b%s kunde inte betala sin dagliga kostnad, n��dde skuldgr��nsen och har avvecklats.'
+msg_town_reached_debtcap_and_is_disbanded_multiple: '&bF��ljande st��der kunde inte betala sitt underh��ll, n��dde maximal skulds��ttning, och har uppl��st: '
+msg_unable_to_deposit_x: 'Det gick inte att s��tta in %s i den stadens bank.'
+msg_unable_to_withdraw_x: 'Det gick inte att ta ut %s fr��n den stadens bank.'
+status_debtcap: 'Skuldtak:'
+status_world_explrevert_entity: 'Entity-Explosion ��tergenerering:'
+status_world_explrevert_block: 'Block-Explosion ��tergenerering:'
+#Added in 0.88
+msg_nation_already_peaceful: '&cNationen ��r redan fredlig.'
+msg_nation_already_not_peaceful: '&cNationen ��r redan inte fredlig.'
+#Added in 0.89
+status_world_friendlyfire: 'FriendlyFire:'
+status_world_wildernessmobs: 'Vildmarksmonster:'
+msg_outlaw_kick_cooldown: '&cDu betraktas som lagl��s i %s. Du har %s p�� dig att l��mna staden, annars kommer du att bli teleporterad till ditt resm��l.'
+msg_outlaw_kicked: '&4Du ��r inte v��lkommen i %s. Du teleporterade bort.'
+msg_outlaw_town_notify: '&cEn lagl��s, %s, har tagit sig in p�� stadens omr��de.'
+msg_your_town_payed_upkeep_with_debt: '&cDin stad betalade den dagliga underh��llet p�� %s med skuld.'
+msg_payed_nation_tax_with_debt: '&cDin stad betalade statsskatten p�� %s med skuld.'
+#Added in 0.90
+status_plot_clear_deletion: 'PlotClearBlockDelete:'
+msg_err_plot_clear_disabled_in_this_world: 'Kommandot /plot clear ��r inaktiverat i denna v��rld.'
+#Added in 0.91
+msg_universe_attribution: 'Skapare: '
+msg_universe_contributors: ' Och medhj��lpare som du. '
+msg_universe_heart: '<3'
+townblock_plu: 'Stadsblock'
+#Added in 0.92
+#Town Ruins
+admin_panel_4: 'K��r den nya tim-koden'
+msg_newhour_success: 'ny timme-kommando exekverat framg��ngsrikt'
+town_help_12: '��terta din stad fr��n ett f��rst��rt tillst��nd.'
+msg_warning_town_ruined_if_deleted: "VARNING!!!: Om du tar bort din stad kommer den hamna i ett f��rst��rt tillst��nd i %d timmar. Efter denna tid kommer full radering att ske. I det f��rst��rda tillst��ndet ��r alla r��ttigheter aktiverade och staden kan griefas."
+msg_warning_town_ruined_if_deleted2: "Staden kan ��tertas av en inv��nare genom att anv��nda ''/t reclaim'' efter %d timmar."
+msg_err_cannot_reclaim_town_unless_ruined: '&cDu kan inte ��terta din stad eftersom den inte ��r f��rst��rd.'
+msg_err_cannot_reclaim_town_yet: '&cDu kan inte ��terta din stad f��rens om %d timmar.'
+msg_town_reclaimed: '&b%s har ��tertagit staden %s.'
+msg_err_cannot_use_command_because_town_ruined: "&cDu kan inte anv��nda detta kommando eftersom din stad ��r f��rst��rd. F��r att ��teruppta normal anv��ndning av kommandon, ��terta antingen staden genom att anv��nda ''/town reclaim'', eller l��mna staden genom att anv��nda ''/town leave ''."
+msg_warning_your_town_is_ruined_for_x_more_hours: '&cDin stad ligger i ett f��rst��rt tillst��nd i %d fler timmar. Anv��nd ''/town reclaim'' f��r att r��dda staden och bli borgm��stare.'
+msg_time_remaining_before_full_removal: 'Tid kvar innan full borttagning: %d timmar.'
+msg_time_until_reclaim_available: 'Tid till reclaim ��r tillg��ngligt: %d timmar.'
+msg_reclaim_available: 'Reclaim tillg��ngligt.'
+#Added in 0.93
+msg_changed_peaceful: '&cStadsneutralitet/fredlighet ��r nu %s.'
+msg_err_town_unclaim_canceled: '&cUnclaim avbruten. Du kan inte unclaima detta omr��de just nu.'
+#Added in 0.94
+msg_comptype_residents: 'Antal inv��nare'
+msg_comptype_townblocks: 'Antal tillg��ngliga stadsblock'
+msg_comptype_balance: 'Banksaldo'
+msg_comptype_online: 'Spelare online'
+msg_comptype_towns: 'Antal st��der'
+msg_comptype_name: 'Alfabetisk ordning'
+msg_comptype_open: 'Status ��ppen'
+msg_status_npc: '&c%s ��r inte en riktig spelare och ��r begr��nsad till Towny.'
+npc_created: 'Skapad:'
+msg_no_funds_claim_plot: '&cDu har inte r��d att betala %s f��r marken.'
+msg_no_funds_claim_plot_group: '&cDu har inte r��d att betala f��r %s andelar mark f��r %s.'
+status_town_title_peaceful: '&b(Fredlig)'
+#Added in 0.95
+status_public: '&b(Offentlig)'
+msg_days: ' dagar'
+msg_comptype_public: 'Offentlig status'
+towny_prices_title: 'Priser'
+towny_prices_town_nation: '&e[New] &2Stad: &a%s &8| &2Nation: &a%s'
+towny_prices_reclaim: '&e[Reclaim] &2Stad: &a%s'
+towny_prices_upkeep: '&e[Upkeep] &2Stad: &a%s &8| &2Nation: &a%s'
+towny_prices_overclaimed_upkeep: '&e[Daglig ��verclaimad-kostnad] &2Stad: &a%s'
+towny_prices_claiming_townblock: '&e[Claiming] &2Stadsblock: &a%s'
+towny_prices_claiming_townblock_increase: ' &8| &2��kning per stadsblock: &a+%s'
+towny_prices_claiming_outposts: '&e[Claiming] &2Kolonier: &a%s'
+towny_prices_upkeep_based_on: '&7Daglig stadskostnad ��r baserat p��&a %s'
+towny_prices_upkeep_num_plots: 'antal tomter.'
+towny_prices_upkeep_town_level: 'stadsniv�� (antal inv��nare.)'
+towny_prices_overclaimed_based_on: '&8Kostnad f��r ��verclaim ��r baserat p�� &a %s %s'
+towny_prices_overclaimed_num_plots: 'antalet tomter ��verclaimade *'
+towny_prices_overclaimed_flat_cost: 'en fast kostnad p��'
+towny_prices_townname: '&cStad: &b%s'
+towny_prices_price_plot: '&c    [Price] &2Plot: &a%s &8| &2Utpost: &a%s'
+towny_prices_price_shop: '&c            &2Butik: &a%s &8| &2Ambassad: &a%s'
+towny_prices_taxes_plot: '&c    [Taxes]    &2Inv��nare: &a%s &8| &2Plot: &a%s'
+towny_prices_taxes_shop: '&c            &2Butik: &a%s &8| &2Ambassad: &a%s'
+towny_prices_town_neutral_tax: '&c &2Fred: &a%s'
+towny_prices_plots: '&c [St��ller in tomter]'
+towny_prices_type_single: '            &2%s: &a%s'
+towny_prices_type_double: '            &2%s: &a%s &8| &2%s: &a%s'
+towny_prices_nationname: '&cNation: &6%s'
+towny_prices_nation_tax: '&c    [Taxes] &2Stad: &a%s &8| &2Fred: &a%s'
+#Added in 0.96
+msg_town_destroyed_by_nation_tax: '&bDen er��vrade staden %s kunde inte betala nationsskatt och har fallit.'
+msg_town_destroyed_by_nation_tax_multiple: '&bF��ljande er��vrade st��der hade inte r��d med nationskatten och har fallit: '
+msg_your_town_was_exempt_from_the_nation_tax: '&bYour stad var undantagen fr��n nationsskatten.'
+#Added in 0.97
+status_perm_line_format: '&a%s=&7' #The Build = ---- Destroy = ---- seen in the status screen.
+msg_comptype_ruined: 'F��rst��rd status'
+msg_comptype_bankrupt: 'Bankrutt Status'
+msg_ruined: '&c(F��rst��rd)'
+msg_bankrupt: '&c(Bankrutt)'
+#Added in 0.98
+msg_del_town2: '&bStaden %s togs bort!'
+msg_ruin_town: '&bStaden %s gl��mdes bort!'
+gui_title_select_plot_type: 'V��lj tomttyp'
+gui_title_no_restrictions: 'Inga begr��nsningar f��r denna tomttyp.'
+gui_title_towny_allowedblocks: '%s Till��tna Block-Lista'
+gui_title_towny_wildsblocks: 'Towny VildmarkBlocks Lista'
+gui_title_towny_itemuse: 'Towny ItemUse Lista'
+gui_title_towny_switch: 'Towny Switch List'
+gui_title_towny_plotclear: 'Towny Plot Rensa Radera Lista'
+#Added in 0.99 - FlatFile L10N
+#NOTICE
+#While these strings can be translated, we caution you to keep them in English.
+flatfile_dbg_cannot_set_capital_try_next: 'Nation %s could not set capital to %s, selecting a new capital...'
+flatfile_dbg_deleting_duplicate: 'Deleting: %s which is a duplicate of %s'
+flatfile_dbg_folders_found: 'Folders found %s'
+flatfile_dbg_group_file_missing_town_delete: 'Group file missing Town, deleting %s'
+flatfile_dbg_loading_group_list: 'Loading Group list...'
+flatfile_dbg_loading_nation: 'Loading Nation: %s'
+flatfile_dbg_loading_nation_list: 'Loading Nation list...'
+flatfile_dbg_loading_resident: 'Loading Resident: %s'
+flatfile_dbg_loading_resident_list: 'Loading Resident list...'
+flatfile_dbg_loading_server_world_list: 'Loading Server World List...'
+flatfile_dbg_loading_town: 'Loading Town: %s'
+flatfile_dbg_loading_town_list: 'Loading Town list...'
+flatfile_dbg_loading_townblock_list: 'Loading TownBlock list...'
+flatfile_dbg_loading_world: 'Loading World: %s'
+flatfile_dbg_loading_world_list: 'Loading World List...'
+flatfile_dbg_mismatched_townblock_size: '%s townblocks were found with a town_block_size that does not match your config, they were not loaded into memory.'
+flatfile_dbg_missing_file_delete_group_entry: 'Missing file: %s deleting entry in group.txt'
+flatfile_dbg_missing_file_delete_groups_entry: 'Missing file: %s deleting entry in groups.txt'
+flatfile_dbg_removing_nation_not_found: 'Removing %s because they are not found in the nations.txt'
+flatfile_dbg_removing_resident_not_found: 'Removing %s because they are not found in the residents.txt'
+flatfile_dbg_removing_town_not_found: 'Removing %s because they are not found in the towns.txt.'
+flatfile_dbg_town_fetch_outlaw: 'Town Fetching Outlaw: %s'
+flatfile_dbg_undefined_capital_select_new: 'Nation %s did not have a capital defined, selecting a new capital...'
+flatfile_dbg_world_loaded_townblocks: 'World: %s loaded %s TownBlocks.'
+flatfile_err_cannot_create_defaults: 'Could not create flatfile default files and folders.'
+flatfile_err_could_not_add_to_town: 'Could not add to town!'
+flatfile_err_exception_reading_file: 'Loading Error: Exception while reading file %s'
+flatfile_err_exception_reading_group_file_at_line: 'Loading Error: Exception while reading Group file %s at line: %s'
+flatfile_err_exception_reading_townblock_file_at_line: 'Loading Error: Exception while reading TownBlock file %s at line: %s.'
+flatfile_err_exception_reading_world_file_at_line: 'Loading Error: Exception while reading world file %s at line: %s, in towny/data/worlds/%s.txt'
+flatfile_err_file_error_reading_world_file_at_line: 'Loading Error: File error while reading %s at line: %s, in towny/data/worlds/%s.txt'
+flatfile_err_homeblock_load_invalid_location: '[Warning] %s - HomeBlock tried to load invalid Location.'
+flatfile_err_homeblock_load_invalid_townblock: '[Warning] %s - HomeBlock tried to load invalid TownBlock.'
+flatfile_err_homeblock_load_invalid_world: '[Warning] %s - HomeBlock tried to load invalid World.'
+flatfile_err_invalid_townblock_resident: 'Ogiltig resident for TownBlock %s. Skipped setting resident for TownBlock...'
+flatfile_err_loading_group_list_at_line: 'Error loading Group List at %s, in towny/data/groups.txt'
+flatfile_err_loading_world_list_at_line: 'Error loading World list at %s, in towny/data/worlds.txt'
+flatfile_err_nation_could_not_load_capital_disband: 'The nation %s could not load a capital city and is being disbanded.'
+flatfile_err_reading_nation_file_at_line: 'Loading Error: Exception while reading nation file %s at line %s, in towny/data/nations/%s.txt'
+flatfile_err_reading_outlaw_of_town_duplicate: 'Loading Error: Exception while reading an outlaw of town file %s.txt. The outlaw %s is duplicated! Skipping adding duplicate...'
+flatfile_err_reading_outlaw_of_town_not_exist: 'Loading Error: Exception while reading an outlaw of town file %s.txt. The outlaw %s does not exist! Removing from list...'
+flatfile_err_reading_resident_at_line: 'Loading Error: Exception while reading resident file %s at line: %s, in towny/data/residents/%s.txt'
+flatfile_err_reading_town_file_at_line: 'Loading Error: Exception while reading town file %s at line: %s, in towny/data/towns/%s.txt'
+flatfile_err_resident_tried_load_invalid_town: 'Loading Error: %s tried to load the town %s which is invalid. Removing town from the resident.'
+flatfile_err_town_homeblock_not_exist: '[Warning] %s does not have a HomeBlock.'
+flatfile_err_townblock_file_contains_unregistered_town_delete: 'TownBlock file contains unregistered Town: %s, deleting %s'
+flatfile_err_townblock_file_missing_town_delete: 'TownBlock file missing Town, deleting %s'
+flatfile_err_townblock_file_unknown_err: 'TownBlock file contains unknown error, deleting %s.'
+msg_ta_removed_all_titles_and_surnames_removed: 'Alla inv��nare har f��tt sina titlar och efternamn borttagna.'
+msg_err_homeblock_already_set_here: 'Denna plats ��r redan din stads hemblock.'
+#Added in 0.100
+msg_town_merge_err_mayor_only: '&bSammanslagning kan endast g��ras av en borgm��stare.'
+msg_town_merge_err_not_close: '&cStaden %s ligger f��r l��ngt fr��n din stad. Deras hemblock m��ste vara inom %d stadsblock fr��n ditt hemblock.'
+msg_town_merge_request_sent: '&bBeg��ran om sammanslagning skickad till borgm��staren i %s.'
+msg_town_merge_request_received: '&bBorgm��staren i %s, %s, har beg��rt att g�� samman med din stad. Detta kommer att ��verf��ra alla stadsdelar, inv��nare och bankpengar till %s.'
+msg_town_merge_request_denied: '&cBeg��ran om sammanslagning nekad.'
+msg_town_merge_other_offline: '&bBorgm��staren av %s, %s, ��r f��r n��rvarande offline. Sammanfogning misslyckades.'
+msg_town_merge_err_too_many_residents: '&cSammanslagning misslyckades: Nytt antal inv��nare ��verskrider gr��nsen (%d)'
+msg_town_merge_err_too_many_townblocks: '&cSammanslagning misslyckades: Storlek p�� ny stad ��verskrider gr��nsen (%d)'
+msg_town_merge_err_too_many_outposts: '&cSammanslagning misslyckades: Nytt antal utposter ��verskrider gr��nsen (%d)'
+msg_town_merge_err_not_enough_money: '&cSammanslagning misslyckades: Inte tillr��ckligt med pengar. (%s/%s)'
+msg_town_merge_err_too_many_purchased_townblocks: '&cSammanslagning misslyckades: F��r m��nga k��pta stadsblock (%d)'
+msg_town_merge_warning: '&cVarning: Om accepterat, kommer sammanslagning med %s att kosta %s.'
+msg_town_merge_debt_warning: '&cVarning: %s ��r f��r n��rvarande i skuld, du m��ste betala deras skuld om den accepteras.'
+msg_town_merge_cost_breakdown: '&bCost breakdown: Base cost: %s, Townblock cost: %s, Bankruptcy cost: %s, BonusBlock cost: %s'
+msg_town_merge_failed: '&cSammanfogning misslyckades.'
+msg_town_merge_cancelled: '&cSammanslagningen avbruten.'
+msg_town_merge_success: '&bStaden %s, som ��gs av %s, har framg��ngsrikt slagits samman till staden %s.'
+#Reasons for withdrawing/depositing for the bankhistory book.
+msg_town_merge_cost_withdraw: 'Kostnad f��r sammanslagning av stad'
+msg_town_merge_transaction_reason: 'Sammanslagning av stad'
+towny_prices_town_merge: '&e[Merging] &2Baskostnad: &a%s &8| &2Per Plot: &a%s'
+#Added in 0.101
+msg_err_nation_not_allied_with: '&cDin nation ��r inte allierad med %s.'
+msg_err_nation_not_enemies_with: '&cDin nation ��r inte fiender med %s.'
+msg_err_nation_already_enemies_with: '&cDin nation ��r redan fiender med %s.'
+msg_err_ally_already_requested: '&cDu har redan beg��rt att alliera dig med %s.'
+msg_err_nation_not_allied_with_2: '&c%s ��r inte allierad med %s.'
+msg_err_nation_not_enemies_with_2: '&c%s ��r inte fiender med %s.'
+msg_err_nation_already_allied_with_2: '&c%s ��r redan allierad med %s.'
+msg_err_nation_already_enemies_with_2: '&c%s ��r redan fiender med %s.'
+msg_ta_allies_enemies_updated: '&bAllierade/Fiender uppdaterade f��r %s.'
+#Added in 0.102
+towny_map_detailed_information: '&2Klicka f��r att se detaljerad information f��r plot.'
+msg_err_nation_capital_too_many_residents: '&cDen nuvarande huvudstaden har f��r m��nga inv��nare f��r att ers��ttas av %s.'
+msg_deleting_nation_will_result_in_losing_residents: '&cVarning: Att ta bort din nation kommer inneb��ra att din stad ��r ��ver befolkningsgr��nsen p�� %d, vilket resulterar i att %d inv��nare tas bort.'
+#Added in 0.103
+msg_command_blocked_inside_towns: '&cDu kan inte anv��nda det kommandot inuti st��der.'
+msg_command_limited: 'Du kan bara anv��nda det kommandot inuti dina egna tomter.'
+#Added in 0.104
+#Don't add a space to the end please
+msg_plot_perm_claimed_at: 'Claimad vid:'
+#Added in 0.105
+msg_wilderness_use_x_in_all_worlds: 'Vildmarksanv��ndning sattes till %s i alla v��rldar.'
+msg_regenerations_use_x_in_all_worlds: 'Regenerationer sattes till %s i alla v��rldar.'
+#Added in 0.106
+msg_command_outsider_blocked: 'Du kan inte k��ra det kommandot eftersom du inte bor i %s.'
+#Added in 0.107
+msg_jailed_for_x_hours: ' i %s timmar.'
+msg_err_this_jail_has_no_cells: 'Detta f��ngelse har inga celler.'
+msg_err_no_cell_found_at_this_location: 'Ingen f��ngelsecell hittades p�� denna plats.'
+msg_jail_cell_set: 'F��ngelsecell inr��ttad.'
+msg_jail_cell_removed: 'F��ngelsecell borttagen.'
+msg_err_resident_is_already_jailed: '%s sitter redan f��ngslad'
+msg_err_the_town_does_not_have_that_many_jails: 'Staden har inte s�� m��nga f��ngelser.'
+msg_err_that_jail_plot_does_not_have_that_many_cells: 'Den f��ngelsetomten har inte s�� m��nga celler.'
+msg_primary_jail_set_for_town: 'Din stads prim��ra f��ngelse har st��lls in.'
+msg_x_has_been_freed_from_x: '%s har befriats fr��n f��ngelset %s'
+msg_you_have_been_jailed: 'Du har blivit f��ngslad.'
+msg_run_to_the_wilderness_or_wait_for_a_jailbreak: 'Spring till vildmarken eller v��nta p�� en f��ngelserymning.'
+msg_err_player_is_not_jailed: 'Den spelaren ��r inte f��ngslad.'
+msg_you_have_paid_bail: 'Du har betalat borgen.'
+msg_you_have_been_freed_via_jailbreak: 'Det har varit en f��ngelserymning, du ��r fri!'
+msg_you_have_served_your_sentence_and_are_free: 'Du har avtj��nat ditt f��ngelsestraff och ��r fri.'
+msg_x_has_served_their_sentence_and_is_free: '%s har avtj��nat sitt f��ngelsestraff och ��r fri.'
+msg_you've_been_jailed_for_x_hours: 'Du har f��ngslats i %s timmar.'
+msg_you_are_being_sent_to_jail: 'Du skickas till f��ngelse.'
+msg_err_you_cannot_remove_the_last_cell: 'Du kan inte ta bort den sista f��ngelsecellen i detta f��ngelse, tills en annan cell l��ggs till'
+msg_do_not_log_out_while_waiting_to_be_teleported: 'Logga inte ut innan du teleporteras till f��ngelset, det skulle vara ��desdigert.'
+jail_plu: 'F��ngelser'
+jail_sing: 'F��ngelse'
+msg_resident_has_not_played_long_enough_to_be_jailed: '%s har inte spelat tillr��ckligt l��nge f��r att f��ngslas, v��nta ytterligare %s'
+#Added in 0.108
+msg_town_not_peaceful: '&bStaden hade inte r��d att forts��tta vara fredlig.'
+msg_town_already_peaceful: '&Town is already peaceful.'
+msg_town_already_not_peaceful: '&Town is already not peaceful.'
+msg_town_cant_peaceful: '&bStaden hade inte r��d att bli fredlig.'
+msg_town_paid_for_neutral_status: '&bDin stad betalade %s f��r att beh��lla den fredliga statusen.'
+msg_nation_paid_for_neutral_status: '&bDin nation betalade %s f��r att beh��lla den fredliga statusen.'
+your_town_has_been_invited_to_join_nation: 'Din stad har blivit inbjuden att g�� med i nationen: %s'
+#Added in 0.109
+msg_err_no_one_to_purge: '&bDet finns inga inaktiva medlemmar att rensa.'
+msg_purging_will_remove_the_following_residents: '&bV��nligen bekr��fta att du vill rensa f��ljande inv��nare: %s'
+msg_purge_complete_x_removed: '&bRensning slutf��rd, %s inv��nare borttagna.'
+msg_err_days_must_be_greater_than_0: 'Antal dagar m��ste vara st��rre ��n noll.'
+msg_err_outlawed_players_no_teleport: '&4Du ��r betraktad som lagl��s av staden du befinner dig i och kan inte teleportera!'
+msg_err_you_cannot_use_command_while_in_outlaw_town: '&4Du kan inte anv��nda det kommandot n��r du befinner dig i en stad d��r du ��r lagl��s.'
+#Added in 0.110
+msg_safe_mode: "[Error] L��st i s��kert l��ge!"
+msg_safe_mode_base: '[Error] Towny ��r l��st i fels��kert l��ge p�� grund av ett fel! '
+msg_safe_mode_player: 'S��g ��t en administrat��r att kontrollera serverns konsol.'
+msg_safe_mode_admin: 'Kontrollera serverns konsol f��r mer information.'
+msg_err_you_can_only_claim_outposts_in_your_homeblocks_world: 'Du kan bara g��ra anspr��k p�� utposter i ditt hemblocks v��rld.'
+msg_err_not_close_enough_to_your_town_nearest_plot: 'Det g��r inte att claima utpost, du ��r %s stadsblock fr��n din n��rmaste claim. Max till��tna avst��nd: %s stadsblock.'
+msg_err_you_have_moved_your_homeblock_too_recently_wait_x: 'Du har flyttat ditt hemblock f��r nyligen! V��nta ytterligare %s.'
+msg_err_you_cannot_move_your_homeblock_this_far_limit_is_x_you_are_x: 'Du kan inte flytta ditt hemkvarter s�� h��r m��nga kvarter, gr��nsen ��r %s, detta utrymme ��r %s kvarter bort.'
+msg_err_usingtowny_disabled: 'Denna v��rld ��r undantagen fr��n alla Towny-interaktioner. Anv��nd /townyworld toggle usingtowny f��rst.'
+#Added in 0.111
+msg_plot_group_already_exists_did_you_want_to_transfer: 'Denna statsblock tillh��r redan plottgruppen %s. ��r du s��ker p�� att du vill ��verf��ra den till plottgruppen %s.'
+msg_townblock_transferred_from_x_to_x_group: 'Stadsblock ��verf��rda fr��n %s till %s plottgrupp.'
+msg_plotgroup_deleted: 'Plottgruppen %s har tagits bort.'
+msg_plotgroup_empty_deleted: 'Plottgruppen %s hade inga stadsblock och har tagits bort.'
+plotgroup_plu: 'Tomtgrupp'
+msg_err_this_town_has_no_plot_groups: 'Den angivna staden har inga tomtgrupper.'
+msg_err_this_plot_is_already_part_of_the_plot_group_x: 'Denna stadsdel ��r redan en del av plottgruppen: %s'
+map_hover_plot_group: 'Tomtgrupp: '
+map_hover_plot_group_size: ' Storlek: '
+map_hover_plots: '%s tomter'
+#Added in 0.112
+msg_checking_for_updates: 'S��ker efter uppdateringar...'
+msg_no_new_updates: 'Inga nya uppdateringar hittades.'
+msg_new_update_available: '&bNy uppdatering tillg��nglig: %s | Aktuell version: %s'
+msg_download_here: 'Ladda ned den h��r: %s'
+msg_click_to_download: 'Klicka h��r f��r att ladda ned den.'
+msg_latest_version: '&2Towny version: &a%s &2| Senaste version: &a%s'
+msg_up_to_date: '&aDu har den senaste versionen.'
+msg_click_purchase: 'Klicka f��r att k��pa'
+msg_you_must_join_this_town_to_claim_this_plot: 'Du m��ste g�� med i denna stad: %s, f��r att kunna g��ra anspr��k p�� denna tomt. Vill du g�� med i staden och forts��tta claima?'
+#Added in 0.113
+status_trustedlist: 'Betrodd'
+msg_click_to_edit: '&6Klicka f��r att ��ndra.'
+permission_gui_header: 'Towny Beh��righets-GUI'
+msg_last_edited: '&7&oSenast ��ndrad vid %s av %s.'
+msg_trusted_added: '&bLade till %s som betrodd i denna %s.' #Last %s is either town or townblock
+msg_already_trusted: '&b%s ��r redan betrodd i denna %s.'
+msg_trusted_added_2: '&b%s har betrott dig med en %s: %s.' #Last %s is the town name or worldcoord.
+msg_not_trusted: '&b%s ��r inte betrodd i denna %s.'
+msg_trusted_removed: '&bTog bort %s som betrodd i denna %s.'
+msg_trusted_removed_2: '&b%s har tagit bort dig som betrodd i en %s: %s.'
+msg_overrides_removed: '&bBorttagna beh��righets��verskridanden f��r %s.'
+msg_overrides_added: '&bLade till standardbeh��righets��verskridningar f��r %s.'
+msg_no_overrides_set: '&b%s har inte n��gra ��sidos��ttningar satta f��r denna %s.'
+msg_overrides_already_set: '&b%s har redan ��sidos��ttningar satta f��r denna %s.'
+msg_cache_block_err: '&cDu ��r inte till��ten att %s h��r.'
+msg_err_plot_belongs_to_group: '&cPlotten tillh��r en grupp, anv��nd %s.'
+plotgroup_sing: 'Tomtgrupp'
+msg_err_ally_limit_reached: 'Din nation har n��tt gr��nsen f��r antal allierade, kunde ej acceptera.'
+#Added in 0.114
+msg_err_group_not_found: 'Gruppen %s hittades inte.'
+msg_err_expected_command_format: 'Felaktig syntax, f��rv��ntat: %s'
+msg_err_group_already_has_node: 'Gruppen %s har redan noden %s.'
+msg_err_group_doesnt_have_node: 'Gruppen %s har inte noden %s.'
+msg_successfully_added_node_to_group: 'Lade framg��ngsrikt till %s till %s.'
+msg_successfully_removed_node_from_group: 'Lyckades ta bort %s fr��n %s.'
+msg_err_there_is_already_a_town_or_nationrank_called_x: 'Det finns redan en %s som heter %s.'
+msg_err_there_is_no_town_or_nationrank_called_x: 'Det finns ingen %s som heter %s.'
+msg_successfully_add_rank_to_the_town_or_nation_rank: 'Lade framg��ngsrikt till %s till %s.'
+msg_successfully_removed_rank_from_the_town_or_nation_rank: 'Lyckades ta bort %s fr��n %s.'
+msg_err_group_has_no_nodes: 'Gruppen %s har inga beh��righetsnoder tilldelade.'
+msg_title_group_permissions: '%s Beh��righeter'
+help_ta_perms_listgroups: 'Lista grupper.'
+help_ta_perms_group: 'Visa beh��righetsnoder i grupp'
+help_ta_perms_groupaddpermnode: 'L��gg till en nod till en grupp.'
+help_ta_perms_groupremovepermnode: 'Ta bort en nod fr��n en grupp.'
+help_ta_perms_townrankadd: 'L��gger till en stadsrank till townyperms-filen.'
+help_ta_perms_townrankremove: 'Tar bort en stadsrank fr��n townyperms-filen.'
+help_ta_perms_nationrankadd: 'L��gger till en nationsrank till townyperms-filen.'
+help_ta_perms_nationrankremove: 'Tar bort en nationsrank fr��n townyperms-filen.'
+msg_err_that_resident_doesnt_belong_to_that_nation: 'Den personen tillh��r inte den nationen.'
+#Added in 0.115
+msg_comptype_founded: 'Grundad Datum'
+msg_err_must_be_greater_than_or_equal_to: 'Beloppet m��ste vara st��rre eller lika med %s'
+err_invalid_yaml: 'Fel vid inladdning: Misslyckades att l��sa filen %s (klarar den en yaml-parser?).'
+#Added in 0.116
+msg_town_map_color_changed: '&bStadens f��rg p�� kartan har ��ndrats till %s.'
+#Added in 0.117
+msg_err_this_townblock_doesnt_match_the_groups_type: 'Detta stadsblock kan inte l��ggas till i gruppen eftersom det inte ��r av typ: %s'
+#Added in 0.118
+status_title_nopvp: '&a(Ingen PVP)'
+#Added in 0.119
+msg_err_resident_cannot_be_jailed_because_they_are_outlawed_there: 'Du kan inte f��ngsla din inv��nare eftersom de ��r p�� en plats d��r de anses vara lagl��s.'
+msg_err_resident_cannot_be_jailed_because_they_are_enemied_there: 'Du kan inte f��ngsla din inv��nare eftersom de ��r p�� en plats d��r de anses vara en fiende.'
+#Added in 0.120
+msg_resident_prompt: 'Ange namnet p�� spelaren i chatten eller q f��r att avsluta. Detta kommer automatiskt att g�� ut om 30 sekunder.'
+msg_prompt_cancel: 'Fr��ga avbr��ts eller gick ut.'
+#Added in 0.121
+status_title_primary_colour: '&6' #Used to colour the majority of the title bar.
+status_title_secondary_colour: '&e' #Used to colour the words in the title bar.
+status_format_list_1: '&2' #First colour applied to status screen lists, ex: on /res, the friend list's Friends section.
+status_format_list_2: '&a' #Second colour applied to status screen lists, ex: on /res, the friend list's [1] section.
+status_format_list_3: '&f' #Third colour applied to status screen lists, ex: on /res, the friend list's list of friends' names section.
+status_format_key_value_key: '&2' #Colour applied to a status screen element which is just a line of text, or the key in a key/value element.
+status_format_key_value_value: '&a' #Colour applied to the value in a status screen element which has two parts, ex: Registered: SomeDate. (SomeDate is the value.)
+status_format_bracket_element: '&b' #Colour applied to a status element within a bracket, ex: [Bonus: #].
+status_format_hover_key: '&a' #Colour applied to a status screen element which is a hover-able key, ex: [Rank List]
+status_format_hover_bracket_colour: '&7' #Colour applied to the brackets of a hover-able status screen element.
+status_format_key_important: '&c' #Colour applied to an important status screen value, ex: (BANKRUPT), Ruined town reclaim lines, taxes/upkeep costs.
+status_splitter: ' &7| ' #Used in status screens where a splitter is used between values.
+status_home_element: ' &7[Hem: %s]'
+status_registered: 'Registrerad:'
+status_lastonline: 'Senast Online:'
+status_fractions: '%s/%s'
+status_rank_list: 'Ranklista'
+status_hover_click_for_more: 'Klicka f��r mer information.'
+status_jailed: 'F��ngslad:'
+status_bad_yes: '&cJA'
+status_good_no: '&aNEJ'
+status_resident_tax_title: '%s''s skatt'
+help_menu_command: '<blue>'
+help_menu_subcommand: '<aqua>'
+help_menu_explanation: '<gray>'
+help_menu_requirement: '<red>'
+#Added in 0.122
+msg_warn_the_following_towns_will_be_removed_from_the_merged_nation: 'Eftersom de inte kommer att vara tillr��ckligt n��ra ditt lands huvudstad, kommer f��ljande st��der att tas bort om sammanslagningen ��r slutf��rd: %s.'
+#Added in 0.123
+msg_err_invalid_townyworld: "'%s' ��r inte en giltig stadsv��rld."
+msg_err_enter_world_name_first: 'Ange namnet p�� v��rlden f��rst.'
+msg_wilderness_use_set_to: '&bVildmarksanv��ndning har satts till %s i %s.'
+#Added in 0.124
+msg_err_invalid_response: 'Ogiltigt svar! Ange q f��r att avsluta eller tillbaka f��r att g�� tillbaka till f��reg��ende fr��ga.'
+msg_setup_full_guide_link: '&bF��r en l��nk till den fullst��ndiga installationsguiden, klicka h��r.'
+msg_setup_wildernessuse: 'Vill du aktivera anv��ndning av vildmarken? Detta g��r det m��jligt f��r spelare att bryta/bygga i vildmarken.'
+msg_setup_revertunclaim: 'Vill du anv��nda ��terg��ng p�� oanspr��k? Detta kommer att g��ra att stadsblock l��ngsamt regenerera n��r de ��r oangivna.'
+msg_setup_town_block_ratio: 'Vad skulle du vilja st��lla in din stad block f��rh��llande p��? Standard ��r 8 stadsdelar per inv��nare. H��gre belopp kommer att g��ra det m��jligt f��r st��der att g��ra anspr��k mer f��r varje inv��nare de har. St��lla in detta till 0 kommer att g��ra det anv��nda v��rden fr��n town_levels.'
+msg_setup_town_cost: 'Hur mycket ska kostnaden f��r att skapa en ny stad vara? Standard ��r 250.'
+msg_setup_nation_cost: 'Hur mycket ska kostnaden f��r att skapa en ny nation vara? Standardv��rdet ��r 1000.'
+msg_setup_townblock_cost: 'Hur mycket ska det kosta att g��ra anspr��k p�� en stadsdel? Standard ��r 25. Ett stadsdel ��r samma storlek som en chunk (standardinst��llningar)'
+msg_setup_success: '��ndrade konfigurationsv��rdena till dina nya v��rden.'
+#Added in 0.125
+#Player has recently died and respawned and is invulnerable.
+msg_err_player_cannot_be_harmed: '%s spawnade nyligen och kan ej skadas.'
+#Player was invulnerable after respawning and has lost their invulnerability.
+msg_you_have_lost_your_respawn_protection: 'Du har f��rlorat ditt ��terupplivningsskydd.'
+#Message shown to a player when they are denied the ability to pick up items because they are under respawn protection.
+msg_err_cannot_pickup_respawn_protection: 'Du kan inte plocka upp f��rem��l n��r du ��r under ��terupplivningsskydd.'
+#Added in 0.126
+#Used in the nation screen:
+status_capital: 'Huvudstad:'
+#Used in the resident screen's town hover, to denote when a player joined a town.
+status_joined_town: 'Gick med i staden:'
+#Used in the town screen's nation hover, to denote when a town joined a nation.
+status_joined_nation: 'Gick med i nationen:'
+#Shown in status screen elements where a value is not known.
+status_unknown: 'ok��nt'
+#Feedback given for the /ta set nationzoneoverride [townname] [size] command.
+msg_nationzone_override_set_to: '%s fick sin nationszon satt till %s.'
+#Feedback given for the /ta set nationzoneoverride [townname] 0 command.
+msg_nationzone_override_removed: '%s har f��tt sin nationszon ��sidos��tt borttagen.'
+#Added in 0.127
+#Used in status screen:
+status_nation_zone_size: 'Storlek p�� Nation Zon:'
+#Shown when a player adds people to their friends list.
+msg_res_friend_added_to_list: 'Lade till %s i din v��nlista.'
+#Shown when a player removes people from their friends list.
+msg_res_friend_removed_from_list: 'Tog bort %s fr��n din v��nlista.'
+#Generic resident freed from jail message.
+msg_resident_unjailed: '%s har blivit frisl��ppt fr��n f��ngelset.'
+#Shown when an admin uses /ta toggle devmode.
+msg_admin_toggle_devmode: 'Utvecklarl��ge: %s'
+#Shown when an admin uses /ta toggle debug.
+msg_admin_toggle_debugmode: 'Fels��kningsl��ge: %s'
+#Shown when an admin uses /ta toggle townwithdraw
+msg_admin_toggle_townwithdraw: 'Stadens uttag: %s'
+#Shown when an admin uses /ta toggle nationwithdraw
+msg_admin_toggle_nationwithdraw: 'Nation uttag: %s'
+#Shown when claiming a town block for the town.
+msg_process_town_claim: 'Bearbetar stads-claim...'
+#Shown when unclaiming a town block for the town.
+msg_process_town_unclaim: 'Bearbetar stads-unclaim...'
+#Shown when there is nothing to unclaim.
+msg_err_nothing_to_unclaim: 'Inget att unclaima!'
+#Given as feedback when /ta checkperm is used.
+msg_perm_true: 'Beh��righet Sant.'
+#Given as feedback when /ta checkperm is used.
+msg_err_perm_false: 'Beh��righet Falsk.'
+#Shown at the bottom of the /towny map
+#First variable is townname or None, 2nd variable is plot owner's name or None.
+status_towny_map_town_line: '&2Stad: &a%s &7| &2��gare: &a%s'
+#Shown on /towny version
+msg_towny_version: '&2Towny Version: &a%s'
+#Shown to admins and ops when a player has been blocked from logging into the server.
+msg_admin_blocked_login: '&2En spelare som anv��nder IP-adressen &c%s &2f��rs��kte logga in med ett kontonamn %s vilket kan skada din servers ekonomi, men f��rhindrades av Towny. ��verv��g att f��rbjuda denna IP-adress!'
+#Shown during resident purge
+msg_scanning_for_old_residents: 'Skannar efter gamla inv��nare...'
+#Shown during resident purge
+msg_deleting_resident: 'Raderar inv��nare: %s.'
+#Shown during resident purge
+msg_purge_complete: 'Rensning av inv��nare klar: %s borttagna.'
+#Message to the Town, shown when a town is given bonus blocks.
+msg_you_have_been_given_bonus_blocks: 'Du har f��tt %s bonus stadsblock.'
+#Message shown when a town cannot purchase any more bonus blocks.
+msg_err_you_cannot_purchase_any_more_bonus_blocks: 'Din stad kan inte k��pa fler bonus block. Maximalt antal har uppn��tts.'
+#Added in 0.128
+#Message shown to a capital city which is being denied the ability to toggle peaceful on.
+msg_err_capital_cannot_be_peaceful: 'Huvudst��der kan inte v��xla fredlig status.'
+#Message shown as feedback for /t toggle nationzone command.
+msg_changed_nationzone: 'Nationens zon omgivande staden ��r nu %s'
+#Error message shown when a town tries to toggle their nationzone which doesn't exist.
+msg_err_your_town_has_no_nationzone_to_toggle: 'Din stad har ingen Nationzon att v��xla!'
+#Added in 0.129
+#Shown in /towny prices, describing what controls nation upkeep.
+towny_prices_nation_upkeep_based_on: '&7Daglig nationskostnad ��r baserad p��&a %s'
+#Shown in /towny prices, describing what controls nation upkeep when it is per town.
+towny_prices_upkeep_num_towns: 'antal st��der.'
+#Shown in /towny prices, describing that controls nation upkeep when it is per resident.
+towny_prices_upkeep_nation_level: 'nationsniv�� (antal inv��nare.)'
+#Added in 0.130
+#Jail causes
+msg_jailed_mayor: 'F��ngslad av borgm��stare.'
+#Jail causes
+msg_jailed_outlaw: 'D��dad som en lagl��s.'
+#Jail causes
+msg_jailed_war: 'Krigsf��nge.'
+#Jail handbook messages
+msg_jailed_handbook_1: 'Ser ut som om du har blivit f��ngslad, av anledningen %s'
+#Jail handbook messages
+msg_jailed_handbook_2: 'Det var v��l typiskt. Ja, vad kan du g��ra ��t det? H��r ��r n��gra anv��ndbara tips f��r dig medan du sitter av ditt straff.'
+#Jail handbook messages
+msg_jailed_handbook_3: 'Du har f��ngslats i %s timmar. Genom att avtj��na din dom blir du fri.'
+#Jail handbook messages
+msg_jailed_handbook_4_can: 'Du kan fly fr��n f��ngelse genom att l��mna din stad genom att anv��nda /l��mna staden''.'
+#Jail handbook messages
+msg_jailed_handbook_4_cant: 'Medan du ��r f��ngslad kommer du inte att kunna l��mna din stad f��r att fly f��ngelse.'
+#Jail handbook messages
+msg_jailed_handbook_bail_1: 'Du kan befrias fr��n f��ngelse genom att betala borgen med hj��lp av ''/res jail paybail''.'
+#Jail handbook messages
+msg_jailed_handbook_bail_2: 'Borgen kommer att kosta %s.'
+#Jail handbook messages
+msg_jailed_handbook_5: 'Om du m��ste framh��rda och g��ra anstr��ngningar f��r att fly, om du tar dig till vildmarken kommer du ocks�� att f��rtj��na din frihet.'
+#Jail handbook messages
+msg_jailed_handbook_6: 'Men d�� inte innan du n��r vildmarken eller s�� hamnar du direkt i f��ngelset igen.'
+#Jail handbook messages
+msg_jailed_teleport: 'Lyckligtvis ��r enderp��rlor och k��rfrukt till��tna f��r att hj��lpa dig att fly, nu m��ste du bara f�� tag p�� n��gra.'
+#Jail handbook messages
+msg_jailed_war_prisoner: 'Som krigsf��nge kommer du att befrias om dina landsm��n kan minska f��ngelset HP till 0, eller om staden du sitter f��ngslad i tas bort fr��n kriget.'
+#Jail handbook title
+msg_jailed_title: 'S�� du har blivit f��ngslad :('
+#Jail handbook author
+msg_jailed_author: 'Towny Jailco.'
+#Added in 0.130
+#Message shown when there are no allies to list in /town allylist.
+msg_error_town_has_no_allies: 'Staden har inga allierade att lista.'
+#Message shown when there are no enemies to list in /town enemylist.
+msg_error_town_has_no_enemies: 'Staden har inga fiender att lista.'
+#Added in 0.132
+#Message shown in the lines of the baltop books
+msg_baltop_book_format: '%s. %s | %s'
+#Added in 0.133
+#Message shown when a confirmation times out.
+msg_confirmation_timed_out: 'Tidsgr��nsen f��r bekr��ftelsen l��pte ut.'
+#Added in 0.134
+tc_player_channel_sound_muted: 'Kanalljudet har tystats'
+tc_player_channel_sound_unmuted: 'Kanalljudet har avtystats'
+#Added in 0.135
+msg_cant_toggle_pvp_outsider_in_plot: 'Det finns en utomst��ende i din stad, du kan inte ��ndra din pvp-status!'
+#Added in 0.136
+msg_view_on_web: '&7Click to view on the web.'
+#Added in 0.137
+#Shown globally when a town merges with another town.
+town1_has_merged_with_town2: '&6Staden %s har g��tt med p�� att sl��s samman med den segrande staden %s.'
+#Shown in the town and nation status screens to inform about neutrality costs.
+status_neutrality_cost: 'Neutralitet Kostnad:'
+#Added in 0.138
+#Line 1 of the givebonus warning.
+msg_ptw_warning_1: 'Om du har betalat n��gra riktiga pengar f��r dessa stadsblock var v��nlig att f��rst��: servern du spelar p�� strider mot Minecraft EULA och Towny-licensen.'
+#Line 2 of the givebonus warning.
+msg_ptw_warning_2: 'Towny-teamet hade aldrig f��r avsikt att stadsblock skulle k��pas med riktiga pengar.'
+#Line 3 of the givebonus warning.
+msg_ptw_warning_3: 'Om du betalade riktiga pengar b��r du ��verv��ga att spela p�� en Towny server som respekterar ��nskem��len fr��n Towny Team.'
+#Message shown when a town invites a player to join, and that town has a nation.
+you_have_been_invited_to_join3: 'Du har blivit inbjuden att g�� med i %s&9 (Nation. %s&9)'
+#Added in 0.139
+#Message shown when a town cannot afford to unclaim their land because the refund price is negative and charges them money.
+msg_err_your_town_cannot_afford_unclaim: 'Din stad har inte r��d med kostnaden f��r att unclaima denna mark. %s kr��vs.'
+#Message shown when a town pays to unclaim their land because the refund is a negative amount.
+msg_your_town_paid_x_to_unclaim: 'Din stad betalade %s f��r att ta bort marken.'
+#Confirmation message shown when a player will unclaim land that costs money.
+confirmation_unclaiming_costs: 'Att unclaima denna mark kommer kosta %s, vill du forts��tta?'
+#Added in 0.140
+#Message shown on first join, making players aware they can change how Towny messages appear using their Client's language setting.
+msg_your_locale: 'Towny anv��nder klientens spr��k (%s) f��r att ��vers��tta sina meddelanden. Var medveten om att ��vers��ttningar kan sakna str��ngar.'
+#Message shown when a player tries to rename their town too quickly.
+msg_you_must_wait_x_seconds_before_renaming_your_town: 'Du m��ste v��nta %s sekunder innan du kan namn ��ndra din stad igen.'
+#Added in 1.141
+msg_newday_already_scheduled_soon: 'En ny dagsuppgift ��r redan planerad att ske snart.'
+#Added in 0.142
+#Message shown when a player is toggling neutrality too fast.
+msg_err_cannot_toggle_neutral_x_seconds_remaining: 'Du kan inte v��xla neutralitet, %s sekunder kvar.'
+#Added in 0.143
+#Message shown when a console sender uses a command meant for in game.
+msg_err_command_not_for_console_use: 'Detta kommando kan inte anv��ndas fr��n konsolen.'
+#Added in 0.144
+#Message shown when an admin uses /ta town NAME toggle unlimitedclaims.
+msg_town_unlimitedclaims_setting_set_to: 'Staden %s har f��tt sina obegr��nsat-inst��llningar inst��llda till %s'
+#Message shown when an admin uses up their claims and is asked if they want to turn on unlimited claiming.
+did_you_want_to_toggle_unlimited_claims: 'Du har inte tillr��ckligt med t��torter att h��vda, vill du aktivera obegr��nsat anspr��k f��r staden %s'
+#Added in 0.145
+#Message shown when a conquered town tries to leave their nation.
+msg_err_your_conquered_town_cannot_leave_the_nation_yet: 'Du kan inte l��mna din nation, din stad ��r er��vrad.'
+msg_err_console_only: 'Detta kommando kan endast anv��ndas av konsolen.'
+msg_err_player_only: 'Detta kommando kan endast anv��ndas utav spelare.'
+#Added in 0.146
+#Message shown when a resident toggles bordertitles with /res toggle bordertitles
+msg_border_titles_toggled: 'Titelmeddelanden som visas n��r gr��nserna ��verskrids ��r %s.'
+#Added in 0.147
+#Message shown confirming that an admin wants to reset their Towny config
+this_will_reset_your_config: 'K��r detta kommando ��terst��ller din config.yml to standardfilen. Vill du forts��tta?'
+#Message shown when an admin is setting a new king or capital and would override the config by doing so
+msg_warn_overriding_server_config: 'Genom att g��ra detta ��sidos��tter du de begr��nsningar som anges i serverkonfigurationen. Vill du forts��tta ��nd��?'
+#Added in 0.148
+#Message shown when invalid outpost spawns are removed using the /ta commands.
+msg_removed_x_invalid_outpost_spawns: 'Tog bort %d ogiltiga utpostspawnar.'
+#Added in 0.149
+#Message shown when a player logs in and their town is bankrupt.
+msg_your_town_is_bankrupt: 'Din stad ��r i konkurs, ge pengar till din bank genom genom att anv��nda /town deposit {amount}.'
+#Added in 0.150
+#Message shown when a player cannot do something because they have a town.
+msg_err_you_cannot_use_this_command_because_you_are_already_a_member_of_a_town: 'Du kan inte anv��nda detta kommando, eftersom du redan ��r medlem i en stad. Om du vill forts��tta m��ste du anv��nda ''/t leave''.'
+#Message shown when a player tries to spawn while in an town they are outlawed in, when outlaw TPing is a disallowed zone.
+msg_a_town_you_are_outlawed_in: 'en stad du inte ��r v��lkommen i.'
+#Message shown when TownyRTP could not find any towns to teleport to.
+msg_err_could_not_find_any_towns_to_rtp: 'Kunde inte hitta n��gon ��ppen, offentlig stad med tomter till salu (som du har r��d med) att rtp till.'
+#Message showing payment for RTP.
+msg_cost_spawn_rtp: '&bDu debiterades %s f��r att teleportera till en slumpm��ssig tomt som ��r till salu.'
+#Message shown to a player when they use the town rtp command.
+msg_you_are_about_to_be_teleported_to_a_plot: 'Du h��ller p�� att teleporteras till en tomt som ��r till salu i %s som l��ter dig bos��tta dig. Anv��nd ''/plot claim'' f��r att g��ra anspr��k p�� din tomt n��r du anl��nder.'
+#Shown in TownyRTP when a player joins a town and is prompted to be TPd to some land to buy.
+townyrtp.the_town_has_plots_to_buy_would_you_like_to_tp: "The town of %s has plots which you can purchase, did you want to be teleported to a plot you can purchase right now?"
+#Shown when you arrive at your destination after opting in to be teleported to a plot to buy.
+townyrtp.you_have_arrived: "You have been teleported to a plot you can purchase. Use '/plot claim' if you would like to claim the plot."
+#Used in the town's status screen to display plots
+status_plot_string: 'Tomter'
+#Displays a plot type and the amount of townblocks of that type in the town
+status_plot_hover: '%s:'
+#Usage:
+msg_usage: 'Anv��ndning: %s'
+#Shown in teh bank history books when there are no pages to display
+msg_err_no_pages_to_display: 'Inga sidor att visa!'
+#Added in 0.151
+#Message shown to players trying to spawn to a non-allied/non-member nation when public spawning is not allowed at all.
+msg_err_nation_unaffiliated: 'Den nationen ��r inte kopplad till dig.'
+#Message shown to players trying to spawn to a non-nation/non-member town when public spawning is not allowed at all.
+msg_err_town_unaffiliated: 'Den staden ��r inte kopplad till dig.'
+#Added in 0.152
+#Message shown when a player tries to add a jail cell location where one already exists.
+msg_err_this_location_already_has_a_jailcell: 'This location already has a jail cell.'
+#Title line of the /plot perm hud.
+msg_perm_hud_title: 'Plot Perms'
+#Seen in /plot perm hud:
+msg_perm_hud_build: 'Build: '
+#Seen in /plot perm hud:
+msg_perm_hud_destroy: 'Destroy: '
+#Seen in /plot perm hud:
+msg_perm_hud_switch: 'Switch: '
+#Seen in /plot perm hud:
+msg_perm_hud_item_use: 'Item: '
+#Seen in /plot perm hud:
+msg_perm_hud_plot_type: 'Type: '
+#Seen in /plot perm hud:
+msg_perm_hud_pvp: 'PVP: '
+#Seen in /plot perm hud:
+msg_perm_hud_explosions: 'Explosions: '
+#Seen in /plot perm hud:
+msg_perm_hud_firespread: 'Firespread: '
+#Seen in /plot perm hud:
+msg_perm_hud_mobspawns: 'Mob Spawns: '
+#Seen in /plot perm hud:
+msg_perm_hud_key: 'Key'
+#Seen in /plot perm hud:
+msg_perm_hud_friend: 'friend'
+#Seen in /plot perm hud:
+msg_perm_hud_town: 'town'
+#Seen in /plot perm hud:
+msg_perm_hud_ally: 'ally'
+#Seen in /plot perm hud:
+msg_perm_hud_resident: 'resident'
+#Seen in /plot perm hud:
+msg_perm_hud_nation: 'nation'
+#Seen in /plot perm hud:
+msg_perm_hud_outsider: 'outsider'
+#Seen in /plot perm hud:
+msg_perm_hud_plot_name: 'Plot: '
+#Added in 0.153
+#Message shown confirming /ta town NAME settownlevel # command.
+msg_town_level_overridden_with: 'The town %s has had their townlevel set to %s.'
+#Message shown when unsetting a manual town level.
+msg_town_level_unset: 'The town %s has had their manually-set townlevel unset. Current townlevel is %s.'
+#Message show when a town is unable to have purchased townblocks, when /ta town NAME giveboughtblocks is used.
+msg_err_town_not_allowed_purchased_blocks: 'The town %s is unable to purchase townblocks based on the config rules.'
+#Message shown when unsetting all purchased townblocks from a town.
+msg_purchased_blocks_unset: 'The town %s has had their purchased townblocks removed.'
+#Message shown when /ta town name giveboughtblocks # is used.
+msg_purchased_blocks_changed: 'The town %s has been given %s bought townblocks, they currently have %s bought townblocks.'
+#Added in 0.154
+msg_comptype_upkeep: 'Upkeep'
+#Added in 0.155
+#Message shown when toggling town upkeep admin setting
+msg_town_upkeep_setting_set_to: 'The town %s has had their upkeep setting set to %s.'
+#Shown when a player tries to set a plot type but their town has reached the limit, first number is the limit and the string is the type name.
+msg_town_plot_type_limit_reached: 'Your town has reached the limit of %d %s plots.'
+#Added in 0.156
+msg_spawn_cost_free: 'Free'
+#Message shown when someone tries to set a plot's type to one already set.
+msg_plot_already_of_type: 'This plot is already a %s type.'
+msg_town_board_reset: '&bTown board reset.'
+msg_town_has_no_jailslots: 'The town jail is full.'
+msg_player_has_been_sent_to_jail_into_cell_number_x_for_x_hours_by_x_for_x_bail: '%s has been sent to %s into cell number %s for %s hours with a bail of %s by %s.'
+msg_player_has_been_sent_to_jail_into_cell_number_x_for_x_hours_by_x: '%s har skickats till %s till cell nummer %s i %s timmar av %s.'
+msg_you_have_been_jailed_your_bail_is_x: 'You have been jailed, your bail is %s.'
+msg_err_higher_than_max_allowed_bail_x: 'Your set bail was higher then the maximum which is %s.'
+msg_err_higher_than_max_allowed_hours_x: 'Your set hours were higher then the maximum which is %s.'
+msg_not_enough_money_in_bank_to_jail_x_fee_is_x: 'Not enough in town bank to jail %s, fee is %s.'
+msg_you_were_released_as_town_ran_out_of_slots: 'Your jailers let you free to make space.'
+msg_x_has_been_released_as_jail_slots_ran_out: '%s has been released to make space for another prisoner.'
+msg_you_were_released_as_town_ran_out_of_upkeep_funds: 'You have been released as your jailers can no longer afford to keep you imprisoned.'
+msg_x_has_been_released_ran_out_of_upkeep_funds: '%s has been released due to a lack of funds in the Town bank.'
+msg_x_has_been_withdrawn_for_upkeep_of_prisoner_x: '%s withdrawn from Town bank to pay for upkeep for prisoner %s.'
+msg_x_has_been_withdrawn_for_jailing_of_prisoner_x: '%s withdrawn from Town bank to pay for jailing of %s.'
+#Message shown in the confirmation for /ta resetbanks {amount}.
+confirmation_are_you_sure_you_want_to_reset_all_banks: 'Are you sure you want to reset all town and nation banks to %s?'
+#Message shown when a nation cannot add a town because of the max-residents-limit.
+msg_err_cannot_add_nation_over_resident_limit: '&cYour nation has reached the maximum number of allowed residents-per-nation, %s, and cannot add %s.'
+#Message shown to a town when they cannot join a nation because of the max-residents-limit.
+msg_err_cannot_join_nation_over_resident_limit: '&cYou cannot join this nation as it would be over the residents-per-nation limit of %s.'
+#Message shown to a town because the nation has hit their max-towns-limit.
+msg_err_cannot_join_nation_over_town_limit: '&cYou cannot join this nation, it has reached the maximum number of allowed towns-per-nation: %s.'
+#Message shown confirming /tw set usedefaults
+confirmation_are_you_sure_you_want_to_reset_this_worlds_settings: 'Are you sure you want to reset all of this world''s settings to the ones which are set in the config?'
+#Part of the /town plots output.
+msg_town_plots_title: ' Town Plots'
+#Part of the /town plots output.
+msg_town_plots_town_size: '<dark_green>Town Size: <green>%s/%s'
+#Part of the /town plots output.
+msg_town_plots_town_bought: ' <aqua>[Bought: %s/%s]'
+#Part of the /town plots output.
+msg_town_plots_town_bonus: ' <aqua>[Bonus: %s]'
+#Part of the /town plots output.
+msg_town_plots_town_nationbonus: ' <aqua>[NationBonus: %s]'
+#Part of the /town plots output.
+msg_town_plots_town_owned_land: '<dark_green>Town Owned Land: <green>%s'
+#Part of the /town plots output.
+msg_town_plots_type_header: '<dark_green>Type: <green>Player-Owned <gray>/ <aqua>ForSale <gray>/ <yellow>Total'
+#Part of the /town plots output.
+msg_town_plots_type_header_revenue: ' <gray>/ <dark_green>Daily Revenue'
+#Part of the /town plots output.
+msg_town_plots_type_line: '<dark_green>%s: <green>%s <gray>/ <aqua>%s <gray>/ <yellow>%s'
+#Part of the /town plots output.
+msg_town_plots_type_line_revenue: ' <gray>/ <dark_green>%s'
+#Message giving confirmation warning for trusttown
+confirmation_msg_trusttown_consequences: 'You are about to give full plot permissions to an entire town. This means that the mayor of the town will be able to decide who gets permission to build and break in your town, by adding residents. If this town is open, then anyone can join and gain full access to your town. Are you sure you wish to trust all residents (including future residents,) from this town?'
+#Message shown when a player uses a command that is blocked because their location has an active war.
+msg_command_war_blocked: 'You cannot run that command because your town is at war.'
+#Message shown when a player tries to unclaim land but cannot because an outsider is there (and the config doesn't allow this.)
+msg_cant_unclaim_outsider_in_town: 'There is an outsider in this townblock, you can''t unclaim this townblock!'
+#Message shown when a player is making a town too soon after deleting one.
+msg_err_cannot_create_new_town_x_seconds_remaining: 'You cannot create a new town, %s seconds remaining on cooldown.'
+#Message shown when a player is claiming land too soon after unclaiming it.
+msg_err_cannot_claim_townblock_x_seconds_remaining: 'You cannot claim this townblock: %s, %s seconds remaining on cooldown.'
+#Messages shown when an admin uses /ta set founder {townname} {foundername}
+msg_founder_set: 'The town of %s has had the founder set to %s.'
+#Message shown when toggling town allowed to war admin setting
+msg_town_allowedtowar_setting_set_to: 'The town %s has had their allowed-to-war setting set to %s.'
+#Message shown to confirm that a player wants to unclaim all of their land, besides the homeblock, seen with /t unclaim all.
+confirmation_did_you_want_to_unclaim_all: 'Are you sure you want to unclaim all of your land? (Your homeblock will not be unclaimed.)'
+#Message shown after a player unclaims all their land.
+msg_you_have_unclaimed_everything_but_your_homeblock: "You have unclaimed everything but your homeblock. To unclaim your homeblock you must set a new homeblock using '/t set homeblock' first."
+msg_warn_are_you_sure_you_want_to_transfer_nation_ownership: "<red>Are you sure you want to transfer nation ownership to %s? This action is irreversible!"
+msg_warn_town_already_capital: "<red>The town of %s is already the nation capital."
+msg_min_adjacent_blocks: 'You are required to have at least %s adjacent town blocks. There is only %s.'
+#Shown when a player with /plot evict permissions uses /plot claim on an owned but not for sale plot, please preserve comma space at the start when translating.
+msg_plot_claim_consider_evict_instead: ', perhaps you are looking for /plot evict instead?'
+#Shown to a player when Towny does not know of them.
+msg_you_are_unknown: "You are not known to Towny."
+#Generic Resident/Town/Nation/Thing is not known to Towny.
+msg_townyobject_unknown: "%s is not known to Towny."
+#Shown when a resident is unknown to Towny.
+msg_err_resident_unknown: "%s is not a resident that is recognized."
+#Shown when a town is unknown to Towny.
+msg_err_town_unknown: "%s is not a town that is recognized."
+#Shown when a nation is unknown to Towny.
+msg_err_nation_unknown: "%s is not a nation that is recognized."
+#Shown when a resident doesn't belong to a town.
+msg_err_townyobject_x_has_no_town: "%s does not belong to any town."
+#Shown when a town doesn't belong to a nation.
+msg_err_townyobject_x_has_no_nation: "%s does not belong to any nation."
+#Shown to admins when they use /plot claimedat on a plot which has no registration date.
+msg_err_townblock_has_no_claimedat_data: "This townblock has no data on when it was claimed."
+#Shown when someone cannot afford something, to tell them what it costs.
+msg_err_you_need_x_to_pay: "You need %s to pay."
+#Shown when someone tries to deposit/withdraw 0 amounts.
+msg_err_amount_must_be_greater_than_zero: "Amount must be greater than zero."
+#Message shown when taking over claims is disabled on a server.
+msg_err_taking_over_claims_is_not_enabled: "Taking over claims is not enabled on this server."
+#Messages shown when taking over a claim is not allowed because the town is not overclaimed.
+msg_err_this_townblock_cannot_be_taken_over: "This TownBlock cannot be taken over, the town that it belongs to is not overclaimed."
+#Message shown when taking over a claim would also set the homeblock because the town has no claims.
+msg_err_you_cannot_make_this_your_homeblock: "You cannot make this claim because it would make this TownBlock your homeblock, which is not allowed."
+#Message shown when taking over a claim is stopped by another plugin.
+msg_err_another_plugin_cancelled_takeover: "Another plugin has stopped your takeover of this land."
+#Confirmation shown when taking over a claim.
+confirmation_you_are_about_to_take_over_a_claim: "You are about to take over a claim belonging to %s for the cost: %s. Did you want to continue?"
+#Warning message shown when a town is beginning to claim close to their limit, and the takeoverclaim feature is active.
+msg_warning_you_are_almost_out_of_townblocks: "Warning: You have nearly used up your available townblocks for claiming. If you lose a resident you will be at risk of your town being able to have townblocks stolen by other towns."
+#Warning message shown on login when a town is overclaimed and at risk of falling victim to the takeoverclaim feature.
+msg_warning_your_town_is_overclaimed: "Warning: Your town is overclaimed. While you have too many townblocks claimed, it will be possible for other towns to takeover plots of your town, consider unclaiming some land."
+#Chunk Notification slug, shown when entering a plot that can be stolen.
+chunk_notification_takeover_available: " <red>[TakeoverClaim Available]"
+#Message shown when a takeover claim would cut a town into two sections.
+msg_err_you_cannot_over_claim_would_cut_into_two: "You cannot take over this plot, because doing so would split the town into two segments. You will have to overclaim from a different direction."
+#Message shown when an admin tries to toggle conquered off of a town that is not conquered.
+msg_err_that_town_is_not_conquered: "%s is already not conquered."
+#Message shown when a town has its conquered status removed by an admin.
+msg_conquered_status_removed: "%s has had their conquered status removed."
+msg_setup_command_folia: "The /ta install command currently does not work on Folia due to the conversation API not working, refer to the install guide below instead."
+msg_perm_gui_folia: "This button currently does not work on Folia due to the conversation API not working, use the /plot perm add <name> command instead."
+msg_folia_scoreboard: "Changing scoreboards is currently not supported on Folia."
+#Message shown when a player cannot unclaim land because at least one plot wouldn't have enough adjacent claims.
+msg_err_cannot_unclaim_not_enough_adjacent_claims: "You cannot unclaim this townblock because the townblock at %s,%s would not have enough adjacent claims (%s are required.)"
+#Message shown when a nation collects taxes from its towns.
+msg_tax_collected_from_towns: "<aqua>Your nation collected %s in tax from its towns."
+#Message shown when a town collects taxes from its residents.
+msg_tax_collected_from_residents: "<aqua>Your town collected %s in tax from its residents."
+#Message shown when a town collects taxes from its plottaxes.
+msg_tax_collected_from_plots: "<aqua>Your town collected %s in tax from its plots' taxes."
+#Message shown when a nation collects taxes from its towns that are conquered.
+msg_tax_collected_from_conquered_towns: "<aqua>Your nation collected %s in extra tax from its conquered towns."
+msg_your_town_was_exempt_from_the_nation_conquered_tax: "<aqua>Your town was exempt from the nation's conquered tax."
+msg_nation_set_conquered_tax__amount_set: "%s has set the conquered tax amount to %s."
+msg_err_cannot_set_nation_conquere_tax_amount_higher_than: "You cannot set the conquered tax above %s."
+msg_err_your_town_is_not_old_enough_to_overclaim: "Your town is not old enough to overclaim, you must wait another %s."
+msg_err_your_cannot_overclaim_for_another: "You cannot overclaim again for another %s."
