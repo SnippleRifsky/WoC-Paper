@@ -1,0 +1,6 @@
+[user]
+	name = snipplerifsky
+	email = shane_warren117@yahoo.com
+[core]
+	edior = nano
+	excludefiles = /home/gameuser/.gitignore

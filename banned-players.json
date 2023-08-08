@@ -1,1 +1,10 @@
-[]
+[
+  {
+    "uuid": "ff47729b-d0d2-4af0-98b1-1c0a7e1b0eef",
+    "name": "matscan",
+    "created": "2023-07-30 18:28:11 +0000",
+    "source": "Console",
+    "expires": "forever",
+    "reason": "The Ban Hammer has spoken!"
+  }
+]
